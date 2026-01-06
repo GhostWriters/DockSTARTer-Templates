@@ -1,0 +1,3 @@
+services:
+  adguard<__instance>:
+    image: adguard/adguardhome:${ADGUARD<__INSTANCE>__TAG?}

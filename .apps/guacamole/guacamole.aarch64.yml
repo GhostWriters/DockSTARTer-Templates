@@ -1,0 +1,3 @@
+services:
+  guacamole<__instance>:
+    image: flcontainers/guacamole:${GUACAMOLE<__INSTANCE>__TAG?}

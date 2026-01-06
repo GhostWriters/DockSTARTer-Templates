@@ -1,0 +1,3 @@
+services:
+  nodered<__instance>:
+    hostname: ${NODERED<__INSTANCE>__HOSTNAME?}

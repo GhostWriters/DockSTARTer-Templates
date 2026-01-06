@@ -1,0 +1,3 @@
+services:
+  rtorrentvpn<__instance>:
+    network_mode: ${RTORRENTVPN<__INSTANCE>__NETWORK_MODE?}

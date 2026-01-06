@@ -1,0 +1,3 @@
+services:
+  duckdns<__instance>:
+    network_mode: ${DUCKDNS<__INSTANCE>__NETWORK_MODE?}

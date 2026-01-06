@@ -1,0 +1,3 @@
+services:
+  makemkv<__instance>:
+    hostname: ${MAKEMKV<__INSTANCE>__HOSTNAME?}

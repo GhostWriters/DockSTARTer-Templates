@@ -1,0 +1,3 @@
+services:
+  dasshio<__instance>:
+    image: danimtb/amd64-dasshio:${DASSHIO<__INSTANCE>__TAG?}

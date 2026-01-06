@@ -1,0 +1,3 @@
+services:
+  komga<__instance>:
+    network_mode: ${KOMGA<__INSTANCE>__NETWORK_MODE?}

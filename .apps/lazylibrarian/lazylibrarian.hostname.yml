@@ -1,0 +1,3 @@
+services:
+  lazylibrarian<__instance>:
+    hostname: ${LAZYLIBRARIAN<__INSTANCE>__HOSTNAME?}

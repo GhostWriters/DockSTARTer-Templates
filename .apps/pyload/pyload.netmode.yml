@@ -1,0 +1,3 @@
+services:
+  pyload<__instance>:
+    network_mode: ${PYLOAD<__INSTANCE>__NETWORK_MODE?}

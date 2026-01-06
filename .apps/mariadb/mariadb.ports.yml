@@ -1,0 +1,4 @@
+services:
+  mariadb<__instance>:
+    ports:
+      - ${MARIADB<__INSTANCE>__PORT_3306?}:3306

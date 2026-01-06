@@ -1,0 +1,3 @@
+services:
+  ddclient<__instance>:
+    image: lscr.io/linuxserver/ddclient:${DDCLIENT<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  swag<__instance>:
+    hostname: ${SWAG<__INSTANCE>__HOSTNAME?}

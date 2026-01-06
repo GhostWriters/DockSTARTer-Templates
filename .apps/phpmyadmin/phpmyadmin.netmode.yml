@@ -1,0 +1,3 @@
+services:
+  phpmyadmin<__instance>:
+    network_mode: ${PHPMYADMIN<__INSTANCE>__NETWORK_MODE?}

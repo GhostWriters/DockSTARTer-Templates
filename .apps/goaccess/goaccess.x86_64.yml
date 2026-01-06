@@ -1,0 +1,3 @@
+services:
+  goaccess<__instance>:
+    image: gregyankovoy/goaccess:${GOACCESS<__INSTANCE>__TAG?}

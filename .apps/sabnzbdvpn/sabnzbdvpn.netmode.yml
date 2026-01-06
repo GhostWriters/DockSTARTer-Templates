@@ -1,0 +1,3 @@
+services:
+  sabnzbdvpn<__instance>:
+    network_mode: ${SABNZBDVPN<__INSTANCE>__NETWORK_MODE?}

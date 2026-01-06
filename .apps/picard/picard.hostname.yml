@@ -1,0 +1,3 @@
+services:
+  picard<__instance>:
+    hostname: ${PICARD<__INSTANCE>__HOSTNAME?}

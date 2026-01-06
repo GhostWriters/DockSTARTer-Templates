@@ -1,0 +1,3 @@
+services:
+  xteve<__instance>:
+    network_mode: ${XTEVE<__INSTANCE>__NETWORK_MODE?}

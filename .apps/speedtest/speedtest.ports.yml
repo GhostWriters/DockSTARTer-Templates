@@ -1,0 +1,4 @@
+services:
+  speedtest<__instance>:
+    ports:
+      - ${SPEEDTEST<__INSTANCE>__PORT_80?}:80

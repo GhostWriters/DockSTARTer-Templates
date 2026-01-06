@@ -1,0 +1,3 @@
+services:
+  dasshio<__instance>:
+    network_mode: ${DASSHIO<__INSTANCE>__NETWORK_MODE?}

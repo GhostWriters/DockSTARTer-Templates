@@ -1,0 +1,3 @@
+services:
+  bazarr<__instance>:
+    hostname: ${BAZARR<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  airsonicadvanced<__instance>:
+    hostname: ${AIRSONICADVANCED<__INSTANCE>__HOSTNAME?}

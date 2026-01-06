@@ -1,0 +1,3 @@
+services:
+  uptimekuma<__instance>:
+    hostname: ${UPTIMEKUMA<__INSTANCE>__HOSTNAME?}

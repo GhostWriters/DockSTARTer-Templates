@@ -1,0 +1,3 @@
+services:
+  omadacontroller<__instance>:
+    hostname: ${OMADACONTROLLER<__INSTANCE>__HOSTNAME?}

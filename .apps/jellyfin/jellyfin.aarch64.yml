@@ -1,0 +1,3 @@
+services:
+  jellyfin<__instance>:
+    image: lscr.io/linuxserver/jellyfin:${JELLYFIN<__INSTANCE>__TAG?}

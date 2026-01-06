@@ -1,0 +1,3 @@
+services:
+  samba<__instance>:
+    network_mode: ${SAMBA<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,3 @@
+services:
+  mariadb<__instance>:
+    hostname: ${MARIADB<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  airdcpp<__instance>:
+    image: gangefors/airdcpp-webclient:${AIRDCPP<__INSTANCE>__TAG?}

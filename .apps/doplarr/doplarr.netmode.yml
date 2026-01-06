@@ -1,0 +1,3 @@
+services:
+  doplarr<__instance>:
+    network_mode: ${DOPLARR<__INSTANCE>__NETWORK_MODE?}

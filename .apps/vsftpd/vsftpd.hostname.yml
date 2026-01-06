@@ -1,0 +1,3 @@
+services:
+  vsftpd<__instance>:
+    hostname: ${VSFTPD<__INSTANCE>__HOSTNAME?}

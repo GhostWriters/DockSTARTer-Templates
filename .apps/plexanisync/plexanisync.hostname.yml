@@ -1,0 +1,3 @@
+services:
+  plexanisync<__instance>:
+    hostname: ${PLEXANISYNC<__INSTANCE>__HOSTNAME?}

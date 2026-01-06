@@ -1,0 +1,3 @@
+services:
+  flame<__instance>:
+    hostname: ${FLAME<__INSTANCE>__HOSTNAME?}

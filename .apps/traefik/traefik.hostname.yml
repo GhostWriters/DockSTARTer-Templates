@@ -1,0 +1,3 @@
+services:
+  traefik<__instance>:
+    hostname: ${TRAEFIK<__INSTANCE>__HOSTNAME?}

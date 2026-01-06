@@ -1,0 +1,6 @@
+services:
+  nzbget<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Efficient usenet downloader"
+      com.dockstarter.appinfo.nicename: "NZBGet<__Instance>"

@@ -1,0 +1,3 @@
+services:
+  ldapauth<__instance>:
+    image: lscr.io/linuxserver/ldap-auth:${LDAPAUTH<__INSTANCE>__TAG?}

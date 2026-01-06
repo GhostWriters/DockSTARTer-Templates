@@ -1,0 +1,3 @@
+services:
+  logarr<__instance>:
+    image: monitorr/logarr:${LOGARR<__INSTANCE>__TAG?}

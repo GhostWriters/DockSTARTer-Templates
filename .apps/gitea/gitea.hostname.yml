@@ -1,0 +1,3 @@
+services:
+  gitea<__instance>:
+    hostname: ${GITEA<__INSTANCE>__HOSTNAME?}

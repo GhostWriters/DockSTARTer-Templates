@@ -1,0 +1,3 @@
+services:
+  portaineragent<__instance>:
+    hostname: portaineragent

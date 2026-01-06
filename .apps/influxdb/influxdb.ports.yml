@@ -1,0 +1,4 @@
+services:
+  influxdb<__instance>:
+    ports:
+      - ${INFLUXDB<__INSTANCE>__PORT_8086?}:8086

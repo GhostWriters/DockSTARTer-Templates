@@ -1,0 +1,3 @@
+services:
+  lazylibrarian<__instance>:
+    image: lscr.io/linuxserver/lazylibrarian:${LAZYLIBRARIAN<__INSTANCE>__TAG?}

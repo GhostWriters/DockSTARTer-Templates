@@ -1,0 +1,4 @@
+services:
+  cloudcmd<__instance>:
+    ports:
+      - ${CLOUDCMD<__INSTANCE>__PORT_8000?}:8000

@@ -1,0 +1,3 @@
+services:
+  h5ai<__instance>:
+    network_mode: ${H5AI<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,3 @@
+services:
+  kiwixserve<__instance>:
+    image: ghcr.io/kiwix/kiwix-serve:${KIWIXSERVE<__INSTANCE>__TAG?}

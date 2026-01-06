@@ -1,0 +1,3 @@
+services:
+  minecraftbedrockserver<__instance>:
+    hostname: ${MINECRAFTBEDROCKSERVER<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  resiliosync<__instance>:
+    hostname: ${RESILIOSYNC<__INSTANCE>__HOSTNAME?}

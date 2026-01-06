@@ -1,0 +1,3 @@
+services:
+  murmur<__instance>:
+    hostname: ${MURMUR<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  qbittorrent<__instance>:
+    image: lscr.io/linuxserver/qbittorrent:${QBITTORRENT<__INSTANCE>__TAG?}

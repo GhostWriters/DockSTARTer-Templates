@@ -1,0 +1,4 @@
+services:
+  beets<__instance>:
+    ports:
+      - ${BEETS<__INSTANCE>__PORT_8337?}:8337

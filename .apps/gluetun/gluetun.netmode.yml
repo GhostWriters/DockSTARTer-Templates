@@ -1,0 +1,3 @@
+services:
+  gluetun<__instance>:
+    network_mode: ${GLUETUN<__INSTANCE>__NETWORK_MODE?}

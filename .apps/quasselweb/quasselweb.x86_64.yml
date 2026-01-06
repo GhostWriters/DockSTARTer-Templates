@@ -1,0 +1,3 @@
+services:
+  quasselweb<__instance>:
+    image: lscr.io/linuxserver/quassel-web:${QUASSELWEB<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  bazarr<__instance>:
+    image: lscr.io/linuxserver/bazarr:${BAZARR<__INSTANCE>__TAG?}

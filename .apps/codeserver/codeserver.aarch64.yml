@@ -1,0 +1,3 @@
+services:
+  codeserver<__instance>:
+    image: lscr.io/linuxserver/code-server:${CODESERVER<__INSTANCE>__TAG?}

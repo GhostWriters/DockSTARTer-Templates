@@ -1,0 +1,3 @@
+services:
+  openldap<__instance>:
+    image: osixia/openldap:${OPENLDAP<__INSTANCE>__TAG?}

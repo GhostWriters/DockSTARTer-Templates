@@ -1,0 +1,3 @@
+services:
+  mosquitto<__instance>:
+    hostname: ${MOSQUITTO<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  cloudcmd<__instance>:
+    image: coderaiser/cloudcmd:${CLOUDCMD<__INSTANCE>__TAG?}

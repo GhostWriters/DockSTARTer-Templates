@@ -1,0 +1,3 @@
+services:
+  bazarr<__instance>:
+    network_mode: ${BAZARR<__INSTANCE>__NETWORK_MODE?}

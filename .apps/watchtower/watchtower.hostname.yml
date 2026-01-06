@@ -1,0 +1,3 @@
+services:
+  watchtower<__instance>:
+    hostname: ${WATCHTOWER<__INSTANCE>__HOSTNAME?}

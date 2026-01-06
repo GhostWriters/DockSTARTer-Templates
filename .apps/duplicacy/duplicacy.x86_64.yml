@@ -1,0 +1,3 @@
+services:
+  duplicacy<__instance>:
+    image: ghcr.io/hotio/duplicacy:${DUPLICACY<__INSTANCE>__TAG?}

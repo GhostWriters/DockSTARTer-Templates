@@ -1,0 +1,3 @@
+services:
+  youtubedl<__instance>:
+    hostname: ${YOUTUBEDL<__INSTANCE>__HOSTNAME?}

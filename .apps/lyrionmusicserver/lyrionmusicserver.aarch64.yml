@@ -1,0 +1,3 @@
+services:
+  lyrionmusicserver<__instance>:
+    image: lmscommunity/lyrionmusicserver:${LYRIONMUSICSERVER<__INSTANCE>__TAG?}

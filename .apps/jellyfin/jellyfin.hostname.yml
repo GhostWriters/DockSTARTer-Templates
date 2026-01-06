@@ -1,0 +1,3 @@
+services:
+  jellyfin<__instance>:
+    hostname: ${JELLYFIN<__INSTANCE>__HOSTNAME?}

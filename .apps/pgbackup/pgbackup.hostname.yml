@@ -1,0 +1,3 @@
+services:
+  pgbackup<__instance>:
+    hostname: ${PGBACKUP<__INSTANCE>__HOSTNAME?}

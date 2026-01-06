@@ -1,0 +1,3 @@
+services:
+  samba<__instance>:
+    hostname: ${SAMBA<__INSTANCE>__HOSTNAME?}

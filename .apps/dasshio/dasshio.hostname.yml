@@ -1,0 +1,3 @@
+services:
+  dasshio<__instance>:
+    hostname: ${DASSHIO<__INSTANCE>__HOSTNAME?}

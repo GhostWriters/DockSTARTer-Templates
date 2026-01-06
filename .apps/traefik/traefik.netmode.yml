@@ -1,0 +1,3 @@
+services:
+  traefik<__instance>:
+    network_mode: ${TRAEFIK<__INSTANCE>__NETWORK_MODE?}

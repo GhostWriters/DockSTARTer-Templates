@@ -1,0 +1,3 @@
+services:
+  tdarrnode<__instance>:
+    hostname: ${TDARRNODE<__INSTANCE>__HOSTNAME?}

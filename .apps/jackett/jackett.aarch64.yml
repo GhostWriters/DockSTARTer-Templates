@@ -1,0 +1,3 @@
+services:
+  jackett<__instance>:
+    image: lscr.io/linuxserver/jackett:${JACKETT<__INSTANCE>__TAG?}

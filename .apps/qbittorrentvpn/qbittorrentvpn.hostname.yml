@@ -1,0 +1,3 @@
+services:
+  qbittorrentvpn<__instance>:
+    hostname: ${QBITTORRENTVPN<__INSTANCE>__HOSTNAME?}

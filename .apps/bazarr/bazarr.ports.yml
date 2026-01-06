@@ -1,0 +1,4 @@
+services:
+  bazarr<__instance>:
+    ports:
+      - ${BAZARR<__INSTANCE>__PORT_6767?}:6767

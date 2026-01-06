@@ -1,0 +1,3 @@
+services:
+  rutorrent<__instance>:
+    image: lscr.io/linuxserver/rutorrent:${RUTORRENT<__INSTANCE>__TAG?}

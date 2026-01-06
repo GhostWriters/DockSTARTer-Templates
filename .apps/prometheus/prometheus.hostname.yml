@@ -1,0 +1,3 @@
+services:
+  prometheus<__instance>:
+    hostname: ${PROMETHEUS<__INSTANCE>__HOSTNAME?}

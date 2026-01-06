@@ -1,0 +1,3 @@
+services:
+  beets<__instance>:
+    network_mode: ${BEETS<__INSTANCE>__NETWORK_MODE?}

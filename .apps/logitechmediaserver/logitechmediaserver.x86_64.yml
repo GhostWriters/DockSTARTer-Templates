@@ -1,0 +1,3 @@
+services:
+  logitechmediaserver<__instance>:
+    image: lmscommunity/logitechmediaserver:${LOGITECHMEDIASERVER<__INSTANCE>__TAG?}

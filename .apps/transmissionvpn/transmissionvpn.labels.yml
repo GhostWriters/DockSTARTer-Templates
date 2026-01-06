@@ -1,0 +1,6 @@
+services:
+  transmissionvpn<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Transmission with OpenVPN"
+      com.dockstarter.appinfo.nicename: "TransmissionVPN<__Instance>"

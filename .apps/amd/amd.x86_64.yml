@@ -1,0 +1,3 @@
+services:
+  amd<__instance>:
+    image: halianelf/amd:${AMD<__INSTANCE>__TAG?}

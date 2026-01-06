@@ -1,0 +1,3 @@
+services:
+  traktarr<__instance>:
+    hostname: ${TRAKTARR<__INSTANCE>__HOSTNAME?}

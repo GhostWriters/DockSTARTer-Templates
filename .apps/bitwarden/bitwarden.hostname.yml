@@ -1,0 +1,3 @@
+services:
+  bitwarden<__instance>:
+    hostname: ${BITWARDEN<__INSTANCE>__HOSTNAME?}

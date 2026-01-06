@@ -1,0 +1,3 @@
+services:
+  duckdns<__instance>:
+    hostname: ${DUCKDNS<__INSTANCE>__HOSTNAME?}

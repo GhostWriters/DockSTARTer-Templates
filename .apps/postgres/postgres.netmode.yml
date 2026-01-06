@@ -1,0 +1,3 @@
+services:
+  postgres<__instance>:
+    network_mode: ${POSTGRES<__INSTANCE>__NETWORK_MODE?}

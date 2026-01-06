@@ -1,0 +1,3 @@
+services:
+  duckdns<__instance>:
+    image: lscr.io/linuxserver/duckdns:${DUCKDNS<__INSTANCE>__TAG?}

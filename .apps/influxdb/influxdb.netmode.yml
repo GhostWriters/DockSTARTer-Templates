@@ -1,0 +1,3 @@
+services:
+  influxdb<__instance>:
+    network_mode: ${INFLUXDB<__INSTANCE>__NETWORK_MODE?}

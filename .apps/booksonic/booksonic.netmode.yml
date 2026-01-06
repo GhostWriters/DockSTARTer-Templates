@@ -1,0 +1,3 @@
+services:
+  booksonic<__instance>:
+    network_mode: ${BOOKSONIC<__INSTANCE>__NETWORK_MODE?}

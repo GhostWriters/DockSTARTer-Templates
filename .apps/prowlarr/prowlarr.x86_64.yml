@@ -1,0 +1,3 @@
+services:
+  prowlarr<__instance>:
+    image: lscr.io/linuxserver/prowlarr:${PROWLARR<__INSTANCE>__TAG?}

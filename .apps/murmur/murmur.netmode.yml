@@ -1,0 +1,3 @@
+services:
+  murmur<__instance>:
+    network_mode: ${MURMUR<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,3 @@
+services:
+  mcmyadmin2<__instance>:
+    hostname: ${MCMYADMIN2<__INSTANCE>__HOSTNAME?}

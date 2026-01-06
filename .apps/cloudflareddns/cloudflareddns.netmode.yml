@@ -1,0 +1,3 @@
+services:
+  cloudflareddns<__instance>:
+    network_mode: ${CLOUDFLAREDDNS<__INSTANCE>__NETWORK_MODE?}

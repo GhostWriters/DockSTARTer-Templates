@@ -1,0 +1,6 @@
+services:
+  pgbackup<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: Backup PostgresSQL to the local filesystem with periodic rotating backups.
+      com.dockstarter.appinfo.nicename: pgBackup

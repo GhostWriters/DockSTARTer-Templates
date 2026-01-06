@@ -1,0 +1,3 @@
+services:
+  sonarr<__instance>:
+    network_mode: ${SONARR<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,3 @@
+services:
+  photostructure<__instance>:
+    image: photostructure/server:${PHOTOSTRUCTURE<__INSTANCE>__TAG?}

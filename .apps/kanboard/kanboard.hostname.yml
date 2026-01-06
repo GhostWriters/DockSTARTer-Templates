@@ -1,0 +1,3 @@
+services:
+  kanboard<__instance>:
+    hostname: ${KANBOARD<__INSTANCE>__HOSTNAME?}

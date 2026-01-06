@@ -1,0 +1,6 @@
+services:
+  ddclient<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Update dynamic DNS entries"
+      com.dockstarter.appinfo.nicename: "DDClient<__Instance>"

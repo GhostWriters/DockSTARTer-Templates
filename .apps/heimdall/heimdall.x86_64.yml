@@ -1,0 +1,3 @@
+services:
+  heimdall<__instance>:
+    image: lscr.io/linuxserver/heimdall:${HEIMDALL<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  transmissionvpn<__instance>:
+    hostname: ${TRANSMISSIONVPN<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,6 @@
+services:
+  picard<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Tool for organizing your music"
+      com.dockstarter.appinfo.nicename: "Picard<__Instance>"

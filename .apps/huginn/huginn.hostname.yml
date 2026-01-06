@@ -1,0 +1,3 @@
+services:
+  huginn<__instance>:
+    hostname: ${HUGINN<__INSTANCE>__HOSTNAME?}

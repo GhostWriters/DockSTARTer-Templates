@@ -1,0 +1,3 @@
+services:
+  nodered<__instance>:
+    image: nodered/node-red:${NODERED<__INSTANCE>__TAG?}

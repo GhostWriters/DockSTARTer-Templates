@@ -1,0 +1,3 @@
+services:
+  airdcpp<__instance>:
+    network_mode: ${AIRDCPP<__INSTANCE>__NETWORK_MODE?}

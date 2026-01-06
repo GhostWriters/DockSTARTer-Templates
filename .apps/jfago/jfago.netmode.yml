@@ -1,0 +1,3 @@
+services:
+  jfago<__instance>:
+    network_mode: ${JFAGO<__INSTANCE>__NETWORK_MODE?}

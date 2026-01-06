@@ -1,0 +1,3 @@
+services:
+  smokeping<__instance>:
+    image: lscr.io/linuxserver/smokeping:${SMOKEPING<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  grafana<__instance>:
+    hostname: ${GRAFANA<__INSTANCE>__HOSTNAME?}

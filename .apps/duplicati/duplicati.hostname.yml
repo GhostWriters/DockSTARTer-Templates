@@ -1,0 +1,3 @@
+services:
+  duplicati<__instance>:
+    hostname: ${DUPLICATI<__INSTANCE>__HOSTNAME?}

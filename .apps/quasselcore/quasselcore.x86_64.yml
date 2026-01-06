@@ -1,0 +1,3 @@
+services:
+  quasselcore<__instance>:
+    image: lscr.io/linuxserver/quassel-core:${QUASSELCORE<__INSTANCE>__TAG?}

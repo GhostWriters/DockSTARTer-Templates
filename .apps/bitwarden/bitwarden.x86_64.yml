@@ -1,0 +1,3 @@
+services:
+  bitwarden<__instance>:
+    image: vaultwarden/server:${BITWARDEN<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  piwigo<__instance>:
+    hostname: ${PIWIGO<__INSTANCE>__HOSTNAME?}

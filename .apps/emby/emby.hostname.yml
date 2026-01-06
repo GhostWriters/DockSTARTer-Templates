@@ -1,0 +1,3 @@
+services:
+  emby<__instance>:
+    hostname: ${EMBY<__INSTANCE>__HOSTNAME?}

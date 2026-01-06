@@ -1,0 +1,3 @@
+services:
+  telegraf<__instance>:
+    hostname: ${TELEGRAF<__INSTANCE>__HOSTNAME?}

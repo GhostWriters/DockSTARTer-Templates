@@ -1,0 +1,3 @@
+services:
+  httpserver<__instance>:
+    image: ghcr.io/patrickdappollonio/docker-http-server:${HTTPSERVER<__INSTANCE>__TAG?}

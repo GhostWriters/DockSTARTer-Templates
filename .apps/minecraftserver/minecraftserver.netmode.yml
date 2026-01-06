@@ -1,0 +1,3 @@
+services:
+  minecraftserver<__instance>:
+    network_mode: ${MINECRAFTSERVER<__INSTANCE>__NETWORK_MODE?}

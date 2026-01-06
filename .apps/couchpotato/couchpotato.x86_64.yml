@@ -1,0 +1,3 @@
+services:
+  couchpotato<__instance>:
+    image: lscr.io/linuxserver/couchpotato:${COUCHPOTATO<__INSTANCE>__TAG?}

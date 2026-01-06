@@ -1,0 +1,3 @@
+services:
+  beets<__instance>:
+    hostname: ${BEETS<__INSTANCE>__HOSTNAME?}

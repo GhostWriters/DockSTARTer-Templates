@@ -1,0 +1,3 @@
+services:
+  varken<__instance>:
+    hostname: ${VARKEN<__INSTANCE>__HOSTNAME?}

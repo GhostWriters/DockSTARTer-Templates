@@ -1,0 +1,4 @@
+services:
+  thelounge<__instance>:
+    ports:
+      - ${THELOUNGE<__INSTANCE>__PORT_9000?}:9000

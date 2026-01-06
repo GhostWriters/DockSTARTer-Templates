@@ -1,0 +1,3 @@
+services:
+  readarr<__instance>:
+    hostname: ${READARR<__INSTANCE>__HOSTNAME?}

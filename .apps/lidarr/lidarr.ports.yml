@@ -1,0 +1,4 @@
+services:
+  lidarr<__instance>:
+    ports:
+      - ${LIDARR<__INSTANCE>__PORT_8686?}:8686

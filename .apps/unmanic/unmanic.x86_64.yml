@@ -1,0 +1,3 @@
+services:
+  unmanic<__instance>:
+    image: josh5/unmanic:${UNMANIC<__INSTANCE>__TAG?}

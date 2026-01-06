@@ -1,0 +1,3 @@
+services:
+  flaresolverr<__instance>:
+    network_mode: ${FLARESOLVERR<__INSTANCE>__NETWORK_MODE?}

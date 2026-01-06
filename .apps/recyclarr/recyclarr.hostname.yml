@@ -1,0 +1,3 @@
+services:
+  recyclarr<__instance>:
+    hostname: ${RECYCLARR<__INSTANCE>__HOSTNAME?}

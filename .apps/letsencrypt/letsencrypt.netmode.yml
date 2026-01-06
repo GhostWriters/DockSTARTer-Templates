@@ -1,0 +1,3 @@
+services:
+  letsencrypt<__instance>:
+    network_mode: ${LETSENCRYPT<__INSTANCE>__NETWORK_MODE?}

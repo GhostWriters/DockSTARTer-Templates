@@ -1,0 +1,3 @@
+services:
+  omadacontroller<__instance>:
+    image: mbentley/omada-controller:${OMADACONTROLLER<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  mylar<__instance>:
+    hostname: ${MYLAR<__INSTANCE>__HOSTNAME?}

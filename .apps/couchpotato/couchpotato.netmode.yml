@@ -1,0 +1,3 @@
+services:
+  couchpotato<__instance>:
+    network_mode: ${COUCHPOTATO<__INSTANCE>__NETWORK_MODE?}

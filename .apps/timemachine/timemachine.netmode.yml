@@ -1,0 +1,3 @@
+services:
+  timemachine<__instance>:
+    network_mode: ${TIMEMACHINE<__INSTANCE>__NETWORK_MODE?}

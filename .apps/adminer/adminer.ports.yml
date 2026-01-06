@@ -1,0 +1,4 @@
+services:
+  adminer<__instance>:
+    ports:
+      - ${ADMINER<__INSTANCE>__PORT_8080?}:8080

@@ -1,0 +1,3 @@
+services:
+  prowlarr<__instance>:
+    hostname: ${PROWLARR<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  monitorr<__instance>:
+    network_mode: ${MONITORR<__INSTANCE>__NETWORK_MODE?}

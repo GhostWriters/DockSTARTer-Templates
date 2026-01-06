@@ -1,0 +1,3 @@
+services:
+  jellyseerr<__instance>:
+    image: fallenbagel/jellyseerr:${JELLYSEERR<__INSTANCE>__TAG?}

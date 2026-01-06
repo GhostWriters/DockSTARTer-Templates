@@ -1,0 +1,3 @@
+services:
+  ldapauth<__instance>:
+    hostname: ${LDAPAUTH<__INSTANCE>__HOSTNAME?}

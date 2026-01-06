@@ -1,0 +1,3 @@
+services:
+  nextcloud<__instance>:
+    hostname: ${NEXTCLOUD<__INSTANCE>__HOSTNAME?}

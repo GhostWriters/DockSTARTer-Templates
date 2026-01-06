@@ -1,0 +1,3 @@
+services:
+  radarr<__instance>:
+    network_mode: ${RADARR<__INSTANCE>__NETWORK_MODE?}

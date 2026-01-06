@@ -1,0 +1,3 @@
+services:
+  librespeed<__instance>:
+    image: lscr.io/linuxserver/librespeed:${LIBRESPEED<__INSTANCE>__TAG?}

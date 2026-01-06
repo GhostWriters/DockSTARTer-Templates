@@ -1,0 +1,3 @@
+services:
+  couchpotato<__instance>:
+    hostname: ${COUCHPOTATO<__INSTANCE>__HOSTNAME?}

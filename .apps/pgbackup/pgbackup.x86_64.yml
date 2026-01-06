@@ -1,0 +1,3 @@
+services:
+  pgbackup<__instance>:
+    image: prodrigestivill/postgres-backup-local:${PGBACKUP<__INSTANCE>__TAG?}

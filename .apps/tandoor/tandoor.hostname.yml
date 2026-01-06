@@ -1,0 +1,3 @@
+services:
+  tandoor<__instance>:
+    hostname: ${TANDOOR<__INSTANCE>__HOSTNAME?}

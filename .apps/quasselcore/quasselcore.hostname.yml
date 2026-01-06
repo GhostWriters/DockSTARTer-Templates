@@ -1,0 +1,3 @@
+services:
+  quasselcore<__instance>:
+    hostname: ${QUASSELCORE<__INSTANCE>__HOSTNAME?}

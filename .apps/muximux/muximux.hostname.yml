@@ -1,0 +1,3 @@
+services:
+  muximux<__instance>:
+    hostname: ${MUXIMUX<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  sickchill<__instance>:
+    image: lscr.io/linuxserver/sickchill:${SICKCHILL<__INSTANCE>__TAG?}

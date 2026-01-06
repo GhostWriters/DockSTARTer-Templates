@@ -1,0 +1,3 @@
+services:
+  unifi<__instance>:
+    network_mode: ${UNIFI<__INSTANCE>__NETWORK_MODE?}

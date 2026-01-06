@@ -1,0 +1,3 @@
+services:
+  openvpnas<__instance>:
+    image: lscr.io/linuxserver/openvpn-as:${OPENVPNAS<__INSTANCE>__TAG?}

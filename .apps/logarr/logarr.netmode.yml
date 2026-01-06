@@ -1,0 +1,3 @@
+services:
+  logarr<__instance>:
+    network_mode: ${LOGARR<__INSTANCE>__NETWORK_MODE?}

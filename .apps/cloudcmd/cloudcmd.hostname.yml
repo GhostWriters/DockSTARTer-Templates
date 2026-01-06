@@ -1,0 +1,3 @@
+services:
+  cloudcmd<__instance>:
+    hostname: ${CLOUDCMD<__INSTANCE>__HOSTNAME?}

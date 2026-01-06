@@ -1,0 +1,3 @@
+services:
+  logitechmediaserver<__instance>:
+    hostname: ${LOGITECHMEDIASERVER<__INSTANCE>__HOSTNAME?}

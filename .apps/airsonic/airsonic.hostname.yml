@@ -1,0 +1,3 @@
+services:
+  airsonic<__instance>:
+    hostname: ${AIRSONIC<__INSTANCE>__HOSTNAME?}

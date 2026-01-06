@@ -1,0 +1,3 @@
+services:
+  tvheadend<__instance>:
+    network_mode: ${TVHEADEND<__INSTANCE>__NETWORK_MODE?}

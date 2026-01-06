@@ -1,0 +1,3 @@
+services:
+  medusa<__instance>:
+    network_mode: ${MEDUSA<__INSTANCE>__NETWORK_MODE?}

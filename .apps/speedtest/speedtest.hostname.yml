@@ -1,0 +1,3 @@
+services:
+  speedtest<__instance>:
+    hostname: ${SPEEDTEST<__INSTANCE>__HOSTNAME?}

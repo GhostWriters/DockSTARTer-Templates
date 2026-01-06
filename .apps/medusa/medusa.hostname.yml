@@ -1,0 +1,3 @@
+services:
+  medusa<__instance>:
+    hostname: ${MEDUSA<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,3 @@
+services:
+  influxdb<__instance>:
+    hostname: ${INFLUXDB<__INSTANCE>__HOSTNAME?}

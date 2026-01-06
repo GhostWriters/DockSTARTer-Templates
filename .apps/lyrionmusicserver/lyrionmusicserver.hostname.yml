@@ -1,0 +1,3 @@
+services:
+  lyrionmusicserver<__instance>:
+    hostname: ${LYRIONMUSICSERVER<__INSTANCE>__HOSTNAME?}

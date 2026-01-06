@@ -1,0 +1,4 @@
+services:
+  piwigo<__instance>:
+    ports:
+      - ${PIWIGO<__INSTANCE>__PORT_80?}:80

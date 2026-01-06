@@ -1,0 +1,3 @@
+services:
+  openldap<__instance>:
+    hostname: ${OPENLDAP<__INSTANCE>__HOSTNAME?}

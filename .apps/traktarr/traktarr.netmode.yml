@@ -1,0 +1,3 @@
+services:
+  traktarr<__instance>:
+    network_mode: ${TRAKTARR<__INSTANCE>__NETWORK_MODE?}

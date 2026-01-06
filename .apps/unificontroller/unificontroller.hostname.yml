@@ -1,0 +1,3 @@
+services:
+  unificontroller<__instance>:
+    hostname: ${UNIFICONTROLLER<__INSTANCE>__HOSTNAME?}

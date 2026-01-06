@@ -1,0 +1,3 @@
+services:
+  makemkv<__instance>:
+    image: jlesage/makemkv:${MAKEMKV<__INSTANCE>__TAG?}

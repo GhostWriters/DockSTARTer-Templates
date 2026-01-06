@@ -1,0 +1,3 @@
+services:
+  dozzle<__instance>:
+    image: amir20/dozzle:${DOZZLE<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  rtorrentvpn<__instance>:
+    hostname: ${RTORRENTVPN<__INSTANCE>__HOSTNAME?}

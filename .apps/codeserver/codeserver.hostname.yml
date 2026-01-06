@@ -1,0 +1,3 @@
+services:
+  codeserver<__instance>:
+    hostname: ${CODESERVER<__INSTANCE>__HOSTNAME?}

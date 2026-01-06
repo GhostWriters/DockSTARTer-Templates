@@ -1,0 +1,3 @@
+services:
+  pihole<__instance>:
+    image: pihole/pihole:${PIHOLE<__INSTANCE>__TAG?}

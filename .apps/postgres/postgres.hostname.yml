@@ -1,0 +1,3 @@
+services:
+  postgres<__instance>:
+    hostname: ${POSTGRES<__INSTANCE>__HOSTNAME?}

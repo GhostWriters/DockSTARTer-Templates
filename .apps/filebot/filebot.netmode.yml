@@ -1,0 +1,3 @@
+services:
+  filebot<__instance>:
+    network_mode: ${FILEBOT<__INSTANCE>__NETWORK_MODE?}

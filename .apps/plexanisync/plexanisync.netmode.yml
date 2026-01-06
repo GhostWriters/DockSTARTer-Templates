@@ -1,0 +1,3 @@
+services:
+  plexanisync<__instance>:
+    network_mode: ${PLEXANISYNC<__INSTANCE>__NETWORK_MODE?}

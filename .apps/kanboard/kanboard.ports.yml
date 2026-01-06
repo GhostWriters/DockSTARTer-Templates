@@ -1,0 +1,4 @@
+services:
+  kanboard<__instance>:
+    ports:
+      - ${KANBOARD<__INSTANCE>__PORT_8080?}:8080

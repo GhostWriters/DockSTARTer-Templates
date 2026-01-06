@@ -1,0 +1,4 @@
+services:
+  lazylibrarian<__instance>:
+    ports:
+      - ${LAZYLIBRARIAN<__INSTANCE>__PORT_5299?}:5299

@@ -1,0 +1,3 @@
+services:
+  pgbackup<__instance>:
+    network_mode: ${PGBACKUP<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,3 @@
+services:
+  heimdall<__instance>:
+    network_mode: ${HEIMDALL<__INSTANCE>__NETWORK_MODE?}

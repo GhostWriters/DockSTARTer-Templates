@@ -1,0 +1,3 @@
+services:
+  xbackbone<__instance>:
+    network_mode: ${XBACKBONE<__INSTANCE>__NETWORK_MODE?}

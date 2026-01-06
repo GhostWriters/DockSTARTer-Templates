@@ -1,0 +1,4 @@
+services:
+  jfago<__instance>:
+    ports:
+      - ${JFAGO<__INSTANCE>__PORT_8056?}:8056

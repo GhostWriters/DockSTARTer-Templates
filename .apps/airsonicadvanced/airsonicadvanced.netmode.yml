@@ -1,0 +1,3 @@
+services:
+  airsonicadvanced<__instance>:
+    network_mode: ${AIRSONICADVANCED<__INSTANCE>__NETWORK_MODE?}

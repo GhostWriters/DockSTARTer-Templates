@@ -1,0 +1,3 @@
+services:
+  wireguard<__instance>:
+    image: lscr.io/linuxserver/wireguard:${WIREGUARD<__INSTANCE>__TAG?}

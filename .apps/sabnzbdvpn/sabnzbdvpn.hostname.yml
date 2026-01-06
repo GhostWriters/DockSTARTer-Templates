@@ -1,0 +1,3 @@
+services:
+  sabnzbdvpn<__instance>:
+    hostname: ${SABNZBDVPN<__INSTANCE>__HOSTNAME?}

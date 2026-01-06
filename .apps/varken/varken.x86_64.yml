@@ -1,0 +1,3 @@
+services:
+  varken<__instance>:
+    image: boerderij/varken:${VARKEN<__INSTANCE>__TAG?}

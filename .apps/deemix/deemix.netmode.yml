@@ -1,0 +1,3 @@
+services:
+  deemix<__instance>:
+    network_mode: ${DEEMIX<__INSTANCE>__NETWORK_MODE?}

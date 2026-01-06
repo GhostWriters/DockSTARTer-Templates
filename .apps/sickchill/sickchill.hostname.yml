@@ -1,0 +1,3 @@
+services:
+  sickchill<__instance>:
+    hostname: ${SICKCHILL<__INSTANCE>__HOSTNAME?}

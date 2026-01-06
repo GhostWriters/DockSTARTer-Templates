@@ -1,0 +1,3 @@
+services:
+  pyload<__instance>:
+    image: lscr.io/linuxserver/pyload-ng:${PYLOAD<__INSTANCE>__TAG?}

@@ -1,0 +1,3 @@
+services:
+  smokeping<__instance>:
+    network_mode: ${SMOKEPING<__INSTANCE>__NETWORK_MODE?}

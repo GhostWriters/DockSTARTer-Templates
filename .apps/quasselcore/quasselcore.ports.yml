@@ -1,0 +1,5 @@
+services:
+  quasselcore<__instance>:
+    ports:
+      - ${QUASSELCORE<__INSTANCE>__PORT_10113?}:10113
+      - ${QUASSELCORE<__INSTANCE>__PORT_4242?}:4242

@@ -1,0 +1,3 @@
+services:
+  htpcmanager<__instance>:
+    network_mode: ${HTPCMANAGER<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,3 @@
+services:
+  ombi<__instance>:
+    image: lscr.io/linuxserver/ombi:${OMBI<__INSTANCE>__TAG?}

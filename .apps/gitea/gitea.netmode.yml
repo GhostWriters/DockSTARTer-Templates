@@ -1,0 +1,3 @@
+services:
+  gitea<__instance>:
+    network_mode: ${GITEA<__INSTANCE>__NETWORK_MODE?}

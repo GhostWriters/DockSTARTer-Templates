@@ -1,0 +1,3 @@
+services:
+  minecraftbedrockserver<__instance>:
+    network_mode: ${MINECRAFTBEDROCKSERVER<__INSTANCE>__NETWORK_MODE?}

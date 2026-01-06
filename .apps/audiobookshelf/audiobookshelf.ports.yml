@@ -1,0 +1,4 @@
+services:
+  audiobookshelf<__instance>:
+    ports:
+      - ${AUDIOBOOKSHELF<__INSTANCE>__PORT_80?}:80

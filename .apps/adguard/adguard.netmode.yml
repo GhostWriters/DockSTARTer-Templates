@@ -1,0 +1,3 @@
+services:
+  adguard<__instance>:
+    network_mode: ${ADGUARD<__INSTANCE>__NETWORK_MODE?}

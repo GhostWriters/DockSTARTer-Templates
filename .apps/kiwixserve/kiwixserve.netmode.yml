@@ -1,0 +1,3 @@
+services:
+  kiwixserve<__instance>:
+    network_mode: ${KIWIXSERVE<__INSTANCE>__NETWORK_MODE?}
