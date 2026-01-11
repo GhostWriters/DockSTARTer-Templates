@@ -1,0 +1,28 @@
+apps:
+  - changed-files:
+      - any-glob-to-any-file: ["compose/*", "compose/**/*"]
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: [".github/workflows/*"]
+
+core:
+  - changed-files:
+      - any-glob-to-any-file:
+          ["./*.sh", "./**/*.sh", ".scripts/*", ".scripts/**/*"]
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          ["./*.md", "./**/*.md", "./mkdocs.yml", "docs/*", "docs/**/*"]
+
+repo:
+  - changed-files:
+      - any-glob-to-any-file:
+          [
+            "./*",
+            ".github/*",
+            ".github/**/*",
+            '"!./*.md"',
+            '"!./*.sh"',
+            '"!.github/workflows/*"',
+          ]
