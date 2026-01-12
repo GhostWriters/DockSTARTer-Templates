@@ -1,6 +1,6 @@
 apps:
   - changed-files:
-      - any-glob-to-any-file: ["compose/*", "compose/**/*"]
+      - any-glob-to-any-file: [".apps/*", ".apps/**/*"]
 
 ci:
   - changed-files:
