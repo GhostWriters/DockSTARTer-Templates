@@ -2,12 +2,6 @@ site_name: DockSTARTer Templates
 docs_dir: docs
 nav:
     - Actualbudget: apps/actualbudget.md
-
-  - App Specifics:
-    site_name: DockSTARTer Templates
-docs_dir: docs
-nav:
-    - Actualbudget: apps/actualbudget.md
     - Adguard: apps/adguard.md
     - Adminer: apps/adminer.md
     - Airdcpp: apps/airdcpp.md
@@ -188,4 +182,3 @@ nav:
     - Yacht: apps/yacht.md
     - Youtubedl: apps/youtubedl.md
     - Znc: apps/znc.md
-    
