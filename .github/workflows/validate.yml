@@ -4,12 +4,10 @@ on:
   push:
     paths:
       - 'docs/**'
-      - '.apps/**'
       - '.github/workflows/validate.yml'
   pull_request:
     paths:
       - 'docs/**'
-      - '.apps/**'
       - '.github/workflows/validate.yml'
 
 jobs:
