@@ -1,16 +1,18 @@
 name: Trigger Site Build
 on:
-  push:
+  workflow_run:
+    workflows: ["Validate"]
+    types:
+      - completed
     branches:
       - main
-    paths:
-      - 'docs/**'
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger build in main repo
+        if: ${{ github.event.workflow_run.conclusion == 'success' }}
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GH_PAT_TRIGGER_BUILD }}
