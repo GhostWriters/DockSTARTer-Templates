@@ -1,0 +1,19 @@
+name: Trigger Site Build
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger build in main repo
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GH_PAT_TRIGGER_BUILD }}
+          repository: GhostWriters/DockSTARTer
+          event-type: templates-update
