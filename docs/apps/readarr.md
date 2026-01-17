@@ -1,4 +1,11 @@
+---
+status: deprecated
+---
 # Readarr
+
+## DEPRECATED
+
+DEPRECATION NOTICE: This image is deprecated as of 2026-07-29.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/readarr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/readarr)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-readarr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-readarr)
