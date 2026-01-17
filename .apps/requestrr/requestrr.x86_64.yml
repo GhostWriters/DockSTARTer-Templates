@@ -1,3 +1,3 @@
 services:
   requestrr<__instance>:
-    image: lscr.io/linuxserver/requestrr:${REQUESTRR<__INSTANCE>__TAG?}
+    image: thomst08/requestrr:${REQUESTRR<__INSTANCE>__TAG?}

@@ -1,13 +1,12 @@
 # Requestrr
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/requestrr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/requestrr)
-[![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-requestrr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-requestrr)
+[![Docker Pulls](https://img.shields.io/docker/pulls/thomst08/requestrr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/thomst08/requestrr)
+[![GitHub Stars](https://img.shields.io/github/stars/thomst08/requestrr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/thomst08/requestrr)
 [![Compose Templates](https://img.shields.io/static/v1?style=flat-square&color=607D8B&label=compose&message=templates)](https://github.com/GhostWriters/DockSTARTer/tree/main/.apps/requestrr)
 
 ## Description
 
-Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi
-via the use of chat!
+[Requestrr](https://github.com/thomst08/requestrr/wiki) is a chatbot used to simplify using services like Sonarr/Radarr/Lidarr/Overseerr/Ombi via the use of chat!
 
 ## Install/Setup
 
