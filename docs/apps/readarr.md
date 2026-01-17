@@ -9,7 +9,7 @@ DEPRECATION NOTICE: This image is deprecated as of 2025-07-29.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/readarr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/readarr)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-readarr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-readarr)
-[![Compose Templates](https://img.shields.io/static/v1?style=flat-square&color=607D8B&label=compose&message=templates)](https://github.com/GhostWriters/DockSTARTer/tree/main/.apps/readarr)
+[![Compose Templates](https://img.shields.io/static/v1?style=flat-square&color=607D8B&label=compose&message=templates)](https://github.com/GhostWriters/DockSTARTer-Templates/tree/main/.apps/readarr)
 
 ## Description
 
