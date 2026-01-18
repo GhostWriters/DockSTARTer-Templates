@@ -2,7 +2,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/thomst08/requestrr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/thomst08/requestrr)
 [![GitHub Stars](https://img.shields.io/github/stars/thomst08/requestrr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/thomst08/requestrr)
-[![Compose Templates](https://img.shields.io/static/v1?style=flat-square&color=607D8B&label=compose&message=templates)](https://github.com/GhostWriters/DockSTARTer/tree/main/.apps/requestrr)
+[![Compose Templates](https://img.shields.io/static/v1?style=flat-square&color=607D8B&label=compose&message=templates)](https://github.com/GhostWriters/DockSTARTer-Templates/tree/main/.apps/requestrr)
 
 ## Description
 
