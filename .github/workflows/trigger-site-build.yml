@@ -16,5 +16,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GH_PAT_TRIGGER_BUILD }}
-          repository: GhostWriters/DockSTARTer
+          repository: GhostWriters/DockSTARTer-Docs
           event-type: templates-update
