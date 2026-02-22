@@ -1,0 +1,3 @@
+services:
+  seerr<__instance>:
+    hostname: ${SEERR<__INSTANCE>__HOSTNAME?}

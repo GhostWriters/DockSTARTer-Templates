@@ -1,0 +1,4 @@
+services:
+  seerr<__instance>:
+    ports:
+      - ${SEERR<__INSTANCE>__PORT_5055?}:5055
