@@ -1,4 +1,9 @@
+---
+status: deprecated
+---
 # Overseerr
+
+DEPRECATION NOTICE: This image is deprecated as of 2026-02-22.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/overseerr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/overseerr)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-overseerr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-overseerr)
