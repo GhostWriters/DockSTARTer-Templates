@@ -1,4 +1,9 @@
+---
+status: deprecated
+---
 # Jellyseerr
+
+DEPRECATION NOTICE: This image is deprecated as of 2026-02-22.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/fallenbagel/jellyseerr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/fallenbagel/jellyseerr)
 [![GitHub Stars](https://img.shields.io/github/stars/fallenbagel/jellyseerr?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/fallenbagel/jellyseerr)
