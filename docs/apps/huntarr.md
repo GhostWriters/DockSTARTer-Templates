@@ -1,4 +1,11 @@
+---
+deprecated: true
+---
 # Huntarr
+
+## DEPRECATED
+
+DEPRECATION NOTICE: This image is deprecated as of 2026-02-24.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/huntarr/huntarr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/huntarr/huntarr)
 [![GitHub Stars](https://img.shields.io/github/stars/plexguide/Huntarr.io?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/plexguide/Huntarr.io)
