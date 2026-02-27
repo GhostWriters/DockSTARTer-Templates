@@ -1,0 +1,3 @@
+services:
+  immich<__instance>:
+    hostname: ${IMMICH<__INSTANCE>__HOSTNAME?}

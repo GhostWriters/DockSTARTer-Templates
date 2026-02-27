@@ -1,0 +1,6 @@
+services:
+  immich<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Self-hosted photo and video management solution"
+      com.dockstarter.appinfo.nicename: "Immich<__Instance>"

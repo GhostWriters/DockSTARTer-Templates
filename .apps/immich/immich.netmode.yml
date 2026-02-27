@@ -1,0 +1,3 @@
+services:
+  immich<__instance>:
+    network_mode: ${IMMICH<__INSTANCE>__NETWORK_MODE?}

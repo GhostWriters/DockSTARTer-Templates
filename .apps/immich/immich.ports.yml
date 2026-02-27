@@ -1,0 +1,4 @@
+services:
+  immich<__instance>:
+    ports:
+      - ${IMMICH<__INSTANCE>__PORT_2283?}:2283

@@ -1,0 +1,42 @@
+services:
+  immich<__instance>:
+    container_name: ${IMMICH<__INSTANCE>__CONTAINER_NAME?}
+    depends_on:
+      - immich<__instance>-postgres
+      - immich<__instance>-redis
+    env_file: .env.app.immich<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${IMMICH<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${IMMICH<__INSTANCE>__UPLOAD_LOCATION?}:/data
+  immich<__instance>-machine-learning:
+    container_name: ${IMMICH<__INSTANCE>__CONTAINER_NAME?}-ml
+    env_file: .env.app.immich<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${IMMICH<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - immich<__instance>-model-cache:/cache
+  immich<__instance>-postgres:
+    container_name: ${IMMICH<__INSTANCE>__CONTAINER_NAME?}-postgres
+    env_file: .env.app.immich<__instance>
+    environment:
+      - POSTGRES_INITDB_ARGS=--data-checksums
+      - TZ=${TZ?}
+    restart: ${IMMICH<__INSTANCE>__RESTART?}
+    shm_size: 128mb
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/immich<__instance>-postgres:/var/lib/postgresql/data
+  immich<__instance>-redis:
+    container_name: ${IMMICH<__INSTANCE>__CONTAINER_NAME?}-redis
+    environment:
+      - TZ=${TZ?}
+    restart: ${IMMICH<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+volumes:
+  immich<__instance>-model-cache:

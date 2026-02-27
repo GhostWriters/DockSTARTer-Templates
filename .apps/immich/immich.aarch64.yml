@@ -1,0 +1,9 @@
+services:
+  immich<__instance>:
+    image: ghcr.io/immich-app/immich-server:${IMMICH<__INSTANCE>__TAG?}
+  immich<__instance>-machine-learning:
+    image: ghcr.io/immich-app/immich-machine-learning:${IMMICH<__INSTANCE>__TAG?}
+  immich<__instance>-postgres:
+    image: ghcr.io/immich-app/postgres:${IMMICH<__INSTANCE>__POSTGRES_TAG?}
+  immich<__instance>-redis:
+    image: docker.io/valkey/valkey:${IMMICH<__INSTANCE>__REDIS_TAG?}
