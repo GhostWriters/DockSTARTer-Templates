@@ -1,0 +1,32 @@
+services:
+  paperlessngx<__instance>:
+    container_name: ${PAPERLESSNGX<__INSTANCE>__CONTAINER_NAME?}
+    depends_on:
+      - paperlessngx<__instance>-postgres
+      - paperlessngx<__instance>-redis
+    env_file: .env.app.paperlessngx<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${PAPERLESSNGX<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/paperlessngx<__instance>/data:/usr/src/paperless/data
+      - ${DOCKER_VOLUME_CONFIG?}/paperlessngx<__instance>/media:/usr/src/paperless/media
+      - ${DOCKER_VOLUME_CONFIG?}/paperlessngx<__instance>/export:/usr/src/paperless/export
+      - ${DOCKER_VOLUME_CONFIG?}/paperlessngx<__instance>/consume:/usr/src/paperless/consume
+  paperlessngx<__instance>-postgres:
+    container_name: ${PAPERLESSNGX<__INSTANCE>__CONTAINER_NAME?}-postgres
+    env_file: .env.app.paperlessngx<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${PAPERLESSNGX<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/paperlessngx<__instance>-postgres:/var/lib/postgresql
+  paperlessngx<__instance>-redis:
+    container_name: ${PAPERLESSNGX<__INSTANCE>__CONTAINER_NAME?}-redis
+    environment:
+      - TZ=${TZ?}
+    restart: ${PAPERLESSNGX<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro

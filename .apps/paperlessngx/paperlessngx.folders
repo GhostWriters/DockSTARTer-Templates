@@ -1,0 +1,6 @@
+${DOCKER_VOLUME_CONFIG}/paperlessngx<__instance>
+${DOCKER_VOLUME_CONFIG}/paperlessngx<__instance>/data
+${DOCKER_VOLUME_CONFIG}/paperlessngx<__instance>/media
+${DOCKER_VOLUME_CONFIG}/paperlessngx<__instance>/export
+${DOCKER_VOLUME_CONFIG}/paperlessngx<__instance>/consume
+${DOCKER_VOLUME_CONFIG}/paperlessngx<__instance>-postgres

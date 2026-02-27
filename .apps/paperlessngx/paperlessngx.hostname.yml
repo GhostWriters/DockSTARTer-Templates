@@ -1,0 +1,3 @@
+services:
+  paperlessngx<__instance>:
+    hostname: ${PAPERLESSNGX<__INSTANCE>__HOSTNAME?}

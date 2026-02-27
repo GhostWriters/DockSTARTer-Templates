@@ -1,0 +1,6 @@
+services:
+  paperlessngx<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Community-supported open-source document management system"
+      com.dockstarter.appinfo.nicename: "PaperlessNGX<__Instance>"

@@ -1,0 +1,4 @@
+services:
+  paperlessngx<__instance>:
+    ports:
+      - ${PAPERLESSNGX<__INSTANCE>__PORT_8000?}:8000
