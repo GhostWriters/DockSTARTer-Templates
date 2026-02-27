@@ -1,0 +1,3 @@
+services:
+  obsidian<__instance>:
+    image: lscr.io/linuxserver/obsidian:${OBSIDIAN<__INSTANCE>__TAG?}

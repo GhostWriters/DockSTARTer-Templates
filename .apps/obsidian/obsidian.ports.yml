@@ -1,0 +1,5 @@
+services:
+  obsidian<__instance>:
+    ports:
+      - ${OBSIDIAN<__INSTANCE>__PORT_3000?}:3000
+      - ${OBSIDIAN<__INSTANCE>__PORT_3001?}:3001

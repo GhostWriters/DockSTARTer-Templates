@@ -1,0 +1,6 @@
+services:
+  obsidian<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Note-taking app with linking and plugins"
+      com.dockstarter.appinfo.nicename: "Obsidian<__Instance>"

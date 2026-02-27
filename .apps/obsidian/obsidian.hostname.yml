@@ -1,0 +1,3 @@
+services:
+  obsidian<__instance>:
+    hostname: ${OBSIDIAN<__INSTANCE>__HOSTNAME?}
