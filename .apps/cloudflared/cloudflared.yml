@@ -1,0 +1,8 @@
+services:
+  cloudflared<__instance>:
+    command: tunnel --no-autoupdate run
+    container_name: ${CLOUDFLARED<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.cloudflared<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${CLOUDFLARED<__INSTANCE>__RESTART?}

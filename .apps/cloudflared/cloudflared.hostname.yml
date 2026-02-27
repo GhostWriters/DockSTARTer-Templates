@@ -1,0 +1,3 @@
+services:
+  cloudflared<__instance>:
+    hostname: ${CLOUDFLARED<__INSTANCE>__HOSTNAME?}

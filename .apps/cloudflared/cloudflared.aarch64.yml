@@ -1,0 +1,3 @@
+services:
+  cloudflared<__instance>:
+    image: cloudflare/cloudflared:${CLOUDFLARED<__INSTANCE>__TAG?}

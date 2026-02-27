@@ -1,0 +1,6 @@
+services:
+  cloudflared<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Cloudflare Tunnel client for exposing private services"
+      com.dockstarter.appinfo.nicename: "Cloudflared<__Instance>"
