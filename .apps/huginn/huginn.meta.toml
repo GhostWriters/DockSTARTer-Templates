@@ -1,0 +1,14 @@
+[HUGINN_DATABASE_HOST]
+helpline = "Database hostname (e.g. mariadb)."
+
+[HUGINN_DATABASE_NAME]
+helpline = "Database name for Huginn."
+
+[HUGINN_DATABASE_USERNAME]
+helpline = "Database username."
+
+[HUGINN_DATABASE_PASSWORD]
+helpline = "Database password."
+
+[HUGINN_DATABASE_PORT]
+helpline = "Database port (3306 for MySQL/MariaDB)."

@@ -1,0 +1,11 @@
+[PAPERLESS_DBHOST]
+helpline = "PostgreSQL hostname (set automatically to the companion postgres container)."
+
+[PAPERLESS_DBUSER]
+helpline = "PostgreSQL username for Paperless-ngx."
+
+[PAPERLESS_DBPASS]
+helpline = "PostgreSQL password for Paperless-ngx."
+
+[PAPERLESS_REDIS]
+helpline = "Redis connection URL (set automatically to the companion redis container)."

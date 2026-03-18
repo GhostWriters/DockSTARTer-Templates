@@ -1,0 +1,29 @@
+[ENVIRONMENT_DNS1]
+helpline = "Primary DNS server used by SmokePing for latency probing."
+
+[[ENVIRONMENT_DNS1.options]]
+value = "'1.1.1.1'"
+label = "Cloudflare"
+
+[[ENVIRONMENT_DNS1.options]]
+value = "'8.8.8.8'"
+label = "Google"
+
+[[ENVIRONMENT_DNS1.options]]
+value = "'9.9.9.9'"
+label = "Quad9"
+
+[ENVIRONMENT_DNS2]
+helpline = "Secondary DNS server used by SmokePing for latency probing."
+
+[[ENVIRONMENT_DNS2.options]]
+value = "'1.0.0.1'"
+label = "Cloudflare"
+
+[[ENVIRONMENT_DNS2.options]]
+value = "'8.8.4.4'"
+label = "Google"
+
+[[ENVIRONMENT_DNS2.options]]
+value = "'149.112.112.112'"
+label = "Quad9"

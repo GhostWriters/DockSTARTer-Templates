@@ -1,0 +1,5 @@
+[FTP_USER]
+helpline = "FTP username."
+
+[FTP_PASS]
+helpline = "FTP password."

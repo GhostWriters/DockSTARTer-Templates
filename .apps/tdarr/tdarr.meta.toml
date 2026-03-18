@@ -1,0 +1,2 @@
+[ENVIRONMENT_SERVERIP]
+helpline = "Hostname or IP the Tdarr server listens on. Use the container name for internal networking."

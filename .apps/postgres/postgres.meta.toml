@@ -1,0 +1,5 @@
+[POSTGRES_PASSWORD]
+helpline = "Password for the PostgreSQL superuser. Required on first startup."
+
+[POSTGRES_USER]
+helpline = "Username for the PostgreSQL superuser."

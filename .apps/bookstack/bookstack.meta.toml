@@ -1,0 +1,14 @@
+[APP_URL]
+helpline = "Full URL where BookStack is accessible (e.g. https://wiki.example.com)."
+
+[DB_HOST]
+helpline = "Database hostname (e.g. mariadb)."
+
+[DB_DATABASE]
+helpline = "Database name."
+
+[DB_USER]
+helpline = "Database username."
+
+[DB_PASS]
+helpline = "Database password."

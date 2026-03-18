@@ -1,0 +1,31 @@
+[HOST]
+helpline = "Hostname or IP of the apcupsd daemon to connect to."
+
+[INTERVAL]
+helpline = "Polling interval in seconds between UPS status checks."
+
+[VERBOSE]
+helpline = "Enable verbose logging."
+
+[[VERBOSE.options]]
+value = "'false'"
+label = "Disabled"
+
+[[VERBOSE.options]]
+value = "'true'"
+label = "Enabled"
+
+[INFUXDB_HOST]
+helpline = "InfluxDB hostname (e.g. influxdb)."
+
+[INFUXDB_DATABASE]
+helpline = "InfluxDB database name for storing UPS metrics."
+
+[INFUXDB_PORT]
+helpline = "InfluxDB port (default 8086)."
+
+[INFUXDB_USER]
+helpline = "InfluxDB username."
+
+[INFUXDB_PASSWORD]
+helpline = "InfluxDB password."

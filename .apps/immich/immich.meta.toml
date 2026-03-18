@@ -1,0 +1,14 @@
+[DB_PASSWORD]
+helpline = "PostgreSQL database password."
+
+[DB_USERNAME]
+helpline = "PostgreSQL database username."
+
+[DB_DATABASE_NAME]
+helpline = "PostgreSQL database name."
+
+[DB_HOSTNAME]
+helpline = "PostgreSQL hostname (set automatically to the companion postgres container)."
+
+[REDIS_HOSTNAME]
+helpline = "Redis hostname (set automatically to the companion redis container)."

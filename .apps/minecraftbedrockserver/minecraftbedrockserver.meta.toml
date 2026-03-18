@@ -1,0 +1,15 @@
+[EULA]
+helpline = "Accept the Minecraft End User License Agreement. Must be TRUE to start the server."
+
+[[EULA.options]]
+value = "'TRUE'"
+label = "Accepted"
+help = "Required to run the server. See https://aka.ms/MinecraftEULA"
+
+[VERSION]
+helpline = "Bedrock server version to run."
+
+[[VERSION.options]]
+value = "'LATEST'"
+label = "Latest"
+help = "Always run the latest available version."
