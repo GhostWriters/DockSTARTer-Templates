@@ -1,0 +1,21 @@
+["httpserver:FILE_SERVER_TITLE"]
+helpline = "Page title displayed in the browser tab and header."
+
+["httpserver:FILE_SERVER_COLOR_SET"]
+helpline = "Color theme for the file server UI."
+
+[["httpserver:FILE_SERVER_COLOR_SET".options]]
+value = "'indigo-red'"
+label = "Indigo / Red"
+
+[["httpserver:FILE_SERVER_COLOR_SET".options]]
+value = "'blue-orange'"
+label = "Blue / Orange"
+
+[["httpserver:FILE_SERVER_COLOR_SET".options]]
+value = "'teal-yellow'"
+label = "Teal / Yellow"
+
+[["httpserver:FILE_SERVER_COLOR_SET".options]]
+value = "'green-pink'"
+label = "Green / Pink"

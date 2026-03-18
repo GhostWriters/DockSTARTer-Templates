@@ -1,0 +1,16 @@
+["openvpnas:INTERFACE"]
+helpline = "Network interface the OpenVPN Access Server binds to."
+
+[["openvpnas:INTERFACE".options]]
+value = "'eth0'"
+label = "eth0"
+help = "Default ethernet interface."
+
+[["openvpnas:INTERFACE".options]]
+value = "'eth1'"
+label = "eth1"
+
+[["openvpnas:INTERFACE".options]]
+value = "'ens3'"
+label = "ens3"
+help = "Common interface name on cloud/virtual machines."

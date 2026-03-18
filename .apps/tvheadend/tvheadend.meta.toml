@@ -1,0 +1,2 @@
+["tvheadend:RUN_OPTS"]
+helpline = "Additional command-line options passed to TVheadend on startup."

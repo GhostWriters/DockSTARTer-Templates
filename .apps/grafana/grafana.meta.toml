@@ -1,0 +1,2 @@
+["grafana:GF_INSTALL_PLUGINS"]
+helpline = "Comma-separated list of Grafana plugins to install on startup."

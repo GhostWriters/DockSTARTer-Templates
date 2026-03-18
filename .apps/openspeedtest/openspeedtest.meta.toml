@@ -1,0 +1,2 @@
+["openspeedtest:BASE_PATH"]
+helpline = "Base URL path for OpenSpeedTest (e.g. /speedtest for a subfolder install)."

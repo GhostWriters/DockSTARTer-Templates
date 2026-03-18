@@ -1,0 +1,56 @@
+["calibre:CUSTOM_USER"]
+helpline = "HTTP Basic Auth username for accessing the Calibre web UI."
+
+["calibre:PASSWORD"]
+helpline = "HTTP Basic Auth password for accessing the Calibre web UI."
+
+["calibre:TITLE"]
+helpline = "Page title displayed in the browser tab."
+
+["calibre:SUBFOLDER"]
+helpline = "Subfolder for reverse proxy installs. Must include both slashes (e.g. /calibre/)."
+
+["calibre:DASHBOARD"]
+helpline = "Selkies dashboard theme."
+
+[["calibre:DASHBOARD".options]]
+value = "'selkies-dashboard'"
+label = "Default"
+help = "Standard Selkies dashboard."
+
+[["calibre:DASHBOARD".options]]
+value = "'selkies-dashboard-zinc'"
+label = "Zinc"
+
+[["calibre:DASHBOARD".options]]
+value = "'selkies-dashboard-wish'"
+label = "Wish"
+
+["calibre:START_DOCKER"]
+helpline = "Start Docker-in-Docker inside the container (requires privileged mode)."
+
+[["calibre:START_DOCKER".options]]
+value = "'false'"
+label = "Disabled"
+help = "Skip DinD startup (recommended unless specifically needed)."
+
+[["calibre:START_DOCKER".options]]
+value = "'true'"
+label = "Enabled"
+
+["calibre:CLI_ARGS"]
+helpline = "Additional command-line arguments passed to the Calibre startup command."
+
+["calibre:DRI_NODE"]
+helpline = "DRI render node for VAAPI hardware encoding (e.g. /dev/dri/renderD128)."
+
+["calibre:SELKIES_DEBUG"]
+helpline = "Enable verbose debug logging for Selkies."
+
+[["calibre:SELKIES_DEBUG".options]]
+value = "False"
+label = "Disabled"
+
+[["calibre:SELKIES_DEBUG".options]]
+value = "True"
+label = "Enabled"

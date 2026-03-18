@@ -1,0 +1,2 @@
+["flame:PASSWORD"]
+helpline = "Password to access the Flame settings panel. Leave blank to disable password protection."
