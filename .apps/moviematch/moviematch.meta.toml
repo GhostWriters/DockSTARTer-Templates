@@ -1,0 +1,26 @@
+[PLEX_URL]
+helpline = "URL of your Plex server (e.g. http://plex:32400)."
+
+[PLEX_TOKEN]
+helpline = "Plex authentication token. Find it in a Plex XML request URL as X-Plex-Token."
+
+[LOG_LEVEL]
+helpline = "Logging verbosity level."
+
+[[LOG_LEVEL.options]]
+value = "'INFO'"
+label = "Info"
+help = "Standard logging (recommended)."
+
+[[LOG_LEVEL.options]]
+value = "'DEBUG'"
+label = "Debug"
+help = "Verbose output for troubleshooting."
+
+[[LOG_LEVEL.options]]
+value = "'WARN'"
+label = "Warn"
+
+[[LOG_LEVEL.options]]
+value = "'ERROR'"
+label = "Error"

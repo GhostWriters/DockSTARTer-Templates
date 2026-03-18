@@ -1,0 +1,55 @@
+[CF_APITOKEN]
+helpline = "Cloudflare API token with Zone:DNS:Edit permission (recommended over API key)."
+
+[CF_APIKEY]
+helpline = "Cloudflare Global API key (legacy — use CF_APITOKEN instead)."
+
+[CF_USER]
+helpline = "Cloudflare account email address (required with CF_APIKEY)."
+
+[CF_HOSTS]
+helpline = "Semicolon-separated list of hostnames to update (e.g. host1.example.com;host2.example.com)."
+
+[CF_ZONES]
+helpline = "Semicolon-separated list of zone names matching CF_HOSTS (e.g. example.com;example.com)."
+
+[CF_RECORDTYPES]
+helpline = "Semicolon-separated record types to update for each host."
+
+[[CF_RECORDTYPES.options]]
+value = "'A'"
+label = "A (IPv4)"
+help = "Update IPv4 address records."
+
+[[CF_RECORDTYPES.options]]
+value = "'AAAA'"
+label = "AAAA (IPv6)"
+help = "Update IPv6 address records."
+
+[[CF_RECORDTYPES.options]]
+value = "'A;AAAA'"
+label = "A + AAAA"
+help = "Update both IPv4 and IPv6 records."
+
+[DETECTION_MODE]
+helpline = "Method used to detect your public IP address."
+
+[[DETECTION_MODE.options]]
+value = "'dig-google.com'"
+label = "dig (Google)"
+help = "Use dig against Google DNS (default)."
+
+[[DETECTION_MODE.options]]
+value = "'dig-opendns.com'"
+label = "dig (OpenDNS)"
+
+[[DETECTION_MODE.options]]
+value = "'curl-icanhazip.com'"
+label = "curl icanhazip"
+
+[[DETECTION_MODE.options]]
+value = "'curl-ifconfig.me'"
+label = "curl ifconfig.me"
+
+[INTERVAL]
+helpline = "Check interval in seconds (default 300 = every 5 minutes)."

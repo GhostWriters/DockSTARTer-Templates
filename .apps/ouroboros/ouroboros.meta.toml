@@ -1,0 +1,57 @@
+[CLEANUP]
+helpline = "Remove old images after updating containers."
+
+[[CLEANUP.options]]
+value = "'true'"
+label = "Enabled"
+help = "Recommended to avoid accumulating unused images."
+
+[[CLEANUP.options]]
+value = "'false'"
+label = "Disabled"
+
+[SELF_UPDATE]
+helpline = "Allow Ouroboros to update itself."
+
+[[SELF_UPDATE.options]]
+value = "'true'"
+label = "Enabled"
+
+[[SELF_UPDATE.options]]
+value = "'false'"
+label = "Disabled"
+
+[LOG_LEVEL]
+helpline = "Logging verbosity level."
+
+[[LOG_LEVEL.options]]
+value = "'info'"
+label = "Info"
+help = "Standard logging (recommended)."
+
+[[LOG_LEVEL.options]]
+value = "'debug'"
+label = "Debug"
+
+[[LOG_LEVEL.options]]
+value = "'warn'"
+label = "Warn"
+
+[[LOG_LEVEL.options]]
+value = "'error'"
+label = "Error"
+
+[CRON]
+helpline = "Cron expression for update checks (e.g. '0 4 * * *' = daily at 4am)."
+
+[INTERVAL]
+helpline = "Polling interval in seconds (used instead of CRON if set)."
+
+[MONITOR]
+helpline = "Comma-separated list of container names to monitor. Leave blank to monitor all."
+
+[IGNORE]
+helpline = "Comma-separated list of container names to exclude from updates."
+
+[NOTIFIERS]
+helpline = "Shoutrrr-format notification URLs (space-separated)."

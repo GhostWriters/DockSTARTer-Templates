@@ -1,0 +1,77 @@
+[MYJDOWNLOADER_EMAIL]
+helpline = "MyJDownloader account email for remote access via my.jdownloader.org."
+
+[MYJDOWNLOADER_PASSWORD]
+helpline = "MyJDownloader account password."
+
+[MYJDOWNLOADER_DEVICE_NAME]
+helpline = "Name this instance appears as in MyJDownloader."
+
+[DARK_MODE]
+helpline = "Enable dark mode in the web UI."
+
+[[DARK_MODE.options]]
+value = "'0'"
+label = "Disabled"
+
+[[DARK_MODE.options]]
+value = "'1'"
+label = "Enabled"
+
+[WEB_AUTHENTICATION]
+helpline = "Require a token to access the web UI."
+
+[[WEB_AUTHENTICATION.options]]
+value = "'0'"
+label = "Disabled"
+
+[[WEB_AUTHENTICATION.options]]
+value = "'1'"
+label = "Enabled"
+
+[WEB_AUTHENTICATION_USERNAME]
+helpline = "Username for web UI authentication."
+
+[WEB_AUTHENTICATION_PASSWORD]
+helpline = "Password for web UI authentication."
+
+[SECURE_CONNECTION]
+helpline = "Enable HTTPS/SSL for the web UI and VNC connections."
+
+[[SECURE_CONNECTION.options]]
+value = "'0'"
+label = "Disabled"
+
+[[SECURE_CONNECTION.options]]
+value = "'1'"
+label = "Enabled"
+
+[KEEP_APP_RUNNING]
+helpline = "Restart JDownloader automatically if it crashes."
+
+[[KEEP_APP_RUNNING.options]]
+value = "'0'"
+label = "Disabled"
+
+[[KEEP_APP_RUNNING.options]]
+value = "'1'"
+label = "Enabled"
+
+[JDOWNLOADER_HEADLESS]
+helpline = "Run JDownloader without a graphical desktop (no VNC access)."
+
+[[JDOWNLOADER_HEADLESS.options]]
+value = "'0'"
+label = "Disabled"
+help = "Run with desktop and VNC (default)."
+
+[[JDOWNLOADER_HEADLESS.options]]
+value = "'1'"
+label = "Enabled"
+help = "Headless mode — web UI only."
+
+[JDOWNLOADER_MAX_MEM]
+helpline = "Maximum JVM heap size (e.g. 512m, 1g). Leave blank for default."
+
+[VNC_PASSWORD]
+helpline = "Password for VNC access. Leave blank for no VNC password."

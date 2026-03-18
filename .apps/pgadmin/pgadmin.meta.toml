@@ -1,0 +1,18 @@
+[PGADMIN_DEFAULT_EMAIL]
+helpline = "Admin account email address for the pgAdmin login."
+
+[PGADMIN_DEFAULT_PASSWORD]
+helpline = "Admin account password for the pgAdmin login."
+
+[PGADMIN_DISABLE_POSTFIX]
+helpline = "Disable the built-in Postfix mail server (recommended unless you need email alerts)."
+
+[[PGADMIN_DISABLE_POSTFIX.options]]
+value = "'True'"
+label = "Disabled"
+help = "Skip starting Postfix (recommended for most installs)."
+
+[[PGADMIN_DISABLE_POSTFIX.options]]
+value = "'False'"
+label = "Enabled"
+help = "Start Postfix for email alert delivery."

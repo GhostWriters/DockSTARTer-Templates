@@ -1,0 +1,33 @@
+[DOZZLE_LEVEL]
+helpline = "Minimum log level to display in the Dozzle UI."
+
+[[DOZZLE_LEVEL.options]]
+value = "'info'"
+label = "Info"
+help = "Show info, warnings, and errors (recommended)."
+
+[[DOZZLE_LEVEL.options]]
+value = "'debug'"
+label = "Debug"
+help = "Show all log messages including debug output."
+
+[[DOZZLE_LEVEL.options]]
+value = "'warn'"
+label = "Warn"
+help = "Show only warnings and errors."
+
+[[DOZZLE_LEVEL.options]]
+value = "'error'"
+label = "Error"
+help = "Show only errors."
+
+[[DOZZLE_LEVEL.options]]
+value = "'trace'"
+label = "Trace"
+help = "Most verbose — includes internal Dozzle events."
+
+[DOZZLE_BASE]
+helpline = "Base URL path for Dozzle (e.g. /dozzle for a subfolder install)."
+
+[DOZZLE_FILTER]
+helpline = "Filter which containers are shown (e.g. name=myapp or status=running)."

@@ -1,0 +1,35 @@
+[APPLICATION_ENV]
+helpline = "Application environment mode."
+
+[[APPLICATION_ENV.options]]
+value = "'production'"
+label = "Production"
+help = "Optimised for live use (recommended)."
+
+[[APPLICATION_ENV.options]]
+value = "'development'"
+label = "Development"
+help = "Verbose errors and debug tools enabled."
+
+[ENABLE_REDIS]
+helpline = "Enable Redis for session and cache storage (recommended)."
+
+[[ENABLE_REDIS.options]]
+value = "'true'"
+label = "Enabled"
+
+[[ENABLE_REDIS.options]]
+value = "'false'"
+label = "Disabled"
+
+[MYSQL_HOST]
+helpline = "MySQL/MariaDB hostname."
+
+[MYSQL_DATABASE]
+helpline = "Database name for AzuraCast."
+
+[MYSQL_USER]
+helpline = "Database username."
+
+[MYSQL_PASSWORD]
+helpline = "Database password."

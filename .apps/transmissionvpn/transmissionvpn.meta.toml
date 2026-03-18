@@ -1,0 +1,45 @@
+[OPENVPN_PROVIDER]
+helpline = "VPN provider name. Use 'custom' with your own .ovpn config file."
+
+[[OPENVPN_PROVIDER.options]]
+value = "'custom'"
+label = "Custom"
+help = "Use your own OpenVPN config file."
+
+[[OPENVPN_PROVIDER.options]]
+value = "'pia'"
+label = "Private Internet Access"
+
+[[OPENVPN_PROVIDER.options]]
+value = "'mullvad'"
+label = "Mullvad"
+
+[[OPENVPN_PROVIDER.options]]
+value = "'nordvpn'"
+label = "NordVPN"
+
+[[OPENVPN_PROVIDER.options]]
+value = "'protonvpn'"
+label = "ProtonVPN"
+
+[[OPENVPN_PROVIDER.options]]
+value = "'surfshark'"
+label = "Surfshark"
+
+[OPENVPN_USERNAME]
+helpline = "VPN account username."
+
+[OPENVPN_PASSWORD]
+helpline = "VPN account password."
+
+[LOCAL_NETWORK]
+helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local UI access."
+
+[TRANSMISSION_DOWNLOAD_DIR]
+helpline = "Directory for completed downloads."
+
+[TRANSMISSION_INCOMPLETE_DIR]
+helpline = "Directory for in-progress downloads."
+
+[TRANSMISSION_WATCH_DIR]
+helpline = "Directory watched for .torrent files to auto-add."

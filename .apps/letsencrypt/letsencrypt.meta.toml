@@ -1,0 +1,48 @@
+[URL]
+helpline = "Your base domain (e.g. example.com)."
+
+[EMAIL]
+helpline = "Email address for Let's Encrypt certificate notifications."
+
+[SUBDOMAINS]
+helpline = "Comma-separated subdomains to include (e.g. www,api). Use 'wildcard' for a wildcard cert."
+
+[EXTRA_DOMAINS]
+helpline = "Additional fully-qualified domains to add to the certificate (comma-separated)."
+
+[ONLY_SUBDOMAINS]
+helpline = "Only request certs for the listed subdomains, not the base domain."
+
+[[ONLY_SUBDOMAINS.options]]
+value = "'false'"
+label = "Include base domain"
+help = "Certificate covers both the base domain and subdomains."
+
+[[ONLY_SUBDOMAINS.options]]
+value = "'true'"
+label = "Subdomains only"
+help = "Certificate covers only the listed subdomains."
+
+[VALIDATION]
+helpline = "Domain ownership validation method."
+
+[[VALIDATION.options]]
+value = "'http'"
+label = "HTTP"
+help = "Validates via HTTP challenge. Port 80 must be open."
+
+[[VALIDATION.options]]
+value = "'dns'"
+label = "DNS"
+help = "Validates via DNS TXT record. Requires DNSPLUGIN to be set."
+
+[[VALIDATION.options]]
+value = "'duckdns'"
+label = "DuckDNS"
+help = "DNS validation using DuckDNS. Set DUCKDNSTOKEN."
+
+[DNSPLUGIN]
+helpline = "DNS plugin to use when VALIDATION=dns (e.g. cloudflare, route53, digitalocean)."
+
+[DUCKDNSTOKEN]
+helpline = "DuckDNS token, required when VALIDATION=duckdns."

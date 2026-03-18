@@ -1,0 +1,40 @@
+[APP_KEY]
+helpline = "32-character random string used for encryption. Generate with: head -c 32 /dev/urandom | base64 | head -c 32"
+
+[DB_CONNECTION]
+helpline = "Database driver to use."
+
+[[DB_CONNECTION.options]]
+value = "'mysql'"
+label = "MySQL / MariaDB"
+
+[[DB_CONNECTION.options]]
+value = "'sqlite'"
+label = "SQLite"
+
+[[DB_CONNECTION.options]]
+value = "'pgsql'"
+label = "PostgreSQL"
+
+[DB_HOST]
+helpline = "Database hostname (e.g. mariadb)."
+
+[DB_DATABASE]
+helpline = "Database name."
+
+[DB_USERNAME]
+helpline = "Database username."
+
+[DB_PASSWORD]
+helpline = "Database password."
+
+[DB_PORT]
+helpline = "Database port (3306 for MySQL, 5432 for PostgreSQL)."
+
+[TRUSTED_PROXIES]
+helpline = "IP or CIDR of trusted reverse proxy. Use ** to trust all proxies."
+
+[[TRUSTED_PROXIES.options]]
+value = "'**'"
+label = "Trust all"
+help = "Trust any reverse proxy. Use only in a private network."

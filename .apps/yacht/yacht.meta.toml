@@ -1,0 +1,18 @@
+[ADMIN_EMAIL]
+helpline = "Admin account email address."
+
+[SECRET_KEY]
+helpline = "Secret key for session security. Change from the default!"
+
+[DISABLE_AUTH]
+helpline = "Disable authentication entirely (dangerous on a public network)."
+
+[[DISABLE_AUTH.options]]
+value = "'false'"
+label = "Enabled"
+help = "Require login (recommended)."
+
+[[DISABLE_AUTH.options]]
+value = "'true'"
+label = "Disabled"
+help = "No login required — only use on a trusted network."
