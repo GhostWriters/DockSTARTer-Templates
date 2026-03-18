@@ -1,0 +1,68 @@
+[VPN_SERVICE_PROVIDER]
+helpline = "Your VPN service provider."
+helptext = "The VPN provider to use with Gluetun. See https://github.com/qdm12/gluetun-wiki for supported providers and required variables for each."
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "private internet access"
+label = "Private Internet Access"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "mullvad"
+label = "Mullvad"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "nordvpn"
+label = "NordVPN"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "surfshark"
+label = "Surfshark"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "expressvpn"
+label = "ExpressVPN"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "protonvpn"
+label = "ProtonVPN"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "airvpn"
+label = "AirVPN"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "ipvanish"
+label = "IPVanish"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "cyberghost"
+label = "CyberGhost"
+
+[[VPN_SERVICE_PROVIDER.options]]
+value = "custom"
+label = "Custom"
+help = "Use a custom OpenVPN or WireGuard configuration file."
+
+[VPN_TYPE]
+helpline = "VPN protocol to use."
+
+[[VPN_TYPE.options]]
+value = "openvpn"
+label = "OpenVPN"
+
+[[VPN_TYPE.options]]
+value = "wireguard"
+label = "WireGuard"
+
+[OPENVPN_PROTOCOL]
+helpline = "Transport protocol for OpenVPN."
+
+[[OPENVPN_PROTOCOL.options]]
+value = "udp"
+label = "UDP"
+help = "Faster, preferred when available."
+
+[[OPENVPN_PROTOCOL.options]]
+value = "tcp"
+label = "TCP"
+help = "More reliable through restrictive firewalls."
