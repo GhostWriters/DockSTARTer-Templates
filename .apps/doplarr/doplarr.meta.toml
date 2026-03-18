@@ -1,68 +1,68 @@
-["doplarr:LOG_LEVEL"]
+["doplarr<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[["doplarr:LOG_LEVEL".options]]
+[["doplarr<__instance>:LOG_LEVEL".options]]
 value = "':info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[["doplarr:LOG_LEVEL".options]]
+[["doplarr<__instance>:LOG_LEVEL".options]]
 value = "':debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-[["doplarr:LOG_LEVEL".options]]
+[["doplarr<__instance>:LOG_LEVEL".options]]
 value = "':warn'"
 label = "Warn"
 
-[["doplarr:LOG_LEVEL".options]]
+[["doplarr<__instance>:LOG_LEVEL".options]]
 value = "':error'"
 label = "Error"
 
-["doplarr:DISCORD__TOKEN"]
+["doplarr<__instance>:DISCORD__TOKEN"]
 helpline = "Discord bot token from the Discord Developer Portal."
 
-["doplarr:DISCORD__REQUESTED_MSG_STYLE"]
+["doplarr<__instance>:DISCORD__REQUESTED_MSG_STYLE"]
 helpline = "Style of the Discord request confirmation message."
 
-[["doplarr:DISCORD__REQUESTED_MSG_STYLE".options]]
+[["doplarr<__instance>:DISCORD__REQUESTED_MSG_STYLE".options]]
 value = "':plain'"
 label = "Plain"
 help = "Simple text message."
 
-[["doplarr:DISCORD__REQUESTED_MSG_STYLE".options]]
+[["doplarr<__instance>:DISCORD__REQUESTED_MSG_STYLE".options]]
 value = "':embed'"
 label = "Embed"
 help = "Rich embed with poster art."
 
-["doplarr:DISCORD__MAX_RESULTS"]
+["doplarr<__instance>:DISCORD__MAX_RESULTS"]
 helpline = "Maximum number of search results shown in Discord."
 
-["doplarr:PARTIAL_SEASONS"]
+["doplarr<__instance>:PARTIAL_SEASONS"]
 helpline = "Allow requesting individual seasons rather than whole series."
 
-[["doplarr:PARTIAL_SEASONS".options]]
+[["doplarr<__instance>:PARTIAL_SEASONS".options]]
 value = "'true'"
 label = "Enabled"
 
-[["doplarr:PARTIAL_SEASONS".options]]
+[["doplarr<__instance>:PARTIAL_SEASONS".options]]
 value = "'false'"
 label = "Disabled"
 
-["doplarr:OVERSEERR__URL"]
+["doplarr<__instance>:OVERSEERR__URL"]
 helpline = "URL of the Overseerr instance (e.g. http://overseerr:5055)."
 
-["doplarr:OVERSEERR__API"]
+["doplarr<__instance>:OVERSEERR__API"]
 helpline = "Overseerr API key from Settings → General."
 
-["doplarr:RADARR__URL"]
+["doplarr<__instance>:RADARR__URL"]
 helpline = "URL of the Radarr instance (e.g. http://radarr:7878)."
 
-["doplarr:RADARR__API"]
+["doplarr<__instance>:RADARR__API"]
 helpline = "Radarr API key from Settings → General."
 
-["doplarr:SONARR__URL"]
+["doplarr<__instance>:SONARR__URL"]
 helpline = "URL of the Sonarr instance (e.g. http://sonarr:8989)."
 
-["doplarr:SONARR__API"]
+["doplarr<__instance>:SONARR__API"]
 helpline = "Sonarr API key from Settings → General."

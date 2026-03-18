@@ -1,28 +1,28 @@
-["xteve:XTEVE_BRANCH"]
+["xteve<__instance>:XTEVE_BRANCH"]
 helpline = "xTeVe release branch to run."
 
-[["xteve:XTEVE_BRANCH".options]]
+[["xteve<__instance>:XTEVE_BRANCH".options]]
 value = "'master'"
 label = "Stable"
 help = "Latest stable release (recommended)."
 
-[["xteve:XTEVE_BRANCH".options]]
+[["xteve<__instance>:XTEVE_BRANCH".options]]
 value = "'beta'"
 label = "Beta"
 help = "Beta builds — may contain bugs."
 
-[["xteve:XTEVE_BRANCH".options]]
+[["xteve<__instance>:XTEVE_BRANCH".options]]
 value = "'unstable'"
 label = "Unstable"
 help = "Development builds — likely unstable."
 
-["xteve:XTEVE_DEBUG"]
+["xteve<__instance>:XTEVE_DEBUG"]
 helpline = "Enable verbose debug logging."
 
-[["xteve:XTEVE_DEBUG".options]]
+[["xteve<__instance>:XTEVE_DEBUG".options]]
 value = "'0'"
 label = "Disabled"
 
-[["xteve:XTEVE_DEBUG".options]]
+[["xteve<__instance>:XTEVE_DEBUG".options]]
 value = "'1'"
 label = "Enabled"

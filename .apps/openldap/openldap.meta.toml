@@ -1,41 +1,41 @@
-["openldap:LDAP_DOMAIN"]
+["openldap<__instance>:LDAP_DOMAIN"]
 helpline = "LDAP domain in dot notation (e.g. example.org becomes dc=example,dc=org)."
 
-["openldap:LDAP_ORGANISATION"]
+["openldap<__instance>:LDAP_ORGANISATION"]
 helpline = "Human-readable organisation name stored in the directory."
 
-["openldap:LDAP_BACKEND"]
+["openldap<__instance>:LDAP_BACKEND"]
 helpline = "Database backend for the LDAP directory."
 
-[["openldap:LDAP_BACKEND".options]]
+[["openldap<__instance>:LDAP_BACKEND".options]]
 value = "'mdb'"
 label = "MDB"
 help = "Memory-Mapped Database — fast and recommended for OpenLDAP 2.4+."
 
-[["openldap:LDAP_BACKEND".options]]
+[["openldap<__instance>:LDAP_BACKEND".options]]
 value = "'hdb'"
 label = "HDB"
 help = "Hierarchical Database — older backend, use MDB instead."
 
-["openldap:LDAP_ADMIN_PASSWORD"]
+["openldap<__instance>:LDAP_ADMIN_PASSWORD"]
 helpline = "Password for the LDAP admin (cn=admin) account."
 
-["openldap:LDAP_CONFIG_PASSWORD"]
+["openldap<__instance>:LDAP_CONFIG_PASSWORD"]
 helpline = "Password for the OpenLDAP config backend."
 
-["openldap:LDAP_READONLY_USER"]
+["openldap<__instance>:LDAP_READONLY_USER"]
 helpline = "Create a read-only user account in the directory."
 
-[["openldap:LDAP_READONLY_USER".options]]
+[["openldap<__instance>:LDAP_READONLY_USER".options]]
 value = "'false'"
 label = "Disabled"
 
-[["openldap:LDAP_READONLY_USER".options]]
+[["openldap<__instance>:LDAP_READONLY_USER".options]]
 value = "'true'"
 label = "Enabled"
 
-["openldap:LDAP_READONLY_USER_USERNAME"]
+["openldap<__instance>:LDAP_READONLY_USER_USERNAME"]
 helpline = "Username for the read-only account."
 
-["openldap:LDAP_READONLY_USER_PASSWORD"]
+["openldap<__instance>:LDAP_READONLY_USER_PASSWORD"]
 helpline = "Password for the read-only account."

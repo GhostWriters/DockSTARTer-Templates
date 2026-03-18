@@ -1,55 +1,55 @@
-["cloudflareddns:CF_APITOKEN"]
+["cloudflareddns<__instance>:CF_APITOKEN"]
 helpline = "Cloudflare API token with Zone:DNS:Edit permission (recommended over API key)."
 
-["cloudflareddns:CF_APIKEY"]
+["cloudflareddns<__instance>:CF_APIKEY"]
 helpline = "Cloudflare Global API key (legacy — use CF_APITOKEN instead)."
 
-["cloudflareddns:CF_USER"]
+["cloudflareddns<__instance>:CF_USER"]
 helpline = "Cloudflare account email address (required with CF_APIKEY)."
 
-["cloudflareddns:CF_HOSTS"]
+["cloudflareddns<__instance>:CF_HOSTS"]
 helpline = "Semicolon-separated list of hostnames to update (e.g. host1.example.com;host2.example.com)."
 
-["cloudflareddns:CF_ZONES"]
+["cloudflareddns<__instance>:CF_ZONES"]
 helpline = "Semicolon-separated list of zone names matching CF_HOSTS (e.g. example.com;example.com)."
 
-["cloudflareddns:CF_RECORDTYPES"]
+["cloudflareddns<__instance>:CF_RECORDTYPES"]
 helpline = "Semicolon-separated record types to update for each host."
 
-[["cloudflareddns:CF_RECORDTYPES".options]]
+[["cloudflareddns<__instance>:CF_RECORDTYPES".options]]
 value = "'A'"
 label = "A (IPv4)"
 help = "Update IPv4 address records."
 
-[["cloudflareddns:CF_RECORDTYPES".options]]
+[["cloudflareddns<__instance>:CF_RECORDTYPES".options]]
 value = "'AAAA'"
 label = "AAAA (IPv6)"
 help = "Update IPv6 address records."
 
-[["cloudflareddns:CF_RECORDTYPES".options]]
+[["cloudflareddns<__instance>:CF_RECORDTYPES".options]]
 value = "'A;AAAA'"
 label = "A + AAAA"
 help = "Update both IPv4 and IPv6 records."
 
-["cloudflareddns:DETECTION_MODE"]
+["cloudflareddns<__instance>:DETECTION_MODE"]
 helpline = "Method used to detect your public IP address."
 
-[["cloudflareddns:DETECTION_MODE".options]]
+[["cloudflareddns<__instance>:DETECTION_MODE".options]]
 value = "'dig-google.com'"
 label = "dig (Google)"
 help = "Use dig against Google DNS (default)."
 
-[["cloudflareddns:DETECTION_MODE".options]]
+[["cloudflareddns<__instance>:DETECTION_MODE".options]]
 value = "'dig-opendns.com'"
 label = "dig (OpenDNS)"
 
-[["cloudflareddns:DETECTION_MODE".options]]
+[["cloudflareddns<__instance>:DETECTION_MODE".options]]
 value = "'curl-icanhazip.com'"
 label = "curl icanhazip"
 
-[["cloudflareddns:DETECTION_MODE".options]]
+[["cloudflareddns<__instance>:DETECTION_MODE".options]]
 value = "'curl-ifconfig.me'"
 label = "curl ifconfig.me"
 
-["cloudflareddns:INTERVAL"]
+["cloudflareddns<__instance>:INTERVAL"]
 helpline = "Check interval in seconds (default 300 = every 5 minutes)."

@@ -1,8 +1,8 @@
-["ldapauth:FERNETKEY"]
+["ldapauth<__instance>:FERNETKEY"]
 helpline = "Fernet encryption key for session tokens. Generate with: python3 -c 'from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())'"
 
-["ldapauth:CERTFILE"]
+["ldapauth<__instance>:CERTFILE"]
 helpline = "Path to the TLS certificate file for HTTPS."
 
-["ldapauth:KEYFILE"]
+["ldapauth<__instance>:KEYFILE"]
 helpline = "Path to the TLS private key file for HTTPS."

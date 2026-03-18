@@ -1,46 +1,46 @@
-["wireguard:ALLOWEDIPS"]
+["wireguard<__instance>:ALLOWEDIPS"]
 helpline = "IP ranges peers will route through the VPN."
 
-[["wireguard:ALLOWEDIPS".options]]
+[["wireguard<__instance>:ALLOWEDIPS".options]]
 value = "'0.0.0.0/0'"
 label = "All traffic"
 help = "Route all internet traffic through the VPN."
 
-[["wireguard:ALLOWEDIPS".options]]
+[["wireguard<__instance>:ALLOWEDIPS".options]]
 value = "'10.13.13.0/24'"
 label = "VPN subnet only"
 help = "Only route traffic between peers — split tunnel."
 
-["wireguard:INTERNAL_SUBNET"]
+["wireguard<__instance>:INTERNAL_SUBNET"]
 helpline = "Internal subnet for WireGuard peers (e.g. 10.13.13.0)."
 
-["wireguard:PEERDNS"]
+["wireguard<__instance>:PEERDNS"]
 helpline = "DNS server assigned to peers."
 
-[["wireguard:PEERDNS".options]]
+[["wireguard<__instance>:PEERDNS".options]]
 value = "'auto'"
 label = "Auto"
 help = "Use the server's DNS (recommended)."
 
-[["wireguard:PEERDNS".options]]
+[["wireguard<__instance>:PEERDNS".options]]
 value = "'1.1.1.1'"
 label = "Cloudflare"
 
-[["wireguard:PEERDNS".options]]
+[["wireguard<__instance>:PEERDNS".options]]
 value = "'8.8.8.8'"
 label = "Google"
 
-[["wireguard:PEERDNS".options]]
+[["wireguard<__instance>:PEERDNS".options]]
 value = "'9.9.9.9'"
 label = "Quad9"
 
-["wireguard:PEERS"]
+["wireguard<__instance>:PEERS"]
 helpline = "Number of peer configs to generate, or a comma-separated list of peer names."
 
-["wireguard:SERVERURL"]
+["wireguard<__instance>:SERVERURL"]
 helpline = "Public hostname or IP address peers will connect to. Use 'auto' to detect."
 
-[["wireguard:SERVERURL".options]]
+[["wireguard<__instance>:SERVERURL".options]]
 value = "'auto'"
 label = "Auto-detect"
 help = "Automatically detect the server's public IP."

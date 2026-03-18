@@ -1,14 +1,14 @@
-["immich:DB_PASSWORD"]
+["immich<__instance>:DB_PASSWORD"]
 helpline = "PostgreSQL database password."
 
-["immich:DB_USERNAME"]
+["immich<__instance>:DB_USERNAME"]
 helpline = "PostgreSQL database username."
 
-["immich:DB_DATABASE_NAME"]
+["immich<__instance>:DB_DATABASE_NAME"]
 helpline = "PostgreSQL database name."
 
-["immich:DB_HOSTNAME"]
+["immich<__instance>:DB_HOSTNAME"]
 helpline = "PostgreSQL hostname (set automatically to the companion postgres container)."
 
-["immich:REDIS_HOSTNAME"]
+["immich<__instance>:REDIS_HOSTNAME"]
 helpline = "Redis hostname (set automatically to the companion redis container)."

@@ -1,11 +1,11 @@
-["paperlessngx:PAPERLESS_DBHOST"]
+["paperlessngx<__instance>:PAPERLESS_DBHOST"]
 helpline = "PostgreSQL hostname (set automatically to the companion postgres container)."
 
-["paperlessngx:PAPERLESS_DBUSER"]
+["paperlessngx<__instance>:PAPERLESS_DBUSER"]
 helpline = "PostgreSQL username for Paperless-ngx."
 
-["paperlessngx:PAPERLESS_DBPASS"]
+["paperlessngx<__instance>:PAPERLESS_DBPASS"]
 helpline = "PostgreSQL password for Paperless-ngx."
 
-["paperlessngx:PAPERLESS_REDIS"]
+["paperlessngx<__instance>:PAPERLESS_REDIS"]
 helpline = "Redis connection URL (set automatically to the companion redis container)."

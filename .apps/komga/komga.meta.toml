@@ -1,5 +1,5 @@
-["komga:KOMGA_LIBRARIES_SCAN_CRON"]
+["komga<__instance>:KOMGA_LIBRARIES_SCAN_CRON"]
 helpline = "Cron expression for automatic library scans (e.g. '0 0 */8 * * ?' = every 8 hours)."
 
-["komga:SERVER_SERVLET_CONTEXT_PATH"]
+["komga<__instance>:SERVER_SERVLET_CONTEXT_PATH"]
 helpline = "Base URL path for Komga (e.g. /komga for a subfolder install). Leave blank for root."

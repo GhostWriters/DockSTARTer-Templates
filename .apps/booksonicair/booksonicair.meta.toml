@@ -1,2 +1,2 @@
-["booksonicair:CONTEXT_PATH"]
+["booksonicair<__instance>:CONTEXT_PATH"]
 helpline = "URL base path for Booksonic-Air (e.g. /booksonicair for a subfolder install)."

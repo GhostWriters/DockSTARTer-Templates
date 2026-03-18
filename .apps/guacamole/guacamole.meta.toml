@@ -1,2 +1,2 @@
-["guacamole:EXTENSIONS"]
+["guacamole<__instance>:EXTENSIONS"]
 helpline = "Comma-separated list of Guacamole extensions to enable (e.g. auth-ldap,auth-totp)."

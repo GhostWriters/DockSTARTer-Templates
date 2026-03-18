@@ -1,23 +1,23 @@
-["photostructure:PS_EXPOSE_NETWORK_WITHOUT_AUTH"]
+["photostructure<__instance>:PS_EXPOSE_NETWORK_WITHOUT_AUTH"]
 helpline = "Expose PhotoStructure on the network without requiring authentication."
 
-[["photostructure:PS_EXPOSE_NETWORK_WITHOUT_AUTH".options]]
+[["photostructure<__instance>:PS_EXPOSE_NETWORK_WITHOUT_AUTH".options]]
 value = "'true'"
 label = "Enabled"
 help = "Allow unauthenticated access (only use on a trusted network)."
 
-[["photostructure:PS_EXPOSE_NETWORK_WITHOUT_AUTH".options]]
+[["photostructure<__instance>:PS_EXPOSE_NETWORK_WITHOUT_AUTH".options]]
 value = "'false'"
 label = "Disabled"
 help = "Require authentication for network access."
 
-["photostructure:PS_FORCE_LOCAL_DB_REPLICA"]
+["photostructure<__instance>:PS_FORCE_LOCAL_DB_REPLICA"]
 helpline = "Force PhotoStructure to use a local database replica (improves performance on network storage)."
 
-[["photostructure:PS_FORCE_LOCAL_DB_REPLICA".options]]
+[["photostructure<__instance>:PS_FORCE_LOCAL_DB_REPLICA".options]]
 value = "'0'"
 label = "Disabled"
 
-[["photostructure:PS_FORCE_LOCAL_DB_REPLICA".options]]
+[["photostructure<__instance>:PS_FORCE_LOCAL_DB_REPLICA".options]]
 value = "'1'"
 label = "Enabled"

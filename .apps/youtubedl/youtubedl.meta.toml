@@ -1,13 +1,13 @@
-["youtubedl:YDL_DEBUG"]
+["youtubedl<__instance>:YDL_DEBUG"]
 helpline = "Enable verbose debug logging."
 
-[["youtubedl:YDL_DEBUG".options]]
+[["youtubedl<__instance>:YDL_DEBUG".options]]
 value = "'false'"
 label = "Disabled"
 
-[["youtubedl:YDL_DEBUG".options]]
+[["youtubedl<__instance>:YDL_DEBUG".options]]
 value = "'true'"
 label = "Enabled"
 
-["youtubedl:YDL_CONFIG_PATH"]
+["youtubedl<__instance>:YDL_CONFIG_PATH"]
 helpline = "Path to the yt-dlp/youtube-dl config file inside the container."

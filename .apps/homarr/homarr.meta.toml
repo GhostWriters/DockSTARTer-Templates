@@ -1,94 +1,94 @@
-["homarr:LOG_LEVEL"]
+["homarr<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[["homarr:LOG_LEVEL".options]]
+[["homarr<__instance>:LOG_LEVEL".options]]
 value = "'error'"
 label = "Error"
 
-[["homarr:LOG_LEVEL".options]]
+[["homarr<__instance>:LOG_LEVEL".options]]
 value = "'warn'"
 label = "Warn"
 
-[["homarr:LOG_LEVEL".options]]
+[["homarr<__instance>:LOG_LEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[["homarr:LOG_LEVEL".options]]
+[["homarr<__instance>:LOG_LEVEL".options]]
 value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-[["homarr:LOG_LEVEL".options]]
+[["homarr<__instance>:LOG_LEVEL".options]]
 value = "'silent'"
 label = "Silent"
 help = "Suppress all log output."
 
-["homarr:AUTH_PROVIDERS"]
+["homarr<__instance>:AUTH_PROVIDERS"]
 helpline = "Authentication method(s) to enable (comma-separated)."
 
-[["homarr:AUTH_PROVIDERS".options]]
+[["homarr<__instance>:AUTH_PROVIDERS".options]]
 value = "'credentials'"
 label = "Credentials"
 help = "Username and password login."
 
-[["homarr:AUTH_PROVIDERS".options]]
+[["homarr<__instance>:AUTH_PROVIDERS".options]]
 value = "'ldap'"
 label = "LDAP"
 help = "LDAP/Active Directory login."
 
-[["homarr:AUTH_PROVIDERS".options]]
+[["homarr<__instance>:AUTH_PROVIDERS".options]]
 value = "'oidc'"
 label = "OIDC"
 help = "OpenID Connect (SSO)."
 
-[["homarr:AUTH_PROVIDERS".options]]
+[["homarr<__instance>:AUTH_PROVIDERS".options]]
 value = "'credentials,ldap'"
 label = "Credentials + LDAP"
 
-[["homarr:AUTH_PROVIDERS".options]]
+[["homarr<__instance>:AUTH_PROVIDERS".options]]
 value = "'credentials,oidc'"
 label = "Credentials + OIDC"
 
-["homarr:AUTH_SESSION_EXPIRY_TIME"]
+["homarr<__instance>:AUTH_SESSION_EXPIRY_TIME"]
 helpline = "How long before login sessions expire (e.g., 30d, 8h, 1h)."
 
-["homarr:DB_DRIVER"]
+["homarr<__instance>:DB_DRIVER"]
 helpline = "Database driver for Homarr's data store."
 
-[["homarr:DB_DRIVER".options]]
+[["homarr<__instance>:DB_DRIVER".options]]
 value = "'better-sqlite3'"
 label = "SQLite"
 help = "Simple file-based database (recommended for single-server)."
 
-[["homarr:DB_DRIVER".options]]
+[["homarr<__instance>:DB_DRIVER".options]]
 value = "'mysql2'"
 label = "MySQL"
 
-[["homarr:DB_DRIVER".options]]
+[["homarr<__instance>:DB_DRIVER".options]]
 value = "'pg'"
 label = "PostgreSQL"
 
-["homarr:DB_DIALECT"]
+["homarr<__instance>:DB_DIALECT"]
 helpline = "SQL dialect matching the database driver."
 
-[["homarr:DB_DIALECT".options]]
+[["homarr<__instance>:DB_DIALECT".options]]
 value = "'sqlite'"
 label = "SQLite"
 
-[["homarr:DB_DIALECT".options]]
+[["homarr<__instance>:DB_DIALECT".options]]
 value = "'mysql'"
 label = "MySQL"
 
-[["homarr:DB_DIALECT".options]]
+[["homarr<__instance>:DB_DIALECT".options]]
 value = "'postgres'"
 label = "PostgreSQL"
 
-["homarr:NO_EXTERNAL_CONNECTION"]
+["homarr<__instance>:NO_EXTERNAL_CONNECTION"]
 helpline = "Disable all outbound API calls (privacy/air-gap mode)."
 
-["homarr:ENABLE_DNS_CACHING"]
+["homarr<__instance>:ENABLE_DNS_CACHING"]
 helpline = "Cache DNS results for faster widget health checks."
 
-["homarr:REDIS_IS_EXTERNAL"]
+["homarr<__instance>:REDIS_IS_EXTERNAL"]
 helpline = "Connect to an external Redis instead of the built-in one."

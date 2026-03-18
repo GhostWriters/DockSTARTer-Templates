@@ -1,48 +1,48 @@
-["unpackerr:UN_INTERVAL"]
+["unpackerr<__instance>:UN_INTERVAL"]
 helpline = "How often to check for completed downloads (e.g. 2m, 5m, 1h)."
 
-["unpackerr:UN_SONARR_0_URL"]
+["unpackerr<__instance>:UN_SONARR_0_URL"]
 helpline = "URL of the Sonarr instance (e.g. http://sonarr:8989)."
 
-["unpackerr:UN_SONARR_0_API_KEY"]
+["unpackerr<__instance>:UN_SONARR_0_API_KEY"]
 helpline = "Sonarr API key from Settings → General."
 
-["unpackerr:UN_RADARR_0_URL"]
+["unpackerr<__instance>:UN_RADARR_0_URL"]
 helpline = "URL of the Radarr instance (e.g. http://radarr:7878)."
 
-["unpackerr:UN_RADARR_0_API_KEY"]
+["unpackerr<__instance>:UN_RADARR_0_API_KEY"]
 helpline = "Radarr API key from Settings → General."
 
-["unpackerr:UN_LIDARR_0_URL"]
+["unpackerr<__instance>:UN_LIDARR_0_URL"]
 helpline = "URL of the Lidarr instance (e.g. http://lidarr:8686)."
 
-["unpackerr:UN_LIDARR_0_API_KEY"]
+["unpackerr<__instance>:UN_LIDARR_0_API_KEY"]
 helpline = "Lidarr API key from Settings → General."
 
-["unpackerr:UN_FOLDER_0_PATH"]
+["unpackerr<__instance>:UN_FOLDER_0_PATH"]
 helpline = "Path to watch for completed archives to extract."
 
-["unpackerr:UN_FOLDER_0_DELETE_ORIGINAL"]
+["unpackerr<__instance>:UN_FOLDER_0_DELETE_ORIGINAL"]
 helpline = "Delete the original archive after successful extraction."
 
-[["unpackerr:UN_FOLDER_0_DELETE_ORIGINAL".options]]
+[["unpackerr<__instance>:UN_FOLDER_0_DELETE_ORIGINAL".options]]
 value = "'false'"
 label = "Keep archive"
 
-[["unpackerr:UN_FOLDER_0_DELETE_ORIGINAL".options]]
+[["unpackerr<__instance>:UN_FOLDER_0_DELETE_ORIGINAL".options]]
 value = "'true'"
 label = "Delete archive"
 
-["unpackerr:UN_FOLDER_0_MOVE_BACK"]
+["unpackerr<__instance>:UN_FOLDER_0_MOVE_BACK"]
 helpline = "Move extracted files back into the original folder."
 
-[["unpackerr:UN_FOLDER_0_MOVE_BACK".options]]
+[["unpackerr<__instance>:UN_FOLDER_0_MOVE_BACK".options]]
 value = "'true'"
 label = "Enabled"
 
-[["unpackerr:UN_FOLDER_0_MOVE_BACK".options]]
+[["unpackerr<__instance>:UN_FOLDER_0_MOVE_BACK".options]]
 value = "'false'"
 label = "Disabled"
 
-["unpackerr:UN_FOLDER_0_DELETE_AFTER"]
+["unpackerr<__instance>:UN_FOLDER_0_DELETE_AFTER"]
 helpline = "Delete extracted files after this duration (e.g. 10m, 1h). Set to 0 to disable."

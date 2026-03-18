@@ -1,153 +1,153 @@
-["amd:FORMAT"]
+["amd<__instance>:FORMAT"]
 helpline = "Audio format for downloaded tracks."
 
-[["amd:FORMAT".options]]
+[["amd<__instance>:FORMAT".options]]
 value = "'FLAC'"
 label = "FLAC"
 help = "Lossless audio (largest files)."
 
-[["amd:FORMAT".options]]
+[["amd<__instance>:FORMAT".options]]
 value = "'MP3'"
 label = "MP3"
 help = "Lossy — widest compatibility."
 
-[["amd:FORMAT".options]]
+[["amd<__instance>:FORMAT".options]]
 value = "'OPUS'"
 label = "Opus"
 help = "Lossy — best quality at low bitrates."
 
-[["amd:FORMAT".options]]
+[["amd<__instance>:FORMAT".options]]
 value = "'AAC'"
 label = "AAC"
 help = "Lossy — good quality, Apple friendly."
 
-[["amd:FORMAT".options]]
+[["amd<__instance>:FORMAT".options]]
 value = "'ALAC'"
 label = "ALAC"
 help = "Lossless — Apple Lossless Audio Codec."
 
-[["amd:FORMAT".options]]
+[["amd<__instance>:FORMAT".options]]
 value = "'FLAC:MP3'"
 label = "FLAC then MP3"
 help = "Try FLAC first, fall back to MP3."
 
-["amd:BITRATE"]
+["amd<__instance>:BITRATE"]
 helpline = "Bitrate for lossy formats (kbps)."
 
-[["amd:BITRATE".options]]
+[["amd<__instance>:BITRATE".options]]
 value = "'320'"
 label = "320 kbps"
 help = "Highest quality lossy (recommended)."
 
-[["amd:BITRATE".options]]
+[["amd<__instance>:BITRATE".options]]
 value = "'256'"
 label = "256 kbps"
 
-[["amd:BITRATE".options]]
+[["amd<__instance>:BITRATE".options]]
 value = "'192'"
 label = "192 kbps"
 
-[["amd:BITRATE".options]]
+[["amd<__instance>:BITRATE".options]]
 value = "'128'"
 label = "128 kbps"
 
-["amd:DOWNLOADMODE"]
+["amd<__instance>:DOWNLOADMODE"]
 helpline = "Which tracks to download."
 
-[["amd:DOWNLOADMODE".options]]
+[["amd<__instance>:DOWNLOADMODE".options]]
 value = "'wanted'"
 label = "Wanted"
 help = "Download only tracks missing from Lidarr (recommended)."
 
-[["amd:DOWNLOADMODE".options]]
+[["amd<__instance>:DOWNLOADMODE".options]]
 value = "'everything'"
 label = "Everything"
 help = "Download all tracks, including those already in Lidarr."
 
-["amd:LIST"]
+["amd<__instance>:LIST"]
 helpline = "Which Lidarr lists to source artists from."
 
-[["amd:LIST".options]]
+[["amd<__instance>:LIST".options]]
 value = "'both'"
 label = "Both"
 help = "Use both artist and album lists (recommended)."
 
-[["amd:LIST".options]]
+[["amd<__instance>:LIST".options]]
 value = "'artist'"
 label = "Artist"
 
-[["amd:LIST".options]]
+[["amd<__instance>:LIST".options]]
 value = "'album'"
 label = "Album"
 
-["amd:SEARCHTYPE"]
+["amd<__instance>:SEARCHTYPE"]
 helpline = "How strictly to match search results."
 
-[["amd:SEARCHTYPE".options]]
+[["amd<__instance>:SEARCHTYPE".options]]
 value = "'both'"
 label = "Both"
 help = "Try fuzzy first, then strict (recommended)."
 
-[["amd:SEARCHTYPE".options]]
+[["amd<__instance>:SEARCHTYPE".options]]
 value = "'fuzzy'"
 label = "Fuzzy"
 help = "Broader matching — may include false positives."
 
-[["amd:SEARCHTYPE".options]]
+[["amd<__instance>:SEARCHTYPE".options]]
 value = "'strict'"
 label = "Strict"
 help = "Exact matching only."
 
-["amd:AUTOSTART"]
+["amd<__instance>:AUTOSTART"]
 helpline = "Automatically start downloading on container start."
 
-[["amd:AUTOSTART".options]]
+[["amd<__instance>:AUTOSTART".options]]
 value = "'true'"
 label = "Enabled"
 
-[["amd:AUTOSTART".options]]
+[["amd<__instance>:AUTOSTART".options]]
 value = "'false'"
 label = "Disabled"
 
-["amd:REPLAYGAIN"]
+["amd<__instance>:REPLAYGAIN"]
 helpline = "Embed ReplayGain tags in downloaded files."
 
-[["amd:REPLAYGAIN".options]]
+[["amd<__instance>:REPLAYGAIN".options]]
 value = "'true'"
 label = "Enabled"
 
-[["amd:REPLAYGAIN".options]]
+[["amd<__instance>:REPLAYGAIN".options]]
 value = "'false'"
 label = "Disabled"
 
-["amd:REQUIREQUALITY"]
+["amd<__instance>:REQUIREQUALITY"]
 helpline = "Skip downloads that do not meet the requested format/bitrate."
 
-[["amd:REQUIREQUALITY".options]]
+[["amd<__instance>:REQUIREQUALITY".options]]
 value = "'false'"
 label = "Accept any quality"
 
-[["amd:REQUIREQUALITY".options]]
+[["amd<__instance>:REQUIREQUALITY".options]]
 value = "'true'"
 label = "Require exact quality"
 
-["amd:LIDARRURL"]
+["amd<__instance>:LIDARRURL"]
 helpline = "URL of the Lidarr instance (e.g. http://lidarr:8686)."
 
-["amd:LIDARRAPIKEY"]
+["amd<__instance>:LIDARRAPIKEY"]
 helpline = "Lidarr API key from Settings → General."
 
-["amd:ARL_TOKEN"]
+["amd<__instance>:ARL_TOKEN"]
 helpline = "Deezer ARL token for authentication. Obtain from your Deezer browser cookies."
 
-["amd:SCRIPTINTERVAL"]
+["amd<__instance>:SCRIPTINTERVAL"]
 helpline = "How often to check for new wanted tracks (e.g. 1h, 30m, 6h)."
 
-["amd:CONCURRENCY"]
+["amd<__instance>:CONCURRENCY"]
 helpline = "Number of simultaneous downloads."
 
-["amd:MBRAINZMIRROR"]
+["amd<__instance>:MBRAINZMIRROR"]
 helpline = "MusicBrainz mirror URL for metadata lookups."
 
-["amd:MBRATELIMIT"]
+["amd<__instance>:MBRATELIMIT"]
 helpline = "Requests per second to MusicBrainz (1 = default, respect rate limits)."

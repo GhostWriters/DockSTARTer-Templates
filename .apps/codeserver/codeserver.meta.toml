@@ -1,5 +1,5 @@
-["codeserver:PASSWORD"]
+["codeserver<__instance>:PASSWORD"]
 helpline = "Password to access the code-server web UI."
 
-["codeserver:SUDO_PASSWORD"]
+["codeserver<__instance>:SUDO_PASSWORD"]
 helpline = "Password for sudo access inside the code-server terminal. Leave blank to disable sudo."

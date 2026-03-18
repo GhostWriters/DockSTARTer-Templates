@@ -1,42 +1,42 @@
-["pgbackup:POSTGRES_HOST"]
+["pgbackup<__instance>:POSTGRES_HOST"]
 helpline = "Hostname of the PostgreSQL server to back up (e.g. postgres)."
 
-["pgbackup:POSTGRES_USER"]
+["pgbackup<__instance>:POSTGRES_USER"]
 helpline = "PostgreSQL username."
 
-["pgbackup:POSTGRES_PASSWORD"]
+["pgbackup<__instance>:POSTGRES_PASSWORD"]
 helpline = "PostgreSQL password."
 
-["pgbackup:POSTGRES_DB"]
+["pgbackup<__instance>:POSTGRES_DB"]
 helpline = "Database name to back up. Leave blank to back up all databases."
 
-["pgbackup:SCHEDULE"]
+["pgbackup<__instance>:SCHEDULE"]
 helpline = "Backup schedule as a cron expression or shorthand."
 
-[["pgbackup:SCHEDULE".options]]
+[["pgbackup<__instance>:SCHEDULE".options]]
 value = "'@daily'"
 label = "Daily"
 
-[["pgbackup:SCHEDULE".options]]
+[["pgbackup<__instance>:SCHEDULE".options]]
 value = "'@weekly'"
 label = "Weekly"
 
-[["pgbackup:SCHEDULE".options]]
+[["pgbackup<__instance>:SCHEDULE".options]]
 value = "'@monthly'"
 label = "Monthly"
 
-[["pgbackup:SCHEDULE".options]]
+[["pgbackup<__instance>:SCHEDULE".options]]
 value = "'@hourly'"
 label = "Hourly"
 
-["pgbackup:BACKUP_KEEP_DAYS"]
+["pgbackup<__instance>:BACKUP_KEEP_DAYS"]
 helpline = "Number of daily backups to keep."
 
-["pgbackup:BACKUP_KEEP_WEEKS"]
+["pgbackup<__instance>:BACKUP_KEEP_WEEKS"]
 helpline = "Number of weekly backups to keep."
 
-["pgbackup:BACKUP_KEEP_MONTHS"]
+["pgbackup<__instance>:BACKUP_KEEP_MONTHS"]
 helpline = "Number of monthly backups to keep."
 
-["pgbackup:POSTGRES_EXTRA_OPTS"]
+["pgbackup<__instance>:POSTGRES_EXTRA_OPTS"]
 helpline = "Additional pg_dump options (e.g. compression level and schema flags)."

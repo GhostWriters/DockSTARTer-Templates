@@ -1,30 +1,30 @@
-["speedtest:APP_KEY"]
+["speedtest<__instance>:APP_KEY"]
 helpline = "Application encryption key. Generate with: php artisan key:generate --show"
 
-["speedtest:APP_URL"]
+["speedtest<__instance>:APP_URL"]
 helpline = "Full URL where Speedtest Tracker is accessible (e.g. https://speedtest.example.com)."
 
-["speedtest:DB_CONNECTION"]
+["speedtest<__instance>:DB_CONNECTION"]
 helpline = "Database driver to use."
 
-[["speedtest:DB_CONNECTION".options]]
+[["speedtest<__instance>:DB_CONNECTION".options]]
 value = "'sqlite'"
 label = "SQLite"
 help = "Simple file-based database (recommended for single-server)."
 
-[["speedtest:DB_CONNECTION".options]]
+[["speedtest<__instance>:DB_CONNECTION".options]]
 value = "'mysql'"
 label = "MySQL / MariaDB"
 
-[["speedtest:DB_CONNECTION".options]]
+[["speedtest<__instance>:DB_CONNECTION".options]]
 value = "'pgsql'"
 label = "PostgreSQL"
 
-["speedtest:SPEEDTEST_SCHEDULE"]
+["speedtest<__instance>:SPEEDTEST_SCHEDULE"]
 helpline = "Cron expression for automatic speed tests (e.g. '0 */6 * * *' = every 6 hours)."
 
-["speedtest:SPEEDTEST_SERVERS"]
+["speedtest<__instance>:SPEEDTEST_SERVERS"]
 helpline = "Comma-separated Ookla server IDs to test against. Leave blank to auto-select."
 
-["speedtest:PRUNE_RESULTS_OLDER_THAN"]
+["speedtest<__instance>:PRUNE_RESULTS_OLDER_THAN"]
 helpline = "Delete results older than this many days. Set to 0 to keep all results."

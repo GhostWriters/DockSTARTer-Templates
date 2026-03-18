@@ -1,74 +1,74 @@
-["delugevpn:VPN_ENABLED"]
+["delugevpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["delugevpn:VPN_ENABLED".options]]
+[["delugevpn<__instance>:VPN_ENABLED".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["delugevpn:VPN_ENABLED".options]]
+[["delugevpn<__instance>:VPN_ENABLED".options]]
 value = "'no'"
 label = "Disabled"
 help = "Run without VPN (not recommended for public trackers)."
 
-["delugevpn:VPN_CLIENT"]
+["delugevpn<__instance>:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[["delugevpn:VPN_CLIENT".options]]
+[["delugevpn<__instance>:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["delugevpn:VPN_CLIENT".options]]
+[["delugevpn<__instance>:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["delugevpn:VPN_PROV"]
+["delugevpn<__instance>:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[["delugevpn:VPN_PROV".options]]
+[["delugevpn<__instance>:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[["delugevpn:VPN_PROV".options]]
+[["delugevpn<__instance>:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["delugevpn:VPN_PROV".options]]
+[["delugevpn<__instance>:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["delugevpn:VPN_PROV".options]]
+[["delugevpn<__instance>:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-["delugevpn:VPN_USER"]
+["delugevpn<__instance>:VPN_USER"]
 helpline = "VPN account username."
 
-["delugevpn:VPN_PASS"]
+["delugevpn<__instance>:VPN_PASS"]
 helpline = "VPN account password."
 
-["delugevpn:VPN_OPTIONS"]
+["delugevpn<__instance>:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-["delugevpn:VPN_INPUT_PORTS"]
+["delugevpn<__instance>:VPN_INPUT_PORTS"]
 helpline = "Comma-separated list of inbound ports to allow through the VPN firewall."
 
-["delugevpn:VPN_OUTPUT_PORTS"]
+["delugevpn<__instance>:VPN_OUTPUT_PORTS"]
 helpline = "Comma-separated list of outbound ports to allow through the VPN firewall."
 
-["delugevpn:ENABLE_PRIVOXY"]
+["delugevpn<__instance>:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[["delugevpn:ENABLE_PRIVOXY".options]]
+[["delugevpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[["delugevpn:ENABLE_PRIVOXY".options]]
+[["delugevpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-["delugevpn:LAN_NETWORK"]
+["delugevpn<__instance>:LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local access."
 
-["delugevpn:NAME_SERVERS"]
+["delugevpn<__instance>:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

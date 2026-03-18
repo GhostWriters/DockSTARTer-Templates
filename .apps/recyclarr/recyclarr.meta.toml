@@ -1,11 +1,11 @@
-["recyclarr:RECYCLARR_CREATE_CONFIG"]
+["recyclarr<__instance>:RECYCLARR_CREATE_CONFIG"]
 helpline = "Generate a starter recyclarr.yml config file on first run."
 
-[["recyclarr:RECYCLARR_CREATE_CONFIG".options]]
+[["recyclarr<__instance>:RECYCLARR_CREATE_CONFIG".options]]
 value = "'true'"
 label = "Enabled"
 help = "Create a default config file if none exists (recommended for first run)."
 
-[["recyclarr:RECYCLARR_CREATE_CONFIG".options]]
+[["recyclarr<__instance>:RECYCLARR_CREATE_CONFIG".options]]
 value = "'false'"
 label = "Disabled"

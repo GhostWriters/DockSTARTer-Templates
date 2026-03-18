@@ -1,68 +1,68 @@
-["gluetun:VPN_SERVICE_PROVIDER"]
+["gluetun<__instance>:VPN_SERVICE_PROVIDER"]
 helpline = "Your VPN service provider."
 helptext = "The VPN provider to use with Gluetun. See https://github.com/qdm12/gluetun-wiki for supported providers and required variables for each."
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'private internet access'"
 label = "Private Internet Access"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'nordvpn'"
 label = "NordVPN"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'surfshark'"
 label = "Surfshark"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'expressvpn'"
 label = "ExpressVPN"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'airvpn'"
 label = "AirVPN"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'ipvanish'"
 label = "IPVanish"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'cyberghost'"
 label = "CyberGhost"
 
-[["gluetun:VPN_SERVICE_PROVIDER".options]]
+[["gluetun<__instance>:VPN_SERVICE_PROVIDER".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use a custom OpenVPN or WireGuard configuration file."
 
-["gluetun:VPN_TYPE"]
+["gluetun<__instance>:VPN_TYPE"]
 helpline = "VPN protocol to use."
 
-[["gluetun:VPN_TYPE".options]]
+[["gluetun<__instance>:VPN_TYPE".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["gluetun:VPN_TYPE".options]]
+[["gluetun<__instance>:VPN_TYPE".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["gluetun:OPENVPN_PROTOCOL"]
+["gluetun<__instance>:OPENVPN_PROTOCOL"]
 helpline = "Transport protocol for OpenVPN."
 
-[["gluetun:OPENVPN_PROTOCOL".options]]
+[["gluetun<__instance>:OPENVPN_PROTOCOL".options]]
 value = "'udp'"
 label = "UDP"
 help = "Faster, preferred when available."
 
-[["gluetun:OPENVPN_PROTOCOL".options]]
+[["gluetun<__instance>:OPENVPN_PROTOCOL".options]]
 value = "'tcp'"
 label = "TCP"
 help = "More reliable through restrictive firewalls."

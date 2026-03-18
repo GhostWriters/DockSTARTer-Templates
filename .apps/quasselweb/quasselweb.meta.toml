@@ -1,20 +1,20 @@
-["quasselweb:QUASSEL_CORE"]
+["quasselweb<__instance>:QUASSEL_CORE"]
 helpline = "Hostname of the Quassel Core to connect to (e.g. quasselcore)."
 
-["quasselweb:QUASSEL_PORT"]
+["quasselweb<__instance>:QUASSEL_PORT"]
 helpline = "Port the Quassel Core is listening on (default 4242)."
 
-["quasselweb:QUASSEL_HTTPS"]
+["quasselweb<__instance>:QUASSEL_HTTPS"]
 helpline = "Enable HTTPS for the Quassel Web UI. Leave blank for HTTP."
 
-[["quasselweb:QUASSEL_HTTPS".options]]
+[["quasselweb<__instance>:QUASSEL_HTTPS".options]]
 value = "'true'"
 label = "Enabled"
 
-[["quasselweb:QUASSEL_HTTPS".options]]
+[["quasselweb<__instance>:QUASSEL_HTTPS".options]]
 value = "'''"
 label = "Disabled"
 help = "Leave blank to use HTTP."
 
-["quasselweb:URL_BASE"]
+["quasselweb<__instance>:URL_BASE"]
 helpline = "Base URL path for Quassel Web (e.g. /quassel for a subfolder install)."

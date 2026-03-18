@@ -1,104 +1,104 @@
-["navidrome:ND_LOGLEVEL"]
+["navidrome<__instance>:ND_LOGLEVEL"]
 helpline = "Logging verbosity level."
 
-[["navidrome:ND_LOGLEVEL".options]]
+[["navidrome<__instance>:ND_LOGLEVEL".options]]
 value = "'error'"
 label = "Error"
 help = "Only log errors."
 
-[["navidrome:ND_LOGLEVEL".options]]
+[["navidrome<__instance>:ND_LOGLEVEL".options]]
 value = "'warn'"
 label = "Warn"
 help = "Log errors and warnings."
 
-[["navidrome:ND_LOGLEVEL".options]]
+[["navidrome<__instance>:ND_LOGLEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[["navidrome:ND_LOGLEVEL".options]]
+[["navidrome<__instance>:ND_LOGLEVEL".options]]
 value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-["navidrome:ND_DEFAULTTHEME"]
+["navidrome<__instance>:ND_DEFAULTTHEME"]
 helpline = "Default UI theme for new users."
 
-[["navidrome:ND_DEFAULTTHEME".options]]
+[["navidrome<__instance>:ND_DEFAULTTHEME".options]]
 value = "'Dark'"
 label = "Dark"
 
-[["navidrome:ND_DEFAULTTHEME".options]]
+[["navidrome<__instance>:ND_DEFAULTTHEME".options]]
 value = "'Light'"
 label = "Light"
 
-[["navidrome:ND_DEFAULTTHEME".options]]
+[["navidrome<__instance>:ND_DEFAULTTHEME".options]]
 value = "'Auto'"
 label = "Auto"
 help = "Follow the browser/OS preference."
 
-["navidrome:ND_ALBUMPLAYCOUNTMODE"]
+["navidrome<__instance>:ND_ALBUMPLAYCOUNTMODE"]
 helpline = "How album play counts are calculated."
 
-[["navidrome:ND_ALBUMPLAYCOUNTMODE".options]]
+[["navidrome<__instance>:ND_ALBUMPLAYCOUNTMODE".options]]
 value = "'absolute'"
 label = "Absolute"
 help = "Count each track play separately."
 
-[["navidrome:ND_ALBUMPLAYCOUNTMODE".options]]
+[["navidrome<__instance>:ND_ALBUMPLAYCOUNTMODE".options]]
 value = "'normalized'"
 label = "Normalized"
 help = "Normalize play counts by track count."
 
-["navidrome:ND_DEFAULTDOWNSAMPLINGFORMAT"]
+["navidrome<__instance>:ND_DEFAULTDOWNSAMPLINGFORMAT"]
 helpline = "Audio format used when downsampling/transcoding on download."
 
-[["navidrome:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
+[["navidrome<__instance>:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
 value = "'opus'"
 label = "Opus"
 help = "Best quality at low bitrates (recommended)."
 
-[["navidrome:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
+[["navidrome<__instance>:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
 value = "'mp3'"
 label = "MP3"
 help = "Widest compatibility."
 
-[["navidrome:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
+[["navidrome<__instance>:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
 value = "'aac'"
 label = "AAC"
 help = "Good quality, Apple device friendly."
 
-[["navidrome:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
+[["navidrome<__instance>:ND_DEFAULTDOWNSAMPLINGFORMAT".options]]
 value = "'flac'"
 label = "FLAC"
 help = "Lossless — large files."
 
-["navidrome:ND_SCANNER_PURGEMISSING"]
+["navidrome<__instance>:ND_SCANNER_PURGEMISSING"]
 helpline = "When to remove missing tracks from the library."
 
-[["navidrome:ND_SCANNER_PURGEMISSING".options]]
+[["navidrome<__instance>:ND_SCANNER_PURGEMISSING".options]]
 value = "'never'"
 label = "Never"
 help = "Keep missing tracks in library."
 
-[["navidrome:ND_SCANNER_PURGEMISSING".options]]
+[["navidrome<__instance>:ND_SCANNER_PURGEMISSING".options]]
 value = "'auto'"
 label = "Auto"
 help = "Remove after several consecutive scans."
 
-[["navidrome:ND_SCANNER_PURGEMISSING".options]]
+[["navidrome<__instance>:ND_SCANNER_PURGEMISSING".options]]
 value = "'strict'"
 label = "Strict"
 help = "Remove immediately when not found."
 
-["navidrome:ND_SESSIONTIMEOUT"]
+["navidrome<__instance>:ND_SESSIONTIMEOUT"]
 helpline = "How long before idle user sessions expire (e.g., 24h, 48h, 720h)."
 
-["navidrome:ND_ENABLESHARING"]
+["navidrome<__instance>:ND_ENABLESHARING"]
 helpline = "Allow generating time-limited public share links for playlists and albums."
 
-["navidrome:ND_ENABLEREPLAYGAIN"]
+["navidrome<__instance>:ND_ENABLEREPLAYGAIN"]
 helpline = "Apply ReplayGain volume normalization across tracks."
 
-["navidrome:ND_AUTOTRANSCODEDOWNLOAD"]
+["navidrome<__instance>:ND_AUTOTRANSCODEDOWNLOAD"]
 helpline = "Automatically transcode downloads to the downsampling format."

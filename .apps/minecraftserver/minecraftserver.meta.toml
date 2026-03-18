@@ -1,43 +1,43 @@
-["minecraftserver:EULA"]
+["minecraftserver<__instance>:EULA"]
 helpline = "Accept the Minecraft End User License Agreement. Must be TRUE to start the server."
 
-[["minecraftserver:EULA".options]]
+[["minecraftserver<__instance>:EULA".options]]
 value = "'TRUE'"
 label = "Accepted"
 help = "Required to run the server. See https://aka.ms/MinecraftEULA"
 
-["minecraftserver:VERSION"]
+["minecraftserver<__instance>:VERSION"]
 helpline = "Minecraft server version to run."
 
-[["minecraftserver:VERSION".options]]
+[["minecraftserver<__instance>:VERSION".options]]
 value = "'LATEST'"
 label = "Latest"
 help = "Always run the latest available version."
 
-["minecraftserver:TYPE"]
+["minecraftserver<__instance>:TYPE"]
 helpline = "Server software type."
 
-[["minecraftserver:TYPE".options]]
+[["minecraftserver<__instance>:TYPE".options]]
 value = "'VANILLA'"
 label = "Vanilla"
 help = "Official Mojang server (recommended for compatibility)."
 
-[["minecraftserver:TYPE".options]]
+[["minecraftserver<__instance>:TYPE".options]]
 value = "'PAPER'"
 label = "Paper"
 help = "High-performance fork with plugin support."
 
-[["minecraftserver:TYPE".options]]
+[["minecraftserver<__instance>:TYPE".options]]
 value = "'FABRIC'"
 label = "Fabric"
 help = "Lightweight mod loader."
 
-[["minecraftserver:TYPE".options]]
+[["minecraftserver<__instance>:TYPE".options]]
 value = "'FORGE'"
 label = "Forge"
 help = "Full mod support via Forge."
 
-[["minecraftserver:TYPE".options]]
+[["minecraftserver<__instance>:TYPE".options]]
 value = "'SPIGOT'"
 label = "Spigot"
 help = "Plugin-capable fork of CraftBukkit."

@@ -1,31 +1,31 @@
-["apcupsd:HOST"]
+["apcupsd<__instance>:HOST"]
 helpline = "Hostname or IP of the apcupsd daemon to connect to."
 
-["apcupsd:INTERVAL"]
+["apcupsd<__instance>:INTERVAL"]
 helpline = "Polling interval in seconds between UPS status checks."
 
-["apcupsd:VERBOSE"]
+["apcupsd<__instance>:VERBOSE"]
 helpline = "Enable verbose logging."
 
-[["apcupsd:VERBOSE".options]]
+[["apcupsd<__instance>:VERBOSE".options]]
 value = "'false'"
 label = "Disabled"
 
-[["apcupsd:VERBOSE".options]]
+[["apcupsd<__instance>:VERBOSE".options]]
 value = "'true'"
 label = "Enabled"
 
-["apcupsd:INFUXDB_HOST"]
+["apcupsd<__instance>:INFUXDB_HOST"]
 helpline = "InfluxDB hostname (e.g. influxdb)."
 
-["apcupsd:INFUXDB_DATABASE"]
+["apcupsd<__instance>:INFUXDB_DATABASE"]
 helpline = "InfluxDB database name for storing UPS metrics."
 
-["apcupsd:INFUXDB_PORT"]
+["apcupsd<__instance>:INFUXDB_PORT"]
 helpline = "InfluxDB port (default 8086)."
 
-["apcupsd:INFUXDB_USER"]
+["apcupsd<__instance>:INFUXDB_USER"]
 helpline = "InfluxDB username."
 
-["apcupsd:INFUXDB_PASSWORD"]
+["apcupsd<__instance>:INFUXDB_PASSWORD"]
 helpline = "InfluxDB password."

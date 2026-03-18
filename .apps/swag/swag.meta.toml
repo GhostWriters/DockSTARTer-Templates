@@ -1,45 +1,45 @@
-["swag:URL"]
+["swag<__instance>:URL"]
 helpline = "Your base domain (e.g. example.com)."
 
-["swag:EMAIL"]
+["swag<__instance>:EMAIL"]
 helpline = "Email address for Let's Encrypt certificate notifications."
 
-["swag:SUBDOMAINS"]
+["swag<__instance>:SUBDOMAINS"]
 helpline = "Comma-separated subdomains to include (e.g. www,api). Use 'wildcard' for a wildcard cert."
 
-["swag:EXTRA_DOMAINS"]
+["swag<__instance>:EXTRA_DOMAINS"]
 helpline = "Additional fully-qualified domains to add to the certificate (comma-separated)."
 
-["swag:ONLY_SUBDOMAINS"]
+["swag<__instance>:ONLY_SUBDOMAINS"]
 helpline = "Only request certs for the listed subdomains, not the base domain."
 
-[["swag:ONLY_SUBDOMAINS".options]]
+[["swag<__instance>:ONLY_SUBDOMAINS".options]]
 value = "'false'"
 label = "Include base domain"
 help = "Certificate covers both the base domain and subdomains."
 
-[["swag:ONLY_SUBDOMAINS".options]]
+[["swag<__instance>:ONLY_SUBDOMAINS".options]]
 value = "'true'"
 label = "Subdomains only"
 help = "Certificate covers only the listed subdomains."
 
-["swag:VALIDATION"]
+["swag<__instance>:VALIDATION"]
 helpline = "Domain ownership validation method."
 
-[["swag:VALIDATION".options]]
+[["swag<__instance>:VALIDATION".options]]
 value = "'http'"
 label = "HTTP"
 help = "Validates via HTTP challenge. Port 80 must be open."
 
-[["swag:VALIDATION".options]]
+[["swag<__instance>:VALIDATION".options]]
 value = "'dns'"
 label = "DNS"
 help = "Validates via DNS TXT record. Requires DNSPLUGIN to be set."
 
-[["swag:VALIDATION".options]]
+[["swag<__instance>:VALIDATION".options]]
 value = "'duckdns'"
 label = "DuckDNS"
 help = "DNS validation using DuckDNS. Set DUCKDNSTOKEN."
 
-["swag:DNSPLUGIN"]
+["swag<__instance>:DNSPLUGIN"]
 helpline = "DNS plugin to use when VALIDATION=dns (e.g. cloudflare, route53, digitalocean)."

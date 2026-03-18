@@ -1,17 +1,17 @@
-["filebrowser:FB_BASEURL"]
+["filebrowser<__instance>:FB_BASEURL"]
 helpline = "Base URL path for File Browser (e.g. /files for a subfolder install)."
 
-["filebrowser:FB_DATABASE"]
+["filebrowser<__instance>:FB_DATABASE"]
 helpline = "Path to the File Browser database file."
 
-["filebrowser:FB_LOG"]
+["filebrowser<__instance>:FB_LOG"]
 helpline = "Path to the File Browser log file. Use 'stdout' to log to container output."
 
-[["filebrowser:FB_LOG".options]]
+[["filebrowser<__instance>:FB_LOG".options]]
 value = "'/config/filebrowser.log'"
 label = "Log file"
 
-[["filebrowser:FB_LOG".options]]
+[["filebrowser<__instance>:FB_LOG".options]]
 value = "'stdout'"
 label = "stdout"
 help = "Write logs to container output (visible in docker logs)."

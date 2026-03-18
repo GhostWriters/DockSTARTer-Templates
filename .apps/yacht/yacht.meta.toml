@@ -1,18 +1,18 @@
-["yacht:ADMIN_EMAIL"]
+["yacht<__instance>:ADMIN_EMAIL"]
 helpline = "Admin account email address."
 
-["yacht:SECRET_KEY"]
+["yacht<__instance>:SECRET_KEY"]
 helpline = "Secret key for session security. Change from the default!"
 
-["yacht:DISABLE_AUTH"]
+["yacht<__instance>:DISABLE_AUTH"]
 helpline = "Disable authentication entirely (dangerous on a public network)."
 
-[["yacht:DISABLE_AUTH".options]]
+[["yacht<__instance>:DISABLE_AUTH".options]]
 value = "'false'"
 label = "Enabled"
 help = "Require login (recommended)."
 
-[["yacht:DISABLE_AUTH".options]]
+[["yacht<__instance>:DISABLE_AUTH".options]]
 value = "'true'"
 label = "Disabled"
 help = "No login required — only use on a trusted network."

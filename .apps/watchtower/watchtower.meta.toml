@@ -1,90 +1,90 @@
-["watchtower:WATCHTOWER_CLEANUP"]
+["watchtower<__instance>:WATCHTOWER_CLEANUP"]
 helpline = "Remove old images after updating containers."
 
-[["watchtower:WATCHTOWER_CLEANUP".options]]
+[["watchtower<__instance>:WATCHTOWER_CLEANUP".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended to avoid accumulating unused images."
 
-[["watchtower:WATCHTOWER_CLEANUP".options]]
+[["watchtower<__instance>:WATCHTOWER_CLEANUP".options]]
 value = "'false'"
 label = "Disabled"
 
-["watchtower:WATCHTOWER_INCLUDE_STOPPED"]
+["watchtower<__instance>:WATCHTOWER_INCLUDE_STOPPED"]
 helpline = "Also check stopped containers for updates."
 
-[["watchtower:WATCHTOWER_INCLUDE_STOPPED".options]]
+[["watchtower<__instance>:WATCHTOWER_INCLUDE_STOPPED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["watchtower:WATCHTOWER_INCLUDE_STOPPED".options]]
+[["watchtower<__instance>:WATCHTOWER_INCLUDE_STOPPED".options]]
 value = "'true'"
 label = "Enabled"
 
-["watchtower:WATCHTOWER_MONITOR_ONLY"]
+["watchtower<__instance>:WATCHTOWER_MONITOR_ONLY"]
 helpline = "Check for updates but do not apply them (notification-only mode)."
 
-[["watchtower:WATCHTOWER_MONITOR_ONLY".options]]
+[["watchtower<__instance>:WATCHTOWER_MONITOR_ONLY".options]]
 value = "'false'"
 label = "Disabled"
 help = "Apply updates automatically."
 
-[["watchtower:WATCHTOWER_MONITOR_ONLY".options]]
+[["watchtower<__instance>:WATCHTOWER_MONITOR_ONLY".options]]
 value = "'true'"
 label = "Monitor only"
 help = "Report available updates without applying them."
 
-["watchtower:WATCHTOWER_NOTIFICATIONS"]
+["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS"]
 helpline = "Notification method for update events."
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS".options]]
 value = "'shoutrrr'"
 label = "Shoutrrr"
 help = "Generic notification router — set WATCHTOWER_NOTIFICATION_URL for the target service."
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS".options]]
 value = "'slack'"
 label = "Slack"
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS".options]]
 value = "'msteams'"
 label = "MS Teams"
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS".options]]
 value = "'email'"
 label = "Email"
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS".options]]
 value = "'gotify'"
 label = "Gotify"
 
-["watchtower:WATCHTOWER_NOTIFICATIONS_LEVEL"]
+["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS_LEVEL"]
 helpline = "Minimum log level to trigger a notification."
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Notify on all updates and events (recommended)."
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
 value = "'warn'"
 label = "Warn"
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
 value = "'error'"
 label = "Error"
 help = "Only notify on failures."
 
-[["watchtower:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
+[["watchtower<__instance>:WATCHTOWER_NOTIFICATIONS_LEVEL".options]]
 value = "'debug'"
 label = "Debug"
 help = "Verbose — includes all internal events."
 
-["watchtower:WATCHTOWER_NOTIFICATION_URL"]
+["watchtower<__instance>:WATCHTOWER_NOTIFICATION_URL"]
 helpline = "Shoutrrr-format URL for the notification target (e.g. discord://token@channel)."
 
-["watchtower:WATCHTOWER_SCHEDULE"]
+["watchtower<__instance>:WATCHTOWER_SCHEDULE"]
 helpline = "Cron expression for update checks (e.g. '0 0 4 * * *' = daily at 4am)."
 
-["watchtower:WATCHTOWER_TIMEOUT"]
+["watchtower<__instance>:WATCHTOWER_TIMEOUT"]
 helpline = "How long to wait for a container to stop before killing it (e.g. 10s, 30s)."

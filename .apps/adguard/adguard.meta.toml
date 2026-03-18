@@ -1,2 +1,2 @@
-[ENVIRONMENT_SERVERIP]
+["ADGUARD<__INSTANCE>__ENVIRONMENT_SERVERIP"]
 helpline = "IP address of the server running AdGuard Home. Use 0.0.0.0 to bind all interfaces."

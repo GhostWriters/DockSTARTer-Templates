@@ -1,48 +1,48 @@
-["letsencrypt:URL"]
+["letsencrypt<__instance>:URL"]
 helpline = "Your base domain (e.g. example.com)."
 
-["letsencrypt:EMAIL"]
+["letsencrypt<__instance>:EMAIL"]
 helpline = "Email address for Let's Encrypt certificate notifications."
 
-["letsencrypt:SUBDOMAINS"]
+["letsencrypt<__instance>:SUBDOMAINS"]
 helpline = "Comma-separated subdomains to include (e.g. www,api). Use 'wildcard' for a wildcard cert."
 
-["letsencrypt:EXTRA_DOMAINS"]
+["letsencrypt<__instance>:EXTRA_DOMAINS"]
 helpline = "Additional fully-qualified domains to add to the certificate (comma-separated)."
 
-["letsencrypt:ONLY_SUBDOMAINS"]
+["letsencrypt<__instance>:ONLY_SUBDOMAINS"]
 helpline = "Only request certs for the listed subdomains, not the base domain."
 
-[["letsencrypt:ONLY_SUBDOMAINS".options]]
+[["letsencrypt<__instance>:ONLY_SUBDOMAINS".options]]
 value = "'false'"
 label = "Include base domain"
 help = "Certificate covers both the base domain and subdomains."
 
-[["letsencrypt:ONLY_SUBDOMAINS".options]]
+[["letsencrypt<__instance>:ONLY_SUBDOMAINS".options]]
 value = "'true'"
 label = "Subdomains only"
 help = "Certificate covers only the listed subdomains."
 
-["letsencrypt:VALIDATION"]
+["letsencrypt<__instance>:VALIDATION"]
 helpline = "Domain ownership validation method."
 
-[["letsencrypt:VALIDATION".options]]
+[["letsencrypt<__instance>:VALIDATION".options]]
 value = "'http'"
 label = "HTTP"
 help = "Validates via HTTP challenge. Port 80 must be open."
 
-[["letsencrypt:VALIDATION".options]]
+[["letsencrypt<__instance>:VALIDATION".options]]
 value = "'dns'"
 label = "DNS"
 help = "Validates via DNS TXT record. Requires DNSPLUGIN to be set."
 
-[["letsencrypt:VALIDATION".options]]
+[["letsencrypt<__instance>:VALIDATION".options]]
 value = "'duckdns'"
 label = "DuckDNS"
 help = "DNS validation using DuckDNS. Set DUCKDNSTOKEN."
 
-["letsencrypt:DNSPLUGIN"]
+["letsencrypt<__instance>:DNSPLUGIN"]
 helpline = "DNS plugin to use when VALIDATION=dns (e.g. cloudflare, route53, digitalocean)."
 
-["letsencrypt:DUCKDNSTOKEN"]
+["letsencrypt<__instance>:DUCKDNSTOKEN"]
 helpline = "DuckDNS token, required when VALIDATION=duckdns."

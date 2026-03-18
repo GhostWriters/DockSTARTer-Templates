@@ -1,71 +1,71 @@
-["adminer:ADMINER_DESIGN"]
+["adminer<__instance>:ADMINER_DESIGN"]
 helpline = "The UI theme for Adminer."
 helptext = "Adminer ships with several built-in design themes. Leave blank for the default theme."
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "''"
 label = "Default"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'brade'"
 label = "Brade"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'bueltgen'"
 label = "Bueltgen"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'galkaev'"
 label = "Galkaev"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'hydra'"
 label = "Hydra"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'jukin'"
 label = "Jukin"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'lucas-sandery'"
 label = "Lucas Sandery"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'mvt'"
 label = "MVT"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'ng9'"
 label = "ng9"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'pappu687'"
 label = "Pappu687"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'pepa-linha'"
 label = "Pepa Linha"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'price'"
 label = "Price"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'rmsoft'"
 label = "RMSoft"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'rmsoft_blue'"
 label = "RMSoft Blue"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'selenity'"
 label = "Selenity"
 
-[["adminer:ADMINER_DESIGN".options]]
+[["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "'simpleui'"
 label = "SimpleUI"
 
-["adminer:ADMINER_PLUGINS"]
+["adminer<__instance>:ADMINER_PLUGINS"]
 helpline = "Space-separated list of Adminer plugins to enable."
 helptext = "Plugins extend Adminer's functionality. Separate multiple plugin names with a space."

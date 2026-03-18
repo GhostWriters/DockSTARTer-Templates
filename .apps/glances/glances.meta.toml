@@ -1,12 +1,12 @@
-["glances:GLANCES_OPT"]
+["glances<__instance>:GLANCES_OPT"]
 helpline = "Command-line options passed to Glances."
 
-[["glances:GLANCES_OPT".options]]
+[["glances<__instance>:GLANCES_OPT".options]]
 value = "'-w'"
 label = "Web server"
 help = "Run the built-in web server (recommended)."
 
-[["glances:GLANCES_OPT".options]]
+[["glances<__instance>:GLANCES_OPT".options]]
 value = "'-w --disable-plugin gpu'"
 label = "Web (no GPU)"
 help = "Web server with GPU monitoring disabled."

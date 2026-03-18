@@ -1,77 +1,77 @@
-["jdownloader2:MYJDOWNLOADER_EMAIL"]
+["jdownloader2<__instance>:MYJDOWNLOADER_EMAIL"]
 helpline = "MyJDownloader account email for remote access via my.jdownloader.org."
 
-["jdownloader2:MYJDOWNLOADER_PASSWORD"]
+["jdownloader2<__instance>:MYJDOWNLOADER_PASSWORD"]
 helpline = "MyJDownloader account password."
 
-["jdownloader2:MYJDOWNLOADER_DEVICE_NAME"]
+["jdownloader2<__instance>:MYJDOWNLOADER_DEVICE_NAME"]
 helpline = "Name this instance appears as in MyJDownloader."
 
-["jdownloader2:DARK_MODE"]
+["jdownloader2<__instance>:DARK_MODE"]
 helpline = "Enable dark mode in the web UI."
 
-[["jdownloader2:DARK_MODE".options]]
+[["jdownloader2<__instance>:DARK_MODE".options]]
 value = "'0'"
 label = "Disabled"
 
-[["jdownloader2:DARK_MODE".options]]
+[["jdownloader2<__instance>:DARK_MODE".options]]
 value = "'1'"
 label = "Enabled"
 
-["jdownloader2:WEB_AUTHENTICATION"]
+["jdownloader2<__instance>:WEB_AUTHENTICATION"]
 helpline = "Require a token to access the web UI."
 
-[["jdownloader2:WEB_AUTHENTICATION".options]]
+[["jdownloader2<__instance>:WEB_AUTHENTICATION".options]]
 value = "'0'"
 label = "Disabled"
 
-[["jdownloader2:WEB_AUTHENTICATION".options]]
+[["jdownloader2<__instance>:WEB_AUTHENTICATION".options]]
 value = "'1'"
 label = "Enabled"
 
-["jdownloader2:WEB_AUTHENTICATION_USERNAME"]
+["jdownloader2<__instance>:WEB_AUTHENTICATION_USERNAME"]
 helpline = "Username for web UI authentication."
 
-["jdownloader2:WEB_AUTHENTICATION_PASSWORD"]
+["jdownloader2<__instance>:WEB_AUTHENTICATION_PASSWORD"]
 helpline = "Password for web UI authentication."
 
-["jdownloader2:SECURE_CONNECTION"]
+["jdownloader2<__instance>:SECURE_CONNECTION"]
 helpline = "Enable HTTPS/SSL for the web UI and VNC connections."
 
-[["jdownloader2:SECURE_CONNECTION".options]]
+[["jdownloader2<__instance>:SECURE_CONNECTION".options]]
 value = "'0'"
 label = "Disabled"
 
-[["jdownloader2:SECURE_CONNECTION".options]]
+[["jdownloader2<__instance>:SECURE_CONNECTION".options]]
 value = "'1'"
 label = "Enabled"
 
-["jdownloader2:KEEP_APP_RUNNING"]
+["jdownloader2<__instance>:KEEP_APP_RUNNING"]
 helpline = "Restart JDownloader automatically if it crashes."
 
-[["jdownloader2:KEEP_APP_RUNNING".options]]
+[["jdownloader2<__instance>:KEEP_APP_RUNNING".options]]
 value = "'0'"
 label = "Disabled"
 
-[["jdownloader2:KEEP_APP_RUNNING".options]]
+[["jdownloader2<__instance>:KEEP_APP_RUNNING".options]]
 value = "'1'"
 label = "Enabled"
 
-["jdownloader2:JDOWNLOADER_HEADLESS"]
+["jdownloader2<__instance>:JDOWNLOADER_HEADLESS"]
 helpline = "Run JDownloader without a graphical desktop (no VNC access)."
 
-[["jdownloader2:JDOWNLOADER_HEADLESS".options]]
+[["jdownloader2<__instance>:JDOWNLOADER_HEADLESS".options]]
 value = "'0'"
 label = "Disabled"
 help = "Run with desktop and VNC (default)."
 
-[["jdownloader2:JDOWNLOADER_HEADLESS".options]]
+[["jdownloader2<__instance>:JDOWNLOADER_HEADLESS".options]]
 value = "'1'"
 label = "Enabled"
 help = "Headless mode — web UI only."
 
-["jdownloader2:JDOWNLOADER_MAX_MEM"]
+["jdownloader2<__instance>:JDOWNLOADER_MAX_MEM"]
 helpline = "Maximum JVM heap size (e.g. 512m, 1g). Leave blank for default."
 
-["jdownloader2:VNC_PASSWORD"]
+["jdownloader2<__instance>:VNC_PASSWORD"]
 helpline = "Password for VNC access. Leave blank for no VNC password."

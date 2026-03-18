@@ -1,5 +1,5 @@
-["vsftpd:FTP_USER"]
+["vsftpd<__instance>:FTP_USER"]
 helpline = "FTP username."
 
-["vsftpd:FTP_PASS"]
+["vsftpd<__instance>:FTP_PASS"]
 helpline = "FTP password."

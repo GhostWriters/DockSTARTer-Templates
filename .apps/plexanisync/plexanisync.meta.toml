@@ -1,17 +1,17 @@
-["plexanisync:PLEX_URL"]
+["plexanisync<__instance>:PLEX_URL"]
 helpline = "URL of your Plex server (e.g. http://plex:32400)."
 
-["plexanisync:PLEX_TOKEN"]
+["plexanisync<__instance>:PLEX_TOKEN"]
 helpline = "Plex authentication token. Find it in a Plex XML request URL as X-Plex-Token."
 
-["plexanisync:PLEX_SECTION"]
+["plexanisync<__instance>:PLEX_SECTION"]
 helpline = "Name of the Plex library section containing your anime."
 
-["plexanisync:ANI_USERNAME"]
+["plexanisync<__instance>:ANI_USERNAME"]
 helpline = "AniList username to sync watch history to."
 
-["plexanisync:ANI_TOKEN"]
+["plexanisync<__instance>:ANI_TOKEN"]
 helpline = "AniList API token. Generate at anilist.co/settings/developer."
 
-["plexanisync:INTERVAL"]
+["plexanisync<__instance>:INTERVAL"]
 helpline = "Sync interval in seconds (default 3600 = every hour)."

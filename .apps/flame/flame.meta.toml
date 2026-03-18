@@ -1,2 +1,2 @@
-["flame:PASSWORD"]
+["flame<__instance>:PASSWORD"]
 helpline = "Password to access the Flame settings panel. Leave blank to disable password protection."

@@ -1,14 +1,14 @@
-["bookstack:APP_URL"]
+["bookstack<__instance>:APP_URL"]
 helpline = "Full URL where BookStack is accessible (e.g. https://wiki.example.com)."
 
-["bookstack:DB_HOST"]
+["bookstack<__instance>:DB_HOST"]
 helpline = "Database hostname (e.g. mariadb)."
 
-["bookstack:DB_DATABASE"]
+["bookstack<__instance>:DB_DATABASE"]
 helpline = "Database name."
 
-["bookstack:DB_USER"]
+["bookstack<__instance>:DB_USER"]
 helpline = "Database username."
 
-["bookstack:DB_PASS"]
+["bookstack<__instance>:DB_PASS"]
 helpline = "Database password."

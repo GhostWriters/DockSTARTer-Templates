@@ -1,96 +1,96 @@
-["vaultwarden:ADMIN_TOKEN"]
+["vaultwarden<__instance>:ADMIN_TOKEN"]
 helpline = "Secret token to access the /admin panel. Leave blank to disable the admin panel."
 
-["vaultwarden:DATABASE_URL"]
+["vaultwarden<__instance>:DATABASE_URL"]
 helpline = "SQLite path or MySQL/PostgreSQL connection URL."
 
-[["vaultwarden:DATABASE_URL".options]]
+[["vaultwarden<__instance>:DATABASE_URL".options]]
 value = "'data/db.sqlite3'"
 label = "SQLite (default)"
 help = "Simple file-based database, suitable for most installs."
 
-["vaultwarden:DISABLE_ADMIN_TOKEN"]
+["vaultwarden<__instance>:DISABLE_ADMIN_TOKEN"]
 helpline = "Disable admin token requirement (allow unauthenticated admin access — dangerous!)."
 
-[["vaultwarden:DISABLE_ADMIN_TOKEN".options]]
+[["vaultwarden<__instance>:DISABLE_ADMIN_TOKEN".options]]
 value = "'false'"
 label = "Disabled (safe)"
 help = "Require the admin token to access /admin."
 
-[["vaultwarden:DISABLE_ADMIN_TOKEN".options]]
+[["vaultwarden<__instance>:DISABLE_ADMIN_TOKEN".options]]
 value = "'true'"
 label = "Enabled (dangerous)"
 help = "Allow anyone to access /admin without a token."
 
-["vaultwarden:DOMAIN"]
+["vaultwarden<__instance>:DOMAIN"]
 helpline = "Full URL where Vaultwarden is accessible (e.g. https://vault.example.com)."
 
-["vaultwarden:ENABLE_DB_WAL"]
+["vaultwarden<__instance>:ENABLE_DB_WAL"]
 helpline = "Enable SQLite WAL mode for better write performance."
 
-[["vaultwarden:ENABLE_DB_WAL".options]]
+[["vaultwarden<__instance>:ENABLE_DB_WAL".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended for most installs."
 
-[["vaultwarden:ENABLE_DB_WAL".options]]
+[["vaultwarden<__instance>:ENABLE_DB_WAL".options]]
 value = "'false'"
 label = "Disabled"
 help = "Disable if using a networked filesystem."
 
-["vaultwarden:INVITATIONS_ALLOWED"]
+["vaultwarden<__instance>:INVITATIONS_ALLOWED"]
 helpline = "Allow existing users to invite new users."
 
-[["vaultwarden:INVITATIONS_ALLOWED".options]]
+[["vaultwarden<__instance>:INVITATIONS_ALLOWED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["vaultwarden:INVITATIONS_ALLOWED".options]]
+[["vaultwarden<__instance>:INVITATIONS_ALLOWED".options]]
 value = "'true'"
 label = "Enabled"
 
-["vaultwarden:SHOW_PASSWORD_HINT"]
+["vaultwarden<__instance>:SHOW_PASSWORD_HINT"]
 helpline = "Show password hints on the login page."
 
-[["vaultwarden:SHOW_PASSWORD_HINT".options]]
+[["vaultwarden<__instance>:SHOW_PASSWORD_HINT".options]]
 value = "'false'"
 label = "Hidden"
 
-[["vaultwarden:SHOW_PASSWORD_HINT".options]]
+[["vaultwarden<__instance>:SHOW_PASSWORD_HINT".options]]
 value = "'true'"
 label = "Shown"
 
-["vaultwarden:SIGNUPS_ALLOWED"]
+["vaultwarden<__instance>:SIGNUPS_ALLOWED"]
 helpline = "Allow new users to register accounts."
 
-[["vaultwarden:SIGNUPS_ALLOWED".options]]
+[["vaultwarden<__instance>:SIGNUPS_ALLOWED".options]]
 value = "'false'"
 label = "Disabled"
 help = "Recommended after initial setup."
 
-[["vaultwarden:SIGNUPS_ALLOWED".options]]
+[["vaultwarden<__instance>:SIGNUPS_ALLOWED".options]]
 value = "'true'"
 label = "Enabled"
 
-["vaultwarden:SIGNUPS_VERIFY"]
+["vaultwarden<__instance>:SIGNUPS_VERIFY"]
 helpline = "Require email verification for new accounts."
 
-[["vaultwarden:SIGNUPS_VERIFY".options]]
+[["vaultwarden<__instance>:SIGNUPS_VERIFY".options]]
 value = "'false'"
 label = "Not required"
 
-[["vaultwarden:SIGNUPS_VERIFY".options]]
+[["vaultwarden<__instance>:SIGNUPS_VERIFY".options]]
 value = "'true'"
 label = "Required"
 
-["vaultwarden:WEBSOCKET_ENABLE"]
+["vaultwarden<__instance>:WEBSOCKET_ENABLE"]
 helpline = "Enable WebSocket notifications for real-time vault sync."
 
-[["vaultwarden:WEBSOCKET_ENABLE".options]]
+[["vaultwarden<__instance>:WEBSOCKET_ENABLE".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended for live sync across clients."
 
-[["vaultwarden:WEBSOCKET_ENABLE".options]]
+[["vaultwarden<__instance>:WEBSOCKET_ENABLE".options]]
 value = "'false'"
 label = "Disabled"

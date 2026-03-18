@@ -1,44 +1,44 @@
-["tandoor:SECRET_KEY"]
+["tandoor<__instance>:SECRET_KEY"]
 helpline = "Random secret key for Django session security. Change from the default!"
 
-["tandoor:DATABASE_URL"]
+["tandoor<__instance>:DATABASE_URL"]
 helpline = "Database connection URL."
 
-[["tandoor:DATABASE_URL".options]]
+[["tandoor<__instance>:DATABASE_URL".options]]
 value = "'sqlite://localhost/data/db.sqlite3'"
 label = "SQLite"
 help = "Simple file-based database (recommended for single-server)."
 
-["tandoor:ALLOWED_HOSTS"]
+["tandoor<__instance>:ALLOWED_HOSTS"]
 helpline = "Comma-separated hostnames allowed to serve Tandoor. Use * to allow all."
 
-[["tandoor:ALLOWED_HOSTS".options]]
+[["tandoor<__instance>:ALLOWED_HOSTS".options]]
 value = "'*'"
 label = "All hosts"
 help = "Allow any hostname (suitable behind a reverse proxy)."
 
-["tandoor:DEBUG"]
+["tandoor<__instance>:DEBUG"]
 helpline = "Enable Django debug mode (logs verbose errors — disable in production)."
 
-[["tandoor:DEBUG".options]]
+[["tandoor<__instance>:DEBUG".options]]
 value = "'0'"
 label = "Disabled"
 help = "Production mode (recommended)."
 
-[["tandoor:DEBUG".options]]
+[["tandoor<__instance>:DEBUG".options]]
 value = "'1'"
 label = "Enabled"
 help = "Development/debug mode — do not expose publicly."
 
-["tandoor:GUNICORN_MEDIA"]
+["tandoor<__instance>:GUNICORN_MEDIA"]
 helpline = "Serve media files via Gunicorn (disable if using a reverse proxy to serve static files)."
 
-[["tandoor:GUNICORN_MEDIA".options]]
+[["tandoor<__instance>:GUNICORN_MEDIA".options]]
 value = "'1'"
 label = "Enabled"
 help = "Serve media through Gunicorn (recommended for simple setups)."
 
-[["tandoor:GUNICORN_MEDIA".options]]
+[["tandoor<__instance>:GUNICORN_MEDIA".options]]
 value = "'0'"
 label = "Disabled"
 help = "Serve media via external web server/reverse proxy."

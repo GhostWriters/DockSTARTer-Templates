@@ -1,45 +1,45 @@
-["transmissionvpn:OPENVPN_PROVIDER"]
+["transmissionvpn<__instance>:OPENVPN_PROVIDER"]
 helpline = "VPN provider name. Use 'custom' with your own .ovpn config file."
 
-[["transmissionvpn:OPENVPN_PROVIDER".options]]
+[["transmissionvpn<__instance>:OPENVPN_PROVIDER".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN config file."
 
-[["transmissionvpn:OPENVPN_PROVIDER".options]]
+[["transmissionvpn<__instance>:OPENVPN_PROVIDER".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["transmissionvpn:OPENVPN_PROVIDER".options]]
+[["transmissionvpn<__instance>:OPENVPN_PROVIDER".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["transmissionvpn:OPENVPN_PROVIDER".options]]
+[["transmissionvpn<__instance>:OPENVPN_PROVIDER".options]]
 value = "'nordvpn'"
 label = "NordVPN"
 
-[["transmissionvpn:OPENVPN_PROVIDER".options]]
+[["transmissionvpn<__instance>:OPENVPN_PROVIDER".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-[["transmissionvpn:OPENVPN_PROVIDER".options]]
+[["transmissionvpn<__instance>:OPENVPN_PROVIDER".options]]
 value = "'surfshark'"
 label = "Surfshark"
 
-["transmissionvpn:OPENVPN_USERNAME"]
+["transmissionvpn<__instance>:OPENVPN_USERNAME"]
 helpline = "VPN account username."
 
-["transmissionvpn:OPENVPN_PASSWORD"]
+["transmissionvpn<__instance>:OPENVPN_PASSWORD"]
 helpline = "VPN account password."
 
-["transmissionvpn:LOCAL_NETWORK"]
+["transmissionvpn<__instance>:LOCAL_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local UI access."
 
-["transmissionvpn:TRANSMISSION_DOWNLOAD_DIR"]
+["transmissionvpn<__instance>:TRANSMISSION_DOWNLOAD_DIR"]
 helpline = "Directory for completed downloads."
 
-["transmissionvpn:TRANSMISSION_INCOMPLETE_DIR"]
+["transmissionvpn<__instance>:TRANSMISSION_INCOMPLETE_DIR"]
 helpline = "Directory for in-progress downloads."
 
-["transmissionvpn:TRANSMISSION_WATCH_DIR"]
+["transmissionvpn<__instance>:TRANSMISSION_WATCH_DIR"]
 helpline = "Directory watched for .torrent files to auto-add."

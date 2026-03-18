@@ -1,14 +1,14 @@
-["homer:INIT_ASSETS"]
+["homer<__instance>:INIT_ASSETS"]
 helpline = "Copy default example assets into the config volume on first run."
 
-[["homer:INIT_ASSETS".options]]
+[["homer<__instance>:INIT_ASSETS".options]]
 value = "'1'"
 label = "Enabled"
 help = "Populate config with examples if empty (recommended for first run)."
 
-[["homer:INIT_ASSETS".options]]
+[["homer<__instance>:INIT_ASSETS".options]]
 value = "'0'"
 label = "Disabled"
 
-["homer:SUBFOLDER"]
+["homer<__instance>:SUBFOLDER"]
 helpline = "Base URL subfolder if running behind a reverse proxy (e.g. /homer)."

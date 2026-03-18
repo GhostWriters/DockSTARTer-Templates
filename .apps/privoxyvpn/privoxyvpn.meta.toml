@@ -1,90 +1,90 @@
-["privoxyvpn:VPN_ENABLED"]
+["privoxyvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["privoxyvpn:VPN_ENABLED".options]]
+[["privoxyvpn<__instance>:VPN_ENABLED".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["privoxyvpn:VPN_ENABLED".options]]
+[["privoxyvpn<__instance>:VPN_ENABLED".options]]
 value = "'no'"
 label = "Disabled"
 
-["privoxyvpn:VPN_CLIENT"]
+["privoxyvpn<__instance>:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[["privoxyvpn:VPN_CLIENT".options]]
+[["privoxyvpn<__instance>:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["privoxyvpn:VPN_CLIENT".options]]
+[["privoxyvpn<__instance>:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["privoxyvpn:VPN_PROV"]
+["privoxyvpn<__instance>:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[["privoxyvpn:VPN_PROV".options]]
+[["privoxyvpn<__instance>:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[["privoxyvpn:VPN_PROV".options]]
+[["privoxyvpn<__instance>:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["privoxyvpn:VPN_PROV".options]]
+[["privoxyvpn<__instance>:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["privoxyvpn:VPN_PROV".options]]
+[["privoxyvpn<__instance>:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-["privoxyvpn:VPN_USER"]
+["privoxyvpn<__instance>:VPN_USER"]
 helpline = "VPN account username."
 
-["privoxyvpn:VPN_PASS"]
+["privoxyvpn<__instance>:VPN_PASS"]
 helpline = "VPN account password."
 
-["privoxyvpn:VPN_OPTIONS"]
+["privoxyvpn<__instance>:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-["privoxyvpn:VPN_INPUT_PORTS"]
+["privoxyvpn<__instance>:VPN_INPUT_PORTS"]
 helpline = "Comma-separated list of inbound ports to allow through the VPN firewall."
 
-["privoxyvpn:VPN_OUTPUT_PORTS"]
+["privoxyvpn<__instance>:VPN_OUTPUT_PORTS"]
 helpline = "Comma-separated list of outbound ports to allow through the VPN firewall."
 
-["privoxyvpn:ENABLE_PRIVOXY"]
+["privoxyvpn<__instance>:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy."
 
-[["privoxyvpn:ENABLE_PRIVOXY".options]]
+[["privoxyvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[["privoxyvpn:ENABLE_PRIVOXY".options]]
+[["privoxyvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-["privoxyvpn:ENABLE_SOCKS"]
+["privoxyvpn<__instance>:ENABLE_SOCKS"]
 helpline = "Enable SOCKS proxy inside the container."
 
-[["privoxyvpn:ENABLE_SOCKS".options]]
+[["privoxyvpn<__instance>:ENABLE_SOCKS".options]]
 value = "'no'"
 label = "Disabled"
 
-[["privoxyvpn:ENABLE_SOCKS".options]]
+[["privoxyvpn<__instance>:ENABLE_SOCKS".options]]
 value = "'yes'"
 label = "Enabled"
 
-["privoxyvpn:SOCKS_USER"]
+["privoxyvpn<__instance>:SOCKS_USER"]
 helpline = "Username for SOCKS proxy authentication."
 
-["privoxyvpn:SOCKS_PASS"]
+["privoxyvpn<__instance>:SOCKS_PASS"]
 helpline = "Password for SOCKS proxy authentication."
 
-["privoxyvpn:LAN_NETWORK"]
+["privoxyvpn<__instance>:LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local access."
 
-["privoxyvpn:NAME_SERVERS"]
+["privoxyvpn<__instance>:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

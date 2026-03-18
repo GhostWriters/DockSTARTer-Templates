@@ -1,2 +1,2 @@
-["murmur:MURMUR_SUPW"]
+["murmur<__instance>:MURMUR_SUPW"]
 helpline = "SuperUser password for the Mumble server admin account."

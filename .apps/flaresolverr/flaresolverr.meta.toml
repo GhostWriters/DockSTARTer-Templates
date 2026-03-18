@@ -1,43 +1,43 @@
-["flaresolverr:LOG_LEVEL"]
+["flaresolverr<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[["flaresolverr:LOG_LEVEL".options]]
+[["flaresolverr<__instance>:LOG_LEVEL".options]]
 value = "'error'"
 label = "Error"
 
-[["flaresolverr:LOG_LEVEL".options]]
+[["flaresolverr<__instance>:LOG_LEVEL".options]]
 value = "'warn'"
 label = "Warn"
 
-[["flaresolverr:LOG_LEVEL".options]]
+[["flaresolverr<__instance>:LOG_LEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[["flaresolverr:LOG_LEVEL".options]]
+[["flaresolverr<__instance>:LOG_LEVEL".options]]
 value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-["flaresolverr:CAPTCHA_SOLVER"]
+["flaresolverr<__instance>:CAPTCHA_SOLVER"]
 helpline = "External service to solve CAPTCHAs (requires API key for paid services)."
 
-[["flaresolverr:CAPTCHA_SOLVER".options]]
+[["flaresolverr<__instance>:CAPTCHA_SOLVER".options]]
 value = "'none'"
 label = "None"
 help = "No CAPTCHA solving (default)."
 
-[["flaresolverr:CAPTCHA_SOLVER".options]]
+[["flaresolverr<__instance>:CAPTCHA_SOLVER".options]]
 value = "'2captcha'"
 label = "2Captcha"
 
-[["flaresolverr:CAPTCHA_SOLVER".options]]
+[["flaresolverr<__instance>:CAPTCHA_SOLVER".options]]
 value = "'deathbycaptcha'"
 label = "DeathByCaptcha"
 
-[["flaresolverr:CAPTCHA_SOLVER".options]]
+[["flaresolverr<__instance>:CAPTCHA_SOLVER".options]]
 value = "'anticaptcha'"
 label = "AntiCaptcha"
 
-["flaresolverr:LOG_HTML"]
+["flaresolverr<__instance>:LOG_HTML"]
 helpline = "Log full HTML responses for debugging (very verbose)."

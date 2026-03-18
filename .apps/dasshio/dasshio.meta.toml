@@ -1,5 +1,5 @@
-["dasshio:HA_BASE_URL"]
+["dasshio<__instance>:HA_BASE_URL"]
 helpline = "Base URL of your Home Assistant instance (e.g. http://homeassistant:8123)."
 
-["dasshio:HASSIO_TOKEN"]
+["dasshio<__instance>:HASSIO_TOKEN"]
 helpline = "Long-lived access token from your Home Assistant profile page."

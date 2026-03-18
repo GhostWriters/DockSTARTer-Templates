@@ -1,16 +1,16 @@
-["duckdns:SUBDOMAINS"]
+["duckdns<__instance>:SUBDOMAINS"]
 helpline = "Comma-separated list of DuckDNS subdomains to update (without .duckdns.org)."
 
-["duckdns:TOKEN"]
+["duckdns<__instance>:TOKEN"]
 helpline = "Your DuckDNS account token from duckdns.org."
 
-["duckdns:LOG_FILE"]
+["duckdns<__instance>:LOG_FILE"]
 helpline = "Write update results to a log file inside the container."
 
-[["duckdns:LOG_FILE".options]]
+[["duckdns<__instance>:LOG_FILE".options]]
 value = "'true'"
 label = "Enabled"
 
-[["duckdns:LOG_FILE".options]]
+[["duckdns<__instance>:LOG_FILE".options]]
 value = "'false'"
 label = "Disabled"

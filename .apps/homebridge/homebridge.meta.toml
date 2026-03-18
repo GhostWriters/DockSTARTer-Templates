@@ -1,12 +1,12 @@
-["homebridge:ENABLE_AVAHI"]
+["homebridge<__instance>:ENABLE_AVAHI"]
 helpline = "Enable Avahi mDNS daemon for HomeKit device discovery on the local network."
 
-[["homebridge:ENABLE_AVAHI".options]]
+[["homebridge<__instance>:ENABLE_AVAHI".options]]
 value = "'1'"
 label = "Enabled"
 help = "Required for HomeKit discovery if not using host networking."
 
-[["homebridge:ENABLE_AVAHI".options]]
+[["homebridge<__instance>:ENABLE_AVAHI".options]]
 value = "'0'"
 label = "Disabled"
 help = "Disable if using host network mode (Avahi runs on the host)."

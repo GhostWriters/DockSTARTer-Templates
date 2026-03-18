@@ -1,35 +1,35 @@
-["azuracast:APPLICATION_ENV"]
+["azuracast<__instance>:APPLICATION_ENV"]
 helpline = "Application environment mode."
 
-[["azuracast:APPLICATION_ENV".options]]
+[["azuracast<__instance>:APPLICATION_ENV".options]]
 value = "'production'"
 label = "Production"
 help = "Optimised for live use (recommended)."
 
-[["azuracast:APPLICATION_ENV".options]]
+[["azuracast<__instance>:APPLICATION_ENV".options]]
 value = "'development'"
 label = "Development"
 help = "Verbose errors and debug tools enabled."
 
-["azuracast:ENABLE_REDIS"]
+["azuracast<__instance>:ENABLE_REDIS"]
 helpline = "Enable Redis for session and cache storage (recommended)."
 
-[["azuracast:ENABLE_REDIS".options]]
+[["azuracast<__instance>:ENABLE_REDIS".options]]
 value = "'true'"
 label = "Enabled"
 
-[["azuracast:ENABLE_REDIS".options]]
+[["azuracast<__instance>:ENABLE_REDIS".options]]
 value = "'false'"
 label = "Disabled"
 
-["azuracast:MYSQL_HOST"]
+["azuracast<__instance>:MYSQL_HOST"]
 helpline = "MySQL/MariaDB hostname."
 
-["azuracast:MYSQL_DATABASE"]
+["azuracast<__instance>:MYSQL_DATABASE"]
 helpline = "Database name for AzuraCast."
 
-["azuracast:MYSQL_USER"]
+["azuracast<__instance>:MYSQL_USER"]
 helpline = "Database username."
 
-["azuracast:MYSQL_PASSWORD"]
+["azuracast<__instance>:MYSQL_PASSWORD"]
 helpline = "Database password."

@@ -1,2 +1,2 @@
-["rustdesk:RELAY_SERVER"]
+["rustdesk<__instance>:RELAY_SERVER"]
 helpline = "IP address the RustDesk relay server binds to. Use 0.0.0.0 for all interfaces."

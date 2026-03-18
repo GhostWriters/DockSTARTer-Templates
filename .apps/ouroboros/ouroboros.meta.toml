@@ -1,57 +1,57 @@
-["ouroboros:CLEANUP"]
+["ouroboros<__instance>:CLEANUP"]
 helpline = "Remove old images after updating containers."
 
-[["ouroboros:CLEANUP".options]]
+[["ouroboros<__instance>:CLEANUP".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended to avoid accumulating unused images."
 
-[["ouroboros:CLEANUP".options]]
+[["ouroboros<__instance>:CLEANUP".options]]
 value = "'false'"
 label = "Disabled"
 
-["ouroboros:SELF_UPDATE"]
+["ouroboros<__instance>:SELF_UPDATE"]
 helpline = "Allow Ouroboros to update itself."
 
-[["ouroboros:SELF_UPDATE".options]]
+[["ouroboros<__instance>:SELF_UPDATE".options]]
 value = "'true'"
 label = "Enabled"
 
-[["ouroboros:SELF_UPDATE".options]]
+[["ouroboros<__instance>:SELF_UPDATE".options]]
 value = "'false'"
 label = "Disabled"
 
-["ouroboros:LOG_LEVEL"]
+["ouroboros<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[["ouroboros:LOG_LEVEL".options]]
+[["ouroboros<__instance>:LOG_LEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[["ouroboros:LOG_LEVEL".options]]
+[["ouroboros<__instance>:LOG_LEVEL".options]]
 value = "'debug'"
 label = "Debug"
 
-[["ouroboros:LOG_LEVEL".options]]
+[["ouroboros<__instance>:LOG_LEVEL".options]]
 value = "'warn'"
 label = "Warn"
 
-[["ouroboros:LOG_LEVEL".options]]
+[["ouroboros<__instance>:LOG_LEVEL".options]]
 value = "'error'"
 label = "Error"
 
-["ouroboros:CRON"]
+["ouroboros<__instance>:CRON"]
 helpline = "Cron expression for update checks (e.g. '0 4 * * *' = daily at 4am)."
 
-["ouroboros:INTERVAL"]
+["ouroboros<__instance>:INTERVAL"]
 helpline = "Polling interval in seconds (used instead of CRON if set)."
 
-["ouroboros:MONITOR"]
+["ouroboros<__instance>:MONITOR"]
 helpline = "Comma-separated list of container names to monitor. Leave blank to monitor all."
 
-["ouroboros:IGNORE"]
+["ouroboros<__instance>:IGNORE"]
 helpline = "Comma-separated list of container names to exclude from updates."
 
-["ouroboros:NOTIFIERS"]
+["ouroboros<__instance>:NOTIFIERS"]
 helpline = "Shoutrrr-format notification URLs (space-separated)."

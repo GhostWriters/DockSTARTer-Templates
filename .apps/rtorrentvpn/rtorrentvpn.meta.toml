@@ -1,121 +1,121 @@
-["rtorrentvpn:VPN_ENABLED"]
+["rtorrentvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["rtorrentvpn:VPN_ENABLED".options]]
+[["rtorrentvpn<__instance>:VPN_ENABLED".options]]
 value = "'true'"
 label = "Enabled"
 
-[["rtorrentvpn:VPN_ENABLED".options]]
+[["rtorrentvpn<__instance>:VPN_ENABLED".options]]
 value = "'false'"
 label = "Disabled"
 help = "Run without VPN (not recommended for public trackers)."
 
-["rtorrentvpn:VPN_CLIENT"]
+["rtorrentvpn<__instance>:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[["rtorrentvpn:VPN_CLIENT".options]]
+[["rtorrentvpn<__instance>:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["rtorrentvpn:VPN_CLIENT".options]]
+[["rtorrentvpn<__instance>:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["rtorrentvpn:VPN_PROV"]
+["rtorrentvpn<__instance>:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[["rtorrentvpn:VPN_PROV".options]]
+[["rtorrentvpn<__instance>:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[["rtorrentvpn:VPN_PROV".options]]
+[["rtorrentvpn<__instance>:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["rtorrentvpn:VPN_PROV".options]]
+[["rtorrentvpn<__instance>:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["rtorrentvpn:VPN_PROV".options]]
+[["rtorrentvpn<__instance>:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-["rtorrentvpn:VPN_USER"]
+["rtorrentvpn<__instance>:VPN_USER"]
 helpline = "VPN account username."
 
-["rtorrentvpn:VPN_PASS"]
+["rtorrentvpn<__instance>:VPN_PASS"]
 helpline = "VPN account password."
 
-["rtorrentvpn:VPN_OPTIONS"]
+["rtorrentvpn<__instance>:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-["rtorrentvpn:ENABLE_PRIVOXY"]
+["rtorrentvpn<__instance>:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[["rtorrentvpn:ENABLE_PRIVOXY".options]]
+[["rtorrentvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[["rtorrentvpn:ENABLE_PRIVOXY".options]]
+[["rtorrentvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-["rtorrentvpn:ENABLE_AUTODL_IRSSI"]
+["rtorrentvpn<__instance>:ENABLE_AUTODL_IRSSI"]
 helpline = "Enable autodl-irssi for automatic torrent downloading from IRC."
 
-[["rtorrentvpn:ENABLE_AUTODL_IRSSI".options]]
+[["rtorrentvpn<__instance>:ENABLE_AUTODL_IRSSI".options]]
 value = "'no'"
 label = "Disabled"
 
-[["rtorrentvpn:ENABLE_AUTODL_IRSSI".options]]
+[["rtorrentvpn<__instance>:ENABLE_AUTODL_IRSSI".options]]
 value = "'yes'"
 label = "Enabled"
 
-["rtorrentvpn:ENABLE_RPC2"]
+["rtorrentvpn<__instance>:ENABLE_RPC2"]
 helpline = "Enable the RPC2 interface (required for ruTorrent)."
 
-[["rtorrentvpn:ENABLE_RPC2".options]]
+[["rtorrentvpn<__instance>:ENABLE_RPC2".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["rtorrentvpn:ENABLE_RPC2".options]]
+[["rtorrentvpn<__instance>:ENABLE_RPC2".options]]
 value = "'no'"
 label = "Disabled"
 
-["rtorrentvpn:ENABLE_RPC2_AUTH"]
+["rtorrentvpn<__instance>:ENABLE_RPC2_AUTH"]
 helpline = "Require authentication for the RPC2 interface."
 
-[["rtorrentvpn:ENABLE_RPC2_AUTH".options]]
+[["rtorrentvpn<__instance>:ENABLE_RPC2_AUTH".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["rtorrentvpn:ENABLE_RPC2_AUTH".options]]
+[["rtorrentvpn<__instance>:ENABLE_RPC2_AUTH".options]]
 value = "'no'"
 label = "Disabled"
 
-["rtorrentvpn:ENABLE_WEBUI_AUTH"]
+["rtorrentvpn<__instance>:ENABLE_WEBUI_AUTH"]
 helpline = "Require authentication for the ruTorrent web UI."
 
-[["rtorrentvpn:ENABLE_WEBUI_AUTH".options]]
+[["rtorrentvpn<__instance>:ENABLE_WEBUI_AUTH".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["rtorrentvpn:ENABLE_WEBUI_AUTH".options]]
+[["rtorrentvpn<__instance>:ENABLE_WEBUI_AUTH".options]]
 value = "'no'"
 label = "Disabled"
 
-["rtorrentvpn:RPC2_USER"]
+["rtorrentvpn<__instance>:RPC2_USER"]
 helpline = "Username for RPC2 interface authentication."
 
-["rtorrentvpn:RPC2_PASS"]
+["rtorrentvpn<__instance>:RPC2_PASS"]
 helpline = "Password for RPC2 interface authentication."
 
-["rtorrentvpn:WEBUI_USER"]
+["rtorrentvpn<__instance>:WEBUI_USER"]
 helpline = "Username for the ruTorrent web UI."
 
-["rtorrentvpn:WEBUI_PASS"]
+["rtorrentvpn<__instance>:WEBUI_PASS"]
 helpline = "Password for the ruTorrent web UI."
 
-["rtorrentvpn:NAME_SERVERS"]
+["rtorrentvpn<__instance>:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

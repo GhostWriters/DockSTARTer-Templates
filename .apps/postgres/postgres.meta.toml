@@ -1,5 +1,5 @@
-["postgres:POSTGRES_PASSWORD"]
+["postgres<__instance>:POSTGRES_PASSWORD"]
 helpline = "Password for the PostgreSQL superuser. Required on first startup."
 
-["postgres:POSTGRES_USER"]
+["postgres<__instance>:POSTGRES_USER"]
 helpline = "Username for the PostgreSQL superuser."

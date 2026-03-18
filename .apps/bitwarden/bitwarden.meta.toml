@@ -1,96 +1,96 @@
-["bitwarden:ADMIN_TOKEN"]
+["bitwarden<__instance>:ADMIN_TOKEN"]
 helpline = "Secret token to access the /admin panel. Leave blank to disable the admin panel."
 
-["bitwarden:DATABASE_URL"]
+["bitwarden<__instance>:DATABASE_URL"]
 helpline = "SQLite path or MySQL/PostgreSQL connection URL."
 
-[["bitwarden:DATABASE_URL".options]]
+[["bitwarden<__instance>:DATABASE_URL".options]]
 value = "'data/db.sqlite3'"
 label = "SQLite (default)"
 help = "Simple file-based database, suitable for most installs."
 
-["bitwarden:DISABLE_ADMIN_TOKEN"]
+["bitwarden<__instance>:DISABLE_ADMIN_TOKEN"]
 helpline = "Disable admin token requirement (allow unauthenticated admin access — dangerous!)."
 
-[["bitwarden:DISABLE_ADMIN_TOKEN".options]]
+[["bitwarden<__instance>:DISABLE_ADMIN_TOKEN".options]]
 value = "'false'"
 label = "Disabled (safe)"
 help = "Require the admin token to access /admin."
 
-[["bitwarden:DISABLE_ADMIN_TOKEN".options]]
+[["bitwarden<__instance>:DISABLE_ADMIN_TOKEN".options]]
 value = "'true'"
 label = "Enabled (dangerous)"
 help = "Allow anyone to access /admin without a token."
 
-["bitwarden:DOMAIN"]
+["bitwarden<__instance>:DOMAIN"]
 helpline = "Full URL where Vaultwarden is accessible (e.g. https://vault.example.com)."
 
-["bitwarden:ENABLE_DB_WAL"]
+["bitwarden<__instance>:ENABLE_DB_WAL"]
 helpline = "Enable SQLite WAL mode for better write performance."
 
-[["bitwarden:ENABLE_DB_WAL".options]]
+[["bitwarden<__instance>:ENABLE_DB_WAL".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended for most installs."
 
-[["bitwarden:ENABLE_DB_WAL".options]]
+[["bitwarden<__instance>:ENABLE_DB_WAL".options]]
 value = "'false'"
 label = "Disabled"
 help = "Disable if using a networked filesystem."
 
-["bitwarden:INVITATIONS_ALLOWED"]
+["bitwarden<__instance>:INVITATIONS_ALLOWED"]
 helpline = "Allow existing users to invite new users."
 
-[["bitwarden:INVITATIONS_ALLOWED".options]]
+[["bitwarden<__instance>:INVITATIONS_ALLOWED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["bitwarden:INVITATIONS_ALLOWED".options]]
+[["bitwarden<__instance>:INVITATIONS_ALLOWED".options]]
 value = "'true'"
 label = "Enabled"
 
-["bitwarden:SHOW_PASSWORD_HINT"]
+["bitwarden<__instance>:SHOW_PASSWORD_HINT"]
 helpline = "Show password hints on the login page."
 
-[["bitwarden:SHOW_PASSWORD_HINT".options]]
+[["bitwarden<__instance>:SHOW_PASSWORD_HINT".options]]
 value = "'false'"
 label = "Hidden"
 
-[["bitwarden:SHOW_PASSWORD_HINT".options]]
+[["bitwarden<__instance>:SHOW_PASSWORD_HINT".options]]
 value = "'true'"
 label = "Shown"
 
-["bitwarden:SIGNUPS_ALLOWED"]
+["bitwarden<__instance>:SIGNUPS_ALLOWED"]
 helpline = "Allow new users to register accounts."
 
-[["bitwarden:SIGNUPS_ALLOWED".options]]
+[["bitwarden<__instance>:SIGNUPS_ALLOWED".options]]
 value = "'false'"
 label = "Disabled"
 help = "Recommended after initial setup."
 
-[["bitwarden:SIGNUPS_ALLOWED".options]]
+[["bitwarden<__instance>:SIGNUPS_ALLOWED".options]]
 value = "'true'"
 label = "Enabled"
 
-["bitwarden:SIGNUPS_VERIFY"]
+["bitwarden<__instance>:SIGNUPS_VERIFY"]
 helpline = "Require email verification for new accounts."
 
-[["bitwarden:SIGNUPS_VERIFY".options]]
+[["bitwarden<__instance>:SIGNUPS_VERIFY".options]]
 value = "'false'"
 label = "Not required"
 
-[["bitwarden:SIGNUPS_VERIFY".options]]
+[["bitwarden<__instance>:SIGNUPS_VERIFY".options]]
 value = "'true'"
 label = "Required"
 
-["bitwarden:WEBSOCKET_ENABLE"]
+["bitwarden<__instance>:WEBSOCKET_ENABLE"]
 helpline = "Enable WebSocket notifications for real-time vault sync."
 
-[["bitwarden:WEBSOCKET_ENABLE".options]]
+[["bitwarden<__instance>:WEBSOCKET_ENABLE".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended for live sync across clients."
 
-[["bitwarden:WEBSOCKET_ENABLE".options]]
+[["bitwarden<__instance>:WEBSOCKET_ENABLE".options]]
 value = "'false'"
 label = "Disabled"

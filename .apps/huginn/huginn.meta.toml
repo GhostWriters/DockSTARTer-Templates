@@ -1,14 +1,14 @@
-["huginn:HUGINN_DATABASE_HOST"]
+["huginn<__instance>:HUGINN_DATABASE_HOST"]
 helpline = "Database hostname (e.g. mariadb)."
 
-["huginn:HUGINN_DATABASE_NAME"]
+["huginn<__instance>:HUGINN_DATABASE_NAME"]
 helpline = "Database name for Huginn."
 
-["huginn:HUGINN_DATABASE_USERNAME"]
+["huginn<__instance>:HUGINN_DATABASE_USERNAME"]
 helpline = "Database username."
 
-["huginn:HUGINN_DATABASE_PASSWORD"]
+["huginn<__instance>:HUGINN_DATABASE_PASSWORD"]
 helpline = "Database password."
 
-["huginn:HUGINN_DATABASE_PORT"]
+["huginn<__instance>:HUGINN_DATABASE_PORT"]
 helpline = "Database port (3306 for MySQL/MariaDB)."

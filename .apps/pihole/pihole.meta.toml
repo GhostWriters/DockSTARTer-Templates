@@ -1,43 +1,43 @@
-["pihole:WEBPASSWORD"]
+["pihole<__instance>:WEBPASSWORD"]
 helpline = "Password for the Pi-hole web admin interface."
 
-["pihole:ServerIP"]
+["pihole<__instance>:ServerIP"]
 helpline = "IP address of the server running Pi-hole. Use 0.0.0.0 to bind all interfaces."
 
-["pihole:DNS1"]
+["pihole<__instance>:DNS1"]
 helpline = "Primary upstream DNS server."
 
-[["pihole:DNS1".options]]
+[["pihole<__instance>:DNS1".options]]
 value = "'1.1.1.1'"
 label = "Cloudflare"
 
-[["pihole:DNS1".options]]
+[["pihole<__instance>:DNS1".options]]
 value = "'8.8.8.8'"
 label = "Google"
 
-[["pihole:DNS1".options]]
+[["pihole<__instance>:DNS1".options]]
 value = "'9.9.9.9'"
 label = "Quad9"
 
-[["pihole:DNS1".options]]
+[["pihole<__instance>:DNS1".options]]
 value = "'208.67.222.222'"
 label = "OpenDNS"
 
-["pihole:DNS2"]
+["pihole<__instance>:DNS2"]
 helpline = "Secondary upstream DNS server."
 
-[["pihole:DNS2".options]]
+[["pihole<__instance>:DNS2".options]]
 value = "'1.0.0.1'"
 label = "Cloudflare"
 
-[["pihole:DNS2".options]]
+[["pihole<__instance>:DNS2".options]]
 value = "'8.8.4.4'"
 label = "Google"
 
-[["pihole:DNS2".options]]
+[["pihole<__instance>:DNS2".options]]
 value = "'149.112.112.112'"
 label = "Quad9"
 
-[["pihole:DNS2".options]]
+[["pihole<__instance>:DNS2".options]]
 value = "'208.67.220.220'"
 label = "OpenDNS"

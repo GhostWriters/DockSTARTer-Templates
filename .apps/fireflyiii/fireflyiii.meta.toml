@@ -1,40 +1,40 @@
-["fireflyiii:APP_KEY"]
+["fireflyiii<__instance>:APP_KEY"]
 helpline = "32-character random string used for encryption. Generate with: head -c 32 /dev/urandom | base64 | head -c 32"
 
-["fireflyiii:DB_CONNECTION"]
+["fireflyiii<__instance>:DB_CONNECTION"]
 helpline = "Database driver to use."
 
-[["fireflyiii:DB_CONNECTION".options]]
+[["fireflyiii<__instance>:DB_CONNECTION".options]]
 value = "'mysql'"
 label = "MySQL / MariaDB"
 
-[["fireflyiii:DB_CONNECTION".options]]
+[["fireflyiii<__instance>:DB_CONNECTION".options]]
 value = "'sqlite'"
 label = "SQLite"
 
-[["fireflyiii:DB_CONNECTION".options]]
+[["fireflyiii<__instance>:DB_CONNECTION".options]]
 value = "'pgsql'"
 label = "PostgreSQL"
 
-["fireflyiii:DB_HOST"]
+["fireflyiii<__instance>:DB_HOST"]
 helpline = "Database hostname (e.g. mariadb)."
 
-["fireflyiii:DB_DATABASE"]
+["fireflyiii<__instance>:DB_DATABASE"]
 helpline = "Database name."
 
-["fireflyiii:DB_USERNAME"]
+["fireflyiii<__instance>:DB_USERNAME"]
 helpline = "Database username."
 
-["fireflyiii:DB_PASSWORD"]
+["fireflyiii<__instance>:DB_PASSWORD"]
 helpline = "Database password."
 
-["fireflyiii:DB_PORT"]
+["fireflyiii<__instance>:DB_PORT"]
 helpline = "Database port (3306 for MySQL, 5432 for PostgreSQL)."
 
-["fireflyiii:TRUSTED_PROXIES"]
+["fireflyiii<__instance>:TRUSTED_PROXIES"]
 helpline = "IP or CIDR of trusted reverse proxy. Use ** to trust all proxies."
 
-[["fireflyiii:TRUSTED_PROXIES".options]]
+[["fireflyiii<__instance>:TRUSTED_PROXIES".options]]
 value = "'**'"
 label = "Trust all"
 help = "Trust any reverse proxy. Use only in a private network."

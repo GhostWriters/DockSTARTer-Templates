@@ -1,74 +1,74 @@
-["sabnzbdvpn:VPN_ENABLED"]
+["sabnzbdvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["sabnzbdvpn:VPN_ENABLED".options]]
+[["sabnzbdvpn<__instance>:VPN_ENABLED".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["sabnzbdvpn:VPN_ENABLED".options]]
+[["sabnzbdvpn<__instance>:VPN_ENABLED".options]]
 value = "'no'"
 label = "Disabled"
 help = "Run without VPN (not recommended for public trackers)."
 
-["sabnzbdvpn:VPN_CLIENT"]
+["sabnzbdvpn<__instance>:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[["sabnzbdvpn:VPN_CLIENT".options]]
+[["sabnzbdvpn<__instance>:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["sabnzbdvpn:VPN_CLIENT".options]]
+[["sabnzbdvpn<__instance>:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["sabnzbdvpn:VPN_PROV"]
+["sabnzbdvpn<__instance>:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[["sabnzbdvpn:VPN_PROV".options]]
+[["sabnzbdvpn<__instance>:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[["sabnzbdvpn:VPN_PROV".options]]
+[["sabnzbdvpn<__instance>:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["sabnzbdvpn:VPN_PROV".options]]
+[["sabnzbdvpn<__instance>:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["sabnzbdvpn:VPN_PROV".options]]
+[["sabnzbdvpn<__instance>:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-["sabnzbdvpn:VPN_USER"]
+["sabnzbdvpn<__instance>:VPN_USER"]
 helpline = "VPN account username."
 
-["sabnzbdvpn:VPN_PASS"]
+["sabnzbdvpn<__instance>:VPN_PASS"]
 helpline = "VPN account password."
 
-["sabnzbdvpn:VPN_OPTIONS"]
+["sabnzbdvpn<__instance>:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-["sabnzbdvpn:VPN_INPUT_PORTS"]
+["sabnzbdvpn<__instance>:VPN_INPUT_PORTS"]
 helpline = "Comma-separated list of inbound ports to allow through the VPN firewall."
 
-["sabnzbdvpn:VPN_OUTPUT_PORTS"]
+["sabnzbdvpn<__instance>:VPN_OUTPUT_PORTS"]
 helpline = "Comma-separated list of outbound ports to allow through the VPN firewall."
 
-["sabnzbdvpn:ENABLE_PRIVOXY"]
+["sabnzbdvpn<__instance>:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[["sabnzbdvpn:ENABLE_PRIVOXY".options]]
+[["sabnzbdvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[["sabnzbdvpn:ENABLE_PRIVOXY".options]]
+[["sabnzbdvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-["sabnzbdvpn:LAN_NETWORK"]
+["sabnzbdvpn<__instance>:LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local access."
 
-["sabnzbdvpn:NAME_SERVERS"]
+["sabnzbdvpn<__instance>:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

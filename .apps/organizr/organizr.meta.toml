@@ -1,25 +1,25 @@
-["organizr:branch"]
+["organizr<__instance>:branch"]
 helpline = "Organizr release branch to run."
 
-[["organizr:branch".options]]
+[["organizr<__instance>:branch".options]]
 value = "'v2-master'"
 label = "Stable"
 help = "Latest stable release (recommended)."
 
-[["organizr:branch".options]]
+[["organizr<__instance>:branch".options]]
 value = "'v2-develop'"
 label = "Develop"
 help = "Development branch — may be unstable."
 
-["organizr:fpm"]
+["organizr<__instance>:fpm"]
 helpline = "Use PHP-FPM instead of the built-in PHP server."
 
-[["organizr:fpm".options]]
+[["organizr<__instance>:fpm".options]]
 value = "'false'"
 label = "Disabled"
 help = "Use built-in PHP server (recommended)."
 
-[["organizr:fpm".options]]
+[["organizr<__instance>:fpm".options]]
 value = "'true'"
 label = "Enabled"
 help = "Use PHP-FPM for better performance under load."

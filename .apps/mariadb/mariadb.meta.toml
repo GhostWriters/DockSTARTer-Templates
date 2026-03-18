@@ -1,2 +1,2 @@
-["mariadb:MYSQL_ROOT_PASSWORD"]
+["mariadb<__instance>:MYSQL_ROOT_PASSWORD"]
 helpline = "Root password for the MariaDB instance. Required on first startup."

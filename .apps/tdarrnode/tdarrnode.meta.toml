@@ -1,11 +1,11 @@
-["tdarrnode:serverIP"]
+["tdarrnode<__instance>:serverIP"]
 helpline = "Hostname or IP of the Tdarr server this node connects to."
 
-["tdarrnode:serverPort"]
+["tdarrnode<__instance>:serverPort"]
 helpline = "Port the Tdarr server is listening on (default 8266)."
 
-["tdarrnode:nodeIP"]
+["tdarrnode<__instance>:nodeIP"]
 helpline = "Hostname or IP this node advertises to the server."
 
-["tdarrnode:nodeID"]
+["tdarrnode<__instance>:nodeID"]
 helpline = "Unique identifier for this Tdarr node."

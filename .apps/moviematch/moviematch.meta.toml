@@ -1,26 +1,26 @@
-["moviematch:PLEX_URL"]
+["moviematch<__instance>:PLEX_URL"]
 helpline = "URL of your Plex server (e.g. http://plex:32400)."
 
-["moviematch:PLEX_TOKEN"]
+["moviematch<__instance>:PLEX_TOKEN"]
 helpline = "Plex authentication token. Find it in a Plex XML request URL as X-Plex-Token."
 
-["moviematch:LOG_LEVEL"]
+["moviematch<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[["moviematch:LOG_LEVEL".options]]
+[["moviematch<__instance>:LOG_LEVEL".options]]
 value = "'INFO'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[["moviematch:LOG_LEVEL".options]]
+[["moviematch<__instance>:LOG_LEVEL".options]]
 value = "'DEBUG'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-[["moviematch:LOG_LEVEL".options]]
+[["moviematch<__instance>:LOG_LEVEL".options]]
 value = "'WARN'"
 label = "Warn"
 
-[["moviematch:LOG_LEVEL".options]]
+[["moviematch<__instance>:LOG_LEVEL".options]]
 value = "'ERROR'"
 label = "Error"

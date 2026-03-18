@@ -1,74 +1,74 @@
-["qbittorrentvpn:VPN_ENABLED"]
+["qbittorrentvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["qbittorrentvpn:VPN_ENABLED".options]]
+[["qbittorrentvpn<__instance>:VPN_ENABLED".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["qbittorrentvpn:VPN_ENABLED".options]]
+[["qbittorrentvpn<__instance>:VPN_ENABLED".options]]
 value = "'no'"
 label = "Disabled"
 help = "Run without VPN (not recommended for public trackers)."
 
-["qbittorrentvpn:VPN_CLIENT"]
+["qbittorrentvpn<__instance>:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[["qbittorrentvpn:VPN_CLIENT".options]]
+[["qbittorrentvpn<__instance>:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["qbittorrentvpn:VPN_CLIENT".options]]
+[["qbittorrentvpn<__instance>:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["qbittorrentvpn:VPN_PROV"]
+["qbittorrentvpn<__instance>:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[["qbittorrentvpn:VPN_PROV".options]]
+[["qbittorrentvpn<__instance>:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[["qbittorrentvpn:VPN_PROV".options]]
+[["qbittorrentvpn<__instance>:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["qbittorrentvpn:VPN_PROV".options]]
+[["qbittorrentvpn<__instance>:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["qbittorrentvpn:VPN_PROV".options]]
+[["qbittorrentvpn<__instance>:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-["qbittorrentvpn:VPN_USER"]
+["qbittorrentvpn<__instance>:VPN_USER"]
 helpline = "VPN account username."
 
-["qbittorrentvpn:VPN_PASS"]
+["qbittorrentvpn<__instance>:VPN_PASS"]
 helpline = "VPN account password."
 
-["qbittorrentvpn:VPN_OPTIONS"]
+["qbittorrentvpn<__instance>:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-["qbittorrentvpn:VPN_INPUT_PORTS"]
+["qbittorrentvpn<__instance>:VPN_INPUT_PORTS"]
 helpline = "Comma-separated list of inbound ports to allow through the VPN firewall."
 
-["qbittorrentvpn:VPN_OUTPUT_PORTS"]
+["qbittorrentvpn<__instance>:VPN_OUTPUT_PORTS"]
 helpline = "Comma-separated list of outbound ports to allow through the VPN firewall."
 
-["qbittorrentvpn:ENABLE_PRIVOXY"]
+["qbittorrentvpn<__instance>:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[["qbittorrentvpn:ENABLE_PRIVOXY".options]]
+[["qbittorrentvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[["qbittorrentvpn:ENABLE_PRIVOXY".options]]
+[["qbittorrentvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-["qbittorrentvpn:LAN_NETWORK"]
+["qbittorrentvpn<__instance>:LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local access."
 
-["qbittorrentvpn:NAME_SERVERS"]
+["qbittorrentvpn<__instance>:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

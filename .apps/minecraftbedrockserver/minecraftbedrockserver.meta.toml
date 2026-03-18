@@ -1,15 +1,15 @@
-["minecraftbedrockserver:EULA"]
+["minecraftbedrockserver<__instance>:EULA"]
 helpline = "Accept the Minecraft End User License Agreement. Must be TRUE to start the server."
 
-[["minecraftbedrockserver:EULA".options]]
+[["minecraftbedrockserver<__instance>:EULA".options]]
 value = "'TRUE'"
 label = "Accepted"
 help = "Required to run the server. See https://aka.ms/MinecraftEULA"
 
-["minecraftbedrockserver:VERSION"]
+["minecraftbedrockserver<__instance>:VERSION"]
 helpline = "Bedrock server version to run."
 
-[["minecraftbedrockserver:VERSION".options]]
+[["minecraftbedrockserver<__instance>:VERSION".options]]
 value = "'LATEST'"
 label = "Latest"
 help = "Always run the latest available version."

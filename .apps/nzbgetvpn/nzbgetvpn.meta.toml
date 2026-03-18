@@ -1,74 +1,74 @@
-["nzbgetvpn:VPN_ENABLED"]
+["nzbgetvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["nzbgetvpn:VPN_ENABLED".options]]
+[["nzbgetvpn<__instance>:VPN_ENABLED".options]]
 value = "'yes'"
 label = "Enabled"
 
-[["nzbgetvpn:VPN_ENABLED".options]]
+[["nzbgetvpn<__instance>:VPN_ENABLED".options]]
 value = "'no'"
 label = "Disabled"
 help = "Run without VPN (not recommended for public trackers)."
 
-["nzbgetvpn:VPN_CLIENT"]
+["nzbgetvpn<__instance>:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[["nzbgetvpn:VPN_CLIENT".options]]
+[["nzbgetvpn<__instance>:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[["nzbgetvpn:VPN_CLIENT".options]]
+[["nzbgetvpn<__instance>:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-["nzbgetvpn:VPN_PROV"]
+["nzbgetvpn<__instance>:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[["nzbgetvpn:VPN_PROV".options]]
+[["nzbgetvpn<__instance>:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[["nzbgetvpn:VPN_PROV".options]]
+[["nzbgetvpn<__instance>:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[["nzbgetvpn:VPN_PROV".options]]
+[["nzbgetvpn<__instance>:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[["nzbgetvpn:VPN_PROV".options]]
+[["nzbgetvpn<__instance>:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-["nzbgetvpn:VPN_USER"]
+["nzbgetvpn<__instance>:VPN_USER"]
 helpline = "VPN account username."
 
-["nzbgetvpn:VPN_PASS"]
+["nzbgetvpn<__instance>:VPN_PASS"]
 helpline = "VPN account password."
 
-["nzbgetvpn:VPN_OPTIONS"]
+["nzbgetvpn<__instance>:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-["nzbgetvpn:VPN_INPUT_PORTS"]
+["nzbgetvpn<__instance>:VPN_INPUT_PORTS"]
 helpline = "Comma-separated list of inbound ports to allow through the VPN firewall."
 
-["nzbgetvpn:VPN_OUTPUT_PORTS"]
+["nzbgetvpn<__instance>:VPN_OUTPUT_PORTS"]
 helpline = "Comma-separated list of outbound ports to allow through the VPN firewall."
 
-["nzbgetvpn:ENABLE_PRIVOXY"]
+["nzbgetvpn<__instance>:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[["nzbgetvpn:ENABLE_PRIVOXY".options]]
+[["nzbgetvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[["nzbgetvpn:ENABLE_PRIVOXY".options]]
+[["nzbgetvpn<__instance>:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-["nzbgetvpn:LAN_NETWORK"]
+["nzbgetvpn<__instance>:LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local access."
 
-["nzbgetvpn:NAME_SERVERS"]
+["nzbgetvpn<__instance>:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

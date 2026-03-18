@@ -1,89 +1,89 @@
-["seerr:VPN_ENABLED"]
+["seerr<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[["seerr:VPN_ENABLED".options]]
+[["seerr<__instance>:VPN_ENABLED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["seerr:VPN_ENABLED".options]]
+[["seerr<__instance>:VPN_ENABLED".options]]
 value = "'true'"
 label = "Enabled"
 
-["seerr:VPN_CONF"]
+["seerr<__instance>:VPN_CONF"]
 helpline = "WireGuard config file name (without .conf) inside the wireguard config directory."
 
-[["seerr:VPN_CONF".options]]
+[["seerr<__instance>:VPN_CONF".options]]
 value = "'wg0'"
 label = "wg0 (default)"
 
-["seerr:VPN_PROVIDER"]
+["seerr<__instance>:VPN_PROVIDER"]
 helpline = "VPN provider for PIA-specific features. Use 'custom' for other providers."
 
-[["seerr:VPN_PROVIDER".options]]
+[["seerr<__instance>:VPN_PROVIDER".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own WireGuard config file."
 
-[["seerr:VPN_PROVIDER".options]]
+[["seerr<__instance>:VPN_PROVIDER".options]]
 value = "'pia'"
 label = "Private Internet Access"
 help = "Enables automatic port forwarding with PIA."
 
-["seerr:VPN_LAN_NETWORK"]
+["seerr<__instance>:VPN_LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation. Required for local access through the VPN."
 
-["seerr:VPN_LAN_LEAK_ENABLED"]
+["seerr<__instance>:VPN_LAN_LEAK_ENABLED"]
 helpline = "Allow LAN traffic to bypass the VPN tunnel."
 
-[["seerr:VPN_LAN_LEAK_ENABLED".options]]
+[["seerr<__instance>:VPN_LAN_LEAK_ENABLED".options]]
 value = "'false'"
 label = "Blocked"
 help = "LAN traffic routes through the VPN (safer)."
 
-[["seerr:VPN_LAN_LEAK_ENABLED".options]]
+[["seerr<__instance>:VPN_LAN_LEAK_ENABLED".options]]
 value = "'true'"
 label = "Allowed"
 
-["seerr:VPN_AUTO_PORT_FORWARD"]
+["seerr<__instance>:VPN_AUTO_PORT_FORWARD"]
 helpline = "Automatically request a forwarded port from the VPN provider (PIA only)."
 
-[["seerr:VPN_AUTO_PORT_FORWARD".options]]
+[["seerr<__instance>:VPN_AUTO_PORT_FORWARD".options]]
 value = "'true'"
 label = "Enabled"
 
-[["seerr:VPN_AUTO_PORT_FORWARD".options]]
+[["seerr<__instance>:VPN_AUTO_PORT_FORWARD".options]]
 value = "'false'"
 label = "Disabled"
 
-["seerr:VPN_HEALTHCHECK_ENABLED"]
+["seerr<__instance>:VPN_HEALTHCHECK_ENABLED"]
 helpline = "Periodically check VPN connectivity and restart if it drops."
 
-[["seerr:VPN_HEALTHCHECK_ENABLED".options]]
+[["seerr<__instance>:VPN_HEALTHCHECK_ENABLED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["seerr:VPN_HEALTHCHECK_ENABLED".options]]
+[["seerr<__instance>:VPN_HEALTHCHECK_ENABLED".options]]
 value = "'true'"
 label = "Enabled"
 
-["seerr:PRIVOXY_ENABLED"]
+["seerr<__instance>:PRIVOXY_ENABLED"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[["seerr:PRIVOXY_ENABLED".options]]
+[["seerr<__instance>:PRIVOXY_ENABLED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["seerr:PRIVOXY_ENABLED".options]]
+[["seerr<__instance>:PRIVOXY_ENABLED".options]]
 value = "'true'"
 label = "Enabled"
 
-["seerr:UNBOUND_ENABLED"]
+["seerr<__instance>:UNBOUND_ENABLED"]
 helpline = "Enable Unbound DNS resolver inside the container."
 
-[["seerr:UNBOUND_ENABLED".options]]
+[["seerr<__instance>:UNBOUND_ENABLED".options]]
 value = "'false'"
 label = "Disabled"
 
-[["seerr:UNBOUND_ENABLED".options]]
+[["seerr<__instance>:UNBOUND_ENABLED".options]]
 value = "'true'"
 label = "Enabled"

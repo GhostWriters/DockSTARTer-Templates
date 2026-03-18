@@ -1,25 +1,25 @@
-["synclounge:AUTOJOIN_ENABLE"]
+["synclounge<__instance>:AUTOJOIN_ENABLE"]
 helpline = "Automatically join a room on startup."
 
-[["synclounge:AUTOJOIN_ENABLE".options]]
+[["synclounge<__instance>:AUTOJOIN_ENABLE".options]]
 value = "'false'"
 label = "Disabled"
 
-[["synclounge:AUTOJOIN_ENABLE".options]]
+[["synclounge<__instance>:AUTOJOIN_ENABLE".options]]
 value = "'true'"
 label = "Enabled"
 
-["synclounge:AUTOJOIN_ROOM"]
+["synclounge<__instance>:AUTOJOIN_ROOM"]
 helpline = "Room name to auto-join on startup (requires AUTOJOIN_ENABLE=true)."
 
-["synclounge:AUTOJOIN_PASSWORD"]
+["synclounge<__instance>:AUTOJOIN_PASSWORD"]
 helpline = "Password for the auto-join room."
 
-["synclounge:AUTH_LIST"]
+["synclounge<__instance>:AUTH_LIST"]
 helpline = "Comma-separated list of Plex usernames allowed to connect. Leave blank to allow all."
 
-["synclounge:EXTERNAL_URL"]
+["synclounge<__instance>:EXTERNAL_URL"]
 helpline = "Public URL of this SyncLounge instance (used in invite links)."
 
-["synclounge:EXTERNAL_SERVER_PORT"]
+["synclounge<__instance>:EXTERNAL_SERVER_PORT"]
 helpline = "External port the server is accessible on."
