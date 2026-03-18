@@ -1,71 +1,71 @@
-[ADMINER_DESIGN]
+["adminer:ADMINER_DESIGN"]
 helpline = "The UI theme for Adminer."
 helptext = "Adminer ships with several built-in design themes. Leave blank for the default theme."
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "''"
 label = "Default"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'brade'"
 label = "Brade"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'bueltgen'"
 label = "Bueltgen"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'galkaev'"
 label = "Galkaev"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'hydra'"
 label = "Hydra"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'jukin'"
 label = "Jukin"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'lucas-sandery'"
 label = "Lucas Sandery"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'mvt'"
 label = "MVT"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'ng9'"
 label = "ng9"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'pappu687'"
 label = "Pappu687"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'pepa-linha'"
 label = "Pepa Linha"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'price'"
 label = "Price"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'rmsoft'"
 label = "RMSoft"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'rmsoft_blue'"
 label = "RMSoft Blue"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'selenity'"
 label = "Selenity"
 
-[[ADMINER_DESIGN.options]]
+[["adminer:ADMINER_DESIGN".options]]
 value = "'simpleui'"
 label = "SimpleUI"
 
-[ADMINER_PLUGINS]
+["adminer:ADMINER_PLUGINS"]
 helpline = "Space-separated list of Adminer plugins to enable."
 helptext = "Plugins extend Adminer's functionality. Separate multiple plugin names with a space."

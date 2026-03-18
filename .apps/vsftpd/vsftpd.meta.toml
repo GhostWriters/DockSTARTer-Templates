@@ -1,5 +1,5 @@
-[FTP_USER]
+["vsftpd:FTP_USER"]
 helpline = "FTP username."
 
-[FTP_PASS]
+["vsftpd:FTP_PASS"]
 helpline = "FTP password."

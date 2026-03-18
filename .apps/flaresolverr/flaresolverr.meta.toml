@@ -1,43 +1,43 @@
-[LOG_LEVEL]
+["flaresolverr:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[[LOG_LEVEL.options]]
+[["flaresolverr:LOG_LEVEL".options]]
 value = "'error'"
 label = "Error"
 
-[[LOG_LEVEL.options]]
+[["flaresolverr:LOG_LEVEL".options]]
 value = "'warn'"
 label = "Warn"
 
-[[LOG_LEVEL.options]]
+[["flaresolverr:LOG_LEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[[LOG_LEVEL.options]]
+[["flaresolverr:LOG_LEVEL".options]]
 value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-[CAPTCHA_SOLVER]
+["flaresolverr:CAPTCHA_SOLVER"]
 helpline = "External service to solve CAPTCHAs (requires API key for paid services)."
 
-[[CAPTCHA_SOLVER.options]]
+[["flaresolverr:CAPTCHA_SOLVER".options]]
 value = "'none'"
 label = "None"
 help = "No CAPTCHA solving (default)."
 
-[[CAPTCHA_SOLVER.options]]
+[["flaresolverr:CAPTCHA_SOLVER".options]]
 value = "'2captcha'"
 label = "2Captcha"
 
-[[CAPTCHA_SOLVER.options]]
+[["flaresolverr:CAPTCHA_SOLVER".options]]
 value = "'deathbycaptcha'"
 label = "DeathByCaptcha"
 
-[[CAPTCHA_SOLVER.options]]
+[["flaresolverr:CAPTCHA_SOLVER".options]]
 value = "'anticaptcha'"
 label = "AntiCaptcha"
 
-[LOG_HTML]
+["flaresolverr:LOG_HTML"]
 helpline = "Log full HTML responses for debugging (very verbose)."

@@ -1,74 +1,74 @@
-[VPN_ENABLED]
+["nzbgetvpn:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 
-[[VPN_ENABLED.options]]
+[["nzbgetvpn:VPN_ENABLED".options]]
 value = "'yes'"
 label = "Enabled"
 
-[[VPN_ENABLED.options]]
+[["nzbgetvpn:VPN_ENABLED".options]]
 value = "'no'"
 label = "Disabled"
 help = "Run without VPN (not recommended for public trackers)."
 
-[VPN_CLIENT]
+["nzbgetvpn:VPN_CLIENT"]
 helpline = "VPN client to use."
 
-[[VPN_CLIENT.options]]
+[["nzbgetvpn:VPN_CLIENT".options]]
 value = "'openvpn'"
 label = "OpenVPN"
 
-[[VPN_CLIENT.options]]
+[["nzbgetvpn:VPN_CLIENT".options]]
 value = "'wireguard'"
 label = "WireGuard"
 
-[VPN_PROV]
+["nzbgetvpn:VPN_PROV"]
 helpline = "VPN provider. Use 'custom' with your own config file."
 
-[[VPN_PROV.options]]
+[["nzbgetvpn:VPN_PROV".options]]
 value = "'custom'"
 label = "Custom"
 help = "Use your own OpenVPN/WireGuard config file."
 
-[[VPN_PROV.options]]
+[["nzbgetvpn:VPN_PROV".options]]
 value = "'pia'"
 label = "Private Internet Access"
 
-[[VPN_PROV.options]]
+[["nzbgetvpn:VPN_PROV".options]]
 value = "'mullvad'"
 label = "Mullvad"
 
-[[VPN_PROV.options]]
+[["nzbgetvpn:VPN_PROV".options]]
 value = "'protonvpn'"
 label = "ProtonVPN"
 
-[VPN_USER]
+["nzbgetvpn:VPN_USER"]
 helpline = "VPN account username."
 
-[VPN_PASS]
+["nzbgetvpn:VPN_PASS"]
 helpline = "VPN account password."
 
-[VPN_OPTIONS]
+["nzbgetvpn:VPN_OPTIONS"]
 helpline = "Additional OpenVPN command-line options (advanced)."
 
-[VPN_INPUT_PORTS]
+["nzbgetvpn:VPN_INPUT_PORTS"]
 helpline = "Comma-separated list of inbound ports to allow through the VPN firewall."
 
-[VPN_OUTPUT_PORTS]
+["nzbgetvpn:VPN_OUTPUT_PORTS"]
 helpline = "Comma-separated list of outbound ports to allow through the VPN firewall."
 
-[ENABLE_PRIVOXY]
+["nzbgetvpn:ENABLE_PRIVOXY"]
 helpline = "Enable Privoxy HTTP proxy inside the container."
 
-[[ENABLE_PRIVOXY.options]]
+[["nzbgetvpn:ENABLE_PRIVOXY".options]]
 value = "'no'"
 label = "Disabled"
 
-[[ENABLE_PRIVOXY.options]]
+[["nzbgetvpn:ENABLE_PRIVOXY".options]]
 value = "'yes'"
 label = "Enabled"
 
-[LAN_NETWORK]
+["nzbgetvpn:LAN_NETWORK"]
 helpline = "Your LAN subnet in CIDR notation (e.g. 192.168.1.0/24). Required for local access."
 
-[NAME_SERVERS]
+["nzbgetvpn:NAME_SERVERS"]
 helpline = "Comma-separated DNS servers used inside the VPN tunnel."

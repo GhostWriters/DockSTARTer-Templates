@@ -1,68 +1,68 @@
-[LOG_LEVEL]
+["doplarr:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[[LOG_LEVEL.options]]
+[["doplarr:LOG_LEVEL".options]]
 value = "':info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[[LOG_LEVEL.options]]
+[["doplarr:LOG_LEVEL".options]]
 value = "':debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
-[[LOG_LEVEL.options]]
+[["doplarr:LOG_LEVEL".options]]
 value = "':warn'"
 label = "Warn"
 
-[[LOG_LEVEL.options]]
+[["doplarr:LOG_LEVEL".options]]
 value = "':error'"
 label = "Error"
 
-[DISCORD__TOKEN]
+["doplarr:DISCORD__TOKEN"]
 helpline = "Discord bot token from the Discord Developer Portal."
 
-[DISCORD__REQUESTED_MSG_STYLE]
+["doplarr:DISCORD__REQUESTED_MSG_STYLE"]
 helpline = "Style of the Discord request confirmation message."
 
-[[DISCORD__REQUESTED_MSG_STYLE.options]]
+[["doplarr:DISCORD__REQUESTED_MSG_STYLE".options]]
 value = "':plain'"
 label = "Plain"
 help = "Simple text message."
 
-[[DISCORD__REQUESTED_MSG_STYLE.options]]
+[["doplarr:DISCORD__REQUESTED_MSG_STYLE".options]]
 value = "':embed'"
 label = "Embed"
 help = "Rich embed with poster art."
 
-[DISCORD__MAX_RESULTS]
+["doplarr:DISCORD__MAX_RESULTS"]
 helpline = "Maximum number of search results shown in Discord."
 
-[PARTIAL_SEASONS]
+["doplarr:PARTIAL_SEASONS"]
 helpline = "Allow requesting individual seasons rather than whole series."
 
-[[PARTIAL_SEASONS.options]]
+[["doplarr:PARTIAL_SEASONS".options]]
 value = "'true'"
 label = "Enabled"
 
-[[PARTIAL_SEASONS.options]]
+[["doplarr:PARTIAL_SEASONS".options]]
 value = "'false'"
 label = "Disabled"
 
-[OVERSEERR__URL]
+["doplarr:OVERSEERR__URL"]
 helpline = "URL of the Overseerr instance (e.g. http://overseerr:5055)."
 
-[OVERSEERR__API]
+["doplarr:OVERSEERR__API"]
 helpline = "Overseerr API key from Settings → General."
 
-[RADARR__URL]
+["doplarr:RADARR__URL"]
 helpline = "URL of the Radarr instance (e.g. http://radarr:7878)."
 
-[RADARR__API]
+["doplarr:RADARR__API"]
 helpline = "Radarr API key from Settings → General."
 
-[SONARR__URL]
+["doplarr:SONARR__URL"]
 helpline = "URL of the Sonarr instance (e.g. http://sonarr:8989)."
 
-[SONARR__API]
+["doplarr:SONARR__API"]
 helpline = "Sonarr API key from Settings → General."

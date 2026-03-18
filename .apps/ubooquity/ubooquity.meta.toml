@@ -1,16 +1,16 @@
-[MAXMEM]
+["ubooquity:MAXMEM"]
 helpline = "Maximum JVM heap size in MB for Ubooquity."
 
-[[MAXMEM.options]]
+[["ubooquity:MAXMEM".options]]
 value = "'512'"
 label = "512 MB"
 help = "Default — suitable for small libraries."
 
-[[MAXMEM.options]]
+[["ubooquity:MAXMEM".options]]
 value = "'1024'"
 label = "1 GB"
 
-[[MAXMEM.options]]
+[["ubooquity:MAXMEM".options]]
 value = "'2048'"
 label = "2 GB"
 help = "Recommended for large libraries."

@@ -1,5 +1,5 @@
-[CONTEXT_PATH]
+["airsonicadvanced:CONTEXT_PATH"]
 helpline = "URL base path for Airsonic-Advanced (e.g. /airsonic for a subfolder install)."
 
-[JAVA_OPTS]
+["airsonicadvanced:JAVA_OPTS"]
 helpline = "Additional Java options (e.g. -Xmx512m to set max heap size)."

@@ -1,94 +1,94 @@
-[SHARE_NAME]
+["timemachine:SHARE_NAME"]
 helpline = "Name of the Time Machine share as it appears in macOS."
 
-[PASSWORD]
+["timemachine:PASSWORD"]
 helpline = "Password for the Time Machine user account."
 
-[WORKGROUP]
+["timemachine:WORKGROUP"]
 helpline = "SMB workgroup name."
 
-[HIDE_SHARES]
+["timemachine:HIDE_SHARES"]
 helpline = "Hide shares from network browsing (they remain accessible by direct path)."
 
-[[HIDE_SHARES.options]]
+[["timemachine:HIDE_SHARES".options]]
 value = "'no'"
 label = "Visible"
 
-[[HIDE_SHARES.options]]
+[["timemachine:HIDE_SHARES".options]]
 value = "'yes'"
 label = "Hidden"
 
-[CUSTOM_SMB_CONF]
+["timemachine:CUSTOM_SMB_CONF"]
 helpline = "Use a custom smb.conf instead of the auto-generated one."
 
-[[CUSTOM_SMB_CONF.options]]
+[["timemachine:CUSTOM_SMB_CONF".options]]
 value = "'false'"
 label = "Auto-generated"
 
-[[CUSTOM_SMB_CONF.options]]
+[["timemachine:CUSTOM_SMB_CONF".options]]
 value = "'true'"
 label = "Custom"
 
-[CUSTOM_USER]
+["timemachine:CUSTOM_USER"]
 helpline = "Use a pre-existing system user instead of creating one."
 
-[[CUSTOM_USER.options]]
+[["timemachine:CUSTOM_USER".options]]
 value = "'false'"
 label = "Create user"
 
-[[CUSTOM_USER.options]]
+[["timemachine:CUSTOM_USER".options]]
 value = "'true'"
 label = "Use existing user"
 
-[SET_PERMISSIONS]
+["timemachine:SET_PERMISSIONS"]
 helpline = "Automatically set filesystem permissions on the volume path."
 
-[[SET_PERMISSIONS.options]]
+[["timemachine:SET_PERMISSIONS".options]]
 value = "'false'"
 label = "Disabled"
 
-[[SET_PERMISSIONS.options]]
+[["timemachine:SET_PERMISSIONS".options]]
 value = "'true'"
 label = "Enabled"
 
-[SMB_INHERIT_PERMISSIONS]
+["timemachine:SMB_INHERIT_PERMISSIONS"]
 helpline = "New files inherit permissions from the parent directory."
 
-[[SMB_INHERIT_PERMISSIONS.options]]
+[["timemachine:SMB_INHERIT_PERMISSIONS".options]]
 value = "'no'"
 label = "Disabled"
 
-[[SMB_INHERIT_PERMISSIONS.options]]
+[["timemachine:SMB_INHERIT_PERMISSIONS".options]]
 value = "'yes'"
 label = "Enabled"
 
-[SMB_METADATA]
+["timemachine:SMB_METADATA"]
 helpline = "Metadata backend for macOS extended attributes."
 
-[[SMB_METADATA.options]]
+[["timemachine:SMB_METADATA".options]]
 value = "'stream'"
 label = "Stream"
 help = "Recommended for most filesystems."
 
-[[SMB_METADATA.options]]
+[["timemachine:SMB_METADATA".options]]
 value = "'mdh'"
 label = "MDH"
 help = "Use if stream is not supported by your filesystem."
 
-[SMB_NFS_ACES]
+["timemachine:SMB_NFS_ACES"]
 helpline = "Map NFS ACEs to Windows ACEs for proper macOS permissions."
 
-[[SMB_NFS_ACES.options]]
+[["timemachine:SMB_NFS_ACES".options]]
 value = "'yes'"
 label = "Enabled"
 help = "Recommended for Time Machine compatibility."
 
-[[SMB_NFS_ACES.options]]
+[["timemachine:SMB_NFS_ACES".options]]
 value = "'no'"
 label = "Disabled"
 
-[VOL_SIZE_LIMIT]
+["timemachine:VOL_SIZE_LIMIT"]
 helpline = "Maximum backup size in MB. Set to 0 for unlimited."
 
-[DEBUG_LEVEL]
+["timemachine:DEBUG_LEVEL"]
 helpline = "SMB debug verbosity (1=minimal, 2=normal, 3=verbose)."

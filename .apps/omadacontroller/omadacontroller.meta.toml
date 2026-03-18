@@ -1,34 +1,34 @@
-[SHOW_SERVER_LOGS]
+["omadacontroller:SHOW_SERVER_LOGS"]
 helpline = "Stream Omada server logs to the container output."
 
-[[SHOW_SERVER_LOGS.options]]
+[["omadacontroller:SHOW_SERVER_LOGS".options]]
 value = "'true'"
 label = "Enabled"
 
-[[SHOW_SERVER_LOGS.options]]
+[["omadacontroller:SHOW_SERVER_LOGS".options]]
 value = "'false'"
 label = "Disabled"
 
-[SHOW_MONGODB_LOGS]
+["omadacontroller:SHOW_MONGODB_LOGS"]
 helpline = "Stream MongoDB logs to the container output (very verbose)."
 
-[[SHOW_MONGODB_LOGS.options]]
+[["omadacontroller:SHOW_MONGODB_LOGS".options]]
 value = "'false'"
 label = "Disabled"
 
-[[SHOW_MONGODB_LOGS.options]]
+[["omadacontroller:SHOW_MONGODB_LOGS".options]]
 value = "'true'"
 label = "Enabled"
 
-[SMALL_FILES]
+["omadacontroller:SMALL_FILES"]
 helpline = "Optimize MongoDB storage for SSDs using smaller file sizes."
 
-[[SMALL_FILES.options]]
+[["omadacontroller:SMALL_FILES".options]]
 value = "'false'"
 label = "Disabled"
 help = "Standard storage (recommended for HDDs)."
 
-[[SMALL_FILES.options]]
+[["omadacontroller:SMALL_FILES".options]]
 value = "'true'"
 label = "Enabled"
 help = "Smaller files — better for SSDs."

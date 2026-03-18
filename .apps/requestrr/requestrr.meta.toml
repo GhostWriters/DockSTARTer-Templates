@@ -1,2 +1,2 @@
-[REQUESTRR_BASEURL]
+["requestrr:REQUESTRR_BASEURL"]
 helpline = "Base URL path for Requestrr (e.g. /requestrr for a subfolder install)."

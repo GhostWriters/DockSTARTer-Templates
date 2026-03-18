@@ -1,11 +1,11 @@
-[CAP_HOST_MANAGEMENT]
+["portaineragent:CAP_HOST_MANAGEMENT"]
 helpline = "Allow Portainer Agent to manage host-level resources."
 
-[[CAP_HOST_MANAGEMENT.options]]
+[["portaineragent:CAP_HOST_MANAGEMENT".options]]
 value = "'1'"
 label = "Enabled"
 help = "Required for full host management from Portainer."
 
-[[CAP_HOST_MANAGEMENT.options]]
+[["portaineragent:CAP_HOST_MANAGEMENT".options]]
 value = "'0'"
 label = "Disabled"

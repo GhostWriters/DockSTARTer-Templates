@@ -1,57 +1,57 @@
-[CLEANUP]
+["ouroboros:CLEANUP"]
 helpline = "Remove old images after updating containers."
 
-[[CLEANUP.options]]
+[["ouroboros:CLEANUP".options]]
 value = "'true'"
 label = "Enabled"
 help = "Recommended to avoid accumulating unused images."
 
-[[CLEANUP.options]]
+[["ouroboros:CLEANUP".options]]
 value = "'false'"
 label = "Disabled"
 
-[SELF_UPDATE]
+["ouroboros:SELF_UPDATE"]
 helpline = "Allow Ouroboros to update itself."
 
-[[SELF_UPDATE.options]]
+[["ouroboros:SELF_UPDATE".options]]
 value = "'true'"
 label = "Enabled"
 
-[[SELF_UPDATE.options]]
+[["ouroboros:SELF_UPDATE".options]]
 value = "'false'"
 label = "Disabled"
 
-[LOG_LEVEL]
+["ouroboros:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 
-[[LOG_LEVEL.options]]
+[["ouroboros:LOG_LEVEL".options]]
 value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
-[[LOG_LEVEL.options]]
+[["ouroboros:LOG_LEVEL".options]]
 value = "'debug'"
 label = "Debug"
 
-[[LOG_LEVEL.options]]
+[["ouroboros:LOG_LEVEL".options]]
 value = "'warn'"
 label = "Warn"
 
-[[LOG_LEVEL.options]]
+[["ouroboros:LOG_LEVEL".options]]
 value = "'error'"
 label = "Error"
 
-[CRON]
+["ouroboros:CRON"]
 helpline = "Cron expression for update checks (e.g. '0 4 * * *' = daily at 4am)."
 
-[INTERVAL]
+["ouroboros:INTERVAL"]
 helpline = "Polling interval in seconds (used instead of CRON if set)."
 
-[MONITOR]
+["ouroboros:MONITOR"]
 helpline = "Comma-separated list of container names to monitor. Leave blank to monitor all."
 
-[IGNORE]
+["ouroboros:IGNORE"]
 helpline = "Comma-separated list of container names to exclude from updates."
 
-[NOTIFIERS]
+["ouroboros:NOTIFIERS"]
 helpline = "Shoutrrr-format notification URLs (space-separated)."

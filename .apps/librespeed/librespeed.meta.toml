@@ -1,30 +1,30 @@
-[DB_TYPE]
+["librespeed:DB_TYPE"]
 helpline = "Database backend to store speed test results."
 
-[[DB_TYPE.options]]
+[["librespeed:DB_TYPE".options]]
 value = "'sqlite'"
 label = "SQLite"
 help = "Simple file-based database (recommended for single-server)."
 
-[[DB_TYPE.options]]
+[["librespeed:DB_TYPE".options]]
 value = "'mysql'"
 label = "MySQL / MariaDB"
 
-[[DB_TYPE.options]]
+[["librespeed:DB_TYPE".options]]
 value = "'postgresql'"
 label = "PostgreSQL"
 
-[DB_HOSTNAME]
+["librespeed:DB_HOSTNAME"]
 helpline = "Database hostname (required when not using SQLite)."
 
-[DB_NAME]
+["librespeed:DB_NAME"]
 helpline = "Database name."
 
-[DB_USERNAME]
+["librespeed:DB_USERNAME"]
 helpline = "Database username."
 
-[DB_PASSWORD]
+["librespeed:DB_PASSWORD"]
 helpline = "Database password."
 
-[PASSWORD]
+["librespeed:PASSWORD"]
 helpline = "Password to protect the admin statistics page."

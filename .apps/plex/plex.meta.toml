@@ -1,27 +1,27 @@
-[PLEX_CLAIM]
+["plex:PLEX_CLAIM"]
 helpline = "Claim token from plex.tv/claim (expires in 4 minutes)."
 helptext = """Get a claim token at https://plex.tv/claim to link this server to your Plex account. \
 Tokens expire within 4 minutes of generation, so set this value immediately after obtaining the token."""
 
-[VERSION]
+["plex:VERSION"]
 helpline = "How Plex updates are applied inside the container."
 
-[[VERSION.options]]
+[["plex:VERSION".options]]
 value = "'docker'"
 label = "Docker"
 help = "Update only via Docker image pulls (recommended)."
 
-[[VERSION.options]]
+[["plex:VERSION".options]]
 value = "'latest'"
 label = "Latest"
 help = "Always install the latest public Plex release on container start."
 
-[[VERSION.options]]
+[["plex:VERSION".options]]
 value = "'plexpass'"
 label = "PlexPass"
 help = "Always install the latest PlexPass release (requires PlexPass subscription)."
 
-[[VERSION.options]]
+[["plex:VERSION".options]]
 value = "'public'"
 label = "Public"
 help = "Always install the latest public release on container start."
