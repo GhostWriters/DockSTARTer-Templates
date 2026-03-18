@@ -1,0 +1,16 @@
+[SUBDOMAINS]
+helpline = "Comma-separated list of DuckDNS subdomains to update (without .duckdns.org)."
+
+[TOKEN]
+helpline = "Your DuckDNS account token from duckdns.org."
+
+[LOG_FILE]
+helpline = "Write update results to a log file inside the container."
+
+[[LOG_FILE.options]]
+value = "'true'"
+label = "Enabled"
+
+[[LOG_FILE.options]]
+value = "'false'"
+label = "Disabled"

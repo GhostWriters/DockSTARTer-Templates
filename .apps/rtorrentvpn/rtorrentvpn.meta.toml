@@ -1,0 +1,121 @@
+[VPN_ENABLED]
+helpline = "Enable VPN for this container."
+
+[[VPN_ENABLED.options]]
+value = "'true'"
+label = "Enabled"
+
+[[VPN_ENABLED.options]]
+value = "'false'"
+label = "Disabled"
+help = "Run without VPN (not recommended for public trackers)."
+
+[VPN_CLIENT]
+helpline = "VPN client to use."
+
+[[VPN_CLIENT.options]]
+value = "'openvpn'"
+label = "OpenVPN"
+
+[[VPN_CLIENT.options]]
+value = "'wireguard'"
+label = "WireGuard"
+
+[VPN_PROV]
+helpline = "VPN provider. Use 'custom' with your own config file."
+
+[[VPN_PROV.options]]
+value = "'custom'"
+label = "Custom"
+help = "Use your own OpenVPN/WireGuard config file."
+
+[[VPN_PROV.options]]
+value = "'pia'"
+label = "Private Internet Access"
+
+[[VPN_PROV.options]]
+value = "'mullvad'"
+label = "Mullvad"
+
+[[VPN_PROV.options]]
+value = "'protonvpn'"
+label = "ProtonVPN"
+
+[VPN_USER]
+helpline = "VPN account username."
+
+[VPN_PASS]
+helpline = "VPN account password."
+
+[VPN_OPTIONS]
+helpline = "Additional OpenVPN command-line options (advanced)."
+
+[ENABLE_PRIVOXY]
+helpline = "Enable Privoxy HTTP proxy inside the container."
+
+[[ENABLE_PRIVOXY.options]]
+value = "'no'"
+label = "Disabled"
+
+[[ENABLE_PRIVOXY.options]]
+value = "'yes'"
+label = "Enabled"
+
+[ENABLE_AUTODL_IRSSI]
+helpline = "Enable autodl-irssi for automatic torrent downloading from IRC."
+
+[[ENABLE_AUTODL_IRSSI.options]]
+value = "'no'"
+label = "Disabled"
+
+[[ENABLE_AUTODL_IRSSI.options]]
+value = "'yes'"
+label = "Enabled"
+
+[ENABLE_RPC2]
+helpline = "Enable the RPC2 interface (required for ruTorrent)."
+
+[[ENABLE_RPC2.options]]
+value = "'yes'"
+label = "Enabled"
+
+[[ENABLE_RPC2.options]]
+value = "'no'"
+label = "Disabled"
+
+[ENABLE_RPC2_AUTH]
+helpline = "Require authentication for the RPC2 interface."
+
+[[ENABLE_RPC2_AUTH.options]]
+value = "'yes'"
+label = "Enabled"
+
+[[ENABLE_RPC2_AUTH.options]]
+value = "'no'"
+label = "Disabled"
+
+[ENABLE_WEBUI_AUTH]
+helpline = "Require authentication for the ruTorrent web UI."
+
+[[ENABLE_WEBUI_AUTH.options]]
+value = "'yes'"
+label = "Enabled"
+
+[[ENABLE_WEBUI_AUTH.options]]
+value = "'no'"
+label = "Disabled"
+
+[RPC2_USER]
+helpline = "Username for RPC2 interface authentication."
+
+[RPC2_PASS]
+helpline = "Password for RPC2 interface authentication."
+
+[WEBUI_USER]
+helpline = "Username for the ruTorrent web UI."
+
+[WEBUI_PASS]
+helpline = "Password for the ruTorrent web UI."
+
+[NAME_SERVERS]
+helpline = "Comma-separated DNS servers used inside the VPN tunnel."

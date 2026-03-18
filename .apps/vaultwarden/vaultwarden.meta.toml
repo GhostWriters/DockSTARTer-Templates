@@ -1,0 +1,96 @@
+[ADMIN_TOKEN]
+helpline = "Secret token to access the /admin panel. Leave blank to disable the admin panel."
+
+[DATABASE_URL]
+helpline = "SQLite path or MySQL/PostgreSQL connection URL."
+
+[[DATABASE_URL.options]]
+value = "'data/db.sqlite3'"
+label = "SQLite (default)"
+help = "Simple file-based database, suitable for most installs."
+
+[DISABLE_ADMIN_TOKEN]
+helpline = "Disable admin token requirement (allow unauthenticated admin access — dangerous!)."
+
+[[DISABLE_ADMIN_TOKEN.options]]
+value = "'false'"
+label = "Disabled (safe)"
+help = "Require the admin token to access /admin."
+
+[[DISABLE_ADMIN_TOKEN.options]]
+value = "'true'"
+label = "Enabled (dangerous)"
+help = "Allow anyone to access /admin without a token."
+
+[DOMAIN]
+helpline = "Full URL where Vaultwarden is accessible (e.g. https://vault.example.com)."
+
+[ENABLE_DB_WAL]
+helpline = "Enable SQLite WAL mode for better write performance."
+
+[[ENABLE_DB_WAL.options]]
+value = "'true'"
+label = "Enabled"
+help = "Recommended for most installs."
+
+[[ENABLE_DB_WAL.options]]
+value = "'false'"
+label = "Disabled"
+help = "Disable if using a networked filesystem."
+
+[INVITATIONS_ALLOWED]
+helpline = "Allow existing users to invite new users."
+
+[[INVITATIONS_ALLOWED.options]]
+value = "'false'"
+label = "Disabled"
+
+[[INVITATIONS_ALLOWED.options]]
+value = "'true'"
+label = "Enabled"
+
+[SHOW_PASSWORD_HINT]
+helpline = "Show password hints on the login page."
+
+[[SHOW_PASSWORD_HINT.options]]
+value = "'false'"
+label = "Hidden"
+
+[[SHOW_PASSWORD_HINT.options]]
+value = "'true'"
+label = "Shown"
+
+[SIGNUPS_ALLOWED]
+helpline = "Allow new users to register accounts."
+
+[[SIGNUPS_ALLOWED.options]]
+value = "'false'"
+label = "Disabled"
+help = "Recommended after initial setup."
+
+[[SIGNUPS_ALLOWED.options]]
+value = "'true'"
+label = "Enabled"
+
+[SIGNUPS_VERIFY]
+helpline = "Require email verification for new accounts."
+
+[[SIGNUPS_VERIFY.options]]
+value = "'false'"
+label = "Not required"
+
+[[SIGNUPS_VERIFY.options]]
+value = "'true'"
+label = "Required"
+
+[WEBSOCKET_ENABLE]
+helpline = "Enable WebSocket notifications for real-time vault sync."
+
+[[WEBSOCKET_ENABLE.options]]
+value = "'true'"
+label = "Enabled"
+help = "Recommended for live sync across clients."
+
+[[WEBSOCKET_ENABLE.options]]
+value = "'false'"
+label = "Disabled"

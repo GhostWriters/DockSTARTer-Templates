@@ -1,0 +1,90 @@
+[WATCHTOWER_CLEANUP]
+helpline = "Remove old images after updating containers."
+
+[[WATCHTOWER_CLEANUP.options]]
+value = "'true'"
+label = "Enabled"
+help = "Recommended to avoid accumulating unused images."
+
+[[WATCHTOWER_CLEANUP.options]]
+value = "'false'"
+label = "Disabled"
+
+[WATCHTOWER_INCLUDE_STOPPED]
+helpline = "Also check stopped containers for updates."
+
+[[WATCHTOWER_INCLUDE_STOPPED.options]]
+value = "'false'"
+label = "Disabled"
+
+[[WATCHTOWER_INCLUDE_STOPPED.options]]
+value = "'true'"
+label = "Enabled"
+
+[WATCHTOWER_MONITOR_ONLY]
+helpline = "Check for updates but do not apply them (notification-only mode)."
+
+[[WATCHTOWER_MONITOR_ONLY.options]]
+value = "'false'"
+label = "Disabled"
+help = "Apply updates automatically."
+
+[[WATCHTOWER_MONITOR_ONLY.options]]
+value = "'true'"
+label = "Monitor only"
+help = "Report available updates without applying them."
+
+[WATCHTOWER_NOTIFICATIONS]
+helpline = "Notification method for update events."
+
+[[WATCHTOWER_NOTIFICATIONS.options]]
+value = "'shoutrrr'"
+label = "Shoutrrr"
+help = "Generic notification router — set WATCHTOWER_NOTIFICATION_URL for the target service."
+
+[[WATCHTOWER_NOTIFICATIONS.options]]
+value = "'slack'"
+label = "Slack"
+
+[[WATCHTOWER_NOTIFICATIONS.options]]
+value = "'msteams'"
+label = "MS Teams"
+
+[[WATCHTOWER_NOTIFICATIONS.options]]
+value = "'email'"
+label = "Email"
+
+[[WATCHTOWER_NOTIFICATIONS.options]]
+value = "'gotify'"
+label = "Gotify"
+
+[WATCHTOWER_NOTIFICATIONS_LEVEL]
+helpline = "Minimum log level to trigger a notification."
+
+[[WATCHTOWER_NOTIFICATIONS_LEVEL.options]]
+value = "'info'"
+label = "Info"
+help = "Notify on all updates and events (recommended)."
+
+[[WATCHTOWER_NOTIFICATIONS_LEVEL.options]]
+value = "'warn'"
+label = "Warn"
+
+[[WATCHTOWER_NOTIFICATIONS_LEVEL.options]]
+value = "'error'"
+label = "Error"
+help = "Only notify on failures."
+
+[[WATCHTOWER_NOTIFICATIONS_LEVEL.options]]
+value = "'debug'"
+label = "Debug"
+help = "Verbose — includes all internal events."
+
+[WATCHTOWER_NOTIFICATION_URL]
+helpline = "Shoutrrr-format URL for the notification target (e.g. discord://token@channel)."
+
+[WATCHTOWER_SCHEDULE]
+helpline = "Cron expression for update checks (e.g. '0 0 4 * * *' = daily at 4am)."
+
+[WATCHTOWER_TIMEOUT]
+helpline = "How long to wait for a container to stop before killing it (e.g. 10s, 30s)."
