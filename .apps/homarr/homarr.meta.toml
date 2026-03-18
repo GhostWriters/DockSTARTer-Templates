@@ -2,25 +2,25 @@
 helpline = "Logging verbosity level."
 
 [[LOG_LEVEL.options]]
-value = "error"
+value = "'error'"
 label = "Error"
 
 [[LOG_LEVEL.options]]
-value = "warn"
+value = "'warn'"
 label = "Warn"
 
 [[LOG_LEVEL.options]]
-value = "info"
+value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
 [[LOG_LEVEL.options]]
-value = "debug"
+value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
 [[LOG_LEVEL.options]]
-value = "silent"
+value = "'silent'"
 label = "Silent"
 help = "Suppress all log output."
 
@@ -28,26 +28,26 @@ help = "Suppress all log output."
 helpline = "Authentication method(s) to enable (comma-separated)."
 
 [[AUTH_PROVIDERS.options]]
-value = "credentials"
+value = "'credentials'"
 label = "Credentials"
 help = "Username and password login."
 
 [[AUTH_PROVIDERS.options]]
-value = "ldap"
+value = "'ldap'"
 label = "LDAP"
 help = "LDAP/Active Directory login."
 
 [[AUTH_PROVIDERS.options]]
-value = "oidc"
+value = "'oidc'"
 label = "OIDC"
 help = "OpenID Connect (SSO)."
 
 [[AUTH_PROVIDERS.options]]
-value = "credentials,ldap"
+value = "'credentials,ldap'"
 label = "Credentials + LDAP"
 
 [[AUTH_PROVIDERS.options]]
-value = "credentials,oidc"
+value = "'credentials,oidc'"
 label = "Credentials + OIDC"
 
 [AUTH_SESSION_EXPIRY_TIME]
@@ -57,31 +57,31 @@ helpline = "How long before login sessions expire (e.g., 30d, 8h, 1h)."
 helpline = "Database driver for Homarr's data store."
 
 [[DB_DRIVER.options]]
-value = "better-sqlite3"
+value = "'better-sqlite3'"
 label = "SQLite"
 help = "Simple file-based database (recommended for single-server)."
 
 [[DB_DRIVER.options]]
-value = "mysql2"
+value = "'mysql2'"
 label = "MySQL"
 
 [[DB_DRIVER.options]]
-value = "pg"
+value = "'pg'"
 label = "PostgreSQL"
 
 [DB_DIALECT]
 helpline = "SQL dialect matching the database driver."
 
 [[DB_DIALECT.options]]
-value = "sqlite"
+value = "'sqlite'"
 label = "SQLite"
 
 [[DB_DIALECT.options]]
-value = "mysql"
+value = "'mysql'"
 label = "MySQL"
 
 [[DB_DIALECT.options]]
-value = "postgres"
+value = "'postgres'"
 label = "PostgreSQL"
 
 [NO_EXTERNAL_CONNECTION]

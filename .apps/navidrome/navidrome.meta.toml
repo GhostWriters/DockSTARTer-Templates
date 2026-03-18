@@ -2,22 +2,22 @@
 helpline = "Logging verbosity level."
 
 [[ND_LOGLEVEL.options]]
-value = "error"
+value = "'error'"
 label = "Error"
 help = "Only log errors."
 
 [[ND_LOGLEVEL.options]]
-value = "warn"
+value = "'warn'"
 label = "Warn"
 help = "Log errors and warnings."
 
 [[ND_LOGLEVEL.options]]
-value = "info"
+value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
 [[ND_LOGLEVEL.options]]
-value = "debug"
+value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
@@ -25,15 +25,15 @@ help = "Verbose output for troubleshooting."
 helpline = "Default UI theme for new users."
 
 [[ND_DEFAULTTHEME.options]]
-value = "Dark"
+value = "'Dark'"
 label = "Dark"
 
 [[ND_DEFAULTTHEME.options]]
-value = "Light"
+value = "'Light'"
 label = "Light"
 
 [[ND_DEFAULTTHEME.options]]
-value = "Auto"
+value = "'Auto'"
 label = "Auto"
 help = "Follow the browser/OS preference."
 
@@ -41,12 +41,12 @@ help = "Follow the browser/OS preference."
 helpline = "How album play counts are calculated."
 
 [[ND_ALBUMPLAYCOUNTMODE.options]]
-value = "absolute"
+value = "'absolute'"
 label = "Absolute"
 help = "Count each track play separately."
 
 [[ND_ALBUMPLAYCOUNTMODE.options]]
-value = "normalized"
+value = "'normalized'"
 label = "Normalized"
 help = "Normalize play counts by track count."
 
@@ -54,22 +54,22 @@ help = "Normalize play counts by track count."
 helpline = "Audio format used when downsampling/transcoding on download."
 
 [[ND_DEFAULTDOWNSAMPLINGFORMAT.options]]
-value = "opus"
+value = "'opus'"
 label = "Opus"
 help = "Best quality at low bitrates (recommended)."
 
 [[ND_DEFAULTDOWNSAMPLINGFORMAT.options]]
-value = "mp3"
+value = "'mp3'"
 label = "MP3"
 help = "Widest compatibility."
 
 [[ND_DEFAULTDOWNSAMPLINGFORMAT.options]]
-value = "aac"
+value = "'aac'"
 label = "AAC"
 help = "Good quality, Apple device friendly."
 
 [[ND_DEFAULTDOWNSAMPLINGFORMAT.options]]
-value = "flac"
+value = "'flac'"
 label = "FLAC"
 help = "Lossless — large files."
 
@@ -77,17 +77,17 @@ help = "Lossless — large files."
 helpline = "When to remove missing tracks from the library."
 
 [[ND_SCANNER_PURGEMISSING.options]]
-value = "never"
+value = "'never'"
 label = "Never"
 help = "Keep missing tracks in library."
 
 [[ND_SCANNER_PURGEMISSING.options]]
-value = "auto"
+value = "'auto'"
 label = "Auto"
 help = "Remove after several consecutive scans."
 
 [[ND_SCANNER_PURGEMISSING.options]]
-value = "strict"
+value = "'strict'"
 label = "Strict"
 help = "Remove immediately when not found."
 

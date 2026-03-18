@@ -7,21 +7,21 @@ Tokens expire within 4 minutes of generation, so set this value immediately afte
 helpline = "How Plex updates are applied inside the container."
 
 [[VERSION.options]]
-value = "docker"
+value = "'docker'"
 label = "Docker"
 help = "Update only via Docker image pulls (recommended)."
 
 [[VERSION.options]]
-value = "latest"
+value = "'latest'"
 label = "Latest"
 help = "Always install the latest public Plex release on container start."
 
 [[VERSION.options]]
-value = "plexpass"
+value = "'plexpass'"
 label = "PlexPass"
 help = "Always install the latest PlexPass release (requires PlexPass subscription)."
 
 [[VERSION.options]]
-value = "public"
+value = "'public'"
 label = "Public"
 help = "Always install the latest public release on container start."

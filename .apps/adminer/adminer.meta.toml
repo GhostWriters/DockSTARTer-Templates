@@ -3,67 +3,67 @@ helpline = "The UI theme for Adminer."
 helptext = "Adminer ships with several built-in design themes. Leave blank for the default theme."
 
 [[ADMINER_DESIGN.options]]
-value = ""
+value = "''"
 label = "Default"
 
 [[ADMINER_DESIGN.options]]
-value = "brade"
+value = "'brade'"
 label = "Brade"
 
 [[ADMINER_DESIGN.options]]
-value = "bueltgen"
+value = "'bueltgen'"
 label = "Bueltgen"
 
 [[ADMINER_DESIGN.options]]
-value = "galkaev"
+value = "'galkaev'"
 label = "Galkaev"
 
 [[ADMINER_DESIGN.options]]
-value = "hydra"
+value = "'hydra'"
 label = "Hydra"
 
 [[ADMINER_DESIGN.options]]
-value = "jukin"
+value = "'jukin'"
 label = "Jukin"
 
 [[ADMINER_DESIGN.options]]
-value = "lucas-sandery"
+value = "'lucas-sandery'"
 label = "Lucas Sandery"
 
 [[ADMINER_DESIGN.options]]
-value = "mvt"
+value = "'mvt'"
 label = "MVT"
 
 [[ADMINER_DESIGN.options]]
-value = "ng9"
+value = "'ng9'"
 label = "ng9"
 
 [[ADMINER_DESIGN.options]]
-value = "pappu687"
+value = "'pappu687'"
 label = "Pappu687"
 
 [[ADMINER_DESIGN.options]]
-value = "pepa-linha"
+value = "'pepa-linha'"
 label = "Pepa Linha"
 
 [[ADMINER_DESIGN.options]]
-value = "price"
+value = "'price'"
 label = "Price"
 
 [[ADMINER_DESIGN.options]]
-value = "rmsoft"
+value = "'rmsoft'"
 label = "RMSoft"
 
 [[ADMINER_DESIGN.options]]
-value = "rmsoft_blue"
+value = "'rmsoft_blue'"
 label = "RMSoft Blue"
 
 [[ADMINER_DESIGN.options]]
-value = "selenity"
+value = "'selenity'"
 label = "Selenity"
 
 [[ADMINER_DESIGN.options]]
-value = "simpleui"
+value = "'simpleui'"
 label = "SimpleUI"
 
 [ADMINER_PLUGINS]

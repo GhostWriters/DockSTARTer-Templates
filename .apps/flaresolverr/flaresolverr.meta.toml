@@ -2,20 +2,20 @@
 helpline = "Logging verbosity level."
 
 [[LOG_LEVEL.options]]
-value = "error"
+value = "'error'"
 label = "Error"
 
 [[LOG_LEVEL.options]]
-value = "warn"
+value = "'warn'"
 label = "Warn"
 
 [[LOG_LEVEL.options]]
-value = "info"
+value = "'info'"
 label = "Info"
 help = "Standard logging (recommended)."
 
 [[LOG_LEVEL.options]]
-value = "debug"
+value = "'debug'"
 label = "Debug"
 help = "Verbose output for troubleshooting."
 
@@ -23,20 +23,20 @@ help = "Verbose output for troubleshooting."
 helpline = "External service to solve CAPTCHAs (requires API key for paid services)."
 
 [[CAPTCHA_SOLVER.options]]
-value = "none"
+value = "'none'"
 label = "None"
 help = "No CAPTCHA solving (default)."
 
 [[CAPTCHA_SOLVER.options]]
-value = "2captcha"
+value = "'2captcha'"
 label = "2Captcha"
 
 [[CAPTCHA_SOLVER.options]]
-value = "deathbycaptcha"
+value = "'deathbycaptcha'"
 label = "DeathByCaptcha"
 
 [[CAPTCHA_SOLVER.options]]
-value = "anticaptcha"
+value = "'anticaptcha'"
 label = "AntiCaptcha"
 
 [LOG_HTML]
