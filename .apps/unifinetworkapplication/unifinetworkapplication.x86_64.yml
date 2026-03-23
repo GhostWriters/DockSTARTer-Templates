@@ -1,0 +1,5 @@
+services:
+  unifinetworkapplication<__instance>:
+    image: lscr.io/linuxserver/unifi-network-application:${UNIFINETWORKAPPLICATION<__INSTANCE>__TAG?}
+  unifinetworkapplication<__instance>-mongo:
+    image: docker.io/mongo:7.0

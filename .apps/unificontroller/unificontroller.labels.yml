@@ -1,6 +1,6 @@
 services:
   unificontroller<__instance>:
     labels:
-      com.dockstarter.appinfo.deprecated: "false"
-      com.dockstarter.appinfo.description: "Controller software for wireless networks"
+      com.dockstarter.appinfo.deprecated: "true"
+      com.dockstarter.appinfo.description: "(DEPRECATED) Use UnifiNetworkApplication"
       com.dockstarter.appinfo.nicename: "UnifiController<__Instance>"

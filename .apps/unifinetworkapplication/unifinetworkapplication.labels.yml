@@ -1,0 +1,6 @@
+services:
+  unifinetworkapplication<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "UniFi Network Application for managing UniFi devices"
+      com.dockstarter.appinfo.nicename: "UnifiNetworkApplication<__Instance>"

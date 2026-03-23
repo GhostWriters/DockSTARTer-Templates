@@ -1,0 +1,2 @@
+${DOCKER_VOLUME_CONFIG}/unifinetworkapplication<__instance>
+${DOCKER_VOLUME_CONFIG}/unifinetworkapplication<__instance>-mongo/data

@@ -1,0 +1,3 @@
+services:
+  unifinetworkapplication<__instance>:
+    hostname: ${UNIFINETWORKAPPLICATION<__INSTANCE>__HOSTNAME?}

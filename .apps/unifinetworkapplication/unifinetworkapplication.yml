@@ -1,0 +1,28 @@
+services:
+  unifinetworkapplication<__instance>:
+    container_name: ${UNIFINETWORKAPPLICATION<__INSTANCE>__CONTAINER_NAME?}
+    depends_on:
+      - unifinetworkapplication<__instance>-mongo
+    env_file: .env.app.unifinetworkapplication<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${UNIFINETWORKAPPLICATION<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/unifinetworkapplication<__instance>:/config
+  unifinetworkapplication<__instance>-mongo:
+    # Writes a mongo init script that creates the application user, then starts
+    # mongod via the official entrypoint. This avoids bind-mounting a host file
+    # that Docker would create as a directory if it did not already exist.
+    command: >
+      bash -c 'mkdir -p /docker-entrypoint-initdb.d && echo "db.getSiblingDB(\"$$MONGO_AUTHSOURCE\").createUser({user:\"$$MONGO_USER\",pwd:\"$$MONGO_PASS\",roles:[{role:\"dbOwner\",db:\"$$MONGO_DBNAME\"},{role:\"dbOwner\",db:\"$${MONGO_DBNAME}_stat\"},{role:\"dbOwner\",db:\"$${MONGO_DBNAME}_audit\"}]})" > /docker-entrypoint-initdb.d/init-mongo.js && exec docker-entrypoint.sh mongod'
+    container_name: ${UNIFINETWORKAPPLICATION<__INSTANCE>__CONTAINER_NAME?}-mongo
+    env_file: .env.app.unifinetworkapplication<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${UNIFINETWORKAPPLICATION<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/unifinetworkapplication<__instance>-mongo/data:/data/db
