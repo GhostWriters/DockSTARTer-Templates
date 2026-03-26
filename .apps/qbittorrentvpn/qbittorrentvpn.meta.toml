@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}qBittorrent{{[-]}} {{|App|}}PrivoxyVPN{{[-]}}"
+helptext = "{{|App|}}qBittorrentVPN{{[-]}} is a Docker build script for Arch Linux base with {{|App|}}qBittorrent{{[-]}}, {{|App|}}Privoxy{{[-]}} and {{|App|}}OpenVPN{{[-]}} all included in one image. The support forum for {{|App|}}qBittorrentVPN{{[-]}} is located here."
+website = "https://www.qbittorrent.org/"
+
 ["qbittorrentvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

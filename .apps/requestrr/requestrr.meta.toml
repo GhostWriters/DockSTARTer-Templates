@@ -1,2 +1,7 @@
+[app]
+description = "{{|App|}}Requestrr{{[-]}} is a chatbot used to simplify using services like {{|App|}}Sonarr{{[-]}}/{{|App|}}Radarr{{[-]}}/{{|App|}}Lidarr{{[-]}}/{{|App|}}Overseerr{{[-]}}/{{|App|}}Ombi{{[-]}} via the use of chat!"
+helptext = "{{|App|}}Requestrr{{[-]}} is a chatbot used to simplify using services like {{|App|}}Sonarr{{[-]}}/{{|App|}}Radarr{{[-]}}/{{|App|}}Lidarr{{[-]}}/{{|App|}}Overseerr{{[-]}}/{{|App|}}Ombi{{[-]}} via the use of chat!"
+website = "https://github.com/thomst08/requestrr/wiki"
+
 ["requestrr<__instance>:REQUESTRR_BASEURL"]
 helpline = "Base URL path for Requestrr (e.g. /requestrr for a subfolder install)."

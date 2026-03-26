@@ -1,6 +1,11 @@
+[app]
+description = "A full-featured database management tool"
+helptext = "{{|App|}}Adminer{{[-]}} (formerly {{|App|}}phpMinAdmin{{[-]}}) is a full-featured database management tool written in PHP. {{|App|}}Adminer{{[-]}} is available for MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin."
+website = "https://www.adminer.org/"
+
 ["adminer<__instance>:ADMINER_DESIGN"]
 helpline = "The UI theme for Adminer."
-helptext = "Adminer ships with several built-in design themes. Leave blank for the default theme."
+helptext = "{{|App|}}Adminer{{[-]}} ships with several built-in design themes. Leave blank for the default theme."
 
 [["adminer<__instance>:ADMINER_DESIGN".options]]
 value = "''"
@@ -68,4 +73,4 @@ label = "SimpleUI"
 
 ["adminer<__instance>:ADMINER_PLUGINS"]
 helpline = "Space-separated list of Adminer plugins to enable."
-helptext = "Plugins extend Adminer's functionality. Separate multiple plugin names with a space."
+helptext = "Plugins extend {{|App|}}Adminer{{[-]}}'s functionality. Separate multiple plugin names with a space."

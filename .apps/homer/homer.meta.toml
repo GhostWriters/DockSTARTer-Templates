@@ -1,3 +1,8 @@
+[app]
+description = "A dead simple static HOMepage for your servER"
+helptext = "{{|App|}}Homer{{[-]}} is a dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file."
+website = "https://github.com/bastienwirtz/homer"
+
 ["homer<__instance>:INIT_ASSETS"]
 helpline = "Copy default example assets into the config volume on first run."
 

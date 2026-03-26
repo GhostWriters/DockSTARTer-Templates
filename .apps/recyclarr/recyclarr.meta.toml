@@ -1,3 +1,8 @@
+[app]
+description = "Application to synchronize settings from the TRaSH guides to your {{|App|}}Sonarr{{[-]}}/{{|App|}}Radarr{{[-]}} instances"
+helptext = "{{|App|}}Recyclarr{{[-]}} {{|App|}}Recyclarr{{[-]}} is a command-line application that will automatically synchronize recommended settings from the TRaSH guides to your {{|App|}}Sonarr{{[-]}}/{{|App|}}Radarr{{[-]}} instances. It was formerly named \"Trash Updater\"."
+website = "https://recyclarr.dev"
+
 ["recyclarr<__instance>:RECYCLARR_CREATE_CONFIG"]
 helpline = "Generate a starter recyclarr.yml config file on first run."
 

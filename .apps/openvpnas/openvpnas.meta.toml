@@ -1,3 +1,8 @@
+[app]
+description = "Secure network tunneling VPN"
+helptext = "{{|App|}}OpenVPN-AS{{[-]}} is a full featured secure network tunneling VPN software solution that integrates {{|App|}}OpenVPN{{[-]}} server capabilities, enterprise management capabilities, simplified {{|App|}}OpenVPN{{[-]}} Connect UI, and {{|App|}}OpenVPN{{[-]}} Client software packages that accommodate Windows, MAC, Linux, Android, and iOS environments. {{|App|}}OpenVPN Access Server{{[-]}} supports a wide range of configurations, including secure and granular remote access to internal network and/ or private cloud network resources and applications with fine-grained access control."
+website = "https://openvpn.net/index.php/access-server/overview.html"
+
 ["openvpnas<__instance>:INTERFACE"]
 helpline = "Network interface the OpenVPN Access Server binds to."
 

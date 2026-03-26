@@ -1,3 +1,8 @@
+[app]
+description = "Web-based media streamer providing ubiquitous access to your music"
+helptext = "{{|App|}}Airsonic Advanced{{[-]}} is a more modern implementation of the {{|App|}}Airsonic{{[-]}} fork with several key performance and feature enhancements. It adds and supersedes several features in {{|App|}}Airsonic{{[-]}}."
+website = "https://github.com/airsonic-advanced/airsonic-advanced"
+
 ["airsonicadvanced<__instance>:CONTEXT_PATH"]
 helpline = "URL base path for Airsonic-Advanced (e.g. /airsonic for a subfolder install)."
 

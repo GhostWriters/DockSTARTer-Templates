@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Deluge{{[-]}} with {{|App|}}PrivoxyVPN{{[-]}}"
+helptext = "{{|App|}}DelugeVPN{{[-]}} is a Docker build script for Arch Linux base with {{|App|}}Deluge{{[-]}}, {{|App|}}Privoxy{{[-]}} and {{|App|}}OpenVPN{{[-]}} all included in one image. The support forum for {{|App|}}DelugeVPN{{[-]}} is located here."
+website = "http://deluge-torrent.org/"
+
 ["delugevpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

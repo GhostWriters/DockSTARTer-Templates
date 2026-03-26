@@ -1,3 +1,8 @@
+[app]
+description = "Automatically update running Docker containers"
+helptext = "{{|App|}}Watchtower{{[-]}} can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. {{|App|}}Watchtower{{[-]}} will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially."
+website = "https://watchtower.nickfedor.com"
+
 ["watchtower<__instance>:WATCHTOWER_CLEANUP"]
 helpline = "Remove old images after updating containers."
 

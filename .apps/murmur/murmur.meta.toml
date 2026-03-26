@@ -1,2 +1,7 @@
+[app]
+description = "{{|App|}}Murmur{{[-]}} is the server for {{|App|}}Mumble{{[-]}}, a voice over IP application"
+helptext = "{{|App|}}Murmur{{[-]}} is a VoIP server for {{|App|}}Mumble{{[-]}}. It is an open-source application that is similar to programs such as Ventrilo or TeamSpeak."
+website = "https://github.com/mumble-voip/mumble"
+
 ["murmur<__instance>:MURMUR_SUPW"]
 helpline = "SuperUser password for the Mumble server admin account."

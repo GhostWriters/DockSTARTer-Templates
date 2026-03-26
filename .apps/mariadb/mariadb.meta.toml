@@ -1,2 +1,7 @@
+[app]
+description = "One of the most popular database servers"
+helptext = "{{|App|}}MariaDB{{[-]}} is one of the most popular database servers. Made by the original developers of {{|App|}}MySQL{{[-]}}."
+website = "https://mariadb.org/"
+
 ["mariadb<__instance>:MYSQL_ROOT_PASSWORD"]
 helpline = "Root password for the MariaDB instance. Required on first startup."

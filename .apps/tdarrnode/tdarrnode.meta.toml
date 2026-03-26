@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Tdarr Node{{[-]}} is a self hosted module used for encoding in conjunction with {{|App|}}Tdarr{{[-]}}"
+helptext = "{{|App|}}Tdarr Node{{[-]}} is a companion module to {{|App|}}Tdarr{{[-]}}. Nodes are a cross-platform module which work together with {{|App|}}Tdarr{{[-]}} to process your files. Can be run on same machine as {{|App|}}Tdarr{{[-]}} or remotely."
+website = "https://dockstarter.com/apps/tdarr"
+
 ["tdarrnode<__instance>:serverIP"]
 helpline = "Hostname or IP of the Tdarr server this node connects to."
 

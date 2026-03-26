@@ -1,3 +1,8 @@
+[app]
+description = "(DEPRECATED) {{|App|}}rTorrent{{[-]}} with {{|App|}}PrivoxyVPN{{[-]}}"
+helptext = "{{|App|}}rTorrentVPN{{[-]}} is a Docker build script for Arch Linux base with {{|App|}}rtorrent-ps{{[-]}}, {{|App|}}ruTorrent{{[-]}}, autodl-irssi, {{|App|}}Privoxy{{[-]}} and {{|App|}}OpenVPN{{[-]}} all included in one image. The support forum for {{|App|}}rTorrentVPN{{[-]}} is located here."
+website = "https://github.com/pyroscope/rtorrent-ps"
+
 ["rtorrentvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

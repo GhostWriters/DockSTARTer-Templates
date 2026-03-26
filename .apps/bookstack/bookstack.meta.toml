@@ -1,3 +1,8 @@
+[app]
+description = "Platform for storing and organising information and documentation"
+helptext = "{{|App|}}BookStack{{[-]}} is a free and open source Wiki designed for creating beautiful documentation. Feauturing a simple, but powerful WYSIWYG editor it allows for teams to create detailed and useful documentation with ease."
+website = "https://www.bookstackapp.com"
+
 ["bookstack<__instance>:APP_URL"]
 helpline = "Full URL where BookStack is accessible (e.g. https://wiki.example.com)."
 

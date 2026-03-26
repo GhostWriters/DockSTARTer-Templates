@@ -1,3 +1,8 @@
+[app]
+description = "Web radio management suite with Liquidsoap and Icecast."
+helptext = "{{|App|}}AzuraCast{{[-]}} is a free and open-source self-hosted web radio management suite that includes the full suite of software needed to build, manage and broadcast a web radio station. Out of the box, it includes a rich web interface, an AutoDJ powered by {{|App|}}Liquidsoap{{[-]}}, and {{|App|}}Icecast{{[-]}} to serve broadcasts to listeners."
+website = "https://azuracast.com/"
+
 ["azuracast<__instance>:APPLICATION_ENV"]
 helpline = "Application environment mode."
 

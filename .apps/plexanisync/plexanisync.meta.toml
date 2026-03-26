@@ -1,3 +1,8 @@
+[app]
+description = "Sync anime watched status from {{|App|}}Plex{{[-]}} to {{|App|}}AniList{{[-]}}"
+helptext = "Sync your {{|App|}}Plex{{[-]}} libraries with {{|App|}}AniList{{[-]}}. Unwatched Anime in {{|App|}}Plex{{[-]}} will not be synced so only those that have at least one watched episode, updates to {{|App|}}AniList{{[-]}} are only send with changes so need to worry about messing up watch history."
+website = "https://anilist.co/"
+
 ["plexanisync<__instance>:PLEX_URL"]
 helpline = "URL of your Plex server (e.g. http://plex:32400)."
 

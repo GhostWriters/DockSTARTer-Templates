@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}xTeVe{{[-]}} is a M3U proxy server for {{|App|}}Plex{{[-]}}, {{|App|}}Emby{{[-]}} and any client and provider which supports the .TS and .M3U8 (HLS) streaming formats."
+helptext = "{{|App|}}xTeVe{{[-]}} is a M3U proxy server for Plex, Emby and any client and provider which supports the .TS and .M3U8 (HLS) streaming formats. {{|App|}}xTeVe{{[-]}} emulates a SiliconDust HDHomeRun OTA tuner, which allows it to expose IPTV style channels to software, which would not normally support it."
+website = "https://xteve.de/"
+
 ["xteve<__instance>:XTEVE_BRANCH"]
 helpline = "xTeVe release branch to run."
 

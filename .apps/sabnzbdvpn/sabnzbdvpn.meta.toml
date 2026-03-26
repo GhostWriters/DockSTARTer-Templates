@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}SABnzbd{{[-]}} with {{|App|}}PrivoxyVPN{{[-]}}"
+helptext = "{{|App|}}SABnzbd{{[-]}} is a Docker build script for Arch Linux base with {{|App|}}SABnzbd{{[-]}}, {{|App|}}Privoxy{{[-]}} and {{|App|}}OpenVPN{{[-]}} all included in one image. The support forum for {{|App|}}SABnzbdVPN{{[-]}} is located here."
+website = "http://sabnzbd.org/"
+
 ["sabnzbdvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

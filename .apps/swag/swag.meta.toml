@@ -1,3 +1,8 @@
+[app]
+description = "Secure Web-server And Gateway"
+helptext = "{{|App|}}SWAG{{[-]}} (Secure Web-server And Gateway) sets up an NGINX webserver and reverse proxy with PHP support and a built-in swag client that automates free SSL server certificate generation and renewal processes. It also contains fail2ban for intrusion prevention."
+website = "https://github.com/linuxserver/docker-swag"
+
 ["swag<__instance>:URL"]
 helpline = "Your base domain (e.g. example.com)."
 

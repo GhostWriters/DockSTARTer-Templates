@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}PhotoStructure{{[-]}} is your new home for all your photos & videos."
+helptext = "PhotoStructure is your new home for all your photos & videos."
+website = "https://photostructure.com/"
+
 ["photostructure<__instance>:PS_EXPOSE_NETWORK_WITHOUT_AUTH"]
 helpline = "Expose PhotoStructure on the network without requiring authentication."
 

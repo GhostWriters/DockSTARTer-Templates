@@ -1,3 +1,8 @@
+[app]
+description = "HTPC/Homelab Services Organizer"
+helptext = "{{|App|}}Organizr{{[-]}} allows you to setup "Tabs" that will be loaded all in one webpage. You can then work on your server with ease. Want to give users access to some Tabs? No problem, just enable user support and have them make an account. Want guests to be able to visit too? Enable Guest support for those tabs."
+website = "https://organizr.app"
+
 ["organizr<__instance>:branch"]
 helpline = "Organizr release branch to run."
 

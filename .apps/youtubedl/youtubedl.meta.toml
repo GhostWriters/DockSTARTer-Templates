@@ -1,3 +1,8 @@
+[app]
+description = "Simple Web and REST interface for downloading {{|App|}}YouTube{{[-]}} videos onto a server."
+helptext = "{{|App|}}youtube-dl-server{{[-]}} is very spartan Web and REST interface for downloading youtube videos onto a server. `bottle` + `{{|App|}}youtube-dl{{[-]}}`."
+website = "https://github.com/nbr23/youtube-dl-server"
+
 ["youtubedl<__instance>:YDL_DEBUG"]
 helpline = "Enable verbose debug logging."
 

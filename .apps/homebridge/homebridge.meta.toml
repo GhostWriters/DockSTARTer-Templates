@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Homebridge{{[-]}} is a lightweight NodeJS server you can run on your home network that emulates the iOS HomeKit API"
+helptext = "{{|App|}}Homebridge{{[-]}} is a lightweight NodeJS server you can run on your home network that emulates the iOS {{|App|}}HomeKit{{[-]}} API. It supports Plugins, which are community-contributed modules that provide a basic bridge from {{|App|}}HomeKit{{[-]}} to various 3rd-party APIs provided by manufacturers of "smart home" devices."
+website = "https://github.com/oznu/homebridge"
+
 ["homebridge<__instance>:ENABLE_AVAHI"]
 helpline = "Enable Avahi mDNS daemon for HomeKit device discovery on the local network."
 

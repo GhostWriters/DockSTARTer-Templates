@@ -1,3 +1,8 @@
+[app]
+description = "Dockerized Python script that will send data from {{|App|}}apcupsd{{[-]}} to influxdb."
+helptext = "{{|App|}}Apcupsd{{[-]}} is a dockerized Python script that will send data from apcupsd to influxdb. You can then visualize the influxdb data in {{|App|}}Grafana{{[-]}}/Prometheus."
+website = "http://www.apcupsd.org/"
+
 ["apcupsd<__instance>:HOST"]
 helpline = "Hostname or IP of the apcupsd daemon to connect to."
 

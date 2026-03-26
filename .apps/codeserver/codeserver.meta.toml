@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}VS Code{{[-]}} running on a remote server, accessible through the browser"
+helptext = "{{|App|}}Code-server{{[-]}} is VS Code running on a remote server, accessible through the browser."
+website = "https://coder.com/"
+
 ["codeserver<__instance>:PASSWORD"]
 helpline = "Password to access the code-server web UI."
 

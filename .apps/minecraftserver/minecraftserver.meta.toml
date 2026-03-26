@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Minecraft Java Edition Server{{[-]}}"
+helptext = "{{|App|}}Minecraft Server{{[-]}} will automatically download the latest stable version at startup. You can also run/upgrade to any specific version or the latest snapshot."
+website = "https://www.minecraft.net/en-us/download/server"
+
 ["minecraftserver<__instance>:EULA"]
 helpline = "Accept the Minecraft End User License Agreement. Must be TRUE to start the server."
 

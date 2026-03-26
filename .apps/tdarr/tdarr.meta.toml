@@ -1,2 +1,7 @@
+[app]
+description = "Audio/Video Library Analytics & Transcode/Remux Automation"
+helptext = "{{|App|}}Tdarr{{[-]}} is a cross-platform, distributed transcoding system which is broken up into multiple modules."
+website = "https://github.com/haveagitgat/tdarr"
+
 ["TDARR<__INSTANCE>__ENVIRONMENT_SERVERIP"]
 helpline = "Hostname or IP the Tdarr server listens on. Use the container name for internal networking."

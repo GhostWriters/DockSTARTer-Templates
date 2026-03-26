@@ -1,3 +1,8 @@
+[app]
+description = "A web interface for {{|App|}}MySQL{{[-]}} and {{|App|}}MariaDB{{[-]}}"
+helptext = "{{|App|}}phpMyAdmin{{[-]}} is a free software tool written in PHP, intended to handle the administration of {{|App|}}MySQL{{[-]}} over the Web."
+website = "https://www.phpmyadmin.net/"
+
 ["phpmyadmin<__instance>:PMA_HOST"]
 helpline = "MySQL/MariaDB hostname to connect to (e.g. mariadb)."
 

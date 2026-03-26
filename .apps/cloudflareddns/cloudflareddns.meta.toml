@@ -1,3 +1,8 @@
+[app]
+description = "Free service which will point a DNS to an IP of your choice"
+helptext = "{{|App|}}CloudFlareDDNS{{[-]}} is a small Docker image that allows you to use the free CloudFlare DNS Service as a Dynamic DNS Provider (DDNS)."
+website = "https://www.cloudflare.com/dns/"
+
 ["cloudflareddns<__instance>:CF_APITOKEN"]
 helpline = "Cloudflare API token with Zone:DNS:Edit permission (recommended over API key)."
 

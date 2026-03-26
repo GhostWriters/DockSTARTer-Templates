@@ -1,2 +1,7 @@
+[app]
+description = "This is a self-hosted speedtest service"
+helptext = "{{|App|}}OpenSpeedTest{{[-]}} is a self-hosted speed test service which is useful for testing the connection speed to your server."
+website = "https://github.com/openspeedtest/Speed-Test"
+
 ["openspeedtest<__instance>:BASE_PATH"]
 helpline = "Base URL path for OpenSpeedTest (e.g. /speedtest for a subfolder install)."

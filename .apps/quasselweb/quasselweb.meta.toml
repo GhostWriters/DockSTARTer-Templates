@@ -1,3 +1,8 @@
+[app]
+description = "Web client for {{|App|}}Quassel{{[-]}}. A {{|App|}}Quassel-Core{{[-]}} instance is required"
+helptext = "{{|App|}}Quassel-web{{[-]}} is a web client for {{|App|}}Quassel{{[-]}}. Note that a {{|App|}}Quassel{{[-]}}-core instance is required. A container for it can be found here."
+website = "https://github.com/magne4000/quassel-webserver"
+
 ["quasselweb<__instance>:QUASSEL_CORE"]
 helpline = "Hostname of the Quassel Core to connect to (e.g. quasselcore)."
 

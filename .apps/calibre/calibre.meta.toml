@@ -1,3 +1,8 @@
+[app]
+description = "Easy to use e-book manager"
+helptext = "{{|App|}}Calibre{{[-]}} is a powerful and easy to use e-book manager."
+website = "https://calibre-ebook.com/"
+
 ["calibre<__instance>:CUSTOM_USER"]
 helpline = "HTTP Basic Auth username for accessing the Calibre web UI."
 
