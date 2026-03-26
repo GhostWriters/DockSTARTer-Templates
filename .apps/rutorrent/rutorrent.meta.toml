@@ -1,0 +1,3 @@
+[app]
+description = "(DEPRECATED) Use {{|App|}}Deluge{{[-]}}, {{|App|}}qBittorrent{{[-]}}, or {{|App|}}Transmission{{[-]}}"
+website = "https://github.com/Novik/ruTorrent"
