@@ -1,6 +1,6 @@
 [app]
 description = "Organizes all of your video, music and photo collections"
-helptext = "{{|App|}}Plex{{[-]}} organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone {{|App|}}Plex{{[-]}} Media Server. has always been a top priority. Straightforward design and bulk actions mean getting things done faster."
+helptext = "{{|App|}}Plex{{[-]}} organizes video, music and photos from personal media libraries and streams them to smart TVs, streaming boxes and mobile devices. This container is packaged as a standalone {{|App|}}Plex Media Server{{[-]}}. has always been a top priority. Straightforward design and bulk actions mean getting things done faster."
 website = "https://plex.tv/"
 
 ["plex<__instance>:PLEX_CLAIM"]
