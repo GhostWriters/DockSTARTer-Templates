@@ -1,3 +1,7 @@
+[app]
+description = "Checks for completed downloads and extracts them so {{|App|}}Radarr{{[-]}}, {{|App|}}Lidarr{{[-]}}, {{|App|}}Sonarr{{[-]}}, and {{|App|}}Readarr{{[-]}} may import them"
+helptext = "{{|App|}}Unpackerr{{[-]}} runs as a daemon on your download host. It checks for completed downloads and extracts them so {{|App|}}Radarr{{[-]}}, {{|App|}}Lidarr{{[-]}}, {{|App|}}Sonarr{{[-]}}, and {{|App|}}Readarr{{[-]}} may import them. There are a handful of options out there for extracting and deleting files after your client downloads them. I just didn't care for any of them, so I wrote my own. I wanted a small single-binary with reasonable logging that can extract downloaded archives and clean up the mess after they've been imported."
+
 ["unpackerr<__instance>:UN_INTERVAL"]
 helpline = "How often to check for completed downloads (e.g. 2m, 5m, 1h)."
 

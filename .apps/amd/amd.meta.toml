@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Lidarr{{[-]}} companion script to automatically download music for {{|App|}}Lidarr{{[-]}}"
+helptext = "{{|App|}}Automatic Music Downloader ({{|App|}}AMD{{[-]}}){{[-]}} is a {{|App|}}Lidarr{{[-]}} companion script to automatically download music for {{|App|}}Lidarr{{[-]}}."
+website = "https://github.com/RandomNinjaAtk/docker-amd"
+
 ["amd<__instance>:FORMAT"]
 helpline = "Audio format for downloaded tracks."
 

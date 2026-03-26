@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}pgAdmin 4{{[-]}} is a web based administration tool for the PostgreSQL database."
+helptext = "{{|App|}}pgAdmin{{[-]}}: {{|App|}}pgAdmin{{[-]}} is the most popular and feature rich Open Source administration and development platform for {{|App|}}PostgreSQL{{[-]}}, the most advanced Open Source database in the world."
+website = "https://www.pgadmin.org/"
+
 ["pgadmin<__instance>:PGADMIN_DEFAULT_EMAIL"]
 helpline = "Admin account email address for the pgAdmin login."
 

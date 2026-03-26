@@ -1,3 +1,8 @@
+[app]
+description = "(DEPRECATED) Use {{|App|}}Vaultwarden{{[-]}}"
+helptext = "{{|App|}}Bitwarden{{[-]}} is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault. {{|App|}}Vaultwarden{{[-]}} is an alternative implementation of the {{|App|}}Bitwarden{{[-]}} server API written in Rust and compatible with upstream upstream {{|App|}}Bitwarden{{[-]}} clients, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal. DockSTARTer uses the {{|App|}}Vaultwarden{{[-]}} image to create a {{|App|}}Bitwarden{{[-]}} container."
+website = "https://bitwarden.com/"
+
 ["bitwarden<__instance>:ADMIN_TOKEN"]
 helpline = "Secret token to access the /admin panel. Leave blank to disable the admin panel."
 

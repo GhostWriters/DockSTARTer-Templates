@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}OpenLDAP{{[-]}} with TLS, multi master replication and easy bootstrap."
+helptext = "A Docker image to run {{|App|}}OpenLDAP{{[-]}}."
+website = "https://www.openldap.org/"
+
 ["openldap<__instance>:LDAP_DOMAIN"]
 helpline = "LDAP domain in dot notation (e.g. example.org becomes dc=example,dc=org)."
 

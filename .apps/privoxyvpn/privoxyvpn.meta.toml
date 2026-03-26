@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Privoxy{{[-]}}, microsocks, {{|App|}}OpenVPN{{[-]}}, {{|App|}}WireGuard{{[-]}}"
+helptext = "{{|App|}}PrivoxyVPN{{[-]}} is an Arch Linux based Docker Image with {{|App|}}Privoxy{{[-]}}, MicroSocks, {{|App|}}OpenVPN{{[-]}} and {{|App|}}WireGuard{{[-]}}. The support forum for {{|App|}}PrivoxyVPN{{[-]}} is located here."
+website = "http://privoxy.org/"
+
 ["privoxyvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

@@ -1,3 +1,8 @@
+[app]
+description = "The recipe manager that allows you to manage your ever growing collection of digital recipes."
+helptext = "{{|App|}}Tandoor{{[-]}} is a recipe manager and so much more. You can import recipes from thousands of websites, generate mealplans, manage your shopping list. Share and collaborate with your friends and family using a mobile friendly web interface."
+website = "https://docs.tandoor.dev/"
+
 ["tandoor<__instance>:SECRET_KEY"]
 helpline = "Random secret key for Django session security. Change from the default!"
 

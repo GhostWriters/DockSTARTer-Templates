@@ -1,3 +1,6 @@
+[app]
+description = "(DEPRECATED) Use {{|App|}}SWAG{{[-]}}"
+
 ["letsencrypt<__instance>:URL"]
 helpline = "Your base domain (e.g. example.com)."
 

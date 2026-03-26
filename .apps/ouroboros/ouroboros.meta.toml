@@ -1,3 +1,8 @@
+[app]
+description = "(DEPRECATED) Use {{|App|}}Watchtower{{[-]}}"
+helptext = "{{|App|}}Ouroboros{{[-]}} will automatically update your running Docker containers to the latest available image."
+website = "https://github.com/pyouroboros/ouroboros"
+
 ["ouroboros<__instance>:CLEANUP"]
 helpline = "Remove old images after updating containers."
 

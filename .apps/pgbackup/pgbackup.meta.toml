@@ -1,3 +1,8 @@
+[app]
+description = "Backup PostgresSQL to the local filesystem with periodic rotating backups."
+helptext = "{{|App|}}pgBackup{{[-]}}: Backup PostgresSQL to the local filesystem with periodic rotating backups"
+website = "https://hub.docker.com/r/prodrigestivill/postgres-backup-local"
+
 ["pgbackup<__instance>:POSTGRES_HOST"]
 helpline = "Hostname of the PostgreSQL server to back up (e.g. postgres)."
 

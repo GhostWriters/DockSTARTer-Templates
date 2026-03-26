@@ -1,3 +1,8 @@
+[app]
+description = "Free service which will point a DNS to an IP of your choice"
+helptext = "{{|App|}}DuckDNS{{[-]}} is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice. The service is completely free, and doesn't require reactivation or forum posts to maintain its existence."
+website = "https://www.duckdns.org/"
+
 ["duckdns<__instance>:SUBDOMAINS"]
 helpline = "Comma-separated list of DuckDNS subdomains to update (without .duckdns.org)."
 

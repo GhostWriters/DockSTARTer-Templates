@@ -1,3 +1,8 @@
+[app]
+description = "Latency logging, graphing, and alerting system"
+helptext = "{{|App|}}Smokeping{{[-]}} keeps track of your network latency."
+website = "https://oss.oetiker.ch/smokeping/"
+
 ["SMOKEPING<__INSTANCE>__ENVIRONMENT_DNS1"]
 helpline = "Primary DNS server used by SmokePing for latency probing."
 

@@ -1,3 +1,8 @@
+[app]
+description = "Monitors the performance and uptime of your internet connection."
+helptext = "{{|App|}}Speedtest Tracker{{[-]}} is a self-hosted application that monitors the performance and uptime of your internet connection."
+website = "https://github.com/linuxserver/docker-speedtest-tracker"
+
 ["speedtest<__instance>:APP_KEY"]
 helpline = "Application encryption key. Generate with: php artisan key:generate --show"
 

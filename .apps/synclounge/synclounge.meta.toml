@@ -1,3 +1,8 @@
+[app]
+description = "Watch {{|App|}}Plex{{[-]}} in sync with your friends/family, wherever you are."
+helptext = "{{|App|}}SyncLounge{{[-]}} is a third party tool that allows you to watch {{|App|}}Plex{{[-]}} in sync with your friends/family, wherever you are."
+website = "https://synclounge.tv/"
+
 ["synclounge<__instance>:AUTOJOIN_ENABLE"]
 helpline = "Automatically join a room on startup."
 

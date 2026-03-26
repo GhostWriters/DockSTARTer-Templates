@@ -1,3 +1,7 @@
+[app]
+description = "Docker image to run {{|App|}}Samba{{[-]}} to provide a compatible {{|App|}}Time Machine{{[-]}} for macOS"
+helptext = "Docker image to run {{|App|}}Samba{{[-]}} to provide a compatible Time Machine for macOS."
+
 ["timemachine<__instance>:SHARE_NAME"]
 helpline = "Name of the Time Machine share as it appears in macOS."
 

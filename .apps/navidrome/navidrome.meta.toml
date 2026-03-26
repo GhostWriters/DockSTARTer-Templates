@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Navidrome{{[-]}} is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!"
+helptext = "{{|App|}}Navidrome{{[-]}} is an open source web-based music collection server and streamer. It gives you freedom to listen to your music collection from any browser or mobile device. It's like your personal Spotify!"
+website = "https://www.navidrome.org/"
+
 ["navidrome<__instance>:ND_LOGLEVEL"]
 helpline = "Logging verbosity level."
 

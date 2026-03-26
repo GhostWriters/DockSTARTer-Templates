@@ -1,3 +1,6 @@
+[app]
+description = "Community-supported open-source document management system"
+
 ["paperlessngx<__instance>:PAPERLESS_DBHOST"]
 helpline = "PostgreSQL hostname (set automatically to the companion postgres container)."
 

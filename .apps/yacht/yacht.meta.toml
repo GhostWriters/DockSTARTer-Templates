@@ -1,3 +1,7 @@
+[app]
+description = "{{|App|}}Yacht{{[-]}} is a container management UI with a focus on templates and 1-click deployments."
+helptext = "{{|App|}}Yacht{{[-]}} is a container management UI with a focus on templates and 1-click deployments."
+
 ["yacht<__instance>:ADMIN_EMAIL"]
 helpline = "Admin account email address."
 

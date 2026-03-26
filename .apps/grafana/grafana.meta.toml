@@ -1,2 +1,7 @@
+[app]
+description = "Metrics dashboard and graph editor"
+helptext = "{{|App|}}Grafana{{[-]}} is an open-source platform for monitoring and observability. {{|App|}}Grafana{{[-]}} allows you to query, visualize, alert on and understand your metrics no matter where they are stored."
+website = "https://grafana.com/"
+
 ["grafana<__instance>:GF_INSTALL_PLUGINS"]
 helpline = "Comma-separated list of Grafana plugins to install on startup."

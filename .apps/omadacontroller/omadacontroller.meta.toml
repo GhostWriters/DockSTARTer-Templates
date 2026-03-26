@@ -1,3 +1,8 @@
+[app]
+description = "Docker image based off of Ubuntu:18.04 for TP-Link {{|App|}}Omada Controller{{[-]}} to control TP-Link Omada EAP Series Wireless Access Points"
+helptext = "Docker image based off of Ubuntu 18.04 for TP-Link Omada Controller to control TP-Link Omada EAP Series Wireless Access Points."
+website = "https://www.tp-link.com/en/products/details/EAP-Controller.html"
+
 ["omadacontroller<__instance>:SHOW_SERVER_LOGS"]
 helpline = "Stream Omada server logs to the container output."
 

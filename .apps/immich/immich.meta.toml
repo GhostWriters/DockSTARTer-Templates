@@ -1,3 +1,8 @@
+[app]
+description = "Self-hosted photo and video management solution"
+helptext = "{{|App|}}Immich{{[-]}} is a self-hosted photo and video management solution that allows you to back up, organize, and browse your photos and videos with ease, without sacrificing your privacy."
+website = "https://immich.app/"
+
 ["immich<__instance>:DB_PASSWORD"]
 helpline = "PostgreSQL database password."
 

@@ -1,3 +1,8 @@
+[app]
+description = "A black hole for internet advertisements"
+helptext = "{{|App|}}Pi-hole{{[-]}} is a DNS server that is used to filter out advertisements and other unwanted content on a network-wide level."
+website = "https://pi-hole.net/"
+
 ["pihole<__instance>:WEBPASSWORD"]
 helpline = "Password for the Pi-hole web admin interface."
 

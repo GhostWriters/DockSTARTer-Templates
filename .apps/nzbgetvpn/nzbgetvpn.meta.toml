@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}NZBGet{{[-]}} with {{|App|}}PrivoxyVPN{{[-]}}"
+helptext = "{{|App|}}NZBGetVPN{{[-]}} is a combination of binhex's {{|App|}}NZBGet{{[-]}} docker with {{|App|}}OpenVPN{{[-]}}. The support forum for {{|App|}}NZBGetVPN{{[-]}} is located here."
+website = "https://github.com/binhex/arch-nzbget"
+
 ["nzbgetvpn<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

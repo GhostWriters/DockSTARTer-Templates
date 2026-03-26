@@ -1,3 +1,6 @@
+[app]
+description = "{{|App|}}Ldap-auth{{[-]}} software is for authenticating users who request protected resources from servers proxied by nginx."
+
 ["ldapauth<__instance>:FERNETKEY"]
 helpline = "Fernet encryption key for session tokens. Generate with: python3 -c 'from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())'"
 

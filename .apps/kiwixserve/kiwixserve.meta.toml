@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Kiwix{{[-]}} HTTP daemon"
+helptext = "{{|App|}}Kiwix{{[-]}} lets you access free knowledge – even offline. Store Wikipedia or any website on your mobile phone or computer, easily."
+website = "https://www.kiwix.org/en/"
+
 ["kiwixserve<__instance>:DOWNLOAD"]
 helpline = "URL of a .zim file to download on startup. Leave blank if providing files manually."
 helptext = "Browse available ZIM files at https://library.kiwix.org. The download URL is used only on first run if no .zim files are present in the data volume."

@@ -1,3 +1,8 @@
+[app]
+description = "A personal finance manager"
+helptext = "{{|App|}}Firefly III{{[-]}} is a personal finances manager."
+website = "https://github.com/firefly-iii/firefly-iii"
+
 ["fireflyiii<__instance>:APP_KEY"]
 helpline = "32-character random string used for encryption. Generate with: head -c 32 /dev/urandom | base64 | head -c 32"
 

@@ -1,2 +1,7 @@
+[app]
+description = "Network-wide ads & trackers blocking DNS server"
+helptext = "{{|App|}}Adguard{{[-]}} is a network-wide ads & trackers blocking DNS server."
+website = "https://www.github.com/AdguardTeam/AdGuardHome"
+
 ["ADGUARD<__INSTANCE>__ENVIRONMENT_SERVERIP"]
 helpline = "IP address of the server running AdGuard Home. Use 0.0.0.0 to bind all interfaces."

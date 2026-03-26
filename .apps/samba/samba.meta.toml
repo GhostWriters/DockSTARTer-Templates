@@ -1,3 +1,8 @@
+[app]
+description = "(DEPRECATED) No replacement"
+helptext = "{{|App|}}Samba{{[-]}} is using the `SMB` protocol to share Linux mounts, which then are accessible and mountable on a Windows computer. By default, {{|App|}}Samba{{[-]}} will share all media directories and Docker config directory over SMB on the host. All of these directories will be placed inside whatever share name is specified for `SAMBA__ENVIRONMENT_SHARENAME` in your `.env` file. These shares are protected with username `ds` and password `ds` by default, but **can and should be** changed in your `.env` file."
+website = "https://www.samba.org/"
+
 ["samba<__instance>:WORKGROUP"]
 helpline = "SMB workgroup name (typically WORKGROUP for home networks)."
 

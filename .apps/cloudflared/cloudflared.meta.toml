@@ -1,3 +1,6 @@
+[app]
+description = "{{|App|}}Cloudflare{{[-]}} Tunnel client for exposing private services"
+
 ["cloudflared<__instance>:TUNNEL_TOKEN"]
 helpline = "Cloudflare Tunnel token from the Cloudflare Zero Trust dashboard."
 helptext = "Get your tunnel token from Cloudflare Zero Trust → Access → Tunnels. The token authenticates this connector to your Cloudflare account."

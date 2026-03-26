@@ -1,3 +1,8 @@
+[app]
+description = "A request management and media discovery tool"
+helptext = "Seerr is a request management and media discovery tool built to work with your existing {{|App|}}Plex{{[-]}} or {{|App|}}Jellyfin{{[-]}} ecosystem."
+website = "https://seerr.dev/"
+
 ["seerr<__instance>:VPN_ENABLED"]
 helpline = "Enable VPN for this container."
 

@@ -1,3 +1,8 @@
+[app]
+description = "The {{|App|}}PostgreSQL{{[-]}} object-relational database system provides reliability and data integrity."
+helptext = "Postgres: The World's Most Advanced Open Source Relational Database"
+website = "https://www.postgresql.org/"
+
 ["postgres<__instance>:POSTGRES_PASSWORD"]
 helpline = "Password for the PostgreSQL superuser. Required on first startup."
 

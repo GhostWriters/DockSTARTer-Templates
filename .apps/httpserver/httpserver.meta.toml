@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}http-server{{[-]}} is a simple binary to provide a static http server from a given folder."
+helptext = "http-server is a simple binary to provide a static http server from a given folder."
+website = "https://github.com/patrickdappollonio/http-server"
+
 ["httpserver<__instance>:FILE_SERVER_TITLE"]
 helpline = "Page title displayed in the browser tab and header."
 

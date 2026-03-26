@@ -1,2 +1,7 @@
+[app]
+description = "Web application to remote desktop"
+helptext = "{{|App|}}Guacamole{{[-]}} is a client-less remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH over HTML5."
+website = "https://guacamole.apache.org/"
+
 ["guacamole<__instance>:EXTENSIONS"]
 helpline = "Comma-separated list of Guacamole extensions to enable (e.g. auth-ldap,auth-totp)."

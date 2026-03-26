@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Transmission{{[-]}} with {{|App|}}OpenVPN{{[-]}}"
+helptext = "This container contains {{|App|}}OpenVPN{{[-]}} and {{|App|}}Transmission{{[-]}} with a configuration where {{|App|}}Transmission{{[-]}} is running only when {{|App|}}OpenVPN{{[-]}} has an active tunnel. It bundles configuration files for many popular VPN providers to make the setup easier."
+website = "https://openvpn.net/"
+
 ["transmissionvpn<__instance>:OPENVPN_PROVIDER"]
 helpline = "VPN provider name. Use 'custom' with your own .ovpn config file."
 

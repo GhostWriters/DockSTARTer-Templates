@@ -1,3 +1,7 @@
+[app]
+description = "{{|App|}}Filebrowser{{[-]}} provides a file managing interface within a specified directory"
+helptext = "{{|App|}}File Browser{{[-]}} provides a file managing interface within a specified directory and it can be used to upload, delete, preview, rename and edit your files. It allows the creation of multiple users and each user can have its own directory."
+
 ["filebrowser<__instance>:FB_BASEURL"]
 helpline = "Base URL path for File Browser (e.g. /files for a subfolder install)."
 

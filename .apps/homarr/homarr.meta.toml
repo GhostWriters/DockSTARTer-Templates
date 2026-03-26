@@ -1,3 +1,8 @@
+[app]
+description = "A simple, yet powerful dashboard for your server."
+helptext = "{{|App|}}Homarr{{[-]}} is a simple, yet powerful dashboard for your server. Simplify the management of your server with {{|App|}}Homarr{{[-]}} - a sleek, modern dashboard that puts all of your apps and services at your fingertips. With {{|App|}}Homarr{{[-]}}, you can access and control everything in one convenient location."
+website = "https://homarr.dev/"
+
 ["homarr<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
 

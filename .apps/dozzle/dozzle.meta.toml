@@ -1,3 +1,8 @@
+[app]
+description = "{{|App|}}Dozzle{{[-]}} is a simple, lightweight application that provides you with a web based interface to monitor your Docker container logs live."
+helptext = "{{|App|}}Dozzle{{[-]}} is a simple, lightweight application that provides you with a web based interface to monitor your Docker container logs live. It doesn’t store log information, it is for live monitoring of your container logs only."
+website = "https://dozzle.dev/"
+
 ["dozzle<__instance>:DOZZLE_LEVEL"]
 helpline = "Minimum log level to display in the Dozzle UI."
 

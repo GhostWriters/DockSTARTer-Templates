@@ -1,3 +1,8 @@
+[app]
+description = "Probably the most secure and fastest FTP server for UNIX-like systems"
+helptext = "{{|App|}}vsftpd{{[-]}} is an FTP server for Unix-like systems."
+website = "https://security.appspot.com/vsftpd.html"
+
 ["vsftpd<__instance>:FTP_USER"]
 helpline = "FTP username."
 
