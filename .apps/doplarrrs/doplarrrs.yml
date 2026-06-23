@@ -1,0 +1,12 @@
+services:
+  doplarrrs<__instance>:
+    container_name: ${DOPLARRRS<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.doplarrrs<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${DOPLARRRS<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/doplarrrs<__instance>:/config

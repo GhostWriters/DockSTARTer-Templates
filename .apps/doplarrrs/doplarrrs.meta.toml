@@ -1,0 +1,4 @@
+[app]
+description = "An *arr request bot for Discord"
+helptext = "{{|App|}}DoplarrRS{{[-]}} is an \*arr Request Bot for Discord"
+website = "https://github.com/activexray/doplarr_rs"

@@ -1,0 +1,3 @@
+services:
+  doplarrrs<__instance>:
+    hostname: ${DOPLARRRS<__INSTANCE>__HOSTNAME?}
