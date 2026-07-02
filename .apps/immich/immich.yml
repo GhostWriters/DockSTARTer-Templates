@@ -10,7 +10,7 @@ services:
     restart: ${IMMICH<__INSTANCE>__RESTART?}
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - ${IMMICH<__INSTANCE>__UPLOAD_LOCATION?}:/data
+      - ${IMMICH<__INSTANCE>__VOLUME_UPLOAD_LOCATION?}:/data
   immich<__instance>-machine-learning:
     container_name: ${IMMICH<__INSTANCE>__CONTAINER_NAME?}-ml
     env_file: .env.app.immich<__instance>
