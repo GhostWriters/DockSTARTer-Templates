@@ -1,7 +1,7 @@
 [app]
 description = "An *arr request bot for Discord"
 helptext = "{{|App|}}Doplarr{{[-]}} is an \*arr Request Bot for Discord"
-website = "https://github.com/kiranshila/Doplarr"
+website = "https://github.com/activexray/Doplarr"
 
 ["doplarr<__instance>:LOG_LEVEL"]
 helpline = "Logging verbosity level."
