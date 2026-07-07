@@ -2,3 +2,72 @@
 description = "An *arr request bot for Discord"
 helptext = "{{|App|}}DoplarrRS{{[-]}} is an \*arr Request Bot for Discord"
 website = "https://github.com/activexray/doplarr_rs"
+
+["doplarrrs<__instance>:LOG_LEVEL"]
+helpline = "Logging verbosity level."
+
+[["doplarrrs<__instance>:LOG_LEVEL".options]]
+value = "'info'"
+label = "Info"
+help = "Standard logging (recommended)."
+
+[["doplarrrs<__instance>:LOG_LEVEL".options]]
+value = "'debug'"
+label = "Debug"
+help = "Verbose output for troubleshooting."
+
+[["doplarrrs<__instance>:LOG_LEVEL".options]]
+value = "'warn'"
+label = "Warn"
+
+[["doplarrrs<__instance>:LOG_LEVEL".options]]
+value = "'error'"
+label = "Error"
+
+["doplarrrs<__instance>:DISCORD__TOKEN"]
+helpline = "Discord bot token from the Discord Developer Portal."
+
+["doplarrrs<__instance>:DISCORD__REQUESTED_MSG_STYLE"]
+helpline = "Style of the Discord request confirmation message."
+
+[["doplarrrs<__instance>:DISCORD__REQUESTED_MSG_STYLE".options]]
+value = "':plain'"
+label = "Plain"
+help = "Simple text message."
+
+[["doplarrrs<__instance>:DISCORD__REQUESTED_MSG_STYLE".options]]
+value = "':embed'"
+label = "Embed"
+help = "Rich embed with poster art."
+
+["doplarrrs<__instance>:DISCORD__MAX_RESULTS"]
+helpline = "Maximum number of search results shown in Discord."
+
+["doplarrrs<__instance>:PARTIAL_SEASONS"]
+helpline = "Allow requesting individual seasons rather than whole series."
+
+[["doplarrrs<__instance>:PARTIAL_SEASONS".options]]
+value = "'true'"
+label = "Enabled"
+
+[["doplarrrs<__instance>:PARTIAL_SEASONS".options]]
+value = "'false'"
+label = "Disabled"
+
+["doplarrrs<__instance>:OVERSEERR__URL"]
+helpline = "URL of the Seerr instance (e.g. http://seerr:5055)."
+
+["doplarrrs<__instance>:OVERSEERR__API"]
+helpline = "Seerr API key from Settings → General."
+
+["doplarrrs<__instance>:RADARR__URL"]
+helpline = "URL of the Radarr instance (e.g. http://radarr:7878)."
+
+["doplarrrs<__instance>:RADARR__API"]
+helpline = "Radarr API key from Settings → General."
+
+["doplarrrs<__instance>:SONARR__URL"]
+helpline = "URL of the Sonarr instance (e.g. http://sonarr:8989)."
+
+["doplarrrs<__instance>:SONARR__API"]
+helpline = "Sonarr API key from Settings → General."
