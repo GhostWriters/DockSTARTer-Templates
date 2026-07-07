@@ -1,0 +1,4 @@
+[app]
+description = "Self-hosted lightweight software forge"
+helptext = "{{|App|}}Forgejo{{[-]}} is a self-hosted lightweight software forge, a community fork of Gitea"
+website = "https://forgejo.org"
