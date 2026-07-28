@@ -5,15 +5,18 @@ deprecated: true
 
 ## DEPRECATED
 
-DEPRECATION NOTICE: This image is deprecated as of 2026-02-24.
+DEPRECATION NOTICE: This image has been deprecated as of 2026-02-24.
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/huntarr/huntarr?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/huntarr/huntarr)
-[![GitHub Stars](https://img.shields.io/github/stars/plexguide/Huntarr.io?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/plexguide/Huntarr.io)
+We do not recommend using Huntarr, as **serious** security issues [have been brought to light](<https://www.reddit.com/r/selfhosted/comments/1rckopd/huntarr_your_passwords_and_your_entire_arr_stacks>). The developer has also removed the source code repository and all support communities.
+
+If you are exposing Huntarr to the Internet, you should stop immediately and rotate all API keys for any apps connected to Huntarr.
+We have completely disabled this app in our templates due to the security concerns.
+
 [![Compose Templates](https://img.shields.io/static/v1?style=flat-square&color=607D8B&label=compose&message=templates)](https://github.com/GhostWriters/DockSTARTer-Templates/tree/main/.apps/huntarr)
 
 ## Description
 
-[Huntarr](https://huntarr.io) continually searches your media libraries for missing content and items that need quality upgrades. It automatically triggers searches for both missing items and those below your quality cutoff. It's designed to run continuously while being gentle on your indexers, helping you gradually complete your media collection with the best available quality.
+Huntarr is an application that continually searches your media libraries for missing content and items that need quality upgrades. It automatically triggers searches for both missing items and those below your quality cutoff. It's designed to run continuously while being gentle on your indexers, helping you gradually complete your media collection with the best available quality.
 
 ## Install/Setup
 
