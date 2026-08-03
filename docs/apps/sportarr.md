@@ -6,11 +6,11 @@
 
 ## Description
 
-[Sportarr](https://sportarr.net/) is a PVR for sports events. Like the other
-*arr apps, but for sports: it monitors the leagues and events you follow,
-grabs releases from your indexers via Usenet or BitTorrent, and sorts and
-renames them into a library that Plex, Emby, Jellyfin, and Kodi understand as
-seasons and episodes.
+[Sportarr](https://sportarr.net/) is a PVR for sports events. It works like
+the other *arr apps, but for sports. It monitors the leagues and events you
+follow, grabs releases from your indexers via Usenet and BitTorrent, and
+sorts and renames them into a library that Plex, Emby, Jellyfin, and Kodi
+understand as seasons and episodes.
 
 ## Install/Setup
 

@@ -1,6 +1,6 @@
 [app]
 description = "Universal sports PVR via Usenet and BitTorrent"
-helptext = "{{|App|}}Sportarr{{[-]}} is a PVR for sports events. Like the other *arr apps, but for sports: it monitors leagues and events, grabs releases from your indexers via Usenet or BitTorrent, and sorts and renames them into a media-server-friendly library."
+helptext = "{{|App|}}Sportarr{{[-]}} is a PVR for sports events. It works like the other *arr apps, but for sports. It monitors the leagues and events you follow, grabs releases from your indexers via Usenet and BitTorrent, and sorts and renames them into a library that Plex, Emby, Jellyfin, and Kodi understand as seasons and episodes."
 website = "https://sportarr.net/"
 
 ["sportarr<__instance>:Sportarr__Database__Provider"]
