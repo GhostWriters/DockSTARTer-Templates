@@ -1,0 +1,12 @@
+services:
+  sportarr<__instance>:
+    container_name: ${SPORTARR<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.sportarr<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${SPORTARR<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/sportarr<__instance>:/config

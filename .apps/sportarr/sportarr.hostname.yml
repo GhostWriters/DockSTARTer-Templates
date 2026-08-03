@@ -1,0 +1,3 @@
+services:
+  sportarr<__instance>:
+    hostname: ${SPORTARR<__INSTANCE>__HOSTNAME?}

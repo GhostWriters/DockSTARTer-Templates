@@ -1,0 +1,3 @@
+services:
+  sportarr<__instance>:
+    image: sportarr/sportarr:${SPORTARR<__INSTANCE>__TAG?}
