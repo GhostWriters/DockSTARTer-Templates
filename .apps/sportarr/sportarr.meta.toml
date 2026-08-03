@@ -1,0 +1,32 @@
+[app]
+description = "Universal sports PVR via Usenet and BitTorrent"
+helptext = "{{|App|}}Sportarr{{[-]}} is a PVR for sports events. Like the other *arr apps, but for sports: it monitors leagues and events, grabs releases from your indexers via Usenet or BitTorrent, and sorts and renames them into a media-server-friendly library."
+website = "https://sportarr.net/"
+
+["sportarr<__instance>:Sportarr__Database__Provider"]
+helpline = "Database engine. Blank (or anything other than 'postgres') uses the built-in SQLite database, which needs no setup."
+
+[["sportarr<__instance>:Sportarr__Database__Provider".options]]
+value = "''"
+label = "SQLite"
+help = "Built-in database stored in /config (recommended)."
+
+[["sportarr<__instance>:Sportarr__Database__Provider".options]]
+value = "'postgres'"
+label = "PostgreSQL"
+help = "External PostgreSQL server. Fresh installs only; the remaining database settings must be filled in."
+
+["sportarr<__instance>:Sportarr__Database__Host"]
+helpline = "PostgreSQL hostname (e.g. postgres). Ignored when using SQLite."
+
+["sportarr<__instance>:Sportarr__Database__Port"]
+helpline = "PostgreSQL port. Ignored when using SQLite."
+
+["sportarr<__instance>:Sportarr__Database__Name"]
+helpline = "PostgreSQL database name. Ignored when using SQLite."
+
+["sportarr<__instance>:Sportarr__Database__Username"]
+helpline = "PostgreSQL username. Ignored when using SQLite."
+
+["sportarr<__instance>:Sportarr__Database__Password"]
+helpline = "PostgreSQL password. Ignored when using SQLite."

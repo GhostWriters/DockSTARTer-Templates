@@ -1,0 +1,6 @@
+services:
+  sportarr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Universal sports PVR via Usenet and BitTorrent"
+      com.dockstarter.appinfo.nicename: "Sportarr<__Instance>"

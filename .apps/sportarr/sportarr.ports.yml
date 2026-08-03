@@ -1,0 +1,4 @@
+services:
+  sportarr<__instance>:
+    ports:
+      - ${SPORTARR<__INSTANCE>__PORT_1867?}:1867
