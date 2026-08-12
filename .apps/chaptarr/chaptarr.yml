@@ -1,0 +1,12 @@
+services:
+  chaptarr<__instance>:
+    container_name: ${CHAPTARR<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.chaptarr<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${CHAPTARR<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/chaptarr<__instance>:/config

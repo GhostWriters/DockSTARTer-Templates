@@ -1,0 +1,6 @@
+services:
+  chaptarr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "An audiobook and eBook collection manager"
+      com.dockstarter.appinfo.nicename: "Chaptarr<__Instance>"

@@ -1,0 +1,3 @@
+services:
+  chaptarr<__instance>:
+    image: chaptarr/chaptarr:${CHAPTARR<__INSTANCE>__TAG?}

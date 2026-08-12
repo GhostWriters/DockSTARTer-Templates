@@ -1,0 +1,3 @@
+services:
+  chaptarr<__instance>:
+    hostname: ${CHAPTARR<__INSTANCE>__HOSTNAME?}
