@@ -1,0 +1,3 @@
+services:
+  chaptarr<__instance>:
+    network_mode: ${CHAPTARR<__INSTANCE>__NETWORK_MODE?}

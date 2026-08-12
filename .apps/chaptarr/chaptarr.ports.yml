@@ -1,0 +1,4 @@
+services:
+  chaptarr<__instance>:
+    ports:
+      - ${CHAPTARR<__INSTANCE>__PORT_8789?}:8789

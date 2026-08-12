@@ -1,0 +1,25 @@
+[app]
+description = "An audiobook and eBook collection manager"
+helptext = "{{|App::::https://github.com/Chaptarr/chaptarr|}}Chaptarr{{[-]}} is a Readarr fork built to accommodate audiobook and eBook libraries in one instance. It helps you organize and maintain a collection of books with rich metadata, including narrator and edition information that many general-purpose media managers struggle to track, or don't try to at all."
+website = "https://github.com/Chaptarr/chaptarr/"
+
+["chaptarr<__instance>:Chaptarr__Postgres__Host"]
+helpline = "PostgreSQL hostname (e.g. postgres). Blank value uses SQLite."
+
+["chaptarr<__instance>:Chaptarr__Postgres__Port"]
+helpline = "PostgreSQL port. Ignored when using SQLite."
+
+["chaptarr<__instance>:Chaptarr__Postgres__User"]
+helpline = "PostgreSQL username. Ignored when using SQLite."
+
+["chaptarr<__instance>:Chaptarr__Postgres__Password"]
+helpline = "PostgreSQL password. Ignored when using SQLite."
+
+["chaptarr<__instance>:Chaptarr__Postgres__MainDb"]
+helpline = "PostgreSQL main database name. Ignored when using SQLite."
+
+["chaptarr<__instance>:Chaptarr__Postgres__LogDb"]
+helpline = "PostgreSQL log database name. Ignored when using SQLite."
+
+["chaptarr<__instance>:Chaptarr__Postgres__CacheDb"]
+helpline = "PostgreSQL cache database name. Ignored when using SQLite."
