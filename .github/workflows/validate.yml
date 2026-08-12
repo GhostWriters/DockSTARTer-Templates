@@ -3,10 +3,12 @@ name: Validate
 on:
   push:
     paths:
+      - '.apps/**'
       - 'docs/**'
       - '.github/workflows/validate.yml'
   pull_request:
     paths:
+      - '.apps/**'
       - 'docs/**'
       - '.github/workflows/validate.yml'
 
@@ -24,7 +26,7 @@ jobs:
               if [[ ${APPDEPRECATED} == true ]]; then
                   continue
               fi
-              if [[ ! -f "docs/apps/${APPNAME}.md" ]]; then
+              if [[ ! -f ".apps/${APPNAME}/${APPNAME}.md" ]]; then
                   echo "Missing documentation for ${APPNAME}"
                   exit 1
               fi
