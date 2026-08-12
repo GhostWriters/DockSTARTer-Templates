@@ -1,0 +1,6 @@
+services:
+  wizarr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Wizarr is a automatic user invitation system for Plex, Jellyfin and Emby"
+      com.dockstarter.appinfo.nicename: "Wizarr<__Instance>"

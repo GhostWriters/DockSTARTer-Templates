@@ -1,0 +1,3 @@
+services:
+  wizarr<__instance>:
+    image: ghcr.io/wizarrrr/wizarr:${WIZARR<__INSTANCE>__TAG?}

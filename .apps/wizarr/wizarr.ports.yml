@@ -1,0 +1,4 @@
+services:
+  wizarr<__instance>:
+    ports:
+      - ${WIZARR<__INSTANCE>__PORT_5690?}:5690
