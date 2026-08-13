@@ -1,0 +1,3 @@
+services:
+  appname<__instance>:
+    image: hello-world:${APPNAME<__INSTANCE>__TAG?}

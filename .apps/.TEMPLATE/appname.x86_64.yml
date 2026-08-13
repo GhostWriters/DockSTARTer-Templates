@@ -1,0 +1,5 @@
+# At least one of appname.x86_64.yml / appname.aarch64.yml is required.
+# hello-world is a placeholder -- swap in the real app's image.
+services:
+  appname<__instance>:
+    image: hello-world:${APPNAME<__INSTANCE>__TAG?}
