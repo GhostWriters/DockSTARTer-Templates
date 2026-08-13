@@ -1,4 +1,12 @@
+---
+status: deprecated
+---
+
 # Booksonic
+
+## DEPRECATED
+
+DEPRECATION NOTICE: This image is deprecated as of 2021-12-15 and replaced with [BooksonicAir](booksonicair.md).
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/booksonic?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/booksonic)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-booksonic?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-booksonic)
