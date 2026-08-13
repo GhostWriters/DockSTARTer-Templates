@@ -1,4 +1,12 @@
+---
+status: deprecated
+---
+
 # Photoshow
+
+## DEPRECATED
+
+DEPRECATION NOTICE: This image is deprecated as of 2023-06-02.
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/photoshow?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/photoshow)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-photoshow?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-photoshow)

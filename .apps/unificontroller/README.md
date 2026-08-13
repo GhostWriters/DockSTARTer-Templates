@@ -1,4 +1,12 @@
+---
+status: deprecated
+---
+
 # UniFi Controller
+
+## DEPRECATED
+
+DEPRECATION NOTICE: This image is deprecated as of 2026-03-26 and replaced with [UnifiNetworkApplication](unifinetworkapplication.md).
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/unifi-controller?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/unifi-controller)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-unifi-controller?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-unifi-controller)

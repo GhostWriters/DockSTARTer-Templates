@@ -1,4 +1,12 @@
+---
+status: deprecated
+---
+
 # Muximux
+
+## DEPRECATED
+
+DEPRECATION NOTICE: This image is deprecated as of 2023-06-02 and replaced with [Heimdall](heimdall.md) or [Organizr](organizr.md).
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/muximux?style=flat-square&color=607D8B&label=docker%20pulls&logo=docker)](https://hub.docker.com/r/linuxserver/muximux)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-muximux?style=flat-square&color=607D8B&label=github%20stars&logo=github)](https://github.com/linuxserver/docker-muximux)
