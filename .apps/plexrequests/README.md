@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/ombi/
+location: /apps/ombi/
 ---
 
 # Plexrequests

@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/swag/
+location: /apps/swag/
 ---
 
 # Letsencrypt

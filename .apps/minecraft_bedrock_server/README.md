@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/minecraftbedrockserver/
+location: /apps/minecraftbedrockserver/
 ---
 
 # Minecraft Bedrock Server

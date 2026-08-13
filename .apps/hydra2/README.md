@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/nzbhydra2/
+location: /apps/nzbhydra2/
 ---
 
 # Hydra2

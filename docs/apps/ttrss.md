@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/freshrss/
+location: /apps/freshrss/
 ---
 
 # Ttrss
