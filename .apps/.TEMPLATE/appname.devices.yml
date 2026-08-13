@@ -1,0 +1,10 @@
+# Optional -- only for apps that need direct hardware access (e.g. GPU
+# transcoding). Omit this file, APPNAME<__INSTANCE>__DEVICES, and the
+# DEVICE_DEV* vars entirely if not needed.
+services:
+  appname<__instance>:
+    devices:
+      - ${APPNAME<__INSTANCE>__DEVICE_DEV1}
+      - ${APPNAME<__INSTANCE>__DEVICE_DEV2}
+      - ${APPNAME<__INSTANCE>__DEVICE_DEV3}
+      - ${APPNAME<__INSTANCE>__DEVICE_DEV4}

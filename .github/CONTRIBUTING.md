@@ -28,7 +28,7 @@ Now you are free to develop and test as usual. All changes in your git repo can 
 So you want to add a new app to DockSTARTer? It's pretty easy if you have a working docker compose.
 
 1. (Suggested) Develop a functional docker container for your new app in docker-compose.override.yml. Running `ds -c` should succesfully launch your new docker container and you'll be able to test this container to determine what properties should be specified in your docker compose file.
-1. Add a new folder in `/path/to/your/ds-repo/.apps` for your new app.
+1. Add a new folder in `/path/to/your/ds-repo/.apps` for your new app. `.apps/.TEMPLATE` has a starter set of files to copy from.
 1. Populate the newly created folder above with .yml files. Read through the [YAML files](#yaml-files) section to understand which files to create and how to decompose the container you defined in step 1 above into the various .yml files needed.
 1. Test your app .yml files as suggested in the [Testing](#testing) section. _Note: if you created the docker container (as suggested by step 1) in docker-compose.override.yml you should comment out or delete those lines before testing_
 1. Write app specific documentation in `/path/to/your/ds-repo/.apps/<appname>/README.md`
@@ -56,22 +56,21 @@ So you want to add a new app to DockSTARTer? It's pretty easy if you have a work
 - Are separated into multiple files:
   - `<appname>.yml` is the main YAML template for an app and should have elements in the following order:
     - `container_name` should match `<appname>`
+    - `env_file` should point at `.env.app.<appname>`
     - `environment` should contain the environment variables used by the app
       - `- TZ=${TZ}` is always included even if not needed unless some other form of timezone variable is used
-    - `labels` should contain the labels used by the app. `appvars` should be lowercase in the labels file and are converted to uppercase automatically to become variables in `.env`. The values in the labels file become the default values in `.env`
-      - `com.dockstarter.appinfo.deprecated: "<true|false>"` indicates if an app is deprecated
-      - `com.dockstarter.appinfo.description: "<Description>"` will show the description in the menus
-      - `com.dockstarter.appinfo.nicename: "<AppName>"` must match `<appname>` exactly but can have mixed case. Ex: Portainer vs PORTAINER
-      - `com.dockstarter.appvars.<appname>_enabled: "false"` must be included and default to false. Users pick which apps are enabled
-      - `com.dockstarter.appvars.<appname>_network_mode: ""` must be included and default to blank.
-      - `com.dockstarter.appvars.<appname>_environment_<var_name>: "<var_value>"` one entry for each variable specific to the app environment. See existing apps for examples
-    - `logging` and the items beneath it should be included exactly as shown in other apps
     - `restart` should be `unless-stopped` or should include a comment about why another option is used
     - `volumes` should contain the volumes used by the app
       - `- /etc/localtime:/etc/localtime:ro` is always included
       - `- ${DOCKER_VOLUME_CONFIG}/<appname>:<container_config>` should be used to define the primary config directory for the app
-      - `- ${DOCKER_VOLUME_STORAGE}:/storage` is always included
+  - `<appname>.labels.yml` sets the labels used by the app menu:
+    - `com.dockstarter.appinfo.deprecated: "<true|false>"` indicates if an app is deprecated
+    - `com.dockstarter.appinfo.description: "<Description>"` will show the description in the menus
+    - `com.dockstarter.appinfo.nicename: "<AppName>"` must match `<appname>` exactly but can have mixed case. Ex: Portainer vs PORTAINER
   - `<appname>.hostname.yml` sets the hostname to use the `${DOCKER_HOSTNAME}` variable
+  - `<appname>.storage.yml`, `<appname>.storage2.yml`, `<appname>.storage3.yml`, `<appname>.storage4.yml` mount `${DOCKER_VOLUME_STORAGE}`, `${DOCKER_VOLUME_STORAGE2}`, etc. Omit any that aren't needed
+  - `<appname>.folders` lists directories (e.g. under `${DOCKER_VOLUME_CONFIG}`) to create before the app starts
+  - `<appname>.devices.yml` mounts host devices (e.g. `/dev/dri` for GPU transcoding). Only needed if the app requires direct hardware access; gated by `<APPNAME>_DEVICES`, same pattern as `<APPNAME>_STORAGE_ON`
   - `<appname>.netmode.yml` contains the `<APPNAME>_NETWORK_MODE` variable
   - `<appname>.ports.yml` contains the ports used by the app. This file can be excluded if the app does not require ports
   - At least one of the following files must be included:

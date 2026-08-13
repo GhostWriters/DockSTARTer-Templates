@@ -1,0 +1,14 @@
+# Replace appname/APPNAME/Appname with the real app name; keep the
+# <__instance>/<__INSTANCE>/<__Instance> placeholders as-is.
+services:
+  appname<__instance>:
+    container_name: ${APPNAME<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.appname<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${APPNAME<__INSTANCE>__RESTART?}
+    # Only for non-linuxserver.io images that need PUID/PGID set externally.
+    user: ${PUID?}:${PGID?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/appname<__instance>:/config
