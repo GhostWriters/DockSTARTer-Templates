@@ -31,10 +31,7 @@ So you want to add a new app to DockSTARTer? It's pretty easy if you have a work
 1. Add a new folder in `/path/to/your/ds-repo/.apps` for your new app.
 1. Populate the newly created folder above with .yml files. Read through the [YAML files](#yaml-files) section to understand which files to create and how to decompose the container you defined in step 1 above into the various .yml files needed.
 1. Test your app .yml files as suggested in the [Testing](#testing) section. _Note: if you created the docker container (as suggested by step 1) in docker-compose.override.yml you should comment out or delete those lines before testing_
-1. Write app specific documentation in `/path/to/your/ds-repo/docs/apps/<appname>.md`
-1. Create a navigation link in mkdocs for this new documentation written in the step above. Edit the file `/path/to/your/ds-repo/mkdocs.yml`
-
-Look at the **App Specifics** list in the **nav** section and add a new line for your app `- apps/<appname>.md`
+1. Write app specific documentation in `/path/to/your/ds-repo/.apps/<appname>/README.md`
 
 ### Testing
 
