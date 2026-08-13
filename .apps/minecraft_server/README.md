@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/minecraftserver/
+location: /apps/minecraftserver/
 ---
 
 # Minecraft Server

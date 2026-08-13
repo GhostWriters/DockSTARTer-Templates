@@ -1,6 +1,6 @@
 ---
 template: redirect.html
-location: apps/sickchill/
+location: /apps/sickchill/
 ---
 
 # Sickrage
