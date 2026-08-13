@@ -13,7 +13,7 @@ core:
 docs:
   - changed-files:
       - any-glob-to-any-file:
-          ["./*.md", "./**/*.md", "./mkdocs.yml", "docs/*", "docs/**/*"]
+          ["./*.md", "./**/*.md", "docs/*", "docs/**/*"]
 
 repo:
   - changed-files:
