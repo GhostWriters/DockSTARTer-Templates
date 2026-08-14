@@ -1,4 +1,4 @@
 services:
-  appname<__instance>:
+  <appname><__instance>:
     volumes:
       - ${DOCKER_VOLUME_STORAGE3?}:/storage3
