@@ -1,5 +1,5 @@
 # Omit this file entirely if the app doesn't need any ports.
 services:
-  appname<__instance>:
+  <appname><__instance>:
     ports:
-      - ${APPNAME<__INSTANCE>__PORT_8080?}:8080
+      - ${<APPNAME><__INSTANCE>__PORT_8080?}:8080

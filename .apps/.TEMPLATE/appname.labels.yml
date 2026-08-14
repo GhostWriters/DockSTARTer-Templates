@@ -1,6 +1,6 @@
 services:
-  appname<__instance>:
+  <appname><__instance>:
     labels:
       com.dockstarter.appinfo.deprecated: "false"
       com.dockstarter.appinfo.description: "Short description shown in menus"
-      com.dockstarter.appinfo.nicename: "Appname<__Instance>"
+      com.dockstarter.appinfo.nicename: "<AppName><__Instance>"

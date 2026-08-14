@@ -1,14 +1,14 @@
 # Optional: help text and menu options for DS2's env editor.
 [app]
 description = "Short description shown in menus"
-helptext = "{{|App|}}Appname{{[-]}} is a one- or two-sentence description of what the app does."
+helptext = "{{|App|}}<AppName>{{[-]}} is a one- or two-sentence description of what the app does."
 website = "https://example.com/"
 
-# Key format: "appname<__instance>:VARNAME", matching the appvar name.
-["appname<__instance>:APPNAME_OPT"]
-helpline = "Command-line options passed to Appname."
+# Key format: "<appname><__instance>:VARNAME", matching the appvar name.
+["<appname><__instance>:<APPNAME>_OPT"]
+helpline = "Command-line options passed to <AppName>."
 
-[["appname<__instance>:APPNAME_OPT".options]]
+[["<appname><__instance>:<APPNAME>_OPT".options]]
 value = "'--example-flag'"
 label = "Example option"
 help = "What this option does."
