@@ -1,0 +1,28 @@
+[app]
+description = "Self-hosted collaborative bookmark manager that archives the pages it saves"
+helptext = "{{|App|}}Linkwarden{{[-]}} collects, organizes and shares bookmarks, and keeps a screenshot, PDF and readable copy of every page so the content survives the link rotting"
+website = "https://linkwarden.app"
+
+["linkwarden<__instance>:NEXTAUTH_URL"]
+helpline = "Public URL of this instance with /api/v1/auth appended, e.g. https://links.example.com/api/v1/auth."
+
+["linkwarden<__instance>:NEXTAUTH_SECRET"]
+helpline = "Session signing key. Generate one with: openssl rand -base64 32"
+
+["linkwarden<__instance>:DATABASE_URL"]
+helpline = "PostgreSQL connection string (set automatically from the database credentials and the companion postgres container)."
+
+["linkwarden<__instance>:MEILI_HOST"]
+helpline = "Meilisearch URL (set automatically to the companion meilisearch container)."
+
+["linkwarden<__instance>-database:DB_USERNAME"]
+helpline = "PostgreSQL username, used for both Linkwarden and the companion postgres container."
+
+["linkwarden<__instance>-database:DB_PASSWORD"]
+helpline = "PostgreSQL password, used for both Linkwarden and the companion postgres container."
+
+["linkwarden<__instance>-database:DB_DATABASE_NAME"]
+helpline = "PostgreSQL database name."
+
+["linkwarden<__instance>-search:MEILI_MASTER_KEY"]
+helpline = "Meilisearch master key, shared with the companion meilisearch container. Generate one with: openssl rand -base64 32"
