@@ -5,9 +5,13 @@ services:
     container_name: ${<APPNAME><__INSTANCE>__CONTAINER_NAME?}
     env_file: .env.app.<appname><__instance>
     environment:
+      # For images that read PUID/PGID as environment variables.
+      - PGID=${PGID?}
+      - PUID=${PUID?}
       - TZ=${TZ?}
     restart: ${<APPNAME><__INSTANCE>__RESTART?}
-    # Only for non-linuxserver.io images that need PUID/PGID set externally.
+    # For non-linuxserver.io-style images that need PUID/PGID set externally
+    # instead. Delete whichever of the two approaches this image doesn't use.
     user: ${PUID?}:${PGID?}
     volumes:
       - /etc/localtime:/etc/localtime:ro
