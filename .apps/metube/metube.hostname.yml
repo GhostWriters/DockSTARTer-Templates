@@ -1,0 +1,3 @@
+services:
+  metube<__instance>:
+    hostname: ${METUBE<__INSTANCE>__HOSTNAME?}

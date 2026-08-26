@@ -1,0 +1,6 @@
+services:
+  metube<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "MeTube is a self-hosted web UI for yt-dlp to download YouTube videos"
+      com.dockstarter.appinfo.nicename: "MeTube<__Instance>"
