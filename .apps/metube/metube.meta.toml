@@ -1,0 +1,248 @@
+[app]
+description = "{{|App|}}MeTube{{[-]}} is a self-hosted web UI for `yt-dlp`, for downloading media from YouTube and dozens of other sites."
+helptext = "{{|App|}}MeTube{{[-]}} is a self-hosted web UI for `yt-dlp`, letting you download videos, audio, captions, and thumbnails from YouTube and dozens of other sites, including full playlists and channel subscriptions, straight from your browser."
+website = "https://github.com/alexta69/metube"
+
+["metube<__instance>:DEFAULT_THEME"]
+helpline = "Default theme for the web UI."
+
+[["metube<__instance>:DEFAULT_THEME".options]]
+value = "'light'"
+label = "Light"
+
+[["metube<__instance>:DEFAULT_THEME".options]]
+value = "'dark'"
+label = "Dark"
+
+[["metube<__instance>:DEFAULT_THEME".options]]
+value = "'auto'"
+label = "Auto"
+
+["metube<__instance>:LOGLEVEL"]
+helpline = "Log verbosity."
+
+[["metube<__instance>:LOGLEVEL".options]]
+value = "'debug'"
+label = "Debug"
+
+[["metube<__instance>:LOGLEVEL".options]]
+value = "'info'"
+label = "Info"
+
+[["metube<__instance>:LOGLEVEL".options]]
+value = "'warning'"
+label = "Warning"
+
+[["metube<__instance>:LOGLEVEL".options]]
+value = "'error'"
+label = "Error"
+
+[["metube<__instance>:LOGLEVEL".options]]
+value = "'critical'"
+label = "Critical"
+
+[["metube<__instance>:LOGLEVEL".options]]
+value = "'none'"
+label = "None"
+
+["metube<__instance>:ENABLE_ACCESSLOG"]
+helpline = "Enable the web server access log."
+
+[["metube<__instance>:ENABLE_ACCESSLOG".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:ENABLE_ACCESSLOG".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:MAX_CONCURRENT_DOWNLOADS"]
+helpline = "Maximum number of simultaneous downloads."
+
+["metube<__instance>:DELETE_FILE_ON_TRASHCAN"]
+helpline = "Delete downloaded files from disk when trashed from the Completed list."
+
+[["metube<__instance>:DELETE_FILE_ON_TRASHCAN".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:DELETE_FILE_ON_TRASHCAN".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:DEFAULT_OPTION_PLAYLIST_ITEM_LIMIT"]
+helpline = "Maximum number of playlist items that can be downloaded. 0 for no limit."
+
+["metube<__instance>:SUBSCRIPTION_DEFAULT_CHECK_INTERVAL"]
+helpline = "Default minutes between automatic checks for each subscription."
+
+["metube<__instance>:SUBSCRIPTION_SCAN_PLAYLIST_END"]
+helpline = "Maximum playlist/channel entries to fetch per subscription check (newest-first)."
+
+["metube<__instance>:SUBSCRIPTION_MAX_SEEN_IDS"]
+helpline = "Cap on stored video IDs per subscription, to limit state file growth."
+
+["metube<__instance>:CLEAR_COMPLETED_AFTER"]
+helpline = "Seconds after which completed/failed downloads are removed from the Completed list. 0 to disable."
+
+["metube<__instance>:DOWNLOAD_DIR"]
+helpline = "Path inside the container where downloads are saved."
+
+[["metube<__instance>:DOWNLOAD_DIR".options]]
+value = "'/storage/metube<__instance>'"
+label = "/storage/metube<__instance>"
+help = "Default. Maps to the app's storage volume."
+
+[["metube<__instance>:DOWNLOAD_DIR".options]]
+value = "'/downloads'"
+label = "/downloads"
+help = "MeTube's own default path. Only useful if you mount a volume there yourself."
+
+["metube<__instance>:AUDIO_DOWNLOAD_DIR"]
+helpline = "Path inside the container where audio-only downloads are saved, if separated from video downloads."
+
+["metube<__instance>:CUSTOM_DIRS"]
+helpline = "Allow choosing a custom directory within DOWNLOAD_DIR for each download."
+
+[["metube<__instance>:CUSTOM_DIRS".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:CUSTOM_DIRS".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:CREATE_CUSTOM_DIRS"]
+helpline = "Automatically create custom directories within DOWNLOAD_DIR if they don't exist."
+
+[["metube<__instance>:CREATE_CUSTOM_DIRS".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:CREATE_CUSTOM_DIRS".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:CUSTOM_DIRS_EXCLUDE_REGEX"]
+helpline = "Regex excluding custom directories from the folder field's suggestions. Empty disables exclusion."
+
+["metube<__instance>:DEFAULT_FOLDER"]
+helpline = "Custom directory to pre-select in the download folder field. Requires CUSTOM_DIRS."
+
+["metube<__instance>:DOWNLOAD_DIRS_INDEXABLE"]
+helpline = "Make the download directories indexable on the web server."
+
+[["metube<__instance>:DOWNLOAD_DIRS_INDEXABLE".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:DOWNLOAD_DIRS_INDEXABLE".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:STATE_DIR"]
+helpline = "Path inside the container where persistent state files are stored."
+
+["metube<__instance>:TEMP_DIR"]
+helpline = "Path inside the container for intermediary download files. Use an SSD or tmpfs for better performance."
+
+["metube<__instance>:CHOWN_DIRS"]
+helpline = "Set ownership of DOWNLOAD_DIR, STATE_DIR, and TEMP_DIR on container start."
+
+[["metube<__instance>:CHOWN_DIRS".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:CHOWN_DIRS".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:OUTPUT_TEMPLATE"]
+helpline = "yt-dlp output filename template for downloaded videos."
+
+["metube<__instance>:OUTPUT_TEMPLATE_CHAPTER"]
+helpline = "Output filename template when a video is split into chapters."
+
+["metube<__instance>:OUTPUT_TEMPLATE_PLAYLIST"]
+helpline = "Output filename template when downloaded as a playlist. Empty uses OUTPUT_TEMPLATE."
+
+["metube<__instance>:OUTPUT_TEMPLATE_CHANNEL"]
+helpline = "Output filename template when downloaded as a channel. Empty uses OUTPUT_TEMPLATE."
+
+["metube<__instance>:YTDL_OPTIONS"]
+helpline = "Additional yt-dlp options, as a JSON object."
+
+["metube<__instance>:YTDL_OPTIONS_FILE"]
+helpline = "Path to a JSON file with yt-dlp options, reloaded automatically on changes."
+
+["metube<__instance>:YTDL_OPTIONS_PRESETS"]
+helpline = "Named bundles of yt-dlp options, selectable per download in the UI, as a JSON object."
+
+["metube<__instance>:YTDL_OPTIONS_PRESETS_FILE"]
+helpline = "Path to a JSON file with option presets, reloaded automatically on changes."
+
+["metube<__instance>:ALLOW_YTDL_OPTIONS_OVERRIDES"]
+helpline = "Show a free-text field in the UI for per-download yt-dlp option overrides."
+
+[["metube<__instance>:ALLOW_YTDL_OPTIONS_OVERRIDES".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:ALLOW_YTDL_OPTIONS_OVERRIDES".options]]
+value = "'true'"
+label = "Enabled"
+help = "Security: allows arbitrary yt-dlp options from anyone with UI access."
+
+["metube<__instance>:ALLOW_PRIVATE_ADDRESSES"]
+helpline = "Allow downloads from private/loopback/link-local addresses."
+
+[["metube<__instance>:ALLOW_PRIVATE_ADDRESSES".options]]
+value = "'false'"
+label = "Disabled"
+help = "SSRF protection: refuses URLs that resolve to internal hosts (default)."
+
+[["metube<__instance>:ALLOW_PRIVATE_ADDRESSES".options]]
+value = "'true'"
+label = "Enabled"
+help = "Disables SSRF protection entirely. Only use in trusted networks."
+
+["metube<__instance>:YTDL_NIGHTLY_UPDATE_TIME"]
+helpline = "Time (HH:MM, 24h) to switch to and update nightly yt-dlp builds. Empty disables."
+
+["metube<__instance>:HOST"]
+helpline = "Host address the web server binds to."
+
+["metube<__instance>:PORT"]
+helpline = "Port the web server listens on."
+
+["metube<__instance>:URL_PREFIX"]
+helpline = "Base path for the web server, for use behind a reverse proxy."
+
+["metube<__instance>:PUBLIC_HOST_URL"]
+helpline = "Base URL for video download links shown in the UI, if downloads are served elsewhere."
+
+["metube<__instance>:PUBLIC_HOST_AUDIO_URL"]
+helpline = "Same as PUBLIC_HOST_URL but for audio downloads."
+
+["metube<__instance>:HTTPS"]
+helpline = "Serve the web UI over HTTPS. Requires CERTFILE and KEYFILE."
+
+[["metube<__instance>:HTTPS".options]]
+value = "'false'"
+label = "Disabled"
+
+[["metube<__instance>:HTTPS".options]]
+value = "'true'"
+label = "Enabled"
+
+["metube<__instance>:CERTFILE"]
+helpline = "Path to the HTTPS certificate file."
+
+["metube<__instance>:KEYFILE"]
+helpline = "Path to the HTTPS key file."
+
+["metube<__instance>:CORS_ALLOWED_ORIGINS"]
+helpline = "Comma-separated list of origins allowed to make cross-origin requests. '*' allows all."
+
+["metube<__instance>:ROBOTS_TXT"]
+helpline = "Path to a robots.txt file mounted in the container."

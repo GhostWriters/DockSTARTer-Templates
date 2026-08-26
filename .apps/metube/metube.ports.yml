@@ -1,0 +1,4 @@
+services:
+  metube<__instance>:
+    ports:
+      - ${METUBE<__INSTANCE>__PORT_8081?}:8081

@@ -1,0 +1,3 @@
+services:
+  metube<__instance>:
+    image: ghcr.io/alexta69/metube:${METUBE<__INSTANCE>__TAG?}
