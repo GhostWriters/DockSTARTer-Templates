@@ -4,6 +4,7 @@ services:
     depends_on:
       - immich<__instance>-postgres
       - immich<__instance>-redis
+      - immich<__instance>-machine-learning
     env_file: .env.app.immich<__instance>
     environment:
       - TZ=${TZ?}
