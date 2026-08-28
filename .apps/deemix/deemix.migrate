@@ -12,5 +12,5 @@ DEEMIX<__INSTANCE>__STORAGE3_ON     DEEMIX<__INSTANCE>__STORAGE3
 DEEMIX<__INSTANCE>__STORAGE4_ON     DEEMIX<__INSTANCE>__STORAGE4
 DEEMIX<__INSTANCE>__TAG             DEEMIX<__INSTANCE>_TAG
 ###
-### DEEMIX<__INSTANCE> - deemix<__instance>.env:
+### DEEMIX<__INSTANCE> - .env.app.deemix<__instance>:
 ###

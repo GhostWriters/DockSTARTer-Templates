@@ -14,7 +14,7 @@ GLUETUN<__INSTANCE>__STORAGE3_ON                                       GLUETUN<_
 GLUETUN<__INSTANCE>__STORAGE4_ON                                       GLUETUN<__INSTANCE>__STORAGE4
 GLUETUN<__INSTANCE>__TAG                                               GLUETUN<__INSTANCE>_TAG
 ###
-### GLUETUN<__INSTANCE> - gluetun<__instance>.env:
+### GLUETUN<__INSTANCE> - .env.app.gluetun<__instance>:
 ###
 gluetun<__instance>:DNS_SERVER                                         gluetun<__instance>:DOT
 gluetun<__instance>:DNS_CACHING                                        gluetun<__instance>:DOT_CACHING

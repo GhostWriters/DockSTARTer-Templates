@@ -13,5 +13,5 @@ H5AI<__INSTANCE>__STORAGE4_ON      H5AI<__INSTANCE>__STORAGE4
 H5AI<__INSTANCE>__TAG              H5AI<__INSTANCE>_TAG
 H5AI<__INSTANCE>__VOLUME_INDEXDIR  H5AI<__INSTANCE>_VOLUME_INDEXDIR
 ###
-### H5AI<__INSTANCE> - h5ai<__instance>.env:
+### H5AI<__INSTANCE> - .env.app.h5ai<__instance>:
 ###

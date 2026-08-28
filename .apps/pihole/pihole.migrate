@@ -15,7 +15,7 @@ PIHOLE<__INSTANCE>__STORAGE3_ON                    PIHOLE<__INSTANCE>__STORAGE3
 PIHOLE<__INSTANCE>__STORAGE4_ON                    PIHOLE<__INSTANCE>__STORAGE4
 PIHOLE<__INSTANCE>__TAG                            PIHOLE<__INSTANCE>_TAG
 ###
-### PIHOLE<__INSTANCE> - pihole<__instance>.env:
+### PIHOLE<__INSTANCE> - .env.app.pihole<__instance>:
 ###
 pihole<__instance>:DNS1                            PIHOLE<__INSTANCE>_DNS1|PIHOLE<__INSTANCE>_ENVIRONMENT_DNS1
 pihole<__instance>:DNS2                            PIHOLE<__INSTANCE>_DNS2|PIHOLE<__INSTANCE>_ENVIRONMENT_DNS2

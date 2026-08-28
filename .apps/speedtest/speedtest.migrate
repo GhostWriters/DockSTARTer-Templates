@@ -12,7 +12,7 @@ SPEEDTEST<__INSTANCE>__STORAGE3_ON              SPEEDTEST<__INSTANCE>__STORAGE3
 SPEEDTEST<__INSTANCE>__STORAGE4_ON              SPEEDTEST<__INSTANCE>__STORAGE4
 SPEEDTEST<__INSTANCE>__TAG                      SPEEDTEST<__INSTANCE>_TAG
 ###
-### SPEEDTEST<__INSTANCE> - speedtest<__instance>.env:
+### SPEEDTEST<__INSTANCE> - .env.app.speedtest<__instance>:
 ###
 speedtest<__instance>:APP_KEY                   SPEEDTEST<__INSTANCE>_APP_KEY|SPEEDTEST<__INSTANCE>_ENVIRONMENT_APP_KEY
 speedtest<__instance>:APP_URL                   SPEEDTEST<__INSTANCE>_APP_URL|SPEEDTEST<__INSTANCE>_ENVIRONMENT_APP_URL

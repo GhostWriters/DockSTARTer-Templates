@@ -12,7 +12,7 @@ WATCHTOWER<__INSTANCE>__STORAGE4_ON                      WATCHTOWER<__INSTANCE>_
 WATCHTOWER<__INSTANCE>__TAG                              WATCHTOWER<__INSTANCE>_TAG
 WATCHTOWER<__INSTANCE>__VOLUME_DOCKER_SOCKET             WATCHTOWER<__INSTANCE>_VOLUME_DOCKER_SOCKET
 ###
-### WATCHTOWER<__INSTANCE> - watchtower<__instance>.env:
+### WATCHTOWER<__INSTANCE> - .env.app.watchtower<__instance>:
 ###
 watchtower<__instance>:REPO_PASS                         WATCHTOWER<__INSTANCE>_REPO_PASS|WATCHTOWER<__INSTANCE>_ENVIRONMENT_REPO_PASS
 watchtower<__instance>:REPO_USER                         WATCHTOWER<__INSTANCE>_REPO_USER|WATCHTOWER<__INSTANCE>_ENVIRONMENT_REPO_USER

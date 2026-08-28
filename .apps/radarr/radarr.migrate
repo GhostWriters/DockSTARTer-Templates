@@ -12,5 +12,5 @@ RADARR<__INSTANCE>__STORAGE3_ON     RADARR<__INSTANCE>__STORAGE3
 RADARR<__INSTANCE>__STORAGE4_ON     RADARR<__INSTANCE>__STORAGE4
 RADARR<__INSTANCE>__TAG             RADARR<__INSTANCE>_TAG
 ###
-### RADARR<__INSTANCE> - radarr<__instance>.env:
+### RADARR<__INSTANCE> - .env.app.radarr<__instance>:
 ###

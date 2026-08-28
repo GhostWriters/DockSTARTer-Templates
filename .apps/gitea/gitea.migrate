@@ -12,5 +12,5 @@ GITEA<__INSTANCE>__STORAGE3_ON     GITEA<__INSTANCE>__STORAGE3
 GITEA<__INSTANCE>__STORAGE4_ON     GITEA<__INSTANCE>__STORAGE4
 GITEA<__INSTANCE>__TAG             GITEA<__INSTANCE>_TAG
 ###
-### GITEA<__INSTANCE> - gitea<__instance>.env:
+### GITEA<__INSTANCE> - .env.app.gitea<__instance>:
 ###

@@ -12,5 +12,5 @@ PIWIGO<__INSTANCE>__STORAGE3_ON     PIWIGO<__INSTANCE>__STORAGE3
 PIWIGO<__INSTANCE>__STORAGE4_ON     PIWIGO<__INSTANCE>__STORAGE4
 PIWIGO<__INSTANCE>__TAG             PIWIGO<__INSTANCE>_TAG
 ###
-### PIWIGO<__INSTANCE> - piwigo<__instance>.env:
+### PIWIGO<__INSTANCE> - .env.app.piwigo<__instance>:
 ###

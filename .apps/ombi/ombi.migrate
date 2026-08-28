@@ -12,5 +12,5 @@ OMBI<__INSTANCE>__STORAGE3_ON     OMBI<__INSTANCE>__STORAGE3
 OMBI<__INSTANCE>__STORAGE4_ON     OMBI<__INSTANCE>__STORAGE4
 OMBI<__INSTANCE>__TAG             OMBI<__INSTANCE>_TAG
 ###
-### OMBI<__INSTANCE> - ombi<__instance>.env:
+### OMBI<__INSTANCE> - .env.app.ombi<__instance>:
 ###

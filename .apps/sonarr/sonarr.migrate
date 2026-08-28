@@ -12,5 +12,5 @@ SONARR<__INSTANCE>__STORAGE3_ON     SONARR<__INSTANCE>__STORAGE3
 SONARR<__INSTANCE>__STORAGE4_ON     SONARR<__INSTANCE>__STORAGE4
 SONARR<__INSTANCE>__TAG             SONARR<__INSTANCE>_TAG
 ###
-### SONARR<__INSTANCE> - sonarr<__instance>.env:
+### SONARR<__INSTANCE> - .env.app.sonarr<__instance>:
 ###

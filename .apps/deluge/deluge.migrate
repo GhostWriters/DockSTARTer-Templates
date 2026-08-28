@@ -16,5 +16,5 @@ DELUGE<__INSTANCE>__STORAGE3_ON     DELUGE<__INSTANCE>__STORAGE3
 DELUGE<__INSTANCE>__STORAGE4_ON     DELUGE<__INSTANCE>__STORAGE4
 DELUGE<__INSTANCE>__TAG             DELUGE<__INSTANCE>_TAG
 ###
-### DELUGE<__INSTANCE> - deluge<__instance>.env:
+### DELUGE<__INSTANCE> - .env.app.deluge<__instance>:
 ###
