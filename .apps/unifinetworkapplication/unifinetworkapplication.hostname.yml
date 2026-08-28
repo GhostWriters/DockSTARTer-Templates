@@ -1,3 +1,5 @@
 services:
   unifinetworkapplication<__instance>:
     hostname: ${UNIFINETWORKAPPLICATION<__INSTANCE>__HOSTNAME?}
+  unifinetworkapplication<__instance>-mongo:
+    hostname: ${UNIFINETWORKAPPLICATION<__INSTANCE>___MONGO__HOSTNAME?}
