@@ -1,0 +1,3 @@
+services:
+  forgejo<__instance>:
+    hostname: ${FORGEJO<__INSTANCE>__HOSTNAME?}
