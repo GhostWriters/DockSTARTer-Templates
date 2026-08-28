@@ -12,5 +12,5 @@ PICARD<__INSTANCE>__STORAGE3_ON     PICARD<__INSTANCE>__STORAGE3
 PICARD<__INSTANCE>__STORAGE4_ON     PICARD<__INSTANCE>__STORAGE4
 PICARD<__INSTANCE>__TAG             PICARD<__INSTANCE>_TAG
 ###
-### PICARD<__INSTANCE> - picard<__instance>.env:
+### PICARD<__INSTANCE> - .env.app.picard<__instance>:
 ###

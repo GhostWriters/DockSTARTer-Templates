@@ -14,6 +14,6 @@ CALIBRE<__INSTANCE>__STORAGE3_ON              CALIBRE<__INSTANCE>__STORAGE3
 CALIBRE<__INSTANCE>__STORAGE4_ON              CALIBRE<__INSTANCE>__STORAGE4
 CALIBRE<__INSTANCE>__TAG                      CALIBRE<__INSTANCE>_TAG
 ###
-### CALIBRE<__INSTANCE> - calibre<__instance>.env:
+### CALIBRE<__INSTANCE> - .env.app.calibre<__instance>:
 ###
 calibre<__instance>:CLI_ARGS                  CALIBRE<__INSTANCE>_CLI_ARGS|CALIBRE<__INSTANCE>_ENVIRONMENT_CLI_ARGS

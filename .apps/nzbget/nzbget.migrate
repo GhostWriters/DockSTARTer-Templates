@@ -12,5 +12,5 @@ NZBGET<__INSTANCE>__STORAGE3_ON     NZBGET<__INSTANCE>__STORAGE3
 NZBGET<__INSTANCE>__STORAGE4_ON     NZBGET<__INSTANCE>__STORAGE4
 NZBGET<__INSTANCE>__TAG             NZBGET<__INSTANCE>_TAG
 ###
-### NZBGET<__INSTANCE> - nzbget<__instance>.env:
+### NZBGET<__INSTANCE> - .env.app.nzbget<__instance>:
 ###

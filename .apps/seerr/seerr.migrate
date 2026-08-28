@@ -12,5 +12,5 @@ SEERR<__INSTANCE>__STORAGE3_ON     SEERR<__INSTANCE>__STORAGE3
 SEERR<__INSTANCE>__STORAGE4_ON     SEERR<__INSTANCE>__STORAGE4
 SEERR<__INSTANCE>__TAG             SEERR<__INSTANCE>_TAG
 ###
-### SEERR<__INSTANCE> - seerr<__instance>.env:
+### SEERR<__INSTANCE> - .env.app.seerr<__instance>:
 ###

@@ -14,5 +14,5 @@ EMBY<__INSTANCE>__STORAGE4_ON          EMBY<__INSTANCE>__STORAGE4
 EMBY<__INSTANCE>__TAG                  EMBY<__INSTANCE>_TAG
 EMBY<__INSTANCE>__VOLUME_TRANSCODEDIR  EMBY<__INSTANCE>_VOLUME_TRANSCODEDIR
 ###
-### EMBY<__INSTANCE> - emby<__instance>.env:
+### EMBY<__INSTANCE> - .env.app.emby<__instance>:
 ###

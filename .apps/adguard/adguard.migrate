@@ -19,5 +19,5 @@ ADGUARD<__INSTANCE>__STORAGE3_ON           ADGUARD<__INSTANCE>__STORAGE3
 ADGUARD<__INSTANCE>__STORAGE4_ON           ADGUARD<__INSTANCE>__STORAGE4
 ADGUARD<__INSTANCE>__TAG                   ADGUARD<__INSTANCE>_TAG
 ###
-### ADGUARD<__INSTANCE> - adguard<__instance>.env:
+### ADGUARD<__INSTANCE> - .env.app.adguard<__instance>:
 ###

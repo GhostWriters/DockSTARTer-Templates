@@ -15,5 +15,5 @@ TDARR<__INSTANCE>__STORAGE4_ON             TDARR<__INSTANCE>__STORAGE4
 TDARR<__INSTANCE>__TAG                     TDARR<__INSTANCE>_TAG
 TDARR<__INSTANCE>__VOLUME_TRANSCODE_CACHE  TDARR<__INSTANCE>_VOLUME_TRANSCODE_CACHE
 ###
-### TDARR<__INSTANCE> - tdarr<__instance>.env:
+### TDARR<__INSTANCE> - .env.app.tdarr<__instance>:
 ###

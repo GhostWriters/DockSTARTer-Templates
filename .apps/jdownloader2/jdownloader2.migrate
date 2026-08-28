@@ -14,7 +14,7 @@ JDOWNLOADER2<__INSTANCE>__STORAGE3_ON                            JDOWNLOADER2<__
 JDOWNLOADER2<__INSTANCE>__STORAGE4_ON                            JDOWNLOADER2<__INSTANCE>__STORAGE4
 JDOWNLOADER2<__INSTANCE>__TAG                                    JDOWNLOADER2<__INSTANCE>_TAG
 ###
-### JDOWNLOADER2<__INSTANCE> - jdownloader2<__instance>.env:
+### JDOWNLOADER2<__INSTANCE> - .env.app.jdownloader2<__instance>:
 ###
 jdownloader2<__instance>:SUP_GROUP_IDS                           JDOWNLOADER2<__INSTANCE>__ENVIRONMENT_SUP_GROUP_IDS
 jdownloader2<__instance>:UMASK                                   JDOWNLOADER2<__INSTANCE>__ENVIRONMENT_UMASK

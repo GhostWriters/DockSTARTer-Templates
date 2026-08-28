@@ -12,5 +12,5 @@ MEDUSA<__INSTANCE>__STORAGE3_ON     MEDUSA<__INSTANCE>__STORAGE3
 MEDUSA<__INSTANCE>__STORAGE4_ON     MEDUSA<__INSTANCE>__STORAGE4
 MEDUSA<__INSTANCE>__TAG             MEDUSA<__INSTANCE>_TAG
 ###
-### MEDUSA<__INSTANCE> - medusa<__instance>.env:
+### MEDUSA<__INSTANCE> - .env.app.medusa<__instance>:
 ###

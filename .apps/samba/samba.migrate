@@ -18,7 +18,7 @@ SAMBA<__INSTANCE>__STORAGE3_ON            SAMBA<__INSTANCE>__STORAGE3
 SAMBA<__INSTANCE>__STORAGE4_ON            SAMBA<__INSTANCE>__STORAGE4
 SAMBA<__INSTANCE>__TAG                    SAMBA<__INSTANCE>_TAG
 ###
-### SAMBA<__INSTANCE> - samba<__instance>.env:
+### SAMBA<__INSTANCE> - .env.app.samba<__instance>:
 ###
 samba<__instance>:NMBD                    SAMBA<__INSTANCE>_NMBD|SAMBA<__INSTANCE>_ENVIRONMENT_NMBD
 samba<__instance>:WORKGROUP               SAMBA<__INSTANCE>_WORKGROUP|SAMBA<__INSTANCE>_ENVIRONMENT_WORKGROUP

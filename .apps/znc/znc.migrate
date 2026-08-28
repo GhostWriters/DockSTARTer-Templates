@@ -12,5 +12,5 @@ ZNC<__INSTANCE>__STORAGE3_ON     ZNC<__INSTANCE>__STORAGE3
 ZNC<__INSTANCE>__STORAGE4_ON     ZNC<__INSTANCE>__STORAGE4
 ZNC<__INSTANCE>__TAG             ZNC<__INSTANCE>_TAG
 ###
-### ZNC<__INSTANCE> - znc<__instance>.env:
+### ZNC<__INSTANCE> - .env.app.znc<__instance>:
 ###

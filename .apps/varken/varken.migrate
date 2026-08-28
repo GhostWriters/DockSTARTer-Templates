@@ -7,5 +7,5 @@ VARKEN<__INSTANCE>__NETWORK_MODE    VARKEN<__INSTANCE>_NETWORK_MODE
 VARKEN<__INSTANCE>__RESTART         VARKEN<__INSTANCE>_RESTART
 VARKEN<__INSTANCE>__TAG             VARKEN<__INSTANCE>_TAG
 ###
-### VARKEN<__INSTANCE> - varken<__instance>.env:
+### VARKEN<__INSTANCE> - .env.app.varken<__instance>:
 ###

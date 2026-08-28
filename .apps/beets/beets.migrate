@@ -12,5 +12,5 @@ BEETS<__INSTANCE>__STORAGE3_ON     BEETS<__INSTANCE>__STORAGE3
 BEETS<__INSTANCE>__STORAGE4_ON     BEETS<__INSTANCE>__STORAGE4
 BEETS<__INSTANCE>__TAG             BEETS<__INSTANCE>_TAG
 ###
-### BEETS<__INSTANCE> - beets<__instance>.env:
+### BEETS<__INSTANCE> - .env.app.beets<__instance>:
 ###

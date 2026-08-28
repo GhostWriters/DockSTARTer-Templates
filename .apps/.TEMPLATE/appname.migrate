@@ -12,6 +12,6 @@
 <APPNAME><__INSTANCE>__STORAGE4_ON     <APPNAME><__INSTANCE>__STORAGE4
 <APPNAME><__INSTANCE>__TAG             <APPNAME><__INSTANCE>_TAG
 ###
-### <APPNAME><__INSTANCE> - .env.app.<appname><__instance>
+### <APPNAME><__INSTANCE> - .env.app.<appname><__instance>:
 ###
 <appname><__instance>:<APPNAME>_OPT      <APPNAME><__INSTANCE>_OPT|<APPNAME><__INSTANCE>_ENVIRONMENT_OPT

@@ -12,5 +12,5 @@ PETIO<__INSTANCE>__STORAGE3_ON     PETIO<__INSTANCE>__STORAGE3
 PETIO<__INSTANCE>__STORAGE4_ON     PETIO<__INSTANCE>__STORAGE4
 PETIO<__INSTANCE>__TAG             PETIO<__INSTANCE>_TAG
 ###
-### PETIO<__INSTANCE> - petio<__instance>.env:
+### PETIO<__INSTANCE> - .env.app.petio<__instance>:
 ###

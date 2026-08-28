@@ -13,5 +13,5 @@ OBSIDIAN<__INSTANCE>__STORAGE3_ON        OBSIDIAN<__INSTANCE>__STORAGE3
 OBSIDIAN<__INSTANCE>__STORAGE4_ON        OBSIDIAN<__INSTANCE>__STORAGE4
 OBSIDIAN<__INSTANCE>__TAG                OBSIDIAN<__INSTANCE>_TAG
 ###
-### OBSIDIAN<__INSTANCE> - obsidian<__instance>.env:
+### OBSIDIAN<__INSTANCE> - .env.app.obsidian<__instance>:
 ###

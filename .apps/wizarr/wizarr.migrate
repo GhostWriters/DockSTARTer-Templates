@@ -12,5 +12,5 @@ WIZARR<__INSTANCE>__STORAGE3_ON     WIZARR<__INSTANCE>__STORAGE3
 WIZARR<__INSTANCE>__STORAGE4_ON     WIZARR<__INSTANCE>__STORAGE4
 WIZARR<__INSTANCE>__TAG             WIZARR<__INSTANCE>_TAG
 ###
-### WIZARR<__INSTANCE> - wizarr<__instance>.env:
+### WIZARR<__INSTANCE> - .env.app.wizarr<__instance>:
 ###

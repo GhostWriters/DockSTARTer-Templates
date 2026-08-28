@@ -12,5 +12,5 @@ LIDARR<__INSTANCE>__STORAGE3_ON     LIDARR<__INSTANCE>__STORAGE3
 LIDARR<__INSTANCE>__STORAGE4_ON     LIDARR<__INSTANCE>__STORAGE4
 LIDARR<__INSTANCE>__TAG             LIDARR<__INSTANCE>_TAG
 ###
-### LIDARR<__INSTANCE> - lidarr<__instance>.env:
+### LIDARR<__INSTANCE> - .env.app.lidarr<__instance>:
 ###

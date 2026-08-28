@@ -12,5 +12,5 @@ KITANA<__INSTANCE>__STORAGE3_ON     KITANA<__INSTANCE>__STORAGE3
 KITANA<__INSTANCE>__STORAGE4_ON     KITANA<__INSTANCE>__STORAGE4
 KITANA<__INSTANCE>__TAG             KITANA<__INSTANCE>_TAG
 ###
-### KITANA<__INSTANCE> - kitana<__instance>.env:
+### KITANA<__INSTANCE> - .env.app.kitana<__instance>:
 ###

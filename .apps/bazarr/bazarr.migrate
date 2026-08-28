@@ -12,5 +12,5 @@ BAZARR<__INSTANCE>__STORAGE3_ON     BAZARR<__INSTANCE>__STORAGE3
 BAZARR<__INSTANCE>__STORAGE4_ON     BAZARR<__INSTANCE>__STORAGE4
 BAZARR<__INSTANCE>__TAG             BAZARR<__INSTANCE>_TAG
 ###
-### BAZARR<__INSTANCE> - bazarr<__instance>.env:
+### BAZARR<__INSTANCE> - .env.app.bazarr<__instance>:
 ###

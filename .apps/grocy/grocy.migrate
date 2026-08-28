@@ -12,5 +12,5 @@ GROCY<__INSTANCE>__STORAGE3_ON     GROCY<__INSTANCE>__STORAGE3
 GROCY<__INSTANCE>__STORAGE4_ON     GROCY<__INSTANCE>__STORAGE4
 GROCY<__INSTANCE>__TAG             GROCY<__INSTANCE>_TAG
 ###
-### GROCY<__INSTANCE> - grocy<__instance>.env:
+### GROCY<__INSTANCE> - .env.app.grocy<__instance>:
 ###
