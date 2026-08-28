@@ -1,0 +1,2 @@
+${DOCKER_VOLUME_CONFIG}/wallos<__instance>/db
+${DOCKER_VOLUME_CONFIG}/wallos<__instance>/logos
