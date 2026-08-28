@@ -4,10 +4,10 @@ description = "Community-supported open-source document management system"
 ["paperlessngx<__instance>:PAPERLESS_DBHOST"]
 helpline = "PostgreSQL hostname (set automatically to the companion postgres container)."
 
-["paperlessngx<__instance>:PAPERLESS_DBUSER"]
+["paperlessngx<__instance>-database:PAPERLESS_DBUSER"]
 helpline = "PostgreSQL username for Paperless-ngx."
 
-["paperlessngx<__instance>:PAPERLESS_DBPASS"]
+["paperlessngx<__instance>-database:PAPERLESS_DBPASS"]
 helpline = "PostgreSQL password for Paperless-ngx."
 
 ["paperlessngx<__instance>:PAPERLESS_REDIS"]

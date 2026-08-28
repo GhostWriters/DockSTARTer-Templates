@@ -1,3 +1,9 @@
 services:
   immich<__instance>:
     hostname: ${IMMICH<__INSTANCE>__HOSTNAME?}
+  immich<__instance>-ml:
+    hostname: ${IMMICH<__INSTANCE>___ML__HOSTNAME?}
+  immich<__instance>-postgres:
+    hostname: ${IMMICH<__INSTANCE>___POSTGRES__HOSTNAME?}
+  immich<__instance>-redis:
+    hostname: ${IMMICH<__INSTANCE>___REDIS__HOSTNAME?}
