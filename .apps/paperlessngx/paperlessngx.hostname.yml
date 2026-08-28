@@ -1,3 +1,7 @@
 services:
   paperlessngx<__instance>:
     hostname: ${PAPERLESSNGX<__INSTANCE>__HOSTNAME?}
+  paperlessngx<__instance>-postgres:
+    hostname: ${PAPERLESSNGX<__INSTANCE>___POSTGRES__HOSTNAME?}
+  paperlessngx<__instance>-redis:
+    hostname: ${PAPERLESSNGX<__INSTANCE>___REDIS__HOSTNAME?}

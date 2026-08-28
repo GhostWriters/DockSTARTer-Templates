@@ -2,6 +2,6 @@ services:
   paperlessngx<__instance>:
     image: ghcr.io/paperless-ngx/paperless-ngx:${PAPERLESSNGX<__INSTANCE>__TAG?}
   paperlessngx<__instance>-postgres:
-    image: docker.io/library/postgres:${PAPERLESSNGX<__INSTANCE>__POSTGRES_TAG?}
+    image: docker.io/library/postgres:${PAPERLESSNGX<__INSTANCE>___POSTGRES__TAG?}
   paperlessngx<__instance>-redis:
-    image: docker.io/library/redis:${PAPERLESSNGX<__INSTANCE>__REDIS_TAG?}
+    image: docker.io/library/redis:${PAPERLESSNGX<__INSTANCE>___REDIS__TAG?}
