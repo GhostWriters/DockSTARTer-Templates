@@ -1,0 +1,2 @@
+${DOCKER_VOLUME_CONFIG}/forgejo<__instance>
+${DOCKER_VOLUME_STORAGE}/forgejo<__instance>
