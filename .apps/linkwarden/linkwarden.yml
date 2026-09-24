@@ -1,0 +1,37 @@
+services:
+  linkwarden<__instance>:
+    container_name: ${LINKWARDEN<__INSTANCE>__CONTAINER_NAME?}
+    depends_on:
+      - linkwarden<__instance>-meilisearch
+      - linkwarden<__instance>-postgres
+    env_file:
+      - .env.app.linkwarden<__instance>-database
+      - .env.app.linkwarden<__instance>-search
+      - .env.app.linkwarden<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${LINKWARDEN<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/linkwarden<__instance>/data:/data/data
+  linkwarden<__instance>-meilisearch:
+    container_name: ${LINKWARDEN<__INSTANCE>___MEILISEARCH__CONTAINER_NAME?}
+    env_file: .env.app.linkwarden<__instance>-search
+    environment:
+      - MEILI_NO_ANALYTICS=true
+      - TZ=${TZ?}
+    restart: ${LINKWARDEN<__INSTANCE>___MEILISEARCH__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/linkwarden<__instance>-meilisearch:/meili_data
+  linkwarden<__instance>-postgres:
+    container_name: ${LINKWARDEN<__INSTANCE>___POSTGRES__CONTAINER_NAME?}
+    env_file:
+      - .env.app.linkwarden<__instance>-database
+      - .env.app.linkwarden<__instance>___postgres
+    environment:
+      - TZ=${TZ?}
+    restart: ${LINKWARDEN<__INSTANCE>___POSTGRES__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/linkwarden<__instance>-postgres:/var/lib/postgresql/data

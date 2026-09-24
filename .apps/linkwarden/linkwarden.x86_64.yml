@@ -1,0 +1,7 @@
+services:
+  linkwarden<__instance>:
+    image: ghcr.io/linkwarden/linkwarden:${LINKWARDEN<__INSTANCE>__TAG?}
+  linkwarden<__instance>-meilisearch:
+    image: getmeili/meilisearch:${LINKWARDEN<__INSTANCE>___MEILISEARCH__TAG?}
+  linkwarden<__instance>-postgres:
+    image: docker.io/library/postgres:${LINKWARDEN<__INSTANCE>___POSTGRES__TAG?}
