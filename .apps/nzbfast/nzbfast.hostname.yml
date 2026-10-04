@@ -1,0 +1,3 @@
+services:
+  nzbfast<__instance>:
+    hostname: ${NZBFAST<__INSTANCE>__HOSTNAME?}

@@ -1,0 +1,5 @@
+# Omit this file entirely if the app doesn't need any ports.
+services:
+  nzbfast<__instance>:
+    ports:
+      - ${NZBFAST<__INSTANCE>__PORT_6789?}:6789

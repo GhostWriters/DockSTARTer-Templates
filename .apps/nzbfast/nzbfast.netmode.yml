@@ -1,0 +1,3 @@
+services:
+  nzbfast<__instance>:
+    network_mode: ${NZBFAST<__INSTANCE>__NETWORK_MODE?}
