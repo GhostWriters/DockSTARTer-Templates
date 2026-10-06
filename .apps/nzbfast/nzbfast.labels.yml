@@ -1,0 +1,6 @@
+services:
+  nzbfast<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "The fast Usenet downloader"
+      com.dockstarter.appinfo.nicename: "nzbfast<__Instance>"

@@ -1,0 +1,3 @@
+services:
+  nzbfast<__instance>:
+    image: ghcr.io/nzbfast/nzbfast:${NZBFAST<__INSTANCE>__TAG?}

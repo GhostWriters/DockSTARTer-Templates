@@ -1,0 +1,23 @@
+services:
+  nzbfast<__instance>:
+    container_name: ${NZBFAST<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.nzbfast<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${NZBFAST<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/nzbfast<__instance>:/config
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - DAC_OVERRIDE
+      - FOWNER
+      - KILL
+      - SETGID
+      - SETUID
+    security_opt:
+      - no-new-privileges:true
