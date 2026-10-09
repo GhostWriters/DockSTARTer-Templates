@@ -1,0 +1,3 @@
+services:
+  profilarr<__instance>:
+    hostname: ${PROFILARR<__INSTANCE>__HOSTNAME?}

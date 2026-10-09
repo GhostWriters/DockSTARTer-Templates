@@ -1,0 +1,6 @@
+services:
+  profilarr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Profilarr manages custom formats and quality profiles for Radarr/Sonarr, syncing them from version control"
+      com.dockstarter.appinfo.nicename: "Profilarr<__Instance>"
