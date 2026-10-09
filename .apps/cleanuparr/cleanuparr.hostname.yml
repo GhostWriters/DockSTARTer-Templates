@@ -1,0 +1,3 @@
+services:
+  cleanuparr<__instance>:
+    hostname: ${CLEANUPARR<__INSTANCE>__HOSTNAME?}

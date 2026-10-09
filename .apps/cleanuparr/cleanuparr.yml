@@ -1,0 +1,13 @@
+services:
+  cleanuparr<__instance>:
+    container_name: ${CLEANUPARR<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.cleanuparr<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PORT=11011
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${CLEANUPARR<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/cleanuparr<__instance>:/config
