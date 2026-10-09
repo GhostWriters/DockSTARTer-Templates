@@ -1,0 +1,13 @@
+services:
+  wallos<__instance>:
+    container_name: ${WALLOS<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.wallos<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${WALLOS<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/wallos<__instance>/db:/var/www/html/db
+      - ${DOCKER_VOLUME_CONFIG?}/wallos<__instance>/logos:/var/www/html/images/uploads/logos

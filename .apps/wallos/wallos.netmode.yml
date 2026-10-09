@@ -1,0 +1,3 @@
+services:
+  wallos<__instance>:
+    network_mode: ${WALLOS<__INSTANCE>__NETWORK_MODE?}

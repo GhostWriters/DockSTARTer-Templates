@@ -1,0 +1,3 @@
+services:
+  wallos<__instance>:
+    hostname: ${WALLOS<__INSTANCE>__HOSTNAME?}
