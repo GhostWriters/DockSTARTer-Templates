@@ -1,0 +1,11 @@
+services:
+  pinchflat<__instance>:
+    container_name: ${PINCHFLAT<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.pinchflat<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${PINCHFLAT<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/pinchflat<__instance>:/config
+      - ${PINCHFLAT<__INSTANCE>__VOLUME_DOWNLOADS?}:/downloads
