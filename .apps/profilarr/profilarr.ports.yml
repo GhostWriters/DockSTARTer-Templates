@@ -1,0 +1,4 @@
+services:
+  profilarr<__instance>:
+    ports:
+      - ${PROFILARR<__INSTANCE>__PORT_6868?}:6868
