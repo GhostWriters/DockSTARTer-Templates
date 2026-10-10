@@ -16,6 +16,7 @@ RomM needs a database, so the [MariaDB](../mariadb/README.md) app must be added 
 1. Create a database and user for RomM (see the SQL below), for example from [phpMyAdmin](../phpmyadmin/README.md) or with `docker exec -it mariadb mysql -uroot -p`.
 1. In `.env.app.romm` set `DB_PASSWD` to that password and `ROMM_AUTH_SECRET_KEY` to the output of `openssl rand -hex 32`. `DB_HOST` defaults to `mariadb`, the default MariaDB container name; change it if you renamed the MariaDB container.
 1. Add metadata provider credentials (IGDB, ScreenScraper and others) as described in the [RomM documentation](https://docs.romm.app/latest/Getting-Started/Metadata-Providers/).
+   Hasheous (ROM identification by file hash) is off by default, as it is upstream. Enabling it sends ROM hashes to the external Hasheous service.
 
 SQL to create the RomM database and user:
 
