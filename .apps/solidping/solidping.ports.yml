@@ -1,0 +1,4 @@
+services:
+  solidping<__instance>:
+    ports:
+      - ${SOLIDPING<__INSTANCE>__PORT_4000?}:4000
