@@ -1,0 +1,6 @@
+services:
+  wallos<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Personal subscription tracker with statistics and notifications"
+      com.dockstarter.appinfo.nicename: "Wallos<__Instance>"

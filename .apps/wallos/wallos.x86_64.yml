@@ -1,0 +1,3 @@
+services:
+  wallos<__instance>:
+    image: bellamy/wallos:${WALLOS<__INSTANCE>__TAG?}

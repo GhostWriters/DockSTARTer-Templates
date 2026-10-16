@@ -1,0 +1,4 @@
+[app]
+description = "Personal subscription tracker with statistics and notifications"
+helptext = "{{|App|}}Wallos{{[-]}} tracks personal and household subscriptions, what they cost per month or year, and warns before they renew"
+website = "https://wallosapp.com"
