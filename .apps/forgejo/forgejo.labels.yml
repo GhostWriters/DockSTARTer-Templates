@@ -1,0 +1,6 @@
+services:
+  forgejo<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Self-hosted lightweight software forge"
+      com.dockstarter.appinfo.nicename: "Forgejo<__Instance>"

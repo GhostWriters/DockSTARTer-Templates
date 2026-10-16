@@ -1,0 +1,13 @@
+[app]
+description = "Self-hosted lightweight software forge"
+helptext = "{{|App|}}Forgejo{{[-]}} is a self-hosted lightweight software forge, a community fork of Gitea"
+website = "https://forgejo.org"
+
+["forgejo<__instance>:FORGEJO__attachment__PATH"]
+helpline = "Path for issue and release attachments. Default places it on the storage volume."
+
+["forgejo<__instance>:FORGEJO__repository__ROOT"]
+helpline = "Root path for git repository data. Default places it on the storage volume."
+
+["forgejo<__instance>:FORGEJO__storage__PATH"]
+helpline = "Base path for Forgejo storage (LFS, attachments, packages, avatars, archives, actions). Default places it on the storage volume."

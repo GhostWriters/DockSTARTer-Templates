@@ -1,0 +1,4 @@
+services:
+  forgejo<__instance>:
+    ports:
+      - ${FORGEJO<__INSTANCE>__PORT_3000?}:3000
