@@ -1,0 +1,4 @@
+${DOCKER_VOLUME_CONFIG}/romm<__instance>/assets
+${DOCKER_VOLUME_CONFIG}/romm<__instance>/config
+${DOCKER_VOLUME_CONFIG}/romm<__instance>/redis-data
+${DOCKER_VOLUME_CONFIG}/romm<__instance>/resources
