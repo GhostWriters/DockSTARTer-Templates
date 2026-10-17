@@ -1,0 +1,4 @@
+${DOCKER_VOLUME_CONFIG}/linkwarden<__instance>
+${DOCKER_VOLUME_CONFIG}/linkwarden<__instance>/data
+${DOCKER_VOLUME_CONFIG}/linkwarden<__instance>-postgres
+${DOCKER_VOLUME_CONFIG}/linkwarden<__instance>-meilisearch

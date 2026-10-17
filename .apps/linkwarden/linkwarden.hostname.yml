@@ -1,0 +1,7 @@
+services:
+  linkwarden<__instance>:
+    hostname: ${LINKWARDEN<__INSTANCE>__HOSTNAME?}
+  linkwarden<__instance>-meilisearch:
+    hostname: ${LINKWARDEN<__INSTANCE>___MEILISEARCH__HOSTNAME?}
+  linkwarden<__instance>-postgres:
+    hostname: ${LINKWARDEN<__INSTANCE>___POSTGRES__HOSTNAME?}
