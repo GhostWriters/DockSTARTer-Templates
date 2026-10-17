@@ -20,12 +20,12 @@ you need assistance setting up this application please visit our
 
 ### Notifications
 
-The default notification library is [Shoutrrr](https://containrrr.dev/shoutrrr/). Shoutrrr offers notifications via Discord, Email, Pushover, Slack, Telegram, and [several others](https://containrrr.dev/shoutrrr/services/overview/). Click on the service for a more thorough explanation.
+The default notification library is [Shoutrrr](https://containrrr.dev/shoutrrr/). Shoutrrr offers notifications via Discord, Email, Pushover, Slack, Telegram, and [several others](https://containrrr.dev/shoutrrr/latest/services/overview/). Click on the service for a more thorough explanation.
 
-| Notification Application                                       | Your DockSTARTer `WATCHTOWER_NOTIFICATION_URL` should follow this:                                                                            |
-| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Discord](https://containrrr.dev/shoutrrr/services/discord/)   | discord://**token**@**channel**                                                                                                               |
-| [Email](https://containrrr.dev/shoutrrr/services/overview/)    | smtp://**`username`**:**`password`**@**`host`**:**`port`**/?fromAddress=**`fromAddress`**&toAddresses=**`recipient1`**[,**`recipient2`**,...] |
-| [Pushover](https://containrrr.dev/shoutrrr/services/pushover/) | pushover://shoutrrr:**`apiToken`**@**`userKey`**/?devices=**`device1`**[,**`device2`**, ...]                                                  |
-| [Slack](./not-documented.md)                                   | slack://[**`botname`**@]**`token-a`**/**`token-b`**/**`token-c`**\*                                                                           |
-| [Telegram](https://containrrr.dev/shoutrrr/services/telegram/) | telegram://**`token`**@telegram?channels=**`channel-1`**[,**`channel-2`**,...]                                                                |
+| Notification Application                                              | Your DockSTARTer `WATCHTOWER_NOTIFICATION_URL` should follow this:                                                                            |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Discord](https://containrrr.dev/shoutrrr/latest/services/discord/)   | discord://**token**@**channel**                                                                                                               |
+| [Email](https://containrrr.dev/shoutrrr/latest/services/overview/)    | smtp://**`username`**:**`password`**@**`host`**:**`port`**/?fromAddress=**`fromAddress`**&toAddresses=**`recipient1`**[,**`recipient2`**,...] |
+| [Pushover](https://containrrr.dev/shoutrrr/latest/services/pushover/) | pushover://shoutrrr:**`apiToken`**@**`userKey`**/?devices=**`device1`**[,**`device2`**, ...]                                                  |
+| [Slack](https://containrrr.dev/shoutrrr/latest/services/slack/)       | slack://[**`botname`**@]**`token-a`**/**`token-b`**/**`token-c`**\*                                                                           |
+| [Telegram](https://containrrr.dev/shoutrrr/latest/services/telegram/) | telegram://**`token`**@telegram?channels=**`channel-1`**[,**`channel-2`**,...]                                                                |
