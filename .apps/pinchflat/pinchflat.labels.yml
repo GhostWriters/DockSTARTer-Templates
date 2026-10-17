@@ -1,0 +1,6 @@
+services:
+  pinchflat<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Pinchflat is a self-hosted app for downloading YouTube content, built on yt-dlp"
+      com.dockstarter.appinfo.nicename: "Pinchflat<__Instance>"

@@ -1,0 +1,3 @@
+services:
+  pinchflat<__instance>:
+    hostname: ${PINCHFLAT<__INSTANCE>__HOSTNAME?}
