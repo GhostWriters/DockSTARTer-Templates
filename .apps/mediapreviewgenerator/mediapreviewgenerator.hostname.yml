@@ -1,0 +1,3 @@
+services:
+  mediapreviewgenerator<__instance>:
+    hostname: ${MEDIAPREVIEWGENERATOR<__INSTANCE>__HOSTNAME?}

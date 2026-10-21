@@ -1,0 +1,3 @@
+services:
+  mediapreviewgenerator<__instance>:
+    network_mode: ${MEDIAPREVIEWGENERATOR<__INSTANCE>__NETWORK_MODE?}

@@ -1,0 +1,13 @@
+services:
+  mediapreviewgenerator<__instance>:
+    container_name: ${MEDIAPREVIEWGENERATOR<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.mediapreviewgenerator<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${MEDIAPREVIEWGENERATOR<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/mediapreviewgenerator<__instance>:/config
+      - ${MEDIAPREVIEWGENERATOR<__INSTANCE>__VOLUME_PLEX_DATA?}:/plex
