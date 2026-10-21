@@ -1,0 +1,6 @@
+services:
+  mediapreviewgenerator<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Self-hosted previews, intro/credits detection and cross-server reuse for Plex, Emby and Jellyfin, with GPU acceleration and remote processing"
+      com.dockstarter.appinfo.nicename: "MediaPreviewGenerator<__Instance>"

@@ -1,0 +1,20 @@
+[app]
+description = "Self-hosted previews, intro/credits detection and cross-server reuse for Plex, Emby and Jellyfin, with GPU acceleration and remote processing"
+helptext = "{{|App|}}MediaPreviewGenerator{{[-]}} makes the preview thumbnails and the Skip Intro and Skip Credits markers for Plex, Emby and Jellyfin. It starts the moment Sonarr or Radarr imports a file and sends the results to every server at once."
+website = "https://mediapreviewgenerator.dev/"
+
+["mediapreviewgenerator<__instance>:AUTH_METHOD"]
+helpline = "How the web UI signs you in: its own token, or none when a reverse proxy or VPN handles sign-in."
+
+[["mediapreviewgenerator<__instance>:AUTH_METHOD".options]]
+value = "'internal'"
+label = "Built-in token"
+help = "The web UI asks for its token (WEB_AUTH_TOKEN, or the one generated in /config/auth.json)."
+
+[["mediapreviewgenerator<__instance>:AUTH_METHOD".options]]
+value = "'external'"
+label = "Off (reverse proxy or VPN)"
+help = "No built-in sign-in. Only use this when something in front of the app, such as Authelia or Tailscale, handles sign-in."
+
+["mediapreviewgenerator<__instance>:WEB_AUTH_TOKEN"]
+helpline = "A fixed token for the web UI. Empty uses the one generated on first start, saved in /config/auth.json."
