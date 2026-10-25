@@ -1,0 +1,6 @@
+services:
+  wondarr<__instance>:
+    volumes:
+      - ${DOCKER_VOLUME_STORAGE?}:/storage
+      # Wondarr's defaults (the Music library, the download folders) live under /data
+      - ${DOCKER_VOLUME_STORAGE?}:/data

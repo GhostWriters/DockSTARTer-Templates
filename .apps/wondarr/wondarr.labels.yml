@@ -1,0 +1,6 @@
+services:
+  wondarr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Song downloader for Soulseek, YouTube Music, torrents and usenet"
+      com.dockstarter.appinfo.nicename: "Wondarr<__Instance>"

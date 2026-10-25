@@ -1,0 +1,23 @@
+services:
+  wondarr<__instance>:
+    container_name: ${WONDARR<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.wondarr<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+    restart: ${WONDARR<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/wondarr<__instance>:/config
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - DAC_OVERRIDE
+      - FOWNER
+      - KILL
+      - SETGID
+      - SETUID
+    security_opt:
+      - no-new-privileges:true
