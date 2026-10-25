@@ -1,6 +1,6 @@
 services:
   wondarr<__instance>:
     volumes:
-      - ${DOCKER_VOLUME_STORAGE?}:/storage
-      # Wondarr's defaults (the Music library, the download folders) live under /data
+      # one mount at /data, where Wondarr's library and download folders live by default: a second
+      # bind mount of the same folder would be another mount point, and hard links can't cross those
       - ${DOCKER_VOLUME_STORAGE?}:/data
