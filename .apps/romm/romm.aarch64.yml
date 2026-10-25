@@ -1,0 +1,3 @@
+services:
+  romm<__instance>:
+    image: rommapp/romm:${ROMM<__INSTANCE>__TAG?}
