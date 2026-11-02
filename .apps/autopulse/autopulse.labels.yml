@@ -1,0 +1,6 @@
+services:
+  autopulse<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Automated lightweight service that updates media servers like Plex and Jellyfin based on notifications from media organizers like Sonarr and Radarr"
+      com.dockstarter.appinfo.nicename: "autopulse<__Instance>"

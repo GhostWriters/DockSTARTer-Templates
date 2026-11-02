@@ -1,0 +1,13 @@
+services:
+  autopulse<__instance>:
+    container_name: ${AUTOPULSE<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.autopulse<__instance>
+    environment:
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - TZ=${TZ?}
+      - AUTOPULSE__APP__DATABASE_URL=sqlite://data/autopulse.db
+    restart: ${AUTOPULSE<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/autopulse<__instance>:/app

@@ -1,0 +1,3 @@
+services:
+  autopulse<__instance>:
+    hostname: ${AUTOPULSE<__INSTANCE>__HOSTNAME?}
