@@ -34,3 +34,11 @@ libraries and schedules are all set there.
   `/dev/dri` (Intel or AMD) into the container. NVIDIA GPUs need the NVIDIA
   Container Toolkit and an override instead; see the
   [project's docs](https://mediapreviewgenerator.dev/).
+- **Worker node:** another machine can lend its GPU or CPU to the app. On that
+  machine, set `MODE` to `node`; it listens on port `9494`, and its key is
+  printed once in the container log. Set
+  `MEDIAPREVIEWGENERATOR__VOLUME_PLEX_DATA` to `/dev/null`, since a node never
+  touches Plex's folder. Keep the node on the same `TAG` as the app; a node on
+  another version gets no work. Then add it in the app under
+  **Settings → Nodes**. See
+  [Remote nodes](https://mediapreviewgenerator.dev/remote-nodes/).
