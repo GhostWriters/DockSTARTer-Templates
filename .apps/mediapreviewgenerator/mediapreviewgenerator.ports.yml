@@ -2,3 +2,4 @@ services:
   mediapreviewgenerator<__instance>:
     ports:
       - ${MEDIAPREVIEWGENERATOR<__INSTANCE>__PORT_8080?}:8080
+      - ${MEDIAPREVIEWGENERATOR<__INSTANCE>__PORT_9494?}:9494

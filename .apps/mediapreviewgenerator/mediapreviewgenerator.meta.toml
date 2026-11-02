@@ -16,5 +16,18 @@ value = "'external'"
 label = "Off (reverse proxy or VPN)"
 help = "No built-in sign-in. Only use this when something in front of the app, such as Authelia or Tailscale, handles sign-in."
 
+["mediapreviewgenerator<__instance>:MODE"]
+helpline = "Run the app, or a worker node that lends this machine's GPU or CPU to an app elsewhere."
+
+[["mediapreviewgenerator<__instance>:MODE".options]]
+value = "''"
+label = "App"
+help = "The full app: web UI, queue, schedules and servers."
+
+[["mediapreviewgenerator<__instance>:MODE".options]]
+value = "'node'"
+label = "Worker node"
+help = "Lends this machine's GPU or CPU to the app. Its key is printed once in the container log; add it in the app under Settings → Nodes."
+
 ["mediapreviewgenerator<__instance>:WEB_AUTH_TOKEN"]
 helpline = "A fixed token for the web UI. Empty uses the one generated on first start, saved in /config/auth.json."
