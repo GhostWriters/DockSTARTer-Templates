@@ -1,0 +1,4 @@
+[app]
+description = "Automated lightweight service that updates media servers like Plex and Jellyfin based on notifications from media organizers like Sonarr and Radarr"
+helptext = "{{|App|}}autopulse{{[-]}} is a web server that receives notifications from media organizers like Sonarr/Radarr/Lidarr/etc and updates the items in media servers like Plex/Jellyfin/Emby/etc. It is designed to be efficient, only updating the items that have changed, reducing the load on media servers."
+website = "https://autopulse.dancodes.online/"

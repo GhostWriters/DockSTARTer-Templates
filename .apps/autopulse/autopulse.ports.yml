@@ -1,0 +1,4 @@
+services:
+  autopulse<__instance>:
+    ports:
+      - ${AUTOPULSE<__INSTANCE>__PORT_2875?}:2875

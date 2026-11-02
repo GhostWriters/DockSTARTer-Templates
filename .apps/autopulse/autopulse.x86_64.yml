@@ -1,0 +1,3 @@
+services:
+  autopulse<__instance>:
+    image: ghcr.io/dan-online/autopulse:${AUTOPULSE<__INSTANCE>__TAG?}

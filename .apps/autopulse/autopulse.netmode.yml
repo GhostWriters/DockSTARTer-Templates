@@ -1,0 +1,3 @@
+services:
+  autopulse<__instance>:
+    network_mode: ${AUTOPULSE<__INSTANCE>__NETWORK_MODE?}
