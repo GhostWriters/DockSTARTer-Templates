@@ -1,0 +1,3 @@
+services:
+  wondarr<__instance>:
+    hostname: ${WONDARR<__INSTANCE>__HOSTNAME?}

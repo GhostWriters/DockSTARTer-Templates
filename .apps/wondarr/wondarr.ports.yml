@@ -1,0 +1,5 @@
+services:
+  wondarr<__instance>:
+    ports:
+      - ${WONDARR<__INSTANCE>__PORT_1077?}:1077
+      - ${WONDARR<__INSTANCE>__PORT_50300?}:50300
