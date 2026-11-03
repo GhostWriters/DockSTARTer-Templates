@@ -29,5 +29,11 @@ value = "'node'"
 label = "Worker node"
 help = "Lends this machine's GPU or CPU to the app. Its key is printed once in the container log; add it in the app under Settings → Nodes."
 
+["mediapreviewgenerator<__instance>:NODE_KEY"]
+helpline = "Worker node only: the key the app connects with, 16 to 200 characters with no spaces. Empty makes one on first start, prints it once in the log and keeps it in /config/node.json."
+
+["mediapreviewgenerator<__instance>:NODE_NAME"]
+helpline = "Worker node only: the name the app shows for this node. Empty uses the container's hostname."
+
 ["mediapreviewgenerator<__instance>:WEB_AUTH_TOKEN"]
 helpline = "A fixed token for the web UI. Empty uses the one generated on first start, saved in /config/auth.json."
