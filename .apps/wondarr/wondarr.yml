@@ -6,6 +6,7 @@ services:
       - PGID=${PGID?}
       - PUID=${PUID?}
       - TZ=${TZ?}
+      - WONDARR_MEDIA_ROOT=/storage
     restart: ${WONDARR<__INSTANCE>__RESTART?}
     volumes:
       - /etc/localtime:/etc/localtime:ro

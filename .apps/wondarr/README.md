@@ -12,13 +12,11 @@ into your music library.
 
 ## Install/Setup
 
-`DOCKER_VOLUME_STORAGE` is mounted at `/data`, where Wondarr keeps its library
-(`/data/music`) and download folders by default. Your other DockSTARTer apps see
-the same folder as `/storage`, so when you add qBittorrent or SABnzbd under
-**Settings → Download clients**, add a remote path mapping: path in the client
-`/storage`, path Wondarr sees `/data`. The client's **Test** button tells you
-when one is missing. With a single mount, torrent imports hard-link instead of
-copying.
+`DOCKER_VOLUME_STORAGE` is mounted at `/storage`, as in your other DockSTARTer
+apps, and `WONDARR_MEDIA_ROOT=/storage` puts Wondarr's library (`/storage/music`)
+and download folders under it. qBittorrent, SABnzbd and Plex see the same paths,
+so you need no remote path mapping or Plex path mapping, and torrent imports
+hard-link instead of copying.
 
 Forward the Soulseek port (`WONDARR__PORT_50300`, default `50300`) on your
 router for better Soulseek results. Keep the host port equal to the container
