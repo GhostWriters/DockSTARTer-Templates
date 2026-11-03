@@ -1,0 +1,10 @@
+[app]
+description = "Cleanuparr removes malware, stalled and failed downloads from your *arr queues and download clients"
+helptext = "{{|App|}}Cleanuparr{{[-]}} automates cleanup of unwanted or blocked downloads for Sonarr, Radarr, Lidarr, Readarr and LazyLibrarian. It blocks known malware and unwanted file types, removes stalled, slow and failed imports using a strike system, blocklists them in the *arr app and triggers a search for a replacement."
+website = "https://github.com/Cleanuparr/Cleanuparr"
+
+["cleanuparr<__instance>:BASE_PATH"]
+helpline = "URL base path when running behind a reverse proxy in a subfolder, for example /cleanuparr. Leave blank otherwise."
+
+["cleanuparr<__instance>:UMASK"]
+helpline = "File creation mask for files written by Cleanuparr."
