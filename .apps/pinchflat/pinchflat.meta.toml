@@ -1,0 +1,16 @@
+[app]
+description = "{{|App|}}Pinchflat{{[-]}} is a self-hosted app for downloading YouTube content, built on yt-dlp"
+helptext = "{{|App|}}Pinchflat{{[-]}} automatically checks for and downloads new media from YouTube channels or playlists based on user-defined rules, ideal for archiving or integrating with media center applications like Plex or Jellyfin."
+website = "https://github.com/kieraneglin/pinchflat"
+
+["pinchflat<__instance>:LOG_LEVEL"]
+helpline = "Application log verbosity (default: debug)."
+
+["pinchflat<__instance>:UMASK"]
+helpline = "Umask applied to files Pinchflat creates (default: 022)."
+
+["pinchflat<__instance>:BASIC_AUTH_USERNAME"]
+helpline = "Username for optional HTTP basic auth in front of the web UI. Leave blank to disable."
+
+["pinchflat<__instance>:BASIC_AUTH_PASSWORD"]
+helpline = "Password for optional HTTP basic auth in front of the web UI. Leave blank to disable."

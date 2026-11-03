@@ -1,0 +1,3 @@
+services:
+  pinchflat<__instance>:
+    image: ghcr.io/kieraneglin/pinchflat:${PINCHFLAT<__INSTANCE>__TAG?}
