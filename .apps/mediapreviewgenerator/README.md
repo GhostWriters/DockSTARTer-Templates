@@ -36,7 +36,9 @@ libraries and schedules are all set there.
   [project's docs](https://mediapreviewgenerator.dev/).
 - **Worker node:** another machine can lend its GPU or CPU to the app. On that
   machine, set `MODE` to `node`; it listens on port `9494`, and its key is
-  printed once in the container log. Set
+  printed once in the container log. Set `NODE_KEY` to choose the key
+  yourself, and `NODE_NAME` to name the node in the app; it defaults to the
+  container's hostname. Set
   `MEDIAPREVIEWGENERATOR__VOLUME_PLEX_DATA` to `/dev/null`, since a node never
   touches Plex's folder. Keep the node on the same `TAG` as the app; a node on
   another version gets no work. Then add it in the app under
