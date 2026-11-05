@@ -1,0 +1,11 @@
+services:
+  solidping<__instance>:
+    container_name: ${SOLIDPING<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.solidping<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${SOLIDPING<__INSTANCE>__RESTART?}
+    user: ${PUID?}:${PGID?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/solidping<__instance>:/data

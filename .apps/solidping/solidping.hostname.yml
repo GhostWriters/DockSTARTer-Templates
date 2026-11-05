@@ -1,0 +1,3 @@
+services:
+  solidping<__instance>:
+    hostname: ${SOLIDPING<__INSTANCE>__HOSTNAME?}
