@@ -1,0 +1,3 @@
+services:
+  wondarr<__instance>:
+    network_mode: ${WONDARR<__INSTANCE>__NETWORK_MODE?}
