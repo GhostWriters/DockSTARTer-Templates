@@ -1,6 +1,6 @@
 services:
   samba<__instance>:
     labels:
-      com.dockstarter.appinfo.deprecated: "true"
-      com.dockstarter.appinfo.description: "(DEPRECATED) No replacement"
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Secure, stable and fast file and print services for all clients using the SMB/CIFS protocol"
       com.dockstarter.appinfo.nicename: "Samba<__Instance>"
