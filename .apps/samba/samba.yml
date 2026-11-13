@@ -3,11 +3,11 @@ services:
     container_name: ${SAMBA<__INSTANCE>__CONTAINER_NAME?}
     env_file: .env.app.samba<__instance>
     environment:
-      - GROUPID=${PGID?}
-      - SHARE=${SAMBA<__INSTANCE>__ENVIRONMENT_SHARENAME?};/${SAMBA<__INSTANCE>__ENVIRONMENT_SHARENAME?};yes;no;no;all;${SAMBA<__INSTANCE>__ENVIRONMENT_USERNAME?}
+      - PGID=${PGID?}
+      - PUID=${PUID?}
+      - SAMBA_SHARE=${SAMBA<__INSTANCE>__ENVIRONMENT_SHARENAME?};/${SAMBA<__INSTANCE>__ENVIRONMENT_SHARENAME?};yes;no;no;all;${SAMBA<__INSTANCE>__ENVIRONMENT_USERNAME?}
+      - SAMBA_USER=${SAMBA<__INSTANCE>__ENVIRONMENT_USERNAME?};${SAMBA<__INSTANCE>__ENVIRONMENT_PASSWORD?}
       - TZ=${TZ?}
-      - USER=${SAMBA<__INSTANCE>__ENVIRONMENT_USERNAME?};${SAMBA<__INSTANCE>__ENVIRONMENT_PASSWORD?}
-      - USERID=${PUID?}
     restart: ${SAMBA<__INSTANCE>__RESTART?}
     volumes:
       - /etc/localtime:/etc/localtime:ro

@@ -22,3 +22,5 @@ SAMBA<__INSTANCE>__TAG                    SAMBA<__INSTANCE>_TAG
 ###
 samba<__instance>:NMBD                    SAMBA<__INSTANCE>_NMBD|SAMBA<__INSTANCE>_ENVIRONMENT_NMBD
 samba<__instance>:WORKGROUP               SAMBA<__INSTANCE>_WORKGROUP|SAMBA<__INSTANCE>_ENVIRONMENT_WORKGROUP
+samba<__instance>:SAMBA_NMBD              samba<__instance>:NMBD
+samba<__instance>:SAMBA_WORKGROUP         samba<__instance>:WORKGROUP
