@@ -61,6 +61,24 @@ services:
 
 Run `ds -c up samba` to recreate the container with the new share.
 
+### Upgrading From dperson/samba
+
+This template used to run `dperson/samba`. Its settings in `.env` and
+`.env.app.samba` carry over automatically, but environment variables you added
+in an override must be renamed by hand, or the new image ignores them:
+
+| Old name | New name |
+| --- | --- |
+| `SHARE`, `SHARE2`, ... | `SAMBA_SHARE`, `SAMBA_SHARE2`, ... |
+| `USER`, `USER2`, ... | `SAMBA_USER`, `SAMBA_USER2`, ... |
+| `USERID` | `PUID` |
+| `GROUPID` | `PGID` |
+| `NMBD` | `SAMBA_NMBD` |
+| `WORKGROUP` | `SAMBA_WORKGROUP` |
+
+`SAMBA_NMBD` starts `nmbd` for any non-empty value, so an `NMBD='false'` carried
+over from `dperson/samba` turns it on; leave `SAMBA_NMBD` blank to keep it off.
+
 #### How To Mount Windows Share in Linux
 
 See [SMB Mounting](https://dockstarter.com/advanced/smb-mounting/).
