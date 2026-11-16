@@ -1,19 +1,19 @@
 [app]
-description = "(DEPRECATED) No replacement"
-helptext = "{{|App|}}Samba{{[-]}} is using the `SMB` protocol to share Linux mounts, which then are accessible and mountable on a Windows computer. By default, {{|App|}}Samba{{[-]}} will share all media directories and Docker config directory over SMB on the host. All of these directories will be placed inside whatever share name is specified for `SAMBA__ENVIRONMENT_SHARENAME` in your `.env` file. These shares are protected with username `ds` and password `ds` by default, but **can and should be** changed in your `.env` file."
+description = "Secure, stable and fast file and print services for all clients using the SMB/CIFS protocol"
+helptext = "Since 1992, {{|App|}}Samba{{[-]}} has provided secure, stable and fast file and print services for all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows, OS/2, Linux and many others. By default, {{|App|}}Samba{{[-]}} will share all media directories and Docker config directory over SMB on the host. All of these directories will be placed inside whatever share name is specified for `SAMBA__ENVIRONMENT_SHARENAME` in your `.env` file. These shares are protected with username `ds` and password `ds` by default, but **can and should be** changed in your `.env` file."
 website = "https://www.samba.org/"
 
-["samba<__instance>:WORKGROUP"]
-helpline = "SMB workgroup name (typically WORKGROUP for home networks)."
+["samba<__instance>:SAMBA_WORKGROUP"]
+helpline = "Configure the workgroup (domain) samba should use (typically WORKGROUP for home networks)."
 
-["samba<__instance>:NMBD"]
-helpline = "Run the NetBIOS name service daemon for network discovery."
+["samba<__instance>:SAMBA_NMBD"]
+helpline = "Start the 'nmbd' daemon to advertise the shares."
 
-[["samba<__instance>:NMBD".options]]
+[["samba<__instance>:SAMBA_NMBD".options]]
 value = "'true'"
 label = "Enabled"
 help = "Allows the share to appear in network browsers."
 
-[["samba<__instance>:NMBD".options]]
-value = "'false'"
+[["samba<__instance>:SAMBA_NMBD".options]]
+value = "''"
 label = "Disabled"

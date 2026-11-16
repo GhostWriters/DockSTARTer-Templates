@@ -10,3 +10,8 @@ NAVIDROME<__INSTANCE>__TAG             NAVIDROME<__INSTANCE>_TAG
 ###
 ### NAVIDROME<__INSTANCE> - .env.app.navidrome<__instance>:
 ###
+navidrome<__instance>:ND_COVERARTQUALITY           navidrome<__instance>:ND_COVERJPEGQUALITY
+navidrome<__instance>:ND_EXTAUTH_TRUSTEDSOURCES    navidrome<__instance>:ND_REVERSEPROXYWHITELIST
+navidrome<__instance>:ND_EXTAUTH_USERHEADER        navidrome<__instance>:ND_REVERSEPROXYUSERHEADER
+navidrome<__instance>:ND_HTTPHEADERS_FRAMEOPTIONS  navidrome<__instance>:ND_HTTPSECURITYHEADERS_CUSTOMFRAMEOPTIONSVALUE
+navidrome<__instance>:ND_SEARCH_FULLSTRING         navidrome<__instance>:ND_SEARCHFULLSTRING
