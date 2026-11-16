@@ -10,6 +10,7 @@ NAVIDROME<__INSTANCE>__TAG             NAVIDROME<__INSTANCE>_TAG
 ###
 ### NAVIDROME<__INSTANCE> - .env.app.navidrome<__instance>:
 ###
+navidrome<__instance>:ND_ARTISTARTPRIORITY         navidrome<__instance>:ND_ARTISTARTPRIORIT
 navidrome<__instance>:ND_COVERARTQUALITY           navidrome<__instance>:ND_COVERJPEGQUALITY
 navidrome<__instance>:ND_EXTAUTH_TRUSTEDSOURCES    navidrome<__instance>:ND_REVERSEPROXYWHITELIST
 navidrome<__instance>:ND_EXTAUTH_USERHEADER        navidrome<__instance>:ND_REVERSEPROXYUSERHEADER
