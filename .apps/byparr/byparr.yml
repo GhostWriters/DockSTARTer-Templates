@@ -1,0 +1,14 @@
+services:
+  byparr<__instance>:
+    container_name: ${BYPARR<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.byparr<__instance>
+    environment:
+      - HOST=0.0.0.0
+      - PORT=${BYPARR<__INSTANCE>__PORT_8191?}
+      - TZ=${TZ?}
+    restart: ${BYPARR<__INSTANCE>__RESTART?}
+    shm_size: 1gb
+    tmpfs:
+      - /tmp:exec,mode=1777,size=1G
+    volumes:
+      - /etc/localtime:/etc/localtime:ro

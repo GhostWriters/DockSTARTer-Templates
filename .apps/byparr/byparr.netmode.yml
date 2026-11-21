@@ -1,0 +1,3 @@
+services:
+  byparr<__instance>:
+    network_mode: ${BYPARR<__INSTANCE>__NETWORK_MODE?}
