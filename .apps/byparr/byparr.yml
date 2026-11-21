@@ -3,7 +3,6 @@ services:
     container_name: ${BYPARR<__INSTANCE>__CONTAINER_NAME?}
     env_file: .env.app.byparr<__instance>
     environment:
-      - HOST=0.0.0.0
       - PORT=${BYPARR<__INSTANCE>__PORT_8191?}
       - TZ=${TZ?}
     restart: ${BYPARR<__INSTANCE>__RESTART?}
