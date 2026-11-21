@@ -1,0 +1,3 @@
+services:
+  musicassistant<__instance>:
+    image: ghcr.io/music-assistant/server:${MUSICASSISTANT<__INSTANCE>__TAG?}

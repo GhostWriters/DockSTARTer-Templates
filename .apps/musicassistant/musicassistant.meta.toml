@@ -1,0 +1,17 @@
+[app]
+description = "Music library manager for streaming to players and Home Assistant"
+helptext = "{{|App|}}Music Assistant{{[-]}} is a music library manager that connects your streaming services and local music to players like Sonos, Cast, AirPlay and Home Assistant."
+website = "https://music-assistant.io/"
+
+["musicassistant<__instance>:LOG_LEVEL"]
+helpline = "Log level for Music Assistant server."
+
+[["musicassistant<__instance>:LOG_LEVEL".options]]
+value = "'info'"
+label = "Info (Default)"
+help = "Standard operational logging."
+
+[["musicassistant<__instance>:LOG_LEVEL".options]]
+value = "'debug'"
+label = "Debug"
+help = "Detailed troubleshooting logging."

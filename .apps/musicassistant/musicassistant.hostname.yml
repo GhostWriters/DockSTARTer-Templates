@@ -1,0 +1,3 @@
+services:
+  musicassistant<__instance>:
+    hostname: ${MUSICASSISTANT<__INSTANCE>__HOSTNAME?}
