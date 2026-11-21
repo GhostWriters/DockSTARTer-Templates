@@ -1,0 +1,6 @@
+services:
+  musicassistant<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Music library manager for streaming to players and Home Assistant"
+      com.dockstarter.appinfo.nicename: "Music Assistant<__Instance>"
