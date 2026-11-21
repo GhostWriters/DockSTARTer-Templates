@@ -10,3 +10,7 @@
 ## Install/Setup
 
 Access the web interface at `http://<server-ip>:8090` to manage torrents, adjust cache settings, and view stream links.
+
+## Security
+
+By default, TorrServer operates without authentication (`TS_HTTPAUTH=0`) for ease of use across local network media clients. If accessing TorrServer outside a trusted local network, enable `TS_HTTPAUTH=1` and place the container behind a TLS-terminating reverse proxy (e.g., Nginx Proxy Manager, SWAG, or Traefik) to protect HTTP Basic authentication credentials in transit.
