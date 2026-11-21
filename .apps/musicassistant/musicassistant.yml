@@ -5,11 +5,6 @@ services:
     environment:
       - TZ=${TZ?}
     restart: ${MUSICASSISTANT<__INSTANCE>__RESTART?}
-    cap_add:
-      - SYS_ADMIN
-      - DAC_READ_SEARCH
-    security_opt:
-      - apparmor:unconfined
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${DOCKER_VOLUME_CONFIG?}/musicassistant<__instance>:/data
