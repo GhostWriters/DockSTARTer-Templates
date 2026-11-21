@@ -1,0 +1,3 @@
+services:
+  forgejo<__instance>:
+    image: codeberg.org/forgejo/forgejo:${FORGEJO<__INSTANCE>__TAG?}
