@@ -2,3 +2,4 @@ services:
   musicassistant<__instance>:
     ports:
       - ${MUSICASSISTANT<__INSTANCE>__PORT_8095?}:8095
+      - ${MUSICASSISTANT<__INSTANCE>__PORT_8097?}:8097
