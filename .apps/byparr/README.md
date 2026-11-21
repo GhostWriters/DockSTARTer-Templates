@@ -9,14 +9,14 @@
 
 ## Install/Setup
 
-Access the service or configure indexers using:
+Access the service locally or configure indexers using:
 
 ```text
-http://<server-ip>:8191
+http://127.0.0.1:8191
 ```
 
-For Prowlarr or Jackett integration, configure Byparr as a FlareSolverr indexer proxy targeting `http://<server-ip>:8191/v1` (or `http://byparr:8191/v1` when on the same Docker bridge network).
+For Prowlarr or Jackett running on the same host or within the Docker bridge network, configure Byparr as a FlareSolverr indexer proxy targeting `http://byparr:8191/v1` (internal container networking) or `http://127.0.0.1:8191/v1` (from the local host).
 
 ## Security
 
-Byparr exposes an unauthenticated HTTP API intended for internal network communication between indexer services and the solver. Do not expose port 8191 directly to the public internet without an authenticating reverse proxy or firewall restriction.
+Byparr exposes an unauthenticated API that instructs a headless browser to retrieve arbitrary URLs. To prevent Server-Side Request Forgery (SSRF) and abuse by unauthenticated network callers, the default port mapping binds strictly to loopback (`127.0.0.1`). If you need to access Byparr from outside the local machine, place it behind an authenticating reverse proxy (such as Nginx, Traefik, or Authelia/Authentik) or restrict network access using a firewall (such as UFW) rather than exposing the port to all interfaces.
