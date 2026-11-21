@@ -1,0 +1,30 @@
+[app]
+description = "Torrent streaming server"
+helptext = "{{|App|}}TorrServer{{[-]}} is an application that allows you to stream torrent files on-the-fly without pre-downloading."
+website = "https://github.com/YouROK/TorrServer"
+
+["torrserver<__instance>:TS_DONTKILL"]
+helpline = "Prevent TorrServer process from exiting on errors (1 = enabled, 0 = disabled)."
+
+[["torrserver<__instance>:TS_DONTKILL".options]]
+value = "'1'"
+label = "Enabled (Default)"
+help = "Keep running continuously."
+
+[["torrserver<__instance>:TS_DONTKILL".options]]
+value = "'0'"
+label = "Disabled"
+help = "Standard exit behavior."
+
+["torrserver<__instance>:TS_HTTPAUTH"]
+helpline = "Enable or disable HTTP basic authorization."
+
+[["torrserver<__instance>:TS_HTTPAUTH".options]]
+value = "'0'"
+label = "Disabled (Default)"
+help = "No HTTP authentication required."
+
+[["torrserver<__instance>:TS_HTTPAUTH".options]]
+value = "'1'"
+label = "Enabled"
+help = "Require HTTP authentication."
