@@ -1,0 +1,6 @@
+services:
+  solidping<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Uptime monitoring with alerts and status pages"
+      com.dockstarter.appinfo.nicename: "SolidPing<__Instance>"
