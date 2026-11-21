@@ -1,0 +1,57 @@
+[app]
+description = "{{|App|}}RomM{{[-]}} is a self-hosted ROM manager and player"
+helptext = "{{|App|}}RomM{{[-]}} is a self-hosted ROM manager and player. It scans your game library, enriches it with metadata and artwork from providers like IGDB and ScreenScraper, and lets you browse, download and play games in the browser. It requires the {{|App|}}MariaDB{{[-]}} app."
+website = "https://github.com/rommapp/romm"
+
+["romm<__instance>:DB_HOST"]
+helpline = "Hostname of the MariaDB container. Defaults to the DockSTARTer MariaDB app."
+
+["romm<__instance>:DB_PORT"]
+helpline = "Port of the MariaDB server."
+
+["romm<__instance>:DB_NAME"]
+helpline = "Database name. Create it in MariaDB before starting RomM."
+
+["romm<__instance>:DB_USER"]
+helpline = "Database user. Create it in MariaDB with full access to DB_NAME."
+
+["romm<__instance>:DB_PASSWD"]
+helpline = "Password of the database user."
+
+["romm<__instance>:ROMM_AUTH_SECRET_KEY"]
+helpline = "Secret used to sign sessions. Generate one with `openssl rand -hex 32`. Required."
+
+["romm<__instance>:IGDB_CLIENT_ID"]
+helpline = "Client ID for the IGDB API (Twitch developer account)."
+
+["romm<__instance>:IGDB_CLIENT_SECRET"]
+helpline = "Client secret for the IGDB API."
+
+["romm<__instance>:SCREENSCRAPER_USER"]
+helpline = "ScreenScraper username."
+
+["romm<__instance>:SCREENSCRAPER_PASSWORD"]
+helpline = "ScreenScraper password."
+
+["romm<__instance>:RETROACHIEVEMENTS_API_KEY"]
+helpline = "RetroAchievements API key."
+
+["romm<__instance>:STEAMGRIDDB_API_KEY"]
+helpline = "SteamGridDB API key."
+
+["romm<__instance>:HASHEOUS_API_ENABLED"]
+helpline = "Use the Hasheous service to identify ROMs by hash."
+
+[["romm<__instance>:HASHEOUS_API_ENABLED".options]]
+value = "'true'"
+label = "Enabled"
+
+[["romm<__instance>:HASHEOUS_API_ENABLED".options]]
+value = "'false'"
+label = "Disabled"
+
+["romm<__instance>:SCAN_WORKERS"]
+helpline = "How many ROMs a library scan processes at once."
+
+["romm<__instance>:WEB_SERVER_CONCURRENCY"]
+helpline = "Web server workers. Raise for several concurrent users."
