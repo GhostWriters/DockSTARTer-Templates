@@ -1,0 +1,4 @@
+services:
+  byparr<__instance>:
+    ports:
+      - 127.0.0.1:${BYPARR<__INSTANCE>__PORT_8191?}:${BYPARR<__INSTANCE>__PORT_8191?}

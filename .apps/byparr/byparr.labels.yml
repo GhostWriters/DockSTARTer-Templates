@@ -1,0 +1,6 @@
+services:
+  byparr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Byparr is a scraping engine and drop-in FlareSolverr replacement"
+      com.dockstarter.appinfo.nicename: "Byparr<__Instance>"

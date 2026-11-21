@@ -1,0 +1,3 @@
+services:
+  byparr<__instance>:
+    hostname: ${BYPARR<__INSTANCE>__HOSTNAME?}
