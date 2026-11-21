@@ -17,7 +17,7 @@ label = "Disabled"
 help = "Standard exit behavior."
 
 ["torrserver<__instance>:TS_HTTPAUTH"]
-helpline = "Enable or disable HTTP basic authorization."
+helpline = "Enable or disable HTTP basic authorization. When exposing externally, use a reverse proxy with TLS."
 
 [["torrserver<__instance>:TS_HTTPAUTH".options]]
 value = "'0'"
