@@ -1,0 +1,22 @@
+[app]
+description = "{{|App|}}Profilarr{{[-]}} manages custom formats and quality profiles for {{|App|}}Radarr{{[-]}}/{{|App|}}Sonarr{{[-]}}, syncing them from version control"
+helptext = "{{|App|}}Profilarr{{[-]}} automates syncing custom formats and quality profiles to Radarr/Sonarr while maintaining local modifications through version control integration."
+website = "https://github.com/Dictionarry-Hub/profilarr"
+
+["profilarr<__instance>:UMASK"]
+helpline = "File creation mask for files written by Profilarr."
+
+["profilarr<__instance>:AUTH"]
+helpline = "Require a login for the web UI."
+
+[["profilarr<__instance>:AUTH".options]]
+value = "'on'"
+label = "On"
+
+[["profilarr<__instance>:AUTH".options]]
+value = "'off'"
+label = "Off"
+help = "No login. Only use on a trusted network."
+
+["profilarr<__instance>:ORIGIN"]
+helpline = "Public URL of Profilarr when running behind a reverse proxy. Leave blank otherwise."
