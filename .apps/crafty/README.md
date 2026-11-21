@@ -10,6 +10,12 @@
 
 ## Install/Setup
 
-Access the web interface at `https://<server-ip>:8443` (or `http://<server-ip>:8000`).
+Access the web interface over HTTPS at `https://<server-ip>:8443`.
 
-On first launch, check the container logs (`docker logs crafty`) to retrieve the generated default administrator credentials.
+On first launch, check the container logs to retrieve the generated default administrator credentials:
+
+```bash
+docker logs <container_name>
+```
+
+*(Replace `<container_name>` with your configured container name, e.g. `docker logs crafty`)*.
