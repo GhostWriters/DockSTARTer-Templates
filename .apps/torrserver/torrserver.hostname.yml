@@ -1,0 +1,3 @@
+services:
+  torrserver<__instance>:
+    hostname: ${TORRSERVER<__INSTANCE>__HOSTNAME?}
