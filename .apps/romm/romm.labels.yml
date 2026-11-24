@@ -1,0 +1,6 @@
+services:
+  romm<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "RomM is a self-hosted ROM manager and player"
+      com.dockstarter.appinfo.nicename: "RomM<__Instance>"

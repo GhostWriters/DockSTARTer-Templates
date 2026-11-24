@@ -1,0 +1,3 @@
+services:
+  romm<__instance>:
+    hostname: ${ROMM<__INSTANCE>__HOSTNAME?}

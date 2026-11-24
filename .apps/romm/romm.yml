@@ -1,0 +1,14 @@
+services:
+  romm<__instance>:
+    container_name: ${ROMM<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.romm<__instance>
+    environment:
+      - TZ=${TZ?}
+    restart: ${ROMM<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/romm<__instance>/assets:/romm/assets
+      - ${DOCKER_VOLUME_CONFIG?}/romm<__instance>/config:/romm/config
+      - ${DOCKER_VOLUME_CONFIG?}/romm<__instance>/redis-data:/redis-data
+      - ${DOCKER_VOLUME_CONFIG?}/romm<__instance>/resources:/romm/resources
+      - ${ROMM<__INSTANCE>__VOLUME_LIBRARY?}:/romm/library
