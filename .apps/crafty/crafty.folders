@@ -1,0 +1,6 @@
+${DOCKER_VOLUME_CONFIG}/crafty<__instance>
+${DOCKER_VOLUME_CONFIG}/crafty<__instance>/backups
+${DOCKER_VOLUME_CONFIG}/crafty<__instance>/config
+${DOCKER_VOLUME_CONFIG}/crafty<__instance>/import
+${DOCKER_VOLUME_CONFIG}/crafty<__instance>/logs
+${DOCKER_VOLUME_CONFIG}/crafty<__instance>/servers

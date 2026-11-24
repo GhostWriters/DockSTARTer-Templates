@@ -1,0 +1,8 @@
+services:
+  crafty<__instance>:
+    ports:
+      - ${CRAFTY<__INSTANCE>__PORT_19132?}:19132/udp
+      - ${CRAFTY<__INSTANCE>__PORT_25565?}:25565
+      - ${CRAFTY<__INSTANCE>__PORT_25566?}:25566
+      - ${CRAFTY<__INSTANCE>__PORT_25567?}:25567
+      - ${CRAFTY<__INSTANCE>__PORT_8443?}:8443

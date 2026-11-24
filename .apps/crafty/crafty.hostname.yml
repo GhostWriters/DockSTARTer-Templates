@@ -1,0 +1,3 @@
+services:
+  crafty<__instance>:
+    hostname: ${CRAFTY<__INSTANCE>__HOSTNAME?}
