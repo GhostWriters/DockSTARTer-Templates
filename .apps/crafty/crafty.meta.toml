@@ -1,0 +1,4 @@
+[app]
+description = "Minecraft server management control panel"
+helptext = "{{|App|}}Crafty Controller{{[-]}} is a modern web-based control panel for creating, configuring, and managing Minecraft (Java and Bedrock) servers."
+website = "https://craftycontrol.com/"
