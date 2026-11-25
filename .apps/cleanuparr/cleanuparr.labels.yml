@@ -1,0 +1,6 @@
+services:
+  cleanuparr<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Cleanuparr removes malware, stalled and failed downloads from your *arr queues and download clients"
+      com.dockstarter.appinfo.nicename: "Cleanuparr<__Instance>"

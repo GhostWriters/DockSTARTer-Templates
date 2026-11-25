@@ -1,0 +1,3 @@
+services:
+  cleanuparr<__instance>:
+    network_mode: ${CLEANUPARR<__INSTANCE>__NETWORK_MODE?}

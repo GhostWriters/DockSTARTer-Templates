@@ -1,0 +1,4 @@
+services:
+  cleanuparr<__instance>:
+    ports:
+      - ${CLEANUPARR<__INSTANCE>__PORT_11011?}:11011
