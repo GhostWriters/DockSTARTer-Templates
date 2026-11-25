@@ -1,0 +1,10 @@
+# Optional -- only for apps that need direct hardware access (e.g. GPU
+# transcoding). Omit this file, MUSICASSISTANT<__INSTANCE>__DEVICES, and the
+# DEVICE_DEV* vars entirely if not needed.
+services:
+  musicassistant<__instance>:
+    devices:
+      - ${MUSICASSISTANT<__INSTANCE>__DEVICE_DEV1}
+      - ${MUSICASSISTANT<__INSTANCE>__DEVICE_DEV2}
+      - ${MUSICASSISTANT<__INSTANCE>__DEVICE_DEV3}
+      - ${MUSICASSISTANT<__INSTANCE>__DEVICE_DEV4}

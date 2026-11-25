@@ -1,0 +1,3 @@
+services:
+  musicassistant<__instance>:
+    network_mode: ${MUSICASSISTANT<__INSTANCE>__NETWORK_MODE?}
