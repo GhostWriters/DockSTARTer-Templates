@@ -1,0 +1,3 @@
+services:
+  torrserver<__instance>:
+    image: ghcr.io/yourok/torrserver:${TORRSERVER<__INSTANCE>__TAG?}

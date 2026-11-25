@@ -37,9 +37,10 @@ Replace `host` with your DNS or IP-address of your Docker host.
 ### Network Discovery
 
 `SAMBA_NMBD` in `.env.app.samba` starts the `nmbd` daemon to advertise the
-shares. Any non-empty value enables it; leave it blank to disable it. There are
-reports that `nmbd` only works if the container uses the host's network stack
-(set `SAMBA__NETWORK_MODE` to `host` in your `.env` file).
+shares. `true`, `yes` or `1` enables it; `false`, `no`, `0` or blank disables it.
+Any other value stops the container at startup. There are reports that `nmbd`
+only works if the container uses the host's network stack (set
+`SAMBA__NETWORK_MODE` to `host` in your `.env` file).
 
 ### Setting Up Additional Shares
 
@@ -76,8 +77,9 @@ in an override must be renamed by hand, or the new image ignores them:
 | `NMBD` | `SAMBA_NMBD` |
 | `WORKGROUP` | `SAMBA_WORKGROUP` |
 
-`SAMBA_NMBD` starts `nmbd` for any non-empty value, so an `NMBD='false'` carried
-over from `dperson/samba` turns it on; leave `SAMBA_NMBD` blank to keep it off.
+`SAMBA_NMBD` accepts only `true`, `yes`, `1`, `false`, `no`, `0` or blank, so an
+`NMBD='false'` carried over from `dperson/samba` keeps `nmbd` off. Any other value
+stops the container at startup.
 
 #### How To Mount Windows Share in Linux
 

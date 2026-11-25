@@ -1,0 +1,11 @@
+services:
+  torrserver<__instance>:
+    container_name: ${TORRSERVER<__INSTANCE>__CONTAINER_NAME?}
+    env_file: .env.app.torrserver<__instance>
+    environment:
+      - TS_PORT=${TORRSERVER<__INSTANCE>__PORT_8090?}
+      - TZ=${TZ?}
+    restart: ${TORRSERVER<__INSTANCE>__RESTART?}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${DOCKER_VOLUME_CONFIG?}/torrserver<__instance>:/opt/ts/config

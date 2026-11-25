@@ -1,0 +1,6 @@
+services:
+  crafty<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Minecraft server management control panel"
+      com.dockstarter.appinfo.nicename: "Crafty Controller<__Instance>"
