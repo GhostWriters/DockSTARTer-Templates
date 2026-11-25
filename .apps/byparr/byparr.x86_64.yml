@@ -1,0 +1,3 @@
+services:
+  byparr<__instance>:
+    image: ghcr.io/thephaseless/byparr:${BYPARR<__INSTANCE>__TAG?}

@@ -1,0 +1,42 @@
+[app]
+description = "Scraping engine and drop-in FlareSolverr replacement"
+helptext = "{{|App|}}Byparr{{[-]}} is a modern scraping engine and drop-in replacement for FlareSolverr in the *arr stack (such as Prowlarr and Jackett). It uses invisible_playwright and Camoufox to solve JavaScript and anti-bot challenges (including Cloudflare Turnstile)."
+website = "https://github.com/ThePhaseless/Byparr"
+
+["byparr<__instance>:LOG_LEVEL"]
+helpline = "Logging verbosity level."
+
+[["byparr<__instance>:LOG_LEVEL".options]]
+value = "'info'"
+label = "Info (Default)"
+help = "Standard operational logging."
+
+[["byparr<__instance>:LOG_LEVEL".options]]
+value = "'debug'"
+label = "Debug"
+help = "Verbose output for troubleshooting."
+
+[["byparr<__instance>:LOG_LEVEL".options]]
+value = "'warning'"
+label = "Warning"
+help = "Log warnings and errors only."
+
+[["byparr<__instance>:LOG_LEVEL".options]]
+value = "'error'"
+label = "Error"
+help = "Log errors only."
+
+["byparr<__instance>:PROXY_SERVER"]
+helpline = "Optional proxy server URL (e.g. http://192.168.1.50:10808 or socks5://proxy:1080)."
+
+["byparr<__instance>:PROXY_USERNAME"]
+helpline = "Optional proxy authentication username."
+
+["byparr<__instance>:PROXY_PASSWORD"]
+helpline = "Optional proxy authentication password."
+
+["byparr<__instance>:BROWSER_LOCALE"]
+helpline = "Override browser language and Accept-Language header (e.g. en-US, de-DE). Blank for auto."
+
+["byparr<__instance>:BROWSER_TIMEZONE"]
+helpline = "Override browser IANA timezone (e.g. Europe/London, America/New_York). Blank for auto."
