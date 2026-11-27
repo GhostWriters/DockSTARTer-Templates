@@ -1,0 +1,6 @@
+services:
+  linkwarden<__instance>:
+    labels:
+      com.dockstarter.appinfo.deprecated: "false"
+      com.dockstarter.appinfo.description: "Self-hosted collaborative bookmark manager that archives the pages it saves"
+      com.dockstarter.appinfo.nicename: "Linkwarden<__Instance>"
